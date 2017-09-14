@@ -15,5 +15,6 @@ function findShort(s) {
 // One-line Solution
 const findShort = s => Math.min(...s.split(' ').map(word => word.length))
 
+// Test to pass
 findShort('bitcoin take over the world maybe who knows perhaps') // -> It should return 3
 findShort('turns out random test cases are easier than writing out basic ones') // -> It should return 3
