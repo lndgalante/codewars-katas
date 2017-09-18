@@ -26,15 +26,14 @@ function countSmileys(faces) {
     const parts = face.split('')
     const hasEyes = parts[0].includes(':') || parts[0].includes(';')
     const hasNose = parts[1].includes('-') || parts[1].includes('~')
+    const hasSmile = pos => parts[pos].includes(')') || parts[pos].includes('D')
 
     if (parts.length === 2) {
-      const hasOnlySmile = parts[1].includes(')') || parts[1].includes('D')
-      if (hasEyes && hasOnlySmile) return face
+      if (hasEyes && hasSmile(1)) return face
     }
 
     if (parts.length === 3) {
-      const hasSmile = parts[2].includes(')') || parts[2].includes('D')
-      if (hasEyes && hasNose && hasSmile) return face
+      if (hasEyes && hasNose && hasSmile(2)) return face
     }
   })
 
