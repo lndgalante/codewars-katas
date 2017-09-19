@@ -40,6 +40,17 @@ function countSmileys(faces) {
   return smiles.length
 }
 
+// One-line Solution
+function countSmileys(faces) {
+  return faces.filter(face => /^[:;][-~]?[)D]$/.test(face)).length
+  /* Regex cheatsheet:
+      / should be at the start and at the end of the regular expresion
+      ^ marks the start of the string
+      $ marks the end of the string
+      ? makes the previous optional
+  */
+}
+
 // Test to pass
 console.log(countSmileys([])) // -> It should return 0
 console.log(countSmileys([':)', ';(', ';}', ':-D'])) // -> It should return 2
