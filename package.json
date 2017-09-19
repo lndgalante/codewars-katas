@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "name": "codewars-katas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lndgalante/codewars-katas.git",
+  "author": "Leonardo Galante <lndgalante@gmail.com>",
+  "license": "MIT"
+}

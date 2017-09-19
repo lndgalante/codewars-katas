@@ -28,9 +28,9 @@ function narcissistic(value) {
 // One-line Solution
 
 // Test to pass
-console.log(narcissistic(7)) // -> It should return "true"
-console.log(narcissistic(153)) // -> It should return "true"
-console.log(narcissistic(371)) // -> It should return "true"
-console.log(narcissistic(1634)) // -> It should return "true"
-console.log(narcissistic(10158)) // -> It should return "false"
-console.log(narcissistic(30308)) // -> It should return "false"
+console.log(narcissistic(7)) // => It should return "true"
+console.log(narcissistic(153)) // => It should return "true"
+console.log(narcissistic(371)) // => It should return "true"
+console.log(narcissistic(1634)) // => It should return "true"
+console.log(narcissistic(10158)) // => It should return "false"
+console.log(narcissistic(30308)) // => It should return "false"

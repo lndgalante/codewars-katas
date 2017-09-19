@@ -52,9 +52,9 @@ function countSmileys(faces) {
 }
 
 // Test to pass
-countSmileys([]) // -> It should return 0
-countSmileys([':)', ';(', ';}', ':-D']) // -> It should return 2
-countSmileys([';D', ':-(', ':-)', ';~)']) // -> It should return 3
-countSmileys([';]', ':[', ';*', ':$', ';-D']) // -> It should return 1
-countSmileys([':D', ':~)', ';~D', ':)']) // -> It should return 4
-countSmileys([':)', ':(', ':D', ':O', ':;']) // -> It should return 2
+countSmileys([]) // => It should return 0
+countSmileys([':)', ';(', ';}', ':-D']) // => It should return 2
+countSmileys([';D', ':-(', ':-)', ';~)']) // => It should return 3
+countSmileys([';]', ':[', ';*', ':$', ';-D']) // => It should return 1
+countSmileys([':D', ':~)', ';~D', ':)']) // => It should return 4
+countSmileys([':)', ':(', ':D', ':O', ':;']) // => It should return 2
