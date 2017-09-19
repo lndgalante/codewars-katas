@@ -14,7 +14,7 @@
   Invalid smiley faces:
     ;( :> :} :] 
 
-    Note: 
+  Note: 
     In case of an empty array return 0. You will not be tested with invalid input (input will always be an array)
 */
 
@@ -52,9 +52,9 @@ function countSmileys(faces) {
 }
 
 // Test to pass
-console.log(countSmileys([])) // -> It should return 0
-console.log(countSmileys([':)', ';(', ';}', ':-D'])) // -> It should return 2
-console.log(countSmileys([';D', ':-(', ':-)', ';~)'])) // -> It should return 3
-console.log(countSmileys([';]', ':[', ';*', ':$', ';-D'])) // -> It should return 1
-console.log(countSmileys([':D', ':~)', ';~D', ':)'])) // -> It should return 4
-console.log(countSmileys([':)', ':(', ':D', ':O', ':;'])) // -> It should return 2
+countSmileys([]) // -> It should return 0
+countSmileys([':)', ';(', ';}', ':-D']) // -> It should return 2
+countSmileys([';D', ':-(', ':-)', ';~)']) // -> It should return 3
+countSmileys([';]', ':[', ';*', ':$', ';-D']) // -> It should return 1
+countSmileys([':D', ':~)', ';~D', ':)']) // -> It should return 4
+countSmileys([':)', ':(', ':D', ':O', ':;']) // -> It should return 2
