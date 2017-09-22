@@ -9,9 +9,10 @@
 */
 
 function createPhoneNumber(numbers) {
-  const firstPart = [...numbers].splice(0, 3).join('')
-  const secondPart = [...numbers].splice(3, 3).join('')
-  const thirdPart = [...numbers].splice(6, 4).join('')
+  const numbersStr = numbers.join('')
+  const firstPart = numbersStr.substring(0, 3)
+  const secondPart = numbersStr.substring(3, 6)
+  const thirdPart = numbersStr.substring(6, 10)
 
   return `(${firstPart}) ${secondPart}-${thirdPart}`
 }
