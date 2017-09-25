@@ -31,42 +31,42 @@
 
 // Long Solution
 function presses(phrase) {
-  const keyboard = [
+  const keypad = [
     {
       key: 1,
       keys: [1],
     },
     {
       key: 2,
-      keys: ['A', 'B', 'C'],
+      keys: ['A', 'B', 'C', 2],
     },
     {
       key: 3,
-      keys: ['D', 'E', 'F'],
+      keys: ['D', 'E', 'F', 3],
     },
     {
       key: 4,
-      keys: ['G', 'H', 'I'],
+      keys: ['G', 'H', 'I', 4],
     },
     {
       key: 5,
-      keys: ['J', 'K', 'L'],
+      keys: ['J', 'K', 'L', 5],
     },
     {
       key: 6,
-      keys: ['M', 'N', 'O'],
+      keys: ['M', 'N', 'O', 6],
     },
     {
       key: 7,
-      keys: ['P', 'Q', 'R', 'S'],
+      keys: ['P', 'Q', 'R', 'S', 7],
     },
     {
       key: 8,
-      keys: ['T', 'U', 'V'],
+      keys: ['T', 'U', 'V', 8],
     },
     {
       key: 9,
-      keys: ['W', 'X', 'Y', 'Z'],
+      keys: ['W', 'X', 'Y', 'Z', 9],
     },
     {
       key: '*',
@@ -74,7 +74,7 @@ function presses(phrase) {
     },
     {
       key: 0,
-      keys: [' '],
+      keys: [' ', 0],
     },
     {
       key: '#',
@@ -86,15 +86,12 @@ function presses(phrase) {
   const phraseArray = phrase.split('')
 
   phraseArray.forEach(letter => {
-    keyboard.forEach(key => {
-      const index = key.keys.findIndex(
-        char => char === letter || String(char).toLowerCase() === letter
+    keypad.forEach(button => {
+      const index = button.keys.findIndex(
+        char => char == letter || String(char).toLowerCase() == letter
       )
 
-      if (index >= 0) {
-        totalKeys.push(index + 1)
-        return
-      }
+      if (index !== -1) return totalKeys.push(index + 1)
     })
   })
 
@@ -103,5 +100,6 @@ function presses(phrase) {
 }
 
 // Test to pass
-console.log(presses('HOLA CHUNITA')) // => It should return 9
+console.log(presses('LOL')) // => It should return 9
 console.log(presses('HOW R U')) // => It should return 13
+console.log(presses('HOW3 R U')) // => It should return 17
