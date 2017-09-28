@@ -14,5 +14,10 @@ function breakCamelCase(string) {
     .join('')
 }
 
+// Short solution
+function breakCamelCase(string) {
+  return string.replace(/([A-Z])/g, ' $1')
+}
+
 // Test to pass
 console.log(breakCamelCase('camelCasing')) // => It should return "camel Casing"
