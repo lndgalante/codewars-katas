@@ -28,7 +28,7 @@ function toCamelCase(string) {
   }
 }
 
-// Short Solution
+// Short Solution. Regex here => https://regexr.com/3gtji
 function toCamelCase(str) {
   return str.replace(/[-_](.)/g, (_, char) => char.toUpperCase())
 }
