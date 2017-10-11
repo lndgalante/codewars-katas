@@ -24,13 +24,18 @@
       --> throws TypeError with message "xyz is invalid"
  */
 
+function isValidInteger(n) {
+  if (
+    typeof n === 'boolean' ||
+    !isFinite(n) ||
+    !Number.isInteger(Number(n)) ||
+    Number(n) < 0
+  )
+    throw new TypeError(`${n} is invalid`)
+}
+
 function prefill(n, v) {
-  if (typeof n === 'boolean') throw new TypeError(`${n} is invalid`)
-  if (n === 0 || Number(n) === 0) return []
-  if (!Number(n)) throw new TypeError(`${n} is invalid`)
-  if (!isFinite(n)) throw new TypeError(`${n} is invalid`)
-  if (!Number.isInteger(Number(n))) throw new TypeError(`${n} is invalid`)
-  if (Number(n) < 0) throw new TypeError(`${n} is invalid`)
+  isValidInteger(n)
 
   const array = []
   array.length = n
@@ -40,9 +45,9 @@ function prefill(n, v) {
 }
 
 // Test to pass
-console.log(prefill(3, 1)) // => It should return [1,1,1]
+console.log(prefill(0, 1)) // => It should return [1,1,1]
 console.log(prefill(2, 'abc')) // => It should return ['abc','abc']
 console.log(prefill('1', 1)) // => It should return [1]
 // console.log(prefill('xyz', 1)) // => It should return "xyz is invalid"
 // console.log(prefill(Infinity, 1)) // => It should return "Infinity is invalid"
-console.log(prefill(1.40786757496717, 1)) // => It should return "1.40786757496717 is invalid"
+console.log(prefill(false, 1)) // => It should return "1.40786757496717 is invalid"
