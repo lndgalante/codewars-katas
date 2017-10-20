@@ -49,6 +49,7 @@ function selReverse(array, length) {
   return result
 }
 
+// Test to pass
 console.log(selReverse([2, 4, 6, 8, 10, 12, 14, 16], 3))
 // => It should return [6,4,2, 12,10,8, 16,14], "Wrong result")
 
