@@ -1,5 +1,8 @@
 /* 
-  Description ⚔️
+  Title:
+    Largest 5 digit number in a series
+
+  Description:
     In the following 6 digit number:
 
     283910
@@ -12,6 +15,8 @@
 
     Complete the solution so that it returns the largest five digit number found within the number given. The number will be passed in as a string of only digits. It should return a five digit integer. The number passed may be as large as 1000 digits.
 
+  Link:
+    https://www.codewars.com/kata/51675d17e0c1bed195000001
 */
 
 function solution(digits) {
@@ -28,4 +33,5 @@ function solution(digits) {
 }
 
 // Test to pass
-console.log(solution('1234567890')) // => It should return 67890
+console.log(solution('1234567890'))
+// => It should return 67890

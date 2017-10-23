@@ -1,5 +1,8 @@
 /* 
-  Description ⚔️
+  Title:
+    The Hashtag Generator
+
+  Description:
     The marketing team are spending way too much time typing in hashtags.
     Let's help them with out own Hashtag Generator!
 
@@ -12,6 +15,9 @@
   Examples:
     " Hello there thanks for trying my Kata" => "#HelloThereThanksForTryingMyKata"
     " Hello World " => "#HelloWorld"
+
+  Link:
+    https://www.codewars.com/kata/52449b062fb80683ec000024
 */
 
 function generateHashtag(str) {
@@ -25,5 +31,7 @@ function generateHashtag(str) {
   return stringWithHashtag.length > 140 ? false : stringWithHashtag
 }
 
-console.log(generateHashtag(' Hello there thanks for trying my Kata')) // => It should return "#HelloThereThanksForTryingMyKata"
-console.log(generateHashtag(' Hello World ')) // => It should return "#HelloWorld"
+console.log(generateHashtag(' Hello there thanks for trying my Kata'))
+// => It should return "#HelloThereThanksForTryingMyKata"
+console.log(generateHashtag(' Hello World '))
+// => It should return "#HelloWorld"

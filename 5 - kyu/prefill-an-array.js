@@ -1,5 +1,8 @@
 /* 
-  Description ⚔️
+  Title:
+    Prefill an Array
+
+  Description:
     Create the function prefill that returns an array of n elements that all have the same value v. See if you can do this without using a loop.
 
     You have to validate input:
@@ -11,17 +14,23 @@
     When throwing a TypeError, the message should be n is invalid, where you replace n for the actual value passed to the function.
 
   Examples
-    prefill(3,1) --> [1,1,1]
+    prefill(3,1) 
+      --> [1,1,1]
 
-    prefill(2,"abc") --> ['abc','abc']
+    prefill(2,"abc") 
+      --> ['abc','abc']
 
-    prefill("1", 1) --> [1]
+    prefill("1", 1) 
+      --> [1]
 
     prefill(3, prefill(2,'2d'))
       --> [['2d','2d'],['2d','2d'],['2d','2d']]
 
     prefill("xyz", 1)
       --> throws TypeError with message "xyz is invalid"
+  
+  Link:
+    https://www.codewars.com/kata/54129112fb7c188740000162
  */
 
 function isValidInteger(n) {
@@ -45,9 +54,15 @@ function prefill(n, v) {
 }
 
 // Test to pass
-console.log(prefill(0, 1)) // => It should return [1,1,1]
-console.log(prefill(2, 'abc')) // => It should return ['abc','abc']
-console.log(prefill('1', 1)) // => It should return [1]
-// console.log(prefill('xyz', 1)) // => It should return "xyz is invalid"
-// console.log(prefill(Infinity, 1)) // => It should return "Infinity is invalid"
-console.log(prefill(false, 1)) // => It should return "1.40786757496717 is invalid"
+console.log(prefill(0, 1))
+// => It should return [1,1,1]
+console.log(prefill(2, 'abc'))
+// => It should return ['abc','abc']
+console.log(prefill('1', 1))
+// => It should return [1]
+console.log(prefill('xyz', 1))
+// => It should return "xyz is invalid"
+console.log(prefill(Infinity, 1))
+// => It should return "Infinity is invalid"
+console.log(prefill(false, 1))
+// => It should return "1.40786757496717 is invalid"

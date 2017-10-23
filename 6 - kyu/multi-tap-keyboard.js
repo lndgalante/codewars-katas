@@ -1,5 +1,8 @@
 /*
-  Description ⚔️
+  Title:
+    Multi-tap Keypad Text Entry on an Old Mobile Phone
+
+  Description:
     Prior to having fancy iPhones, teenagers would wear out their thumbs sending SMS messages on candybar-shaped feature phones with 3x4 numeric keypads.
 
     ------- ------- -------
@@ -26,7 +29,11 @@
 
     For this assignment, write a module that can calculate the amount of button presses required for any phrase. Punctuation can be ignored for this exercise. Likewise, you can assume the phone doesn't distinguish between upper/lowercase characters (but you should allow your module to accept input in either for convenience).
 
-    Hint: While it wouldn't take too long to hard code the amount of keypresses for all 26 letters by hand, try to avoid doing so! (Imagine you work at a phone manufacturer who might be testing out different keyboard layouts, and you want to be able to test new ones rapidly.)
+  Hint: 
+    While it wouldn't take too long to hard code the amount of keypresses for all 26 letters by hand, try to avoid doing so! (Imagine you work at a phone manufacturer who might be testing out different keyboard layouts, and you want to be able to test new ones rapidly.)
+
+  Link:
+    https://www.codewars.com/kata/54a2e93b22d236498400134b
  */
 
 // Long Solution
@@ -100,6 +107,9 @@ function presses(phrase) {
 }
 
 // Test to pass
-console.log(presses('LOL')) // => It should return 9
-console.log(presses('HOW R U')) // => It should return 13
-console.log(presses('HOW3 R U')) // => It should return 17
+console.log(presses('LOL'))
+// => It should return 9
+console.log(presses('HOW R U'))
+// => It should return 13
+console.log(presses('HOW3 R U'))
+// => It should return 17

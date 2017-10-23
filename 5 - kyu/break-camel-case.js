@@ -1,9 +1,12 @@
 /* 
-  Description ⚔️
+  Description:
     Complete the solution so that the function will break up camel casing, using a space between words.
 
-  Example
+  Example:
     solution('camelCasing') // => should return 'camel Casing'
+  
+  Link:
+    https://www.codewars.com/kata/break-camelcase/javascript
 */
 
 // Long solution
@@ -20,4 +23,5 @@ function breakCamelCase(string) {
 }
 
 // Test to pass
-console.log(breakCamelCase('camelCasing')) // => It should return "camel Casing"
+console.log(breakCamelCase('camelCasing'))
+// => It should return "camel Casing"

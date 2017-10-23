@@ -1,13 +1,19 @@
 /* 
-  Description ⚔️
+  Title:
+    Convert string to camel case
+
+  Description:
     Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized.
 
   Examples:
-    // returns "theStealthWarrior"
     toCamelCase("the-stealth-warrior") 
+    // returns "theStealthWarrior"
     
-    // returns "TheStealthWarrior"
     toCamelCase("The_Stealth_Warrior")
+    // returns "TheStealthWarrior"
+  
+  Link:
+    https://www.codewars.com/kata/517abf86da9663f1d2000003
 */
 
 // Long solution
@@ -34,5 +40,7 @@ function toCamelCase(str) {
 }
 
 // Test to pass
-console.log(toCamelCase('the-stealth-warrior')) // => It should return "theStealthWarrior"
-console.log(toCamelCase('The_Stealth_Warrior')) // => It should return "TheStealthWarrior"
+console.log(toCamelCase('the-stealth-warrior'))
+// => It should return "theStealthWarrior"
+console.log(toCamelCase('The_Stealth_Warrior'))
+// => It should return "TheStealthWarrior"

@@ -1,5 +1,8 @@
 /* 
-  Description ⚔️
+  Title:
+    Count the smiley faces!
+
+  Description:
     Given an array (arr) as an argument complete the function countSmileys that should return the total number of smiling faces.
 
   Rules for a smiling face:
@@ -14,8 +17,11 @@
   Invalid smiley faces:
     ;( :> :} :] 
 
-  Note: 
+  Notes: 
     In case of an empty array return 0. You will not be tested with invalid input (input will always be an array)
+
+  Link:
+    https://www.codewars.com/kata/583203e6eb35d7980400002a
 */
 
 // Long Solution

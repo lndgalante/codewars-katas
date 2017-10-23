@@ -1,5 +1,5 @@
 /* 
-  Description ⚔️
+  Description:
     Write a function that takes an array of values and moves all elements that are zero to the end of the array, otherwise preserving the order of the array. The zero elements must also maintain the order in which they occurred.
 
   Examples:

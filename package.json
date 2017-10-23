@@ -1,11 +1,15 @@
 {
-  "dependencies": {
-    "lodash": "^4.17.4"
-  },
   "name": "codewars-katas",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/lndgalante/codewars-katas.git",
   "author": "Leonardo Galante <lndgalante@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "prettier": "^1.7.4"
+  }
 }
