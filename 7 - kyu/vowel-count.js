@@ -15,7 +15,7 @@
 function getCount(str) {
   return str
     .split('')
-    .reduce((sum, value) => (/[aeiou]/.test(value) ? sum + 1 : sum), 0)
+    .reduce((sum, value) => (/[aeiou]/gi.test(value) ? sum + 1 : sum), 0)
 }
 
 // Short Solution

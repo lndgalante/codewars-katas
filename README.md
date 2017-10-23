@@ -17,7 +17,7 @@ There's a folder for each level (kyu) with katas (algorithms) having:
 > There is a `boilerplate.js` to create a new kata.
  
 ## Dependencies
-As dependencies I have Lodash to try something quickly, Prettier for code-formatting and ESlint for linting. I also use Quokka for rapid prototyping.
+As dependencies I have Lodash to try something quickly, Prettier for code-formatting and ESlint for linting. I also use Quokka Pro Edition for rapid prototyping.
 I didn't use a testing framework like Jest because the plattform has one built-in.
 
 ## Personal Challenge
