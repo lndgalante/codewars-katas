@@ -32,8 +32,6 @@ function accum(s) {
     .join('-')
 }
 
-// Short Solution
-
 // Test to pass
 console.log(accum('abcd'))
 // => It should return "A-Bb-Ccc-Dddd"
