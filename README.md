@@ -31,12 +31,16 @@ I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that
 runs over the last Node.js version. I didn't use a testing framework like Jest
 because the plattform has one built-in with several test-cases.
 
-## Complementary courses
+## Complementary resources
 
 In lot of katas you could use the power of Regular Expresions (RegEx) to save
 code and time. This course:
 [Breaking the Ice With Regular Expressions](https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions)
-by CodeSchool it's great to getting started.
+by CodeSchool it's great to getting started. JavaScript katas has support for
+Node 6.11.0 and 8.1.3 so you could use ES6/ES2015 that will help you a lot. To
+get started with ES6 I recommend this
+[cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) and
+[ES6.io](https://es6.io) course by Wes Bos.
 
 ## Personal Challenge
 
