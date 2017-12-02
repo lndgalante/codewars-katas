@@ -14,12 +14,14 @@
 */
 
 // Long Solution
-// function digitize(n) {
-//   return String(n)
-//     .split('')
-//     .reverse()
-//     .map(char => Number(char))
-// }
+/* 
+function digitize(n) {
+  return String(n)
+    .split('')
+    .reverse()
+    .map(char => Number(char))
+} 
+*/
 
 // Short Solution
 const digitize = n =>
@@ -28,8 +30,5 @@ const digitize = n =>
     .reverse()
     .map(char => Number(char))
 
-// Test to pass
-console.log(digitize(348597))
-// => It should return [7, 9, 5, 8, 4, 3]
-console.log(digitize(35231))
-// => It should return [1, 3, 2, 5, 3]
+// Exports function
+module.exports = digitize

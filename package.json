@@ -1,15 +1,22 @@
 {
   "name": "codewars-katas",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/lndgalante/codewars-katas.git",
-  "author": "Leonardo Galante <lndgalante@gmail.com>",
+  "description": "All my CodeWars katas",
+  "author": {
+    "name": "Leonardo Galante",
+    "email": "lndgalante@gmail.com",
+    "url": "https://leonardogalante.com"
+  },
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.4"
   },
   "devDependencies": {
     "prettier": "^1.8.2",
+    "jest": "^21.2.1",
     "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "jest --watchAll"
   }
 }
