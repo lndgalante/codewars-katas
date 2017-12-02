@@ -19,25 +19,18 @@
 */
 
 // Long Solution
-// function XO(str) {
-//   const totalX = str.split('').filter(char => /x/gi.test(char)).length
-//   const totalO = str.split('').filter(char => /o/gi.test(char)).length
+/* 
+function XO(str) {
+  const totalX = str.split('').filter(char => /x/gi.test(char)).length
+  const totalO = str.split('').filter(char => /o/gi.test(char)).length
 
-//   return totalX === totalO
-// }
+  return totalX === totalO
+} 
+*/
 
 // Short Solution
 const XO = str =>
   (str.match(/x/gi) || []).length === (str.match(/o/gi) || []).length
 
-// Test to pass
-console.log(XO('xo'))
-// => It should return true
-console.log(XO('xxOo'))
-// => It should return true
-console.log(XO('xxxm'))
-// => It should return false
-console.log(XO('Oo'))
-// => It should return false
-console.log(XO('ooom'))
-// => It should return false
+// Exports function
+module.exports = XO

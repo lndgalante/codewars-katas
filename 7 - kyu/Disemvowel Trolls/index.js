@@ -17,14 +17,15 @@
 */
 
 // Long Solution
+/* 
 function disemvowel(str) {
   // ^ negates the regex
   return str.match(/[^aeiou]/gi).join('')
-}
+} 
+*/
 
 // Short Solution
 const disemvowel = str => str.replace(/[aeiou]/gi, '')
 
-// Test to pass
-console.log(disemvowel('This website is for losers LOL!'))
-// => It should return "Ths wbst s fr lsrs LL!"
+// Exports function
+module.exports = disemvowel

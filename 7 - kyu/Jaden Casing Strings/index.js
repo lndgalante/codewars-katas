@@ -21,22 +21,22 @@
 */
 
 // Long Solution
-// String.prototype.toJadenCase = function() {
-//   return this.split(' ')
-//     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-//     .join(' ')
-// }
+/* 
+String.prototype.toJadenCase = function() {
+  return this.split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+} 
+*/
 
-// Short Solution - RegEx here https://regexr.com/3h1tc
-// ^ Matches the beginning of the string
-// | Acts like the boolean OR
-// \s Matches any whitespace character
-// (^|\s)[a-z] Matches the beginning of each char with it space after it
+/* Short Solution - RegEx here https://regexr.com/3h1tc
+^ Matches the beginning of the string
+| Acts like the boolean OR
+\s Matches any whitespace character
+(^|\s)[a-z] Matches the beginning of each char with it space after it */
 String.prototype.toJadenCase = function() {
   return this.replace(/(^|\s)[a-z]/g, x => x.toUpperCase())
 }
 
-// Test to pass
-const str = "How can mirrors be real if our eyes aren't real"
-console.log(str.toJadenCase())
-// => It should return "How Can Mirrors Be Real If Our Eyes Aren't Real"
+// Exports function
+module.exports = String.prototype.toJadenCase

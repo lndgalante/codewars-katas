@@ -34,10 +34,5 @@ const descendingOrder = n =>
       .join('')
   )
 
-// Test to pass
-console.log(descendingOrder(0))
-// => It should return 0
-console.log(descendingOrder(1))
-// => It should return 1
-console.log(descendingOrder(123456789))
-// => It should return 987654321
+// Exports function
+module.exports = descendingOrder

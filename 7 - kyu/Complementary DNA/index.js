@@ -21,24 +21,27 @@
 */
 
 // Long Solution
-// function DNAStrand(dna) {
-//   const complementaryDna = dna
-//     .split('')
-//     .map(string => {
-//       switch (string) {
-//         case 'A':
-//           return 'T'
-//         case 'T':
-//           return 'A'
-//         case 'G':
-//           return 'C'
-//         case 'C':
-//           return 'G'
-//       }
-//     })
-//     .join('')
-//   return complementaryDna
-// }
+/*
+function DNAStrand(dna) {
+  const complementaryDna = dna
+    .split('')
+    .map(string => {
+      switch (string) {
+        case 'A':
+          return 'T'
+        case 'T':
+          return 'A'
+        case 'G':
+          return 'C'
+        case 'C':
+          return 'G'
+      }
+    })
+    .join('')
+
+  return complementaryDna
+}
+ */
 
 // Short Solution
 const DNAStrand = dna => {
@@ -50,10 +53,5 @@ const DNAStrand = dna => {
     .join('')
 }
 
-// Test to pass
-console.log(DNAStrand('AAAA'))
-// => It should return 'TTTT'
-console.log(DNAStrand('ATTGC'))
-// => It should return 'TAACG'
-console.log(DNAStrand('GTAT'))
-// => It should return 'CATA'
+// Exports function
+module.exports = DNAStrand
