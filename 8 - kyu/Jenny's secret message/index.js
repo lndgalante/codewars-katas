@@ -14,19 +14,16 @@
 */
 
 // Long Solution
+/* 
 function greet(name) {
   if (name === 'Johnny') return 'Hello, my love!'
   return 'Hello, ' + name + '!'
-}
+} 
+*/
 
 // Short Solution
 const greet = name =>
   name === 'Johnny' ? 'Hello, my love!' : `Hello, ${name}!`
 
-// Test to pass
-console.log(greet('Jim'))
-// => It should return 'Hello, Jim!'
-console.log(greet('Jane'))
-// => It should return 'Hello, Jane!'
-console.log(greet('Simon'))
-// => It should return 'Hello, Simon!'
+// Exports function
+module.exports = greet

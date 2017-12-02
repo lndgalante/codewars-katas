@@ -28,12 +28,5 @@
 // Short Solution
 const stringToNumber = str => Number(str)
 
-// Test to pass
-console.log(stringToNumber('1234'))
-// => It should return 1234
-console.log(stringToNumber('605'))
-// => It should return 605
-console.log(stringToNumber('1405'))
-// => It should return 1405
-console.log(stringToNumber('-7'))
-// => It should return -7
+// Exports function
+module.exports = stringToNumber

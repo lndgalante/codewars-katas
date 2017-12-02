@@ -16,13 +16,14 @@
 */
 
 // Long Solution
+/* 
 function opposite(number) {
   return -number
-}
+} 
+*/
 
 // Short Solution
 const opposite = number => -number
 
-// Test to pass
-console.log(opposite(1))
-// => It should return -1
+// Exports function
+module.exports = opposite

@@ -18,17 +18,14 @@
 */
 
 // Long Solution
-// function numberToString(num) {
-//   return String(num)
-// }
+/* 
+function numberToString(num) {
+  return String(num)
+} 
+*/
 
 // Short Solution
 const numberToString = num => `${num}`
 
-// Test to pass
-console.log(numberToString(67))
-// => It should return "67"
-console.log(numberToString(123))
-// => It should return "123"
-console.log(numberToString(999))
-// => It should return "999"
+// Exports function
+module.exports = numberToString

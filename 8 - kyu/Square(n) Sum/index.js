@@ -13,16 +13,15 @@
 */
 
 // Long Solution
-// function squareSum(numbers) {
-//   return numbers.map(num => Math.pow(num, 2)).reduce((a, b) => a + b, 0)
-// }
+/* 
+function squareSum(numbers) {
+  return numbers.map(num => Math.pow(num, 2)).reduce((a, b) => a + b, 0)
+} 
+*/
 
 // Short Solution
 const squareSum = numbers =>
   numbers.map(num => Math.pow(num, 2)).reduce((a, b) => a + b, 0)
 
-// Test to pass
-console.log(squareSum([1, 2, 2]))
-// => It should return 9
-console.log()
-// => It should return ...
+// Exports function
+module.exports = squareSum

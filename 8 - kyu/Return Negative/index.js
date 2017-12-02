@@ -20,20 +20,14 @@
 */
 
 // Long Solution
-
+/* 
 function makeNegative(num) {
   return Math.sign(num) === 1 ? -num : num
-}
+} 
+*/
 
 // Short Solution
 const makeNegative = num => (Math.sign(num) === 1 ? -num : num)
 
-// Test to pass
-console.log(makeNegative(42))
-// => It should return -42
-console.log(makeNegative(1))
-// => It should return -1
-console.log(makeNegative(-5))
-// => It should return -5
-console.log(makeNegative(0))
-// => It should return 0
+// Exports function
+module.exports = makeNegative

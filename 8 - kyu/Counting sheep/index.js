@@ -23,41 +23,15 @@
 */
 
 // Long Solution
-// function countSheeps(arrayOfSheep) {
-//   if (!arrayOfSheep) return 0
-//   return arrayOfSheep.reduce((a, b) => (b ? ++a : a), 0)
-// }
+/* 
+function countSheeps(arrayOfSheep) {
+  if (!arrayOfSheep) return 0
+  return arrayOfSheep.reduce((a, b) => (b ? ++a : a), 0)
+} 
+*/
 
 // Short Solution
 const countSheeps = arrayOfSheeps => arrayOfSheeps.filter(Boolean).length
 
-// Test to pass
-const array1 = [
-  true,
-  true,
-  true,
-  false,
-  true,
-  true,
-  true,
-  true,
-  true,
-  false,
-  true,
-  false,
-  true,
-  false,
-  false,
-  true,
-  true,
-  true,
-  true,
-  true,
-  false,
-  false,
-  true,
-  true
-]
-
-console.log(countSheeps(array1))
-// => It should return 17
+// Exports function
+module.exports = countSheeps
