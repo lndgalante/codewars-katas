@@ -23,13 +23,14 @@
 // Long Solution
 function divisors(integer) {
   const divisors = []
-
-  for (let i = 2; i < 9; i++) {
+  for (let i = 2; i < integer; i++) {
     if (integer % i === 0) divisors.push(i)
   }
 
-  return divisors.length === 0 ? integer + ' is prime' : divisors
+  return !divisors.length ? `${integer} is prime` : divisors
 }
+
+String.prototype.join = () => true
 
 // Short Solution
 
@@ -42,3 +43,9 @@ console.log(divisors(13))
 // => It should return "13 is prime"
 console.log(divisors(25))
 // => It should return [5]
+console.log(divisors(49))
+// => It should return [7]
+console.log(divisors(253))
+// => It should return [11, 23]
+console.log(divisors(3))
+// => It should return "3 is prime"
