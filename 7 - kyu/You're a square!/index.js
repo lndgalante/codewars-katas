@@ -30,20 +30,14 @@
 */
 
 // Long Solution
+/* 
 function isSquare(n) {
   return Number.isInteger(Math.sqrt(n))
-}
+} 
+*/
 
 // Short Solution
 const isSquare = n => Number.isInteger(Math.sqrt(n))
 
-console.log(isSquare(-1))
-// => It should return false
-console.log(isSquare(3))
-// => It should return false
-console.log(isSquare(4))
-// => It should return true
-console.log(isSquare(25))
-// => It should return true
-console.log(isSquare(26))
-// => It should return false
+// Exports function
+module.exports = isSquare

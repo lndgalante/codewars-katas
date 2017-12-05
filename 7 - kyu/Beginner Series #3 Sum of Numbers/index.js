@@ -26,7 +26,6 @@
 function getSum(...range) {
   const rangeSort = range.sort((a, b) => a > b)
   if (rangeSort[0] === rangeSort[1]) return rangeSort[0]
-  console.log(rangeSort)
 
   let result = 0
   for (let i = rangeSort[0]; i <= rangeSort[1]; i++) result += i
@@ -34,22 +33,5 @@ function getSum(...range) {
   return result
 }
 
-// Short Solution
-
-// Test to pass
-console.log(getSum(0, -1))
-// => It should return -1
-console.log(getSum(-1, 0))
-// => It should return -1
-console.log(getSum(0, 1))
-// => It should return 1
-console.log(getSum(1, 0))
-// => It should return 1
-console.log(getSum(1, 2))
-// => It should return 3
-console.log(getSum(1, 1))
-// => It should return 1
-console.log(getSum(-1, 2))
-// => It should return 2
-console.log(getSum(280, 84))
-// => It should return 2
+// Exports function
+module.exports = getSum

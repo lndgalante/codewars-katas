@@ -20,6 +20,7 @@
     https://www.codewars.com/kata/545a4c5a61aa4c6916000755
  */
 
+// Long Solution
 function gimme(inputArray) {
   const originalArray = [...inputArray]
   inputArray.sort((current, next) => current - next)
@@ -27,8 +28,5 @@ function gimme(inputArray) {
   return originalArray.indexOf(inputArray[1])
 }
 
-// Test to pass
-console.log(gimme([2, 3, 1]))
-// => It should return 0
-console.log(gimme([5, 10, 14]))
-// => It should return 1
+// Exports function
+module.exports = gimme

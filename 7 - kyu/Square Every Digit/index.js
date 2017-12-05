@@ -16,13 +16,16 @@
 */
 
 // Long Solution
-// function squareDigits(num) {
-//   const result = String(num)
-//     .split('')
-//     .map(digit => Math.pow(digit, 2))
-//     .join('')
-//   return Number(result)
-// }
+/* 
+function squareDigits(num) {
+  const result = String(num)
+    .split('')
+    .map(digit => Math.pow(digit, 2))
+    .join('')
+
+  return Number(result)
+} 
+*/
 
 // Short Solution
 const squareDigits = num =>
@@ -33,6 +36,5 @@ const squareDigits = num =>
       .join('')
   )
 
-// Test to pass
-console.log(squareDigits(9119))
-// => It should return 811181
+// Exports function
+module.exports = squareDigits

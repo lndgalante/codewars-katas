@@ -12,15 +12,14 @@
 */
 
 // Long Solution
+/* 
 function getCount(str) {
-  return str
-    .split('')
-    .reduce((sum, value) => (/[aeiou]/gi.test(value) ? sum + 1 : sum), 0)
-}
+  return str.split('').reduce((sum, value) => (/[aeiou]/gi.test(value) ? sum + 1 : sum), 0)
+} 
+*/
 
 // Short Solution
 const getCount = str => (str.match(/[aeiou]/gi) || []).length
 
-// Test to pass
-console.log(getCount('abracadabra'))
-// => It should return 5
+// Exports function
+module.exports = getCount

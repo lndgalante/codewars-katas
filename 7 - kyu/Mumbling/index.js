@@ -24,16 +24,10 @@ function accum(s) {
     .split('')
     .map((char, index) => {
       const charRepeated = char.repeat(index + 1)
-      return (
-        charRepeated.charAt(0).toUpperCase() +
-        charRepeated.slice(1).toLowerCase()
-      )
+      return charRepeated.charAt(0).toUpperCase() + charRepeated.slice(1).toLowerCase()
     })
     .join('-')
 }
 
-// Test to pass
-console.log(accum('abcd'))
-// => It should return "A-Bb-Ccc-Dddd"
-console.log(accum('RqaEzty'))
-// => It should return "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+// Exports function
+module.exports = accum
