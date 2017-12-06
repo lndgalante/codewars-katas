@@ -2,32 +2,49 @@
 
 All my CodeWars katas to constantly train and improve my algorithm thinking
 
-<img src="./katawarrior.png" alt="Kata Warrior" style="width: 366px;"/>
+<img src="https://image.ibb.co/hGsWqG/katawarrior.png" alt="Kata Warrior" style="width: 366px;"/>
 
 ## Repo structure
 
-There's a folder for each level (kyu) with katas (algorithms) having:
+There's a folder for each rank (kyu) with katas (algorithms). And each kata has 2 files:
 
-* Title
-* Description
-* Examples
-* Notes
-* Link
-* Long Solution
-* Short Solution
+* `index.js`
+  * Title
+  * Description
+  * Examples
+  * Notes
+  * Link
+  * Long Solution
+  * Short Solution
+  * Function Exports
+
+* `index.test.js`
+  * With one or more test cases
 
 > There is a `boilerplate.js` to create a new kata with the info above.
 
-Also not every kata has a long or short solution.
+Also not every kata has a short solution.
 
 ## Dependencies
 
 * [Lodash](https://github.com/lodash/lodash) for using some utility
 * [Prettier](https://github.com/prettier/prettier) for code-formatting
-* [XO](https://github.com/sindresorhus/xo) for linting.
-* [Jest](https://github.com/facebook/jest) for formatting.
+* [XO](https://github.com/sindresorhus/xo) for code-linting
+* [Jest](https://github.com/facebook/jest) for testing
 
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that runs over the last Node.js version.
+
+## Testing
+If you want to test all katas run
+```bash
+ yarn test
+```
+
+If you want to test only a particular kyu rank run
+```bash
+ yarn test 6-kyu
+```
+
 
 ## Complementary resources
 

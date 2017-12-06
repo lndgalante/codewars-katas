@@ -14,8 +14,5 @@
 
 // Short Solution
 
-// Test to pass
-console.log()
-// => It should return ...
-console.log()
-// => It should return ...
+// Function Export
+module.exports
