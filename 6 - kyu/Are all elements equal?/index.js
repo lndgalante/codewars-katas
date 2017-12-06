@@ -1,4 +1,7 @@
 /* 
+  Title:
+  
+  
   Description:
     Create a function eqAll that determines if all elements of a list are equal.
     list can be any iterable, and may be infinite. Return value is a Boolean.
@@ -31,32 +34,5 @@ function eqAll(iterable) {
   return true
 }
 
-// Test to pass
-const set1 = new Set(['7', '6', '8', '9', '3', '2'])
-const set2 = new Set([1, 1, 1])
-const set4 = new Set()
-
-console.log(eqAll('aaa'))
-// => It should return true
-console.log(eqAll('abc'))
-// => It should return false
-console.log(eqAll(''))
-// => It should return true
-console.log(eqAll([0, 0, 0]))
-// => It should return true
-console.log(eqAll([0, 1, 2]))
-// => It should return false
-console.log(eqAll([]))
-// => It should return true
-console.log(eqAll({ a: 1, b: 2, c: 3 }))
-// => It should return false
-console.log(eqAll({ a: 1, b: 1, c: 1 }))
-// => It should return true
-console.log(eqAll({}))
-// => It should return false
-console.log(eqAll(set1))
-// => It should return true
-console.log(eqAll(set2))
-// => It should return true
-console.log(eqAll(set3))
-// => It should return false
+// Exports function
+module.exports = eqAll

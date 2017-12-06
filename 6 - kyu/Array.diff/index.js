@@ -15,14 +15,17 @@
     https://www.codewars.com/kata/array-dot-diff/
 */
 
+// Solution with Lodash
+/* 
 const _ = require('lodash')
 
-// Solution with Lodash
 function array_diff(a, b) {
   return _.difference(a, b)
-}
+} 
+*/
 
 // Long Solution
+/* 
 function array_diff(a, b) {
   const result = []
 
@@ -33,13 +36,11 @@ function array_diff(a, b) {
   }
 
   return result
-}
+} 
+*/
 
 // Short Solution
 const array_diff = (a, b) => a.filter(x => !b.includes(x))
 
-// Test to pass
-console.log(array_diff([1, 2], [1]))
-// => It should return [2]
-console.log(array_diff([1, 2, 2, 2, 3], [2]))
-// => It should return [1, 3]
+// Exports function
+module.exports = array_diff
