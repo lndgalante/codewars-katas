@@ -17,6 +17,7 @@
 */
 
 // Long solution
+/* 
 function toCamelCase(string) {
   const newString = string.split(/[-_]/g)
 
@@ -32,15 +33,12 @@ function toCamelCase(string) {
       .join('')
     return result
   }
-}
+} 
+*/
 
 // Short Solution. Regex here => https://regexr.com/3gtji
-function toCamelCase(str) {
-  return str.replace(/[-_](.)/g, (_, char) => char.toUpperCase())
-}
+const toCamelCase = str =>
+  str.replace(/[-_](.)/g, (_, char) => char.toUpperCase())
 
-// Test to pass
-console.log(toCamelCase('the-stealth-warrior'))
-// => It should return "theStealthWarrior"
-console.log(toCamelCase('The_Stealth_Warrior'))
-// => It should return "TheStealthWarrior"
+// Function Export
+module.exports = toCamelCase

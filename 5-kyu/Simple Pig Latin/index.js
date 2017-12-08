@@ -12,6 +12,7 @@
     https://www.codewars.com/kata/520b9d2ad5c005041100000f
 */
 
+// Long Solution
 function pigIt(str) {
   return str
     .split(' ')
@@ -25,6 +26,5 @@ function pigIt(str) {
     .join(' ')
 }
 
-// Test to pass
-console.log(pigIt('Pig latin is cool')) // => It should return 'igPay atinlay siay oolcay'
-console.log(pigIt('This is my string')) // => It should return 'hisTay siay ymay tringsay'
+// Function Export
+module.exports = pigIt

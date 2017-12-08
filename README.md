@@ -27,7 +27,7 @@ Also not every kata has a short solution.
 
 ## Dependencies
 
-* [Lodash](https://github.com/lodash/lodash) for using some utility
+* [Lodash](https://github.com/lodash/lodash) and [Ramda](https://github.com/ramda/ramda)  for using some utility
 * [Prettier](https://github.com/prettier/prettier) for code-formatting
 * [XO](https://github.com/sindresorhus/xo) for code-linting
 * [Jest](https://github.com/facebook/jest) for testing

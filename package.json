@@ -9,11 +9,12 @@
   },
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "jest": "^21.2.1",
     "prettier": "^1.8.2",
+    "jest": "^21.2.1",
     "xo": "^0.18.2"
   },
   "scripts": {

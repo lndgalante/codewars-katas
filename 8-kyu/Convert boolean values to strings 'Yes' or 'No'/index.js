@@ -11,10 +11,12 @@
 */
 
 // Long Solution
-/* function boolToWord(bool) {
+/* 
+function boolToWord(bool) {
   if (bool) return 'Yes'
   return 'No'
-} */
+}
+*/
 
 // Short Solution
 const boolToWord = bool => (bool ? 'Yes' : 'No')

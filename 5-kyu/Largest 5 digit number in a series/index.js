@@ -32,6 +32,5 @@ function solution(digits) {
   return Math.max(...fiveDigitsNumbers)
 }
 
-// Test to pass
-console.log(solution('1234567890'))
-// => It should return 67890
+// Function Export
+module.exports = solution

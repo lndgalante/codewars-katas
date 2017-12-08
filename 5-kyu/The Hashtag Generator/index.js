@@ -22,16 +22,16 @@
 
 function generateHashtag(str) {
   if (str === '') return false
+
   const stringWithCamelCase = str
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join('')
+
   const stringWithHashtag = `#${stringWithCamelCase.trim()}`
 
   return stringWithHashtag.length > 140 ? false : stringWithHashtag
 }
 
-console.log(generateHashtag(' Hello there thanks for trying my Kata'))
-// => It should return "#HelloThereThanksForTryingMyKata"
-console.log(generateHashtag(' Hello World '))
-// => It should return "#HelloWorld"
+// Function Export
+module.exports = generateHashtag

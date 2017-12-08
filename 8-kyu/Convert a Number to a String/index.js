@@ -10,8 +10,6 @@
   Examples:
     numberToString(123); // returns '123';
     numberToString(999); // returns '999';
-
-  Notes:
   
   Link:
     https://www.codewars.com/kata/convert-a-number-to-a-string

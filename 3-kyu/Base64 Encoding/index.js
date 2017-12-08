@@ -20,7 +20,8 @@ String.prototype.fromBase64 = function() {
   return Buffer.from(this, 'base64').toString()
 }
 
-console.log('this is a string!!'.toBase64())
-// => It should return 'dGhpcyBpcyBhIHN0cmluZyEh'
-console.log('dGhpcyBpcyBhIHN0cmluZyEh'.fromBase64())
-// => It should return 'this is a string!!'
+// Function Export
+module.exports = {
+  toBase64: String.prototype.toBase64,
+  fromBase64: String.prototype.fromBase64,
+}

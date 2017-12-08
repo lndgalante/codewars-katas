@@ -37,16 +37,5 @@ function humanReadable(seconds) {
   return `${readableHour}:${readableMinutes}:${readableSeconds}`
 }
 
-// Short Solution
-
-// Test to pass
-console.log(humanReadable(0))
-// => It should return '00:00:00'
-console.log(humanReadable(5))
-// => It should return '00:00:05'
-console.log(humanReadable(60))
-// => It should return '00:01:00'
-console.log(humanReadable(86399))
-// => It should return '23:59:59'
-console.log(humanReadable(359999))
-// => It should return '99:59:59'
+// Function Export
+module.exports = humanReadable
