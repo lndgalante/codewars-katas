@@ -40,16 +40,5 @@ function guessGifts(wishlist, presents) {
     .map(whish => whish.name)
 }
 
-const wishlist = [
-  { name: 'Mini Puzzle', size: 'small', clatters: 'yes', weight: 'light' },
-  { name: 'Toy Car', size: 'medium', clatters: 'a bit', weight: 'medium' },
-  { name: 'Card Game', size: 'small', clatters: 'no', weight: 'light' },
-]
-
-const presents = [
-  { size: 'medium', clatters: 'a bit', weight: 'medium' },
-  { size: 'small', clatters: 'yes', weight: 'light' },
-]
-
-console.log(guessGifts(wishlist, presents))
-// => It should return ["Toy Car", "Mini Puzzle"]
+// Function Export
+module.exports = guessGifts

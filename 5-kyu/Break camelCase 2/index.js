@@ -19,14 +19,5 @@ String.prototype.camelCase = function() {
     .join('')
 }
 
-// Test to pass
-console.log('test case'.camelCase())
-// => It should return "TestCase"
-console.log('camel case method'.camelCase())
-// => It should return "CamelCaseMethod"
-console.log('say hello '.camelCase())
-// => It should return "SayHello"
-console.log(' camel case word'.camelCase())
-// => It should return "CamelCaseWord"
-console.log(''.camelCase())
-// => It should return ""
+// Function Export
+module.exports = String.prototype.camelCase

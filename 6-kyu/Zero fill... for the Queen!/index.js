@@ -15,6 +15,7 @@
     https://www.codewars.com/kata/5302f383be2a91e4d70002c6
 */
 
+// Long Solution
 function zeroFill(number, size) {
   const numberPositive = Math.abs(number).toString()
   const difference = size - numberPositive.length
@@ -22,11 +23,5 @@ function zeroFill(number, size) {
   return [...Array(difference).fill(0), numberPositive].join('')
 }
 
-console.log(zeroFill(11, 5))
-// => It should return "00011"
-console.log(zeroFill(11, 11))
-// => It should return "00000000011"
-console.log(zeroFill(-32, 5))
-// => It should return "00032"
-console.log(zeroFill(0, 3))
-// => It should return "000"
+// Function Export
+module.exports = zeroFill
