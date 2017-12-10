@@ -59,7 +59,7 @@ CodeWars katas has support for Node.js v6.11.0 and v8.1.3 so you could use ES6/E
 
 ## Purpose
 
-Doing lot of katas could help you to improve your logic and algorithmic thinking. Also could help you to be to go with more confidence to interviews.
+Doing lot of katas could help you to improve your logic and algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
 
 ## Personal Challenge
 
