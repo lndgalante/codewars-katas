@@ -52,18 +52,21 @@ In lot of katas you could use the power of Regular Expresions (RegEx) to save co
 
 CodeWars katas has support for Node.js v6.11.0 and v8.1.3 so you could use ES6/ES2015 that will help you a lot. To get started with ES6 I recommend this [cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) and [ES6.io](https://es6.io) course by Wes Bos.
 
+## Purpose
+Doing lot of katas could help you to improve your logic and algorithmic thinking. Also could help you to be to go with more confidence to interviews. 
+
 ## Personal Challenge
 
-Try to solve 5 katas a day from kyu 8 to 5, ordered from most completed:
+Try to solve 5 katas a day from kyu 8 to 5, sorted by most completed and fitlered by no completed:
 
-* [8 kyu - 322 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&beta=false&order_by=total_completed+desc)
-* [7 kyu - 1298 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&beta=false&order_by=total_completed+desc)
-* [6 kyu - 1262 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-6&beta=false&order_by=total_completed+desc)
-* [5 kyu - 480 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-5&beta=false&order_by=total_completed+desc)
+* [8 kyu - 322 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
+* [7 kyu - 1298 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
+* [6 kyu - 1262 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-6&xids=completed&beta=false&order_by=total_completed+desc)
+* [5 kyu - 480 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-5&xids=completed&beta=false&order_by=total_completed+desc)
 
 I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas with kyu 8 to 5.
 
-* [4 kyu - 169 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-4&beta=false&order_by=total_completed+desc)
-* [3 kyu - 60 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-3&beta=false&order_by=total_completed+desc)
-* [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&beta=false&order_by=total_completed+desc)
-* [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&beta=false&order_by=total_completed+desc)
+* [4 kyu - 169 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-4&xids=completed&beta=false&order_by=total_completed+desc)
+* [3 kyu - 60 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-3&xids=completed&beta=false&order_by=total_completed+desc)
+* [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&xids=completed&beta=false&order_by=total_completed+desc)
+* [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&xids=completed&beta=false&order_by=total_completed+desc)
