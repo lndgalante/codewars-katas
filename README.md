@@ -81,6 +81,7 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 
 * [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
 * [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
+* [Angelos Chalaris - 30 Seconds of Code](https://github.com/Chalarangelo/30-seconds-of-code)
 
 ## Similar Plattforms
 
