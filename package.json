@@ -13,8 +13,8 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "prettier": "^1.8.2",
     "jest": "^21.2.1",
+    "prettier": "^1.8.2",
     "xo": "^0.18.2"
   },
   "scripts": {
