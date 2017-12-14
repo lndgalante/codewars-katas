@@ -20,6 +20,7 @@
 */
 
 // Long Solution
+/* 
 function basicOp(operation, value1, value2) {
   switch (operation) {
     case '+':
@@ -31,7 +32,12 @@ function basicOp(operation, value1, value2) {
     case '/':
       return value1 / value2
   }
-}
+} 
+*/
+
+// Short Solution
+const basicOp = (operation, value1, value2) =>
+  eval(`${value1} ${operation} ${value2}`)
 
 // Function Export
 module.exports = basicOp

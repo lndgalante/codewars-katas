@@ -36,6 +36,7 @@ Also not every kata has a short solution.
 * [Jest](https://github.com/facebook/jest) for testing
 
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that runs over the last Node.js version.
+If you are using Quokka Pro you have this feature called [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133) just insert the special comment `/*?*/` or `//?` and it could save you lots of `console.log()`.
 
 ## Testing
 
@@ -92,3 +93,4 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 * [CodeChef](https://www.codechef.com)
 * [CodeFights](https://codefights.com)
 * [Exercism](http://exercism.io)
+* [Codility](https://codility.com)
