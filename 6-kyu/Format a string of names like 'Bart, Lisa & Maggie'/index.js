@@ -39,5 +39,8 @@ function list(names) {
     .replace(/[,](?!.*,)/g, ' &')
 }
 
+// Regex about matching the last ocurrence. Example: https://regexr.com/3i3iu
+// https://frightanic.com/software-development/regex-match-last-occurrence
+
 // Function Export
 module.exports = list
