@@ -1,6 +1,6 @@
 # codewars-katas
 
-> All my Codewars katas solutions with full test integration and more!
+> All my Codewars katas solutions with full test integration, tutorials and more!
 
 <img src="https://image.ibb.co/hGsWqG/katawarrior.png" alt="Kata Warrior" style="width: 336px;"/>
 
@@ -8,25 +8,26 @@
 
 ## Repo structure
 
-There's a folder for each rank (kyu) with katas (algorithms). And each kata has 2 files:
+There's a folder for each rank (kyu) with katas (algorithms) having also each one it's own folder.
+Each kata has inside two `.js` files
 
 * `index.js`
 
-  * Title
-  * Description
+  * Title (required)
+  * Description (required)
   * Examples
   * Notes
-  * Link
-  * Long Solution
+  * Kata Link (required)
+  * Discuss Link (required)
+  * Solutions Link (required)
+  * Long Solution (required)
   * Short Solution
-  * Function Exports
+  * Function Exports (required)
 
-* `index.test.js`
+- `index.test.js`
   * With one or more test cases
 
-> There is a `boilerplate.js` to create a new kata with the info above.
-
-Also not every kata has a short solution.
+> There is a `boilerplate.js` at the root folder to create these files
 
 ## Dependencies
 
