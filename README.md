@@ -41,7 +41,7 @@ Each kata has inside two `.js` files
 * [Jest](https://github.com/facebook/jest) for testing
 
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that runs over the last Node.js version.
-If you are using Quokka Pro you have this feature called [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133) just insert the special comment `/*?*/` or `//?` and it could save you lots of `console.log()`.
+If you are using Quokka Pro you have this helpful feature called [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133)
 
 ## Testing
 
@@ -59,12 +59,13 @@ If you want to test only a particular kyu rank run
 
 ## Learning resources
 
-* _Regular Expressions / RegEx_
+* Regular Expressions / Regex
+  * [Awesome Regex](https://github.com/aloisdg/awesome-regex) (Free)
   * [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html) (Free)
   * [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction) (Free)
   * [Breaking the Ice With Regular Expressions - CodeSchool](https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions)
 
-- _ECMAScript6 / ES6 / ES2015_
+- ES6 / ES2015
   * [ES6 for Everyone - Wes Bos](https://es6.io)
   * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet) (Free)
 
