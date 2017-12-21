@@ -6,6 +6,10 @@
 
 [![CodeWars](https://www.codewars.com/users/lndgalante/badges/large)](https://www.codewars.com/users/lndgalante "My Honor Badge")
 
+## Purpose
+
+Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
+
 ## Repo structure
 
 There's a folder for each rank (kyu) with katas (algorithms) having also each one it's own folder.
@@ -13,16 +17,16 @@ Each kata has inside two `.js` files
 
 * `index.js`
 
-  * Title (required)
-  * Description (required)
+  * Title\*
+  * Description\*
   * Examples
   * Notes
-  * Kata Link (required)
-  * Discuss Link (required)
-  * Solutions Link (required)
-  * Long Solution (required)
+  * Kata Link\*
+  * Discuss Link\*
+  * Solutions Link\*
+  * Long Solution\*
   * Short Solution
-  * Function Exports (required)
+  * Function Exports\*
 
 - `index.test.js`
   * With one or more test cases
@@ -53,19 +57,20 @@ If you want to test only a particular kyu rank run
  yarn test 6-kyu
 ```
 
-## Complementary resources
+## Learning resources
 
-In lot of katas you could use the power of Regular Expresions (RegEx) to save code and time. This course [Breaking the Ice With Regular Expressions](https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions) by CodeSchool it's great to getting started.
+* _Regular Expressions / RegEx_
+  * [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html) (Free)
+  * [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction) (Free)
+  * [Breaking the Ice With Regular Expressions - CodeSchool](https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions)
 
-CodeWars katas has support for Node.js v6.11.0 and v8.1.3 so you could use ES6/ES2015 that will help you a lot. To get started with ES6 I recommend this [cheatsheet](https://github.com/mbeaudru/modern-js-cheatsheet) and [ES6.io](https://es6.io) course by Wes Bos.
-
-## Purpose
-
-Doing lot of katas could help you to improve your logic and algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
+- _ECMAScript6 / ES6 / ES2015_
+  * [ES6 for Everyone - Wes Bos](https://es6.io)
+  * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet) (Free)
 
 ## Personal Challenge
 
-Try to solve 5 katas a day from kyu 8 to 5, sorted by most completed and filtered by no completed:
+Try to solve 5 katas a day from kyu 8 to 5, sorted by most completed and filtered by no completed
 
 * [8 kyu - 322 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
 * [7 kyu - 1298 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
@@ -81,17 +86,17 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 
 ## Miscellaneous
 
-* [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
-* [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
 * [Angelos Chalaris - 30 Seconds of Code](https://github.com/Chalarangelo/30-seconds-of-code)
+* [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
+* [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
 
 ## Similar Plattforms
 
-* [LeetCode](https://leetcode.com)
-* [CoderByte](https://coderbyte.com)
-* [HackerRank](https://www.hackerrank.com)
-* [CodeEval](https://www.codeeval.com)
-* [CodeChef](https://www.codechef.com)
-* [CodeFights](https://codefights.com)
-* [Exercism](http://exercism.io)
 * [Codility](https://codility.com)
+* [Exercism](http://exercism.io)
+* [CodeEval](https://www.codeeval.com)
+* [LeetCode](https://leetcode.com)
+* [CodeChef](https://www.codechef.com)
+* [CoderByte](https://coderbyte.com)
+* [CodeFights](https://codefights.com)
+* [HackerRank](https://www.hackerrank.com)
