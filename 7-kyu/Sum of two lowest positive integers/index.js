@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Sum of two lowest positive integers
 
@@ -13,9 +13,15 @@
 
   Notes:
     Do not modify the original array.
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/sum-of-two-lowest-positive-integers
+
+  Discuss Link:
+    https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/sum-of-two-lowest-positive-integers/solutions
 */
 
 // Long Solution

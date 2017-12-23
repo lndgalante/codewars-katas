@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Convert a String to a Number!
 
@@ -13,11 +13,17 @@
     stringToNumber("-7"  ) == -7
 
   Notes:
-    Don't worry, all inputs will be strings, and every string is a perfectly 
+    Don't worry, all inputs will be strings, and every string is a perfectly
     valid representation of an integral number.
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/convert-a-string-to-a-number
+
+  Discuss Link:
+    https://www.codewars.com/kata/convert-a-string-to-a-number/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/convert-a-string-to-a-number/solutions
 */
 
 // Long Solution

@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     A Needle in the Haystack
 
@@ -12,22 +12,28 @@
     "found the needle at position " plus the index it found the needle
 
   Examples:
-    find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk']) 
+    find_needle(['hay', 'junk', 'hay', 'hay', 'moreJunk', 'needle', 'randomJunk'])
     => 'found the needle at position 5'
 
     findNeedle(new Object[] {"hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"})
     => 'found the needle at position 5'
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/a-needle-in-the-haystack
+
+  Discuss Link:
+    https://www.codewars.com/kata/a-needle-in-the-haystack/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/a-needle-in-the-haystack/solutions
 */
 
 // Long Solution
-/* 
+/*
 function findNeedle(haystack) {
   const index = haystack.findIndex(junk => junk === 'needle')
   return `found the needle at position ${index}`
-} 
+}
 */
 
 // Short Solution

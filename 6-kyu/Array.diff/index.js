@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Array.diff
 
@@ -11,21 +11,27 @@
     array_diff([1, 2],[1]) == [2]
     array_diff([1, 2, 2, 2, 3],[2]) == [1, 3]
 
-  Link:
-    https://www.codewars.com/kata/array-dot-diff/
+  Kata Link:
+    https://www.codewars.com/kata/array-dot-diff
+
+  Discuss Link:
+    https://www.codewars.com/kata/array-dot-diff/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/array-dot-diff/solutions
 */
 
 // Solution with Lodash
-/* 
+/*
 const _ = require('lodash')
 
 function array_diff(a, b) {
   return _.difference(a, b)
-} 
+}
 */
 
 // Long Solution
-/* 
+/*
 function array_diff(a, b) {
   const result = []
 
@@ -36,7 +42,7 @@ function array_diff(a, b) {
   }
 
   return result
-} 
+}
 */
 
 // Short Solution

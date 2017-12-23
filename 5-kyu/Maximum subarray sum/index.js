@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Maximum subarray sum
 
@@ -11,11 +11,17 @@
     Easy case is when the list is made up of only positive numbers and the maximum sum
     is the sum of the whole array. If the list is made up of only negative numbers, return 0 instead.
 
-    Empty list is considered to have zero greatest sum. 
+    Empty list is considered to have zero greatest sum.
     Note that the empty list or array is also a valid sublist/subarray.
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/maximum-subarray-sum
+
+  Discuss Link:
+    https://www.codewars.com/kata/maximum-subarray-sum/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/maximum-subarray-sum/solutions
 */
 
 // Long Solution

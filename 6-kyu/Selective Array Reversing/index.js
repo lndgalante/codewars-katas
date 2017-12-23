@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Selective Array Reversing
 
@@ -17,11 +17,17 @@
     array - array to reverse
     length - length of each portion to reverse
 
-  Notes: 
+  Notes:
     If the length argument exceeds the array length, reverse all of them, if the length argument is zero do not reverse at all.
-  
-  Link:
-    https://www.codewars.com/kata/58f6000bc0ec6451960000fd
+
+  Kata Link:
+    https://www.codewars.com/kata/selective-array-reversing
+
+  Discuss Link:
+    https://www.codewars.com/kata/selective-array-reversing/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/selective-array-reversing/solutions
 */
 
 // Long Solution
@@ -43,7 +49,7 @@
   }
 
   return result
-} 
+}
 */
 
 // Short Solution

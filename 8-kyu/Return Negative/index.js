@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Return Negative
 
@@ -14,16 +14,22 @@
   Notes:
     The number can be negative already, in which case no change is required.
     Zero (0) can't be negative, see examples above.
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/return-negative
+
+  Discuss Link:
+    https://www.codewars.com/kata/return-negative/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/return-negative/solutions
 */
 
 // Long Solution
-/* 
+/*
 function makeNegative(num) {
   return Math.sign(num) === 1 ? -num : num
-} 
+}
 */
 
 // Short Solution

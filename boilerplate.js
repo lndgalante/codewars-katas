@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
 
   Description:
@@ -6,8 +6,12 @@
   Examples:
 
   Notes:
-  
-  Link:
+
+  Kata Link:
+
+  Discuss Link:
+
+  Solutions Link:
 */
 
 // Long Solution

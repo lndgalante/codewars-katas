@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Find the smallest integer in the array
 
@@ -11,8 +11,14 @@
 
     You can assume, for the purpose of this kata, that the supplied array will not be empty.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/find-the-smallest-integer-in-the-array
+
+  Discuss Link:
+    https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/find-the-smallest-integer-in-the-array/solutions
 */
 
 // Long Solution

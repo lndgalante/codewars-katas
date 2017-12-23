@@ -20,8 +20,14 @@
 
   Notes:
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/palindrome-chain-length
+
+  Discuss Link:
+    https://www.codewars.com/kata/palindrome-chain-length/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/palindrome-chain-length/solutions
 */
 
 // Long Solution

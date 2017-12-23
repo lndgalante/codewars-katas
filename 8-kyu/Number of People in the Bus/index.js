@@ -15,8 +15,14 @@
 
     The second value in the first integer array is 0, since the bus is empty in the first bus stop.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/number-of-people-in-the-bus
+
+  Discuss Link:
+    https://www.codewars.com/kata/number-of-people-in-the-bus/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/number-of-people-in-the-bus/solutions
 */
 
 // Long Solution

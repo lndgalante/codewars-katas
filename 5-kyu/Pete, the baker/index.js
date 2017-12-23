@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Pete, the baker
 
@@ -10,14 +10,20 @@
     For simplicity there are no units for the amounts (e.g. 1 lb of flour or 200 g of sugar are simply 1 or 200). Ingredients that are not present in the objects, can be considered as 0.
 
   Examples:
-    cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, milk: 200}); 
+    cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, milk: 200});
     // must return 2
 
     cakes({apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, {sugar: 500, flour: 2000, milk: 2000});
     // must return 0
-  
-  Link:
-    https://www.codewars.com/kata/525c65e51bf619685c000059
+
+  Kata Link:
+    https://www.codewars.com/kata/pete-the-baker
+
+  Discuss Link:
+    https://www.codewars.com/kata/pete-the-baker/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/pete-the-baker/solutions
  */
 
 function cakes(recipe, available) {

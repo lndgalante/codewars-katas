@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Dubstep
 
@@ -11,7 +11,7 @@
     after the last word (the number may be zero), and between words (at least one between any pair of neighbouring words),
     and then the boy glues together all the words, including "WUB", in one string and plays the song at the club.
 
-    For example, a song with words "I AM X" can transform into a dubstep remix 
+    For example, a song with words "I AM X" can transform into a dubstep remix
     as "WUBWUBIWUBAMWUBWUBX" and cannot transform into "WUBWUBIAMWUBX".
 
     Recently, Jonny has heard Polycarpus's new dubstep track, but since he isn't into modern music,
@@ -34,9 +34,15 @@
     * WUB should be replaced by 1 space
     * Multiples WUB should be replaced by only 1 space
     * Heading or trailing spaces should be removed
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/dubstep
+
+  Discuss Link:
+    https://www.codewars.com/kata/dubstep/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/dubstep/solutions
 */
 
 // Long Solution
@@ -50,7 +56,7 @@
   })
 
   return result.trim()
-} 
+}
 */
 
 // Short Solution

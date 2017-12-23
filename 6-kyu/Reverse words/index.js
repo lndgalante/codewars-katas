@@ -12,8 +12,14 @@
     reverseWords("double  spaces");
       // returns  "elbuod  secaps"
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/reverse-words
+
+  Discuss Link:
+    https://www.codewars.com/kata/reverse-words/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/reverse-words/solutions
 */
 
 // Long Solution

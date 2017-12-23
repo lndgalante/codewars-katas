@@ -14,7 +14,14 @@
     if we do not have any chocolate to split).
     Input will always be a non-negative integer.
 
-  Link:
+  Kata Link:
+    https://www.codewars.com/kata/breaking-chocolate-problem
+
+  Discuss Link:
+    https://www.codewars.com/kata/breaking-chocolate-problem/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/breaking-chocolate-problem/solutions
 */
 
 // Long Solution

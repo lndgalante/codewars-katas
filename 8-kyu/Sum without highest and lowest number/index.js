@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Sum without highest and lowest number
 
@@ -15,11 +15,17 @@
 
   Notes:
     If array is empty, null or None, or if only 1 Element exists, return 0.
-    In C++ instead null an empty vector is used. In C there is no null. ;-) 
+    In C++ instead null an empty vector is used. In C there is no null. ;-)
     There's no null in Haskell, therefore Maybe [Int] is used. Nothing represents null.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/sum-without-highest-and-lowest-number
+
+  Discuss Link:
+    https://www.codewars.com/kata/sum-without-highest-and-lowest-number/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/sum-without-highest-and-lowest-number/solutions
 */
 
 // Long Solution

@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Square Every Digit
 
@@ -10,13 +10,19 @@
 
   Notes:
     The function accepts an integer and returns an integer
-  
-  Link:
-    https://www.codewars.com/kata/square-every-digit/
+
+  Kata Link:
+    https://www.codewars.com/kata/square-every-digit
+
+  Discuss Link:
+    https://www.codewars.com/kata/square-every-digit/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/square-every-digit/solutions
 */
 
 // Long Solution
-/* 
+/*
 function squareDigits(num) {
   const result = String(num)
     .split('')
@@ -24,7 +30,7 @@ function squareDigits(num) {
     .join('')
 
   return Number(result)
-} 
+}
 */
 
 // Short Solution

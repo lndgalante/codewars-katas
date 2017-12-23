@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Sum of Pairs
 
@@ -29,9 +29,15 @@
 
   Notes:
       Negative numbers and duplicate numbers can and will appear.
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/sum-of-pairs
+
+  Discuss Link:
+    https://www.codewars.com/kata/sum-of-pairs/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/sum-of-pairs/solutions
 */
 
 // Long Solution

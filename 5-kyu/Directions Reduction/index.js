@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Directions Reduction
 
@@ -30,12 +30,18 @@
       Write a function dirReduc which will take an array of strings and returns an array of strings with the needless directions removed (W<->E or S<->N side by side).
 
   Notes:
-    Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible. 
+    Not all paths can be made simpler. The path ["NORTH", "WEST", "SOUTH", "EAST"] is not reducible.
     "NORTH" and "WEST", "WEST" and "SOUTH", "SOUTH" and "EAST" are not directly opposite of each other and can't become such.
     Hence the result path is itself : ["NORTH", "WEST", "SOUTH", "EAST"].
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/directions-reduction
+
+  Discuss Link:
+    https://www.codewars.com/kata/directions-reduction/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/directions-reduction/solutions
 */
 
 // Long Solution

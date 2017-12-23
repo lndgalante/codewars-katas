@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Multiples of 3 and 5
 
@@ -7,11 +7,17 @@
 
     Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in.
 
-  Notes: 
+  Notes:
     If the number is a multiple of both 3 and 5, only count it once.
 
-  Link:
-    https://www.codewars.com/kata/514b92a657cdc65150000006
+  Kata Link:
+    https://www.codewars.com/kata/multiples-of-3-or-5
+
+  Discuss Link:
+    https://www.codewars.com/kata/multiples-of-3-or-5/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/multiples-of-3-or-5/solutions
 */
 
 // Long Solution

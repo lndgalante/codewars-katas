@@ -1,7 +1,7 @@
-/* 
+/*
   Title:
-  
-  
+
+
   Description:
     Create a function eqAll that determines if all elements of a list are equal.
     list can be any iterable, and may be infinite. Return value is a Boolean.
@@ -19,8 +19,14 @@
     For the function result to be true, the iterable must be finite; false, however, can result from an element finitely far from the left end. There will be no tests with infinite series of equal elements.
     Elements will be primitive values; equality should be strict (===).
 
-  Link:
-    https://www.codewars.com/kata/are-all-elements-equal-infinity-version/javascript
+  Kata Link:
+    https://www.codewars.com/kata/are-all-elements-equal-infinity-version
+
+  Discuss Link:
+    https://www.codewars.com/kata/are-all-elements-equal-infinity-version/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/are-all-elements-equal-infinity-version/solutions
 */
 
 function eqAll(iterable) {

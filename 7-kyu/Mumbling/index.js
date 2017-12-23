@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Mumbling
 
@@ -14,8 +14,14 @@
   Notes:
     The parameter of accum is a string which includes only letters from a..z and A..Z.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/mumbling
+
+  Discuss Link:
+    https://www.codewars.com/kata/mumbling/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/mumbling/solutions
 */
 
 // Long Solution
@@ -24,7 +30,10 @@ function accum(s) {
     .split('')
     .map((char, index) => {
       const charRepeated = char.repeat(index + 1)
-      return charRepeated.charAt(0).toUpperCase() + charRepeated.slice(1).toLowerCase()
+      return (
+        charRepeated.charAt(0).toUpperCase() +
+        charRepeated.slice(1).toLowerCase()
+      )
     })
     .join('-')
 }

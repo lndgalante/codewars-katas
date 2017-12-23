@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Zero fill... for the Queen!
 
@@ -11,8 +11,14 @@
     1. Numbers passed only - no strings, objects, functions, etc.
     2. Whole positives only - negatives converted, decimals dropped (provided in solution setup)
 
-  Link:
-    https://www.codewars.com/kata/5302f383be2a91e4d70002c6
+  Kata Link:
+    https://www.codewars.com/kata/zero-fill-dot-dot-dot-for-the-queen
+
+  Discuss Link:
+    https://www.codewars.com/kata/zero-fill-dot-dot-dot-for-the-queen/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/zero-fill-dot-dot-dot-for-the-queen/solutions
 */
 
 // Long Solution

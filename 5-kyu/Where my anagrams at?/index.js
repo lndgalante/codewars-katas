@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Where my anagrams at?
 
@@ -22,13 +22,19 @@
     anagrams('racer', ['crazer', 'carer', 'racar', 'caers', 'racer']) => ['carer', 'racer']
 
     anagrams('laser', ['lazing', 'lazy',  'lacer']) => []
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/where-my-anagrams-at
+
+  Discuss Link:
+    https://www.codewars.com/kata/where-my-anagrams-at/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/where-my-anagrams-at/solutions
 */
 
 // Long Solution
-/* 
+/*
 function anagrams(word, words) {
   return words.filter(
     phrase =>
@@ -41,7 +47,7 @@ function anagrams(word, words) {
         .sort()
         .join('')
   )
-} 
+}
 */
 
 // Short Solution

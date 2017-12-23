@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Get the Middle Character
 
@@ -7,9 +7,9 @@
     If the word's length is odd, return the middle character.
     If the word's length is even, return the middle 2 characters.
 
-    A word (string) of length 0 < str < 1000 (In javascript you may get slightly 
+    A word (string) of length 0 < str < 1000 (In javascript you may get slightly
     more than 1000 in some test cases due to an error in the test cases).
-    You do not need to test for this. This is only here to tell you 
+    You do not need to test for this. This is only here to tell you
     that you do not need to worry about your solution timing out.
 
     The middle character(s) of the word represented as a string.
@@ -22,9 +22,15 @@
     Kata.getMiddle("middle") should return "dd"
 
     Kata.getMiddle("A") should return "A"
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/get-the-middle-character
+
+  Discuss Link:
+    https://www.codewars.com/kata/get-the-middle-character/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/get-the-middle-character/solutions
 */
 
 // Long Solution

@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Count by X
 
@@ -13,8 +13,14 @@
     countBy(1,10) === [1,2,3,4,5,6,7,8,9,10]
     countBy(2,5) === [2,4,6,8,10]
 
-  Link:
-    https://www.codewars.com/kata/count-by-x/
+  Kata Link:
+    https://www.codewars.com/kata/count-by-x
+
+  Discuss Link:
+    https://www.codewars.com/kata/count-by-x/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/count-by-x/solutions
 */
 
 // Long Solution

@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Descending Order
 
@@ -13,8 +13,14 @@
 
     Input: 1254859723 Output: 9875543221
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/descending-order
+
+  Discuss Link:
+    https://www.codewars.com/kata/descending-order/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/descending-order/solutions
 */
 
 // Long Solution

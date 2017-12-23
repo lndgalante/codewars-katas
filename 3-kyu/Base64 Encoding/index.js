@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Base64 Encoding
 
@@ -7,11 +7,18 @@
     Do not use built in functions.
 
     You can learn more about Base64 encoding and decoding https://en.wikipedia.org/wiki/Base64
-  
-  Link:
-    https://www.codewars.com/kata/5270f22f862516c686000161
+
+  Kata Link:
+    https://www.codewars.com/kata/base64-encoding
+
+  Discuss Link:
+    https://www.codewars.com/kata/base64-encoding/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/base64-encoding/solutions
 */
 
+// Long Solution
 String.prototype.toBase64 = function() {
   return Buffer.from(this).toString('base64')
 }

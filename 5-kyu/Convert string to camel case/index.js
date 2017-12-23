@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Convert string to camel case
 
@@ -6,18 +6,24 @@
     Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized only if the original word was capitalized.
 
   Examples:
-    toCamelCase("the-stealth-warrior") 
+    toCamelCase("the-stealth-warrior")
     // returns "theStealthWarrior"
-    
+
     toCamelCase("The_Stealth_Warrior")
     // returns "TheStealthWarrior"
-  
-  Link:
-    https://www.codewars.com/kata/517abf86da9663f1d2000003
+
+  Kata Link:
+    https://www.codewars.com/kata/convert-string-to-camel-case
+
+  Discuss Link:
+    https://www.codewars.com/kata/convert-string-to-camel-case/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/convert-string-to-camel-case/solutions
 */
 
 // Long solution
-/* 
+/*
 function toCamelCase(string) {
   const newString = string.split(/[-_]/g)
 
@@ -33,7 +39,7 @@ function toCamelCase(string) {
       .join('')
     return result
   }
-} 
+}
 */
 
 // Short Solution. Regex here => https://regexr.com/3gtji

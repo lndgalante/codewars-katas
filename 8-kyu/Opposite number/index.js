@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Opposite number
 
@@ -10,16 +10,22 @@
     1: -1
     14: -14
     -34: 34
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/opposite-number
+
+  Discuss Link:
+    https://www.codewars.com/kata/opposite-number/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/opposite-number/solutions
 */
 
 // Long Solution
-/* 
+/*
 function opposite(number) {
   return -number
-} 
+}
 */
 
 // Short Solution

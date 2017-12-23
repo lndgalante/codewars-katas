@@ -1,12 +1,18 @@
-/* 
+/*
   Title:
     Remove String Spaces
 
   Description:
     Simple, remove the spaces from the string, then return the resultant string.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/remove-string-spaces
+
+  Discuss Link:
+    https://www.codewars.com/kata/remove-string-spaces/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/remove-string-spaces/solutions
 */
 
 // Long Solution
@@ -15,9 +21,9 @@
 // Short Solution
 const noSpace = x => x.replace(/\s/g, '')
 
-/* 
-  Regex -> https://regexr.com/3i4oq 
-  \s Whitespace. Matches any whitespace character (spaces, tabs, line breaks). 
+/*
+  Regex -> https://regexr.com/3i4oq
+  \s Whitespace. Matches any whitespace character (spaces, tabs, line breaks).
 */
 
 // Function Export

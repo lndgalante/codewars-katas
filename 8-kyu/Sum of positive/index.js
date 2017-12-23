@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Sum of positive
 
@@ -10,16 +10,22 @@
 
   Notes:
     Array may be empty, in this case return 0.
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/sum-of-positive
+
+  Discuss Link:
+    https://www.codewars.com/kata/sum-of-positive/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/sum-of-positive/solutions
 */
 
 // Long Solution
-/* 
+/*
 function positiveSum(arr) {
   return arr.reduce((a, b) => (Math.sign(b) === 1 ? a + b : a), 0)
-} 
+}
 */
 
 // Short Solution

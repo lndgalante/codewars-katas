@@ -20,8 +20,14 @@
     Example Output
       ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/categorize-new-member
+
+  Discuss Link:
+    https://www.codewars.com/kata/categorize-new-member/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/categorize-new-member/solutions
 */
 
 // Long Solution

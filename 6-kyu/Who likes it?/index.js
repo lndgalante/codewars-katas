@@ -1,12 +1,12 @@
-/* 
+/*
   Title:
     Who likes it?
 
   Description:
-    You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items. 
+    You probably know the "like" system from Facebook and other pages. People can "like" blog posts, pictures or other items.
     We want to create the text that should be displayed next to such an item.
 
-    Implement a function likes :: [String] -> String, which must take in input array, containing the names of people who like an item. 
+    Implement a function likes :: [String] -> String, which must take in input array, containing the names of people who like an item.
 
   Examples:
     It must return the display text as shown in the examples:
@@ -16,12 +16,18 @@
     likes ["Jacob", "Alex"] // must be "Jacob and Alex like this"
     likes ["Max", "John", "Mark"] // must be "Max, John and Mark like this"
     likes ["Alex", "Jacob", "Mark", "Max"] // must be "Alex, Jacob and 2 others like this"
-    
+
   Notes:
     For more than 4 names, the number in and 2 others simply increases.
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/who-likes-it
+
+  Discuss Link:
+    https://www.codewars.com/kata/who-likes-it/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/who-likes-it/solutions
 */
 
 // Long Solution
@@ -39,7 +45,7 @@
     default:
       return `${names[0]}, ${names[1]} and ${names.length - 2} others like this`
   }
-} 
+}
 */
 
 // Short Solution

@@ -1,10 +1,10 @@
-/* 
+/*
   Title:
     Find Maximum and Minimum Values of a List
 
   Description:
-    Your task is to make two functions, max and min (maximum and minimum in PHP) 
-    that take a(n) array/vector of integers list as input and outputs, 
+    Your task is to make two functions, max and min (maximum and minimum in PHP)
+    that take a(n) array/vector of integers list as input and outputs,
     respectively, the largest and lowest number in that array/vector.
 
   Examples:
@@ -13,8 +13,14 @@
     max([5]) returns 5
     min([42, 54, 65, 87, 0]) returns 0
 
-  Link:
-    https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list/
+  Kata Link:
+    https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list
+
+  Discuss Link:
+    https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/find-maximum-and-minimum-values-of-a-list/solutions
 */
 
 // Long Solution

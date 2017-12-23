@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Disemvowel Trolls
 
@@ -12,16 +12,22 @@
   Examples:
     "This website is for losers LOL!" would become "Ths wbst s fr lsrs LL!".
 
-  Link:
-    https://www.codewars.com/kata/disemvowel-trolls/train/javascript
+  Kata Link:
+    https://www.codewars.com/kata/disemvowel-trolls
+
+  Discuss Link:
+    https://www.codewars.com/kata/disemvowel-trolls/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/disemvowel-trolls/solutions
 */
 
 // Long Solution
-/* 
+/*
 function disemvowel(str) {
   // ^ negates the regex
   return str.match(/[^aeiou]/gi).join('')
-} 
+}
 */
 
 // Short Solution

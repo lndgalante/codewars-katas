@@ -29,11 +29,17 @@
 
     For this assignment, write a module that can calculate the amount of button presses required for any phrase. Punctuation can be ignored for this exercise. Likewise, you can assume the phone doesn't distinguish between upper/lowercase characters (but you should allow your module to accept input in either for convenience).
 
-  Hint: 
+  Hint:
     While it wouldn't take too long to hard code the amount of keypresses for all 26 letters by hand, try to avoid doing so! (Imagine you work at a phone manufacturer who might be testing out different keyboard layouts, and you want to be able to test new ones rapidly.)
 
-  Link:
-    https://www.codewars.com/kata/54a2e93b22d236498400134b
+  Kata Link:
+    https://www.codewars.com/kata/multi-tap-keypad-text-entry-on-an-old-mobile-phone
+
+  Discuss Link:
+    https://www.codewars.com/kata/multi-tap-keypad-text-entry-on-an-old-mobile-phone/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/multi-tap-keypad-text-entry-on-an-old-mobile-phone/solutions
  */
 
 // Long Solution

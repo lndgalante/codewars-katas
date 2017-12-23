@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Largest 5 digit number in a series
 
@@ -15,8 +15,14 @@
 
     Complete the solution so that it returns the largest five digit number found within the number given. The number will be passed in as a string of only digits. It should return a five digit integer. The number passed may be as large as 1000 digits.
 
-  Link:
-    https://www.codewars.com/kata/51675d17e0c1bed195000001
+  Kata Link:
+    https://www.codewars.com/kata/largest-5-digit-number-in-a-series
+
+  Discuss Link:
+    https://www.codewars.com/kata/largest-5-digit-number-in-a-series/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/largest-5-digit-number-in-a-series/solutions
 */
 
 function solution(digits) {

@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Sum of Digits / Digital Root
 
@@ -7,8 +7,14 @@
 
     A digital root is the recursive sum of all the digits in a number. Given n, take the sum of the digits of n. If that value has two digits, continue reducing in this way until a single-digit number is produced. This is only applicable to the natural numbers.
 
-  Link:
-    https://www.codewars.com/kata/541c8630095125aba6000c00
+  Kata Link:
+    https://www.codewars.com/kata/sum-of-digits-slash-digital-root
+
+  Discuss Link:
+    https://www.codewars.com/kata/sum-of-digits-slash-digital-root/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/sum-of-digits-slash-digital-root/solutions
 */
 
 function digitalRoot(n) {

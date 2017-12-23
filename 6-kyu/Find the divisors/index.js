@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Find the divisors!
 
@@ -16,8 +16,14 @@
   Notes:
     You can assume that you will only get positive integers as inputs.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/find-the-divisors
+
+  Discuss Link:
+    https://www.codewars.com/kata/find-the-divisors/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/find-the-divisors/solutions
 */
 
 // Long Solution
@@ -30,9 +36,9 @@ function divisors(integer) {
   return !divisors.length ? `${integer} is prime` : divisors
 }
 
-/* 
+/*
   Solution for test issue in CodeWars plattform
-  String.prototype.join = () => true 
+  String.prototype.join = () => true
 */
 
 // Function Export

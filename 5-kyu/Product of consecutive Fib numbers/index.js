@@ -39,8 +39,14 @@
     we can use the "golden ratio" phi which is (1 + sqrt(5))/2 knowing that F(n) is asymptotic to: phi^n / sqrt(5).
     That gives a possible upper bound to n.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/product-of-consecutive-fib-numbers
+
+  Discuss Link:
+    https://www.codewars.com/kata/product-of-consecutive-fib-numbers/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/product-of-consecutive-fib-numbers/solutions
 */
 
 // Long Solution

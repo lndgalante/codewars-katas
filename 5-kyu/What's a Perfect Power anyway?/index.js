@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     What's a Perfect Power anyway?
 
@@ -12,13 +12,19 @@
    For a perfect power, there might be several pairs.
    For example 81 = 3^4 = 9^2, so (3,4) and (9,2) are valid solutions.
    However, the tests take care of this, so if a number is a perfect power, return any pair that proves it.
-  
-  Link:
-    https://www.codewars.com/kata/54d4c8b08776e4ad92000835
+
+  Kata Link:
+    https://www.codewars.com/kata/whats-a-perfect-power-anyway
+
+  Discuss Link:
+    https://www.codewars.com/kata/whats-a-perfect-power-anyway/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/whats-a-perfect-power-anyway/solutions
 */
 
 // Brute force
-/* 
+/*
 const isPP = n => {
   for (let k = 2; k < 1000; k++) {
     const m = Math.pow(n, 1 / k)
@@ -26,7 +32,7 @@ const isPP = n => {
   }
 
   return null
-} 
+}
 */
 
 // Long Solution

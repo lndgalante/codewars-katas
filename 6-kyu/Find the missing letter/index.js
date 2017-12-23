@@ -16,8 +16,14 @@
   Notes:
     (Use the English alphabet with 26 letters!)
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/find-the-missing-letter
+
+  Discuss Link:
+    https://www.codewars.com/kata/find-the-missing-letter/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/find-the-missing-letter/solutions
 */
 
 // Long Solution

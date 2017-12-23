@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Count the smiley faces!
 
@@ -10,22 +10,28 @@
     -A smiley face can have a nose but it does not have to. Valid characters for a nose are - or ~
     -Every smiling face must have a smiling mouth that should be marked with either ) or D.
     No additional characters are allowed except for those mentioned.
-    
+
   Valid smiley face examples:
     :) :D ;-D :~)
 
   Invalid smiley faces:
-    ;( :> :} :] 
+    ;( :> :} :]
 
-  Notes: 
+  Notes:
     In case of an empty array return 0. You will not be tested with invalid input (input will always be an array)
 
-  Link:
-    https://www.codewars.com/kata/583203e6eb35d7980400002a
+  Kata Link:
+    https://www.codewars.com/kata/count-the-smiley-faces
+
+  Discuss Link:
+    https://www.codewars.com/kata/count-the-smiley-faces/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/count-the-smiley-faces/solutions
 */
 
 // Long Solution
-/* 
+/*
 function countSmileys(faces) {
   if (faces.length === 0) return 0
 
@@ -45,7 +51,7 @@ function countSmileys(faces) {
   })
 
   return smiles.length
-} 
+}
 */
 
 /* Regex cheatsheet:

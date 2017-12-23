@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Duplicate Encoder
 
@@ -19,14 +19,20 @@
 
   Notes:
     There is a flaw in the JS version, that may occur in the random tests.
-    Do not hesitate to do several attempts before modifying your code if you fail there. 
+    Do not hesitate to do several attempts before modifying your code if you fail there.
 
     Assertion messages may be unclear about what they display in some languages.
     If you read "...It Should encode XXX", the "XXX" is actually the expected result, not the input!
     (these languages are locked so that's not possible to correct it).
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/duplicate-encoder
+
+  Discuss Link:
+    https://www.codewars.com/kata/duplicate-encoder/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/duplicate-encoder/solutions
 */
 
 // Long Solution

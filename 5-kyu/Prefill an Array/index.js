@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Prefill an Array
 
@@ -14,13 +14,13 @@
     When throwing a TypeError, the message should be n is invalid, where you replace n for the actual value passed to the function.
 
   Examples
-    prefill(3,1) 
+    prefill(3,1)
       --> [1,1,1]
 
-    prefill(2,"abc") 
+    prefill(2,"abc")
       --> ['abc','abc']
 
-    prefill("1", 1) 
+    prefill("1", 1)
       --> [1]
 
     prefill(3, prefill(2,'2d'))
@@ -28,9 +28,15 @@
 
     prefill("xyz", 1)
       --> throws TypeError with message "xyz is invalid"
-  
-  Link:
-    https://www.codewars.com/kata/54129112fb7c188740000162
+
+  Kata Link:
+    https://www.codewars.com/kata/prefill-an-array
+
+  Discuss Link:
+    https://www.codewars.com/kata/prefill-an-array/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/prefill-an-array/solutions
  */
 
 // Helper Function

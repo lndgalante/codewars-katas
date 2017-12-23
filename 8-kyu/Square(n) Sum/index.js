@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Square(n) Sum
 
@@ -8,15 +8,21 @@
   Examples:
     squareSum([1, 2, 2]); // should return 9
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/square-n-sum
+
+  Discuss Link:
+    https://www.codewars.com/kata/square-n-sum/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/square-n-sum/solutions
 */
 
 // Long Solution
-/* 
+/*
 function squareSum(numbers) {
   return numbers.map(num => Math.pow(num, 2)).reduce((a, b) => a + b, 0)
-} 
+}
 */
 
 // Short Solution

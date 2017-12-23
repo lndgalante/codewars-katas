@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Find the middle element
 
@@ -16,8 +16,14 @@
     gimme([5, 10, 14]) => 1
     10 is the number that fits between 5 and 14 and the index of 10 in the input array is 1.
 
-  Link:
-    https://www.codewars.com/kata/545a4c5a61aa4c6916000755
+  Kata Link:
+    https://www.codewars.com/kata/find-the-middle-element
+
+  Discuss Link:
+    https://www.codewars.com/kata/find-the-middle-element/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/find-the-middle-element/solutions
  */
 
 // Long Solution

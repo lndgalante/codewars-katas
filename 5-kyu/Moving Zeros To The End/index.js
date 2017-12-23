@@ -1,12 +1,18 @@
-/* 
+/*
   Title:
     Moving Zeros To The End
 
   Description:
-    Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements. 
+    Write an algorithm that takes an array and moves all of the zeros to the end, preserving the order of the other elements.
 
-  Link:
-    https://www.codewars.com/kata/52597aa56021e91c93000cb0
+  Kata Link:
+    https://www.codewars.com/kata/moving-zeros-to-the-end
+
+  Discuss Link:
+    https://www.codewars.com/kata/moving-zeros-to-the-end/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/moving-zeros-to-the-end/solutions
 */
 
 function moveZeros(array) {

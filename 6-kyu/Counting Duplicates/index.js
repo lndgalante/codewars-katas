@@ -1,10 +1,10 @@
-/* 
+/*
   Title:
     Counting Duplicates
 
   Description:
     Write a function that will return the count of distinct case-insensitive alphabetic
-    characters and numeric digits that occur more than once in the input string. 
+    characters and numeric digits that occur more than once in the input string.
     The input string can be assumed to contain only alphabets (both uppercase and lowercase)
     and numeric digits.
 
@@ -17,12 +17,18 @@
     "aA11" -> 2 # 'a' and '1'
     "ABBA" -> 2 # 'A' and 'B' each occur twice
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/counting-duplicates
+
+  Discuss Link:
+    https://www.codewars.com/kata/counting-duplicates/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/counting-duplicates/solutions
 */
 
 // Long Solution
-/* 
+/*
 function duplicateCount(text) {
   const arr = text.toLowerCase().split('')
   let result = []
@@ -34,7 +40,7 @@ function duplicateCount(text) {
   }
 
   return Array.from(new Set(result)).length
-} 
+}
 */
 
 // Short Solution
@@ -49,7 +55,7 @@ const duplicateCount = text =>
   ).length
 
 // Regex -> https://regexr.com/3i7es
-/* 
+/*
   ([^]) Capture any character, as . doesn't literally match every character.
   \\1+ Followed by itself one or more times (the \1 corresponding to the first capture group)
  */

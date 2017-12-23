@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Persistent Bugger
 
@@ -14,9 +14,15 @@
                           // 1*2*6 = 12, and finally 1*2 = 2
 
     persistence(4) === 0 // because 4 is already a one-digit number
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/persistent-bugger
+
+  Discuss Link:
+    https://www.codewars.com/kata/persistent-bugger/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/persistent-bugger/solutions
 */
 
 // Long Solution

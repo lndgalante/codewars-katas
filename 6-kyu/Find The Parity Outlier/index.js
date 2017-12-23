@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Find The Parity Outlier
 
@@ -13,19 +13,25 @@
 
     [160, 3, 1719, 19, 11, 13, -21]
       Should return: 160 (the only even number)
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/find-the-parity-outlier
+
+  Discuss Link:
+    https://www.codewars.com/kata/find-the-parity-outlier/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/find-the-parity-outlier/solutions
 */
 
 // Long Solution
-/* 
+/*
 function findOutlier(integers) {
   const even = integers.filter(int => int % 2 === 0)
   const odd = integers.filter(int => int % 2 !== 0)
 
   return even.length === 1 ? even[0] : odd[0]
-} 
+}
 */
 
 // Short Solution

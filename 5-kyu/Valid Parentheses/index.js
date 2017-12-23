@@ -1,9 +1,9 @@
-/* 
+/*
   Title:
     Valid Parentheses
 
   Description:
-    Write a function called that takes a string of parentheses, 
+    Write a function called that takes a string of parentheses,
     and determines if the order of the parentheses is valid.
     The function should return true if the string is valid, and false if it's invalid.
 
@@ -12,9 +12,15 @@
     ")(()))"          =>  false
     "("               =>  false
     "(())((()())())"  =>  true
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/valid-parentheses
+
+  Discuss Link:
+    https://www.codewars.com/kata/valid-parentheses/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/valid-parentheses/solutions
 */
 
 // Long Solution

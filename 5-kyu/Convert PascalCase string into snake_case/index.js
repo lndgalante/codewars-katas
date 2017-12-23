@@ -20,8 +20,14 @@
     // returns "1"
     toUnderscore(1);
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/convert-pascalcase-string-into-snake-case
+
+  Discuss Link:
+    https://www.codewars.com/kata/convert-pascalcase-string-into-snake-case/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/convert-pascalcase-string-into-snake-case/solutions
 */
 
 // Long Solution

@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Isograms
 
@@ -12,8 +12,14 @@
     isIsogram( "aba" ) == false
     isIsogram( "moOse" ) == false // -- ignore letter case
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/isograms
+
+  Discuss Link:
+    https://www.codewars.com/kata/isograms/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/isograms/solutions
 */
 
 // Long Solution

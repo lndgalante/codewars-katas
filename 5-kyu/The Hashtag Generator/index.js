@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     The Hashtag Generator
 
@@ -16,8 +16,14 @@
     " Hello there thanks for trying my Kata" => "#HelloThereThanksForTryingMyKata"
     " Hello World " => "#HelloWorld"
 
-  Link:
-    https://www.codewars.com/kata/52449b062fb80683ec000024
+  Kata Link:
+    https://www.codewars.com/kata/the-hashtag-generator
+
+  Discuss Link:
+    https://www.codewars.com/kata/the-hashtag-generator/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/the-hashtag-generator/solutions
 */
 
 function generateHashtag(str) {

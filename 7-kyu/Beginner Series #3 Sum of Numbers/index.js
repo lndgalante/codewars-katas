@@ -1,12 +1,12 @@
-/* 
+/*
   Title:
     Beginner Series #3 Sum of Numbers
 
   Description:
-    Given two integers a and b, which can be positive or negative, 
+    Given two integers a and b, which can be positive or negative,
     find the sum of all the numbers between including them too and return it.
     If the two numbers are equal return a or b.
-  
+
   Examples:
     getSum(1, 0) == 1   // 1 + 0 = 1
     getSum(1, 2) == 3   // 1 + 2 = 3
@@ -17,9 +17,15 @@
 
   Notes:
     a and b are not ordered!
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers
+
+  Discuss Link:
+    https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers/solutions
 */
 
 // Long Solution

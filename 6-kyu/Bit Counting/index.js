@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Bit Counting
 
@@ -8,18 +8,24 @@
   Examples:
     The binary representation of 1234 is 10011010010, so the function should return 5 in this case
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/bit-counting
+
+  Discuss Link:
+    https://www.codewars.com/kata/bit-counting/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/bit-counting/solutions
 */
 
 // Long Solution
-/* 
+/*
 function countBits(n) {
   return n
     .toString(2)
     .split('')
     .reduce((a, b) => (b === '1' ? ++a : a), 0)
-} 
+}
 */
 
 // Short Solution

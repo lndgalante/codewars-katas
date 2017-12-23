@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Break camelCase
 
@@ -8,9 +8,15 @@
   Examples:
     "hello case".camelCase() => HelloCase
     "camel case word".camelCase() => CamelCaseWord
-  
-  Link:
-    https://www.codewars.com/kata/5208f99aee097e6552000148
+
+  Kata Link:
+    https://www.codewars.com/kata/break-camelcase
+
+  Discuss Link:
+    https://www.codewars.com/kata/break-camelcase/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/break-camelcase/solutions
 */
 
 String.prototype.camelCase = function() {

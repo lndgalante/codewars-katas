@@ -14,8 +14,14 @@
 
   Notes:
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/regex-validate-pin-code
+
+  Discuss Link:
+    https://www.codewars.com/kata/regex-validate-pin-code/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/regex-validate-pin-code/solutions
 */
 
 // Long Solution

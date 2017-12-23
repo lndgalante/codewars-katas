@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     String repeat
 
@@ -9,15 +9,21 @@
     repeatStr(6, "I") // "IIIIII"
     repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/string-repeat
+
+  Discuss Link:
+    https://www.codewars.com/kata/string-repeat/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/string-repeat/solutions
 */
 
 // Long Solution
-/* 
+/*
 function repeatStr(n, s) {
   return s.repeat(n)
-} 
+}
 */
 
 // Short Solution

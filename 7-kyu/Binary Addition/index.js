@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Binary Addition
 
@@ -8,8 +8,14 @@
 
     The binary number returned should be a string.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/binary-addition
+
+  Discuss Link:
+    https://www.codewars.com/kata/binary-addition/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/binary-addition/solutions
 */
 
 // Long Solution

@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Guess The Gifts!
 
@@ -22,9 +22,15 @@
     * Don't add any item more than once to the result
     * The order of names in the returned array doesn't matter
     * It's possible, that multiple items from your wish list have the same attribute values. If they match the attributes of one of the presents, add all of them.
-  
-  Link:
-    https://www.codewars.com/kata/52ae6b6623b443d9090002c8
+
+  Kata Link:
+    https://www.codewars.com/kata/guess-the-gifts
+
+  Discuss Link:
+    https://www.codewars.com/kata/guess-the-gifts/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/guess-the-gifts/solutions
 */
 
 function guessGifts(wishlist, presents) {

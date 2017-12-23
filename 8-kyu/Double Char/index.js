@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Double Char
 
@@ -11,9 +11,15 @@
     doubleChar("Hello World") => "HHeelllloo  WWoorrlldd"
 
     doubleChar("1234!_ ") => "11223344!!__  "
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/double-char
+
+  Discuss Link:
+    https://www.codewars.com/kata/double-char/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/double-char/solutions
 */
 
 // Long Solution

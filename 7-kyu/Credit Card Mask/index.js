@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Credit Card Mask
 
@@ -19,13 +19,19 @@
     // "What was the name of your first pet?"
     maskify("Skippy")                                   == "##ippy"
     maskify("Nananananananananananananananana Batman!") == "####################################man!"
-  
-  Link:
+
+  Kata Link:
     https://www.codewars.com/kata/credit-card-mask
+
+  Discuss Link:
+    https://www.codewars.com/kata/credit-card-mask/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/credit-card-mask/solutions
 */
 
 // Long Solution
-/* 
+/*
 function maskify(cc) {
   if (cc.length <= 4) return cc
 
@@ -36,7 +42,7 @@ function maskify(cc) {
       return digit
     })
     .join('')
-} 
+}
 */
 
 // Short Solution -> Regexr: https://regexr.com/3hspq

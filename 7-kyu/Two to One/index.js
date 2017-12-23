@@ -1,4 +1,4 @@
-/* 
+/*
   Title:
     Two to One
 
@@ -7,9 +7,15 @@
 
     Each taken only once - coming from s1 or s2. #Examples: ``` a = "xyaabbbccccdefww" b = "xxxxyyyyabklmopq" longest(a, b) -> "abcdefklmopqwxy"
     a = "abcdefghijklmnopqrstuvwxyz" longest(a, a) -> "abcdefghijklmnopqrstuvwxyz" ```
-  
-  Link:
-    https://www.codewars.com/kata/two-to-one/
+
+  Kata Link:
+    https://www.codewars.com/kata/two-to-one
+
+  Discuss Link:
+    https://www.codewars.com/kata/two-to-one/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/two-to-one/solutions
 */
 
 // Long Solution

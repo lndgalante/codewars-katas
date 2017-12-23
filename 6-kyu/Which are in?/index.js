@@ -23,8 +23,14 @@
 
     Beware: r must be without duplicates.
 
-  Link:
+  Kata Link:
     https://www.codewars.com/kata/which-are-in
+
+  Discuss Link:
+    https://www.codewars.com/kata/which-are-in/discuss
+
+  Solutions Link:
+    https://www.codewars.com/kata/which-are-in/solutions
 */
 
 // Long Solution
