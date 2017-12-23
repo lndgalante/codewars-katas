@@ -9,13 +9,13 @@
     "url": "https://leonardogalante.com"
   },
   "dependencies": {
-    "ramda": "^0.25.0",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "xo": "^0.18.2",
-    "jest": "^21.2.1",
-    "prettier": "^1.8.2"
+    "prettier": "^1.8.2",
+    "jest": "^22.0.4",
+    "xo": "^0.18.2"
   },
   "scripts": {
     "test": "jest --watchAll",
