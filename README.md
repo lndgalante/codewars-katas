@@ -2,10 +2,7 @@
 
 > All my Codewars katas solutions with full test integration, tutorials and more!
 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-
-[![CodeWars](https://www.codewars.com/users/lndgalante/badges/small)](https://www.codewars.com/users/lndgalante "My Honor Badge")
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Purpose
 
@@ -61,14 +58,14 @@ If you want to test only a particular kyu rank run
 ## Learning resources
 
 * Regular Expressions / Regex
-  * [Awesome Regex](https://github.com/aloisdg/awesome-regex) (Free)
-  * [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html) (Free)
-  * [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction) (Free)
+  * [Awesome Regex](https://github.com/aloisdg/awesome-regex)
+  * [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html)
+  * [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction)
   * [Breaking the Ice With Regular Expressions - CodeSchool](https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions)
 
 - ES6 / ES2015
   * [ES6 for Everyone - Wes Bos](https://es6.io)
-  * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet) (Free)
+  * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
 
 ## Personal Challenge
 
@@ -104,3 +101,11 @@ By the end of 2018 I hope to have it almost all completed 🤞
 * [CoderByte](https://coderbyte.com)
 * [CodeFights](https://codefights.com)
 * [HackerRank](https://www.hackerrank.com)
+
+## Badge
+
+[![CodeWars](https://www.codewars.com/users/lndgalante/badges/small)](https://www.codewars.com/users/lndgalante "My Honor Badge")
+
+## Licencia
+
+MIT © **[`Leonardo Galante`](https://leonardogalante.com)**
