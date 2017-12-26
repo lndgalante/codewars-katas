@@ -31,6 +31,6 @@ test('Test 4', () => {
   expect(six(dividedBy(two()))).toBe(3)
 })
 
-test('Test 4', () => {
+test('Test 5', () => {
   expect(one(plus(zero()))).toBe(1)
 })

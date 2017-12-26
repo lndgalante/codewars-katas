@@ -33,7 +33,7 @@ function divisors(integer) {
     if (integer % i === 0) divisors.push(i)
   }
 
-  return !divisors.length ? `${integer} is prime` : divisors
+  return divisors.length ? divisors : `${integer} is prime`
 }
 
 /*

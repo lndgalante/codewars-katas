@@ -18,10 +18,10 @@ test('Test 4', () => {
   expect(reverseWords('foobar')).toBe('foobar')
 })
 
-test('Test 4', () => {
+test('Test 5', () => {
   expect(reverseWords('kata editor')).toBe('editor kata')
 })
 
-test('Test 5', () => {
+test('Test 6', () => {
   expect(reverseWords('row row row your boat')).toBe('boat your row row row')
 })

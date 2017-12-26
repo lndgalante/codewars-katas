@@ -31,12 +31,13 @@ function cakes(recipe, available) {
 
   const quantity = []
 
-  for (let keyRecipe in recipe) {
+  for (const keyRecipe in recipe) {
     if (recipe[keyRecipe] === 0) {
       quantity.push(0)
       continue
     }
-    for (let keyAvailable in available) {
+
+    for (const keyAvailable in available) {
       if (keyRecipe === keyAvailable)
         quantity.push(Math.floor(available[keyAvailable] / recipe[keyRecipe]))
     }

@@ -19,10 +19,12 @@
 
 function findOdd(array) {
   for (let i = 0; i < array.length; i++) {
-    let element = array[i]
+    const element = array[i]
     let counter = 0
 
-    for (let j = 0; j < array.length; j++) if (element === array[j]) counter++
+    for (let j = 0; j < array.length; j++) {
+      if (element === array[j]) counter++
+    }
 
     if (counter % 2 !== 0) return element
   }

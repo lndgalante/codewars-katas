@@ -57,7 +57,7 @@ function fibonacci(num) {
 
   while (num >= 0) {
     temp = a
-    a = a + b
+    a += b
     b = temp
     num--
   }

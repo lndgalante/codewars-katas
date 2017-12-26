@@ -1,3 +1,6 @@
+/* eslint no-unused-vars: 0 */
+/* eslint no-use-extend-native/no-use-extend-native: 0 */
+
 const { toBase64, fromBase64 } = require('./index.js')
 
 test('Test 1', () => {

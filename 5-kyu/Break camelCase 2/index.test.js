@@ -1,3 +1,7 @@
+/* eslint no-unused-vars: 0 */
+/* eslint no-extend-native: 0 */
+/* eslint no-use-extend-native/no-use-extend-native: 0 */
+
 const camelCase = require('./index.js')
 
 test('Test 1', () => {

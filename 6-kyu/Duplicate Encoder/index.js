@@ -50,7 +50,7 @@ function duplicateEncode(word) {
         repeats,
       }
     })
-    .map(({ char, repeats }) => (repeats >= 1 ? ')' : '('))
+    .map(({ repeats }) => (repeats >= 1 ? ')' : '('))
     .join('')
 
   return repeated

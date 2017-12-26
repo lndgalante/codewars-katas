@@ -32,7 +32,7 @@
 function eqAll(iterable) {
   let last
 
-  for (let tick of iterable) {
+  for (const tick of iterable) {
     if (last === undefined) last = tick
     if (tick !== last) return false
   }

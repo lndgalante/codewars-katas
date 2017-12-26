@@ -41,7 +41,7 @@
 */
 
 // Long Solution
-function sum_pairs(ints, s) {
+function sumPairs(ints, s) {
   let limit = ints.length
   let result
 
@@ -58,4 +58,4 @@ function sum_pairs(ints, s) {
 }
 
 // Function Export
-module.exports = sum_pairs
+module.exports = sumPairs

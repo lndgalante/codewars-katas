@@ -1,17 +1,17 @@
-const XO = require('./index.js')
+const exesAndOhs = require('./index.js')
 
 test('Test 1', () => {
-  expect(XO('xo')).toBeTruthy()
+  expect(exesAndOhs('xo')).toBeTruthy()
 })
 
 test('Test 2', () => {
-  expect(XO('xxOo')).toBeTruthy()
+  expect(exesAndOhs('xxOo')).toBeTruthy()
 })
 
 test('Test 3', () => {
-  expect(XO('xxxm')).toBeFalsy()
+  expect(exesAndOhs('xxxm')).toBeFalsy()
 })
 
 test('Test 4', () => {
-  expect(XO('Oo')).toBeFalsy()
+  expect(exesAndOhs('Oo')).toBeFalsy()
 })

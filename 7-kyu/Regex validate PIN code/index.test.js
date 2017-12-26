@@ -32,10 +32,10 @@ test('Test 8', () => {
   expect(validatePIN('-1.234')).toBeFalsy()
 })
 
-test('Test 8', () => {
+test('Test 9', () => {
   expect(validatePIN('00000000')).toBeFalsy()
 })
 
-test('Test 8', () => {
+test('Test 10', () => {
   expect(validatePIN('a234')).toBeFalsy()
 })

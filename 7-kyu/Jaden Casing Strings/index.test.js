@@ -1,7 +1,9 @@
+/* eslint no-unused-vars: 0 */
+
 const toJadenCase = require('./index.js')
 
 test('Test 1', () => {
-  expect("How can mirrors be real if our eyes aren't real".toJadenCase()).toBe(
-    "How Can Mirrors Be Real If Our Eyes Aren't Real"
-  )
+  const jadened = `How can mirrors be real if our eyes aren't real`.toJadenCase()
+
+  expect(jadened).toBe(`How Can Mirrors Be Real If Our Eyes Aren't Real`)
 })

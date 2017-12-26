@@ -41,10 +41,10 @@ function getMiddle(str) {
   if (isLengthEven) {
     const half = strArray.length / 2
     return `${strArray[half - 1]}${strArray[half]}`
-  } else {
-    const half = Math.floor(strArray.length / 2)
-    return strArray[half]
   }
+
+  const half = Math.floor(strArray.length / 2)
+  return strArray[half]
 }
 
 // Function Export

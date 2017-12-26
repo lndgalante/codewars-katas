@@ -25,7 +25,7 @@ function find_average(array) {
 */
 
 // Short Solution
-const find_average = array => array.reduce((a, b) => a + b, 0) / array.length
+const findAverage = array => array.reduce((a, b) => a + b, 0) / array.length
 
 // Function Export
-module.exports = find_average
+module.exports = findAverage

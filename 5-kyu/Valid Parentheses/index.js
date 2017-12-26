@@ -25,7 +25,8 @@
 
 // Long Solution
 function validParentheses(parentheses) {
-  let limit = parentheses.length / 2
+  const limit = parentheses.length / 2
+
   for (let i = 0; i <= limit; ++i) {
     parentheses = parentheses.replace('()', '')
   }

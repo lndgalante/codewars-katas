@@ -23,7 +23,7 @@ function even_or_odd(number) {
 */
 
 // Short Solution
-const even_or_odd = n => (n % 2 === 0 ? 'Even' : 'Odd')
+const evenOrOdd = n => (n % 2 === 0 ? 'Even' : 'Odd')
 
 // Function Export
-module.exports = even_or_odd
+module.exports = evenOrOdd

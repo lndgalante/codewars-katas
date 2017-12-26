@@ -18,8 +18,10 @@
 */
 
 // Long Solution
+function demo() {}
 
 // Short Solution
+// const demo = () => {}
 
 // Function Export
-module.exports
+module.exports = demo

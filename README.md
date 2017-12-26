@@ -6,6 +6,8 @@
 
 [![CodeWars](https://www.codewars.com/users/lndgalante/badges/large)](https://www.codewars.com/users/lndgalante "My Honor Badge")
 
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+
 ## Purpose
 
 Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.

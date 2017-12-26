@@ -13,15 +13,21 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-jest": "^21.5.0",
     "prettier": "^1.8.2",
     "jest": "^22.0.4",
     "xo": "^0.18.2"
   },
   "scripts": {
-    "test": "jest --watchAll",
+    "test": "xo && jest --watchAll",
     "test 8-kyu": "jest --watchAll /8-kyu",
     "test 7-kyu": "jest --watchAll /7-kyu",
     "test 6-kyu": "jest --watchAll /6-kyu",
     "test 5-kyu": "jest --watchAll /5-kyu"
+  },
+  "xo": {
+    "extends": ["prettier", "plugin:jest/recommended"],
+    "esnext": true
   }
 }

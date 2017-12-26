@@ -50,7 +50,7 @@ function DNAStrand(dna) {
  */
 
 // Short Solution
-const DNAStrand = dna => {
+const dnaStrand = dna => {
   const pairs = { A: 'T', T: 'A', C: 'G', G: 'C' }
 
   return dna
@@ -60,4 +60,4 @@ const DNAStrand = dna => {
 }
 
 // Function Export
-module.exports = DNAStrand
+module.exports = dnaStrand

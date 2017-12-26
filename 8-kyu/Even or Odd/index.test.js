@@ -1,17 +1,17 @@
-const even_or_odd = require('./index.js')
+const evenOrOdd = require('./index.js')
 
 test('Test 1', () => {
-  expect(even_or_odd(2)).toBe('Even')
+  expect(evenOrOdd(2)).toBe('Even')
 })
 
 test('Test 2', () => {
-  expect(even_or_odd(0)).toBe('Even')
+  expect(evenOrOdd(0)).toBe('Even')
 })
 
 test('Test 3', () => {
-  expect(even_or_odd(7)).toBe('Odd')
+  expect(evenOrOdd(7)).toBe('Odd')
 })
 
 test('Test 4', () => {
-  expect(even_or_odd(1)).toBe('Odd')
+  expect(evenOrOdd(1)).toBe('Odd')
 })

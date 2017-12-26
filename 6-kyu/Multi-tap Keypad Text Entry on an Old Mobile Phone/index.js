@@ -101,7 +101,7 @@ function presses(phrase) {
   phraseArray.forEach(letter => {
     keypad.forEach(button => {
       const index = button.keys.findIndex(
-        char => char == letter || String(char).toLowerCase() == letter
+        char => char === letter || String(char).toLowerCase() === letter
       )
 
       if (index !== -1) return totalKeys.push(index + 1)

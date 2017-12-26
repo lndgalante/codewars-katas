@@ -24,7 +24,7 @@
 
 // Long Solution
 function isIsogram(str) {
-  if (!str.length) return true
+  if (str.length === 0) return true
 
   const strLowerCase = str
     .split('')

@@ -34,11 +34,11 @@
 
 // Long Solution
 function countPositivesSumNegatives(input) {
-  if (!input || !input.length) return []
+  if (!input || input.length === 0) return []
 
   const positives = input
     .filter(num => Math.sign(num) === 1)
-    .reduce((a, b) => a + 1, 0)
+    .reduce(a => a + 1, 0)
 
   const negatives = input
     .filter(num => Math.sign(num) === -1)

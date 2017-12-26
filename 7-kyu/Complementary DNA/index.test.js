@@ -1,13 +1,13 @@
-const DNAStrand = require('./index.js')
+const dnaStrand = require('./index.js')
 
 test('Test 1', () => {
-  expect(DNAStrand('AAAA')).toBe('TTTT')
+  expect(dnaStrand('AAAA')).toBe('TTTT')
 })
 
 test('Test 2', () => {
-  expect(DNAStrand('ATTGC')).toBe('TAACG')
+  expect(dnaStrand('ATTGC')).toBe('TAACG')
 })
 
 test('Test 3', () => {
-  expect(DNAStrand('GTAT')).toBe('CATA')
+  expect(dnaStrand('GTAT')).toBe('CATA')
 })
