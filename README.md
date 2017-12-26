@@ -85,6 +85,8 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 * [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&xids=completed&beta=false&order_by=total_completed+desc)
 * [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&xids=completed&beta=false&order_by=total_completed+desc)
 
+By the end of 2018 I hope to have it almost all completed 🤞
+
 ## Miscellaneous
 
 * [Angelos Chalaris - 30 Seconds of Code](https://github.com/Chalarangelo/30-seconds-of-code)
