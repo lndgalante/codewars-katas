@@ -2,11 +2,10 @@
 
 > All my Codewars katas solutions with full test integration, tutorials and more!
 
-<img src="https://image.ibb.co/hGsWqG/katawarrior.png" alt="Kata Warrior" style="width: 336px;"/>
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 [![CodeWars](https://www.codewars.com/users/lndgalante/badges/large)](https://www.codewars.com/users/lndgalante "My Honor Badge")
-
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 ## Purpose
 
