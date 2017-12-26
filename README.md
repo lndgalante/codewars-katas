@@ -5,7 +5,7 @@
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-[![CodeWars](https://www.codewars.com/users/lndgalante/badges/large)](https://www.codewars.com/users/lndgalante "My Honor Badge")
+[![CodeWars](https://www.codewars.com/users/lndgalante/badges/small)](https://www.codewars.com/users/lndgalante "My Honor Badge")
 
 ## Purpose
 
