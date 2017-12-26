@@ -47,4 +47,4 @@ function removeSmallest(numbers) {
 }
 
 // Function Export
-module.exports
+module.exports = removeSmallest
