@@ -66,8 +66,12 @@ If you want to test only a particular kyu rank run
   * [Breaking the Ice With Regular Expressions - CodeSchool](https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions)
 
 - ES6 / ES2015
+
   * [ES6 for Everyone - Wes Bos](https://es6.io)
   * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
+
+* Array Methods
+  * [Array Explorer](https://sdras.github.io/array-explorer)
 
 ## Personal Challenge
 
