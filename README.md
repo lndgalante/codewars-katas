@@ -31,11 +31,12 @@ Each kata has inside two `.js` files
 
 > There is a `boilerplate.js` at the root folder to create these files
 
-## Dependencies
+## Development Dependencies
 
 * [Lodash](https://github.com/lodash/lodash) and [Ramda](https://github.com/ramda/ramda) for using some utility
 * [Prettier](https://github.com/prettier/prettier) for code-formatting
 * [Husky](https://github.com/typicode/husky) for pre-commit hook
+* [Types](https://www.npmjs.com/package/@types/jest) for types definitions
 * [XO](https://github.com/sindresorhus/xo) for code-linting
 * [Jest](https://github.com/facebook/jest) for testing
 
