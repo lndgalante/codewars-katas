@@ -10,11 +10,26 @@ Doing lot of katas could help you to improve your algorithmic thinking. Also cou
 
 ## Repo structure
 
-There's a folder for each rank (kyu) with katas (algorithms) having also each one it's own folder.
-Each kata has inside two `.js` files
+There's a folder for each kyu (rank) with a folder per kata (algorithm)
+
+* 8-kyu
+
+  * Mr. Freeze
+  * ...
+
+* 7-kyu
+  * Binary Addition
+  * ...
+* 6-kyu
+  * Bit Counting
+  * ...
+* 5-kyu
+  * Break camelCase
+  * ...
+
+Each kata folder has inside two files
 
 * `index.js`
-
   * Title\*
   * Description\*
   * Examples
@@ -29,21 +44,13 @@ Each kata has inside two `.js` files
 - `index.test.js`
   * With one or more test cases
 
-> There is a `boilerplate.js` at the root folder to create these files
+## Create a new Kata
 
-## Development Dependencies
+To generate a new `index.js` and `index.test.js` run
 
-* [Lodash](https://github.com/lodash/lodash) and [Ramda](https://github.com/ramda/ramda) for using some utility
-* [Prettier](https://github.com/prettier/prettier) for code-formatting
-* [Husky](https://github.com/typicode/husky) for pre-commit hook
-* [Types](https://www.npmjs.com/package/@types/jest) for types definitions
-* [XO](https://github.com/sindresorhus/xo) for code-linting
-* [Jest](https://github.com/facebook/jest) for testing
+`> ./new.sh [kata-name]`
 
-I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that runs over the last Node.js version.
-If you are using Quokka Pro you have this helpful feature called [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133)
-
-## Testing
+## Test your might
 
 If you want to test all katas run
 
@@ -56,6 +63,18 @@ If you want to test only a particular kyu rank run
 ```bash
  yarn test 6-kyu
 ```
+
+## Development Dependencies
+
+* [Lodash](https://github.com/lodash/lodash) and [Ramda](https://github.com/ramda/ramda) for using some utility
+* [Prettier](https://github.com/prettier/prettier) for code-formatting
+* [Husky](https://github.com/typicode/husky) for pre-commit hook
+* [Types](https://www.npmjs.com/package/@types/jest) for types definitions
+* [XO](https://github.com/sindresorhus/xo) for code-linting
+* [Jest](https://github.com/facebook/jest) for testing
+
+I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that runs over the last Node.js version.
+If you are using Quokka Pro you have this helpful feature called [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133)
 
 ## Learning resources
 
