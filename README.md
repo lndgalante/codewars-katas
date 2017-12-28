@@ -52,16 +52,16 @@ To generate a new `index.js` and `index.test.js` run
 
 ## Test your might
 
-If you want to test all katas run
+If you want to test in watch mode all katas run
 
 ```bash
- yarn test
+ yarn test-watch
 ```
 
 If you want to test only a particular kyu rank run
 
 ```bash
- yarn test 6-kyu
+ yarn test-watch -- 6-kyu
 ```
 
 ## Development Dependencies
@@ -134,6 +134,6 @@ By the end of 2018 I hope to have it almost all completed 🤞
 
 [![CodeWars](https://www.codewars.com/users/lndgalante/badges/small)](https://www.codewars.com/users/lndgalante "My Honor Badge")
 
-## Licencia
+## License
 
 MIT © **[`Leonardo Galante`](https://leonardogalante.com)**

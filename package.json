@@ -23,17 +23,14 @@
   "scripts": {
     "lint": "xo",
     "test": "jest",
-    "test 8-kyu": "jest --watchAll /8-kyu",
-    "test 7-kyu": "jest --watchAll /7-kyu",
-    "test 6-kyu": "jest --watchAll /6-kyu",
-    "test 5-kyu": "jest --watchAll /5-kyu",
+    "test-watch": "jest --watchAll",
     "precommit": "npm run lint && npm run test"
   },
   "xo": {
     "esnext": true,
     "extends": ["prettier", "plugin:jest/recommended"],
+    "ignores": ["./boilerplate.js", "./boilerplate.test.js"]
   },
-  "eslintIgnore": ["boilerplate.js", "boilerplate.test.js"],
   "jest": {
     "testPathIgnorePatterns": ["./boilerplate.js", "./boilerplate.test.js"]
   }
