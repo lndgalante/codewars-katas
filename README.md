@@ -71,7 +71,10 @@ If you want to test only a particular kyu rank run
   * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
 
 * Array Methods
-  * [Array Explorer](https://sdras.github.io/array-explorer)
+  * [Array Explorer - Sarah Drasner](https://sdras.github.io/array-explorer)
+
+- Good Practices
+  * [Clean Code JavaScript - Ryan McDermott](https://github.com/ryanmcdermott/clean-code-javascript)
 
 ## Personal Challenge
 
