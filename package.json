@@ -8,15 +8,15 @@
     "url": "https://leonardogalante.com"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
-    "ramda": "^0.25.0"
+    "ramda": "^0.25.0",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "xo": "^0.18.2",
     "jest": "^22.0.4",
     "husky": "^0.14.3",
     "prettier": "^1.8.2",
-    "@types/jest": "^21.1.9",
+    "@types/jest": "^21.1.10",
     "eslint-plugin-jest": "^21.5.0",
     "eslint-config-prettier": "^2.9.0"
   },
@@ -30,7 +30,11 @@
     "precommit": "npm run lint && npm run test"
   },
   "xo": {
+    "esnext": true,
     "extends": ["prettier", "plugin:jest/recommended"],
-    "esnext": true
+  },
+  "eslintIgnore": ["boilerplate.js", "boilerplate.test.js"],
+  "jest": {
+    "testPathIgnorePatterns": ["./boilerplate.js", "./boilerplate.test.js"]
   }
 }
