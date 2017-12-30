@@ -1,4 +1,4 @@
-# codewars-katas
+# Codewars Katas
 
 > All my Codewars katas solutions with full test integration, tutorials and more!
 
@@ -7,6 +7,10 @@
 ## Purpose
 
 Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
+
+## Main Goal
+
+By the end of 2018 I hope to have it almost all katas completed 🤞
 
 ## Repo structure
 
@@ -111,12 +115,13 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 * [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&xids=completed&beta=false&order_by=total_completed+desc)
 * [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&xids=completed&beta=false&order_by=total_completed+desc)
 
-By the end of 2018 I hope to have it almost all completed 🤞
-
 ## Miscellaneous
 
+* [Performing Code Katas](https://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
+* [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
 * [Angelos Chalaris - 30 Seconds of Code](https://github.com/Chalarangelo/30-seconds-of-code)
 * [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
+* [A collection of kata from Pragmatic Programmers](http://codekata.pragprog.co)
 * [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
 
 ## Similar Plattforms
