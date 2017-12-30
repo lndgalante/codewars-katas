@@ -37,8 +37,8 @@ do
             ;;
         "6 Kyu")
             mkdir 6-kyu/"$KATA"
-            cp boilerplate.js 5-kyu/"$KATA"/index.js
-            cp boilerplate.test.js 5-kyu/"$KATA"/index.test.js
+            cp boilerplate.js 6-kyu/"$KATA"/index.js
+            cp boilerplate.test.js 6-kyu/"$KATA"/index.test.js
             break
             ;;
         "7 Kyu")
