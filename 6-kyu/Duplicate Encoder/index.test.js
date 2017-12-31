@@ -9,7 +9,7 @@ test('Test 2', () => {
 })
 
 test('Test 3', () => {
-  expect(duplicateEncode('Success')).toBe('(())())')
+  expect(duplicateEncode('Success')).toBe(')())())')
 })
 
 test('Test 4', () => {

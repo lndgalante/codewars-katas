@@ -36,6 +36,7 @@
 */
 
 // Long Solution
+/*
 function duplicateEncode(word) {
   const wordSplitted = word.split('')
   const repeated = wordSplitted
@@ -43,7 +44,10 @@ function duplicateEncode(word) {
       const wordArr = word.split('')
       wordArr.splice(index, 1)
 
-      const repeats = wordArr.reduce((a, b) => (b === char ? a + 1 : a), 0)
+      const repeats = wordArr.reduce(
+        (a, b) => (b.toLowerCase() === char.toLowerCase() ? a + 1 : a),
+        0
+      )
 
       return {
         char,
@@ -55,6 +59,18 @@ function duplicateEncode(word) {
 
   return repeated
 }
+*/
+
+// Short Solution
+const duplicateEncode = word =>
+  word
+    .toLowerCase()
+    .split('')
+    .map(
+      (char, _, array) =>
+        array.indexOf(char) === array.lastIndexOf(char) ? '(' : ')'
+    )
+    .join('')
 
 // Function Export
 module.exports = duplicateEncode

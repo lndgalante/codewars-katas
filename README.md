@@ -8,6 +8,10 @@
 
 Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
 
+## Pair Programming
+
+Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee ☕️
+
 ## Main Goal
 
 By the end of 2018 I hope to have it almost all katas completed 🤞
