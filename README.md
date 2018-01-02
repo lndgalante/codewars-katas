@@ -10,7 +10,7 @@ Doing lot of katas could help you to improve your algorithmic thinking. Also cou
 
 ## Pair Programming
 
-Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee ☕️
+Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee
 
 ## Main Goal
 
@@ -97,8 +97,9 @@ If you are using Quokka Pro you have this helpful feature called [Live Comments]
   * [ES6 for Everyone - Wes Bos](https://es6.io)
   * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
 
-* Array Methods
+* Array/Object Methods
   * [Array Explorer - Sarah Drasner](https://sdras.github.io/array-explorer)
+  * [Object Explorer - Sarah Drasner](https://sdras.github.io/object-explorer)
 
 - Good Practices
   * [Clean Code JavaScript - Ryan McDermott](https://github.com/ryanmcdermott/clean-code-javascript)
@@ -127,6 +128,7 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 * [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
 * [A collection of kata from Pragmatic Programmers](http://codekata.pragprog.co)
 * [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
+* [Algos Explained - YouTube Channel](https://www.youtube.com/channel/UCwsRKWt23kxOL1Fb73i0uUg/videos)
 
 ## Similar Plattforms
 
