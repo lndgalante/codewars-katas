@@ -94,6 +94,7 @@ If you are using Quokka Pro you have this helpful feature called [Live Comments]
 
 - ES6 / ES2015
 
+  * [ES6 Katas - TDDbin](http://es6katas.org)
   * [ES6 for Everyone - Wes Bos](https://es6.io)
   * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
 
