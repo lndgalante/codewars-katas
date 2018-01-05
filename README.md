@@ -122,13 +122,14 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 
 ## Miscellaneous
 
-* [Performing Code Katas](https://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
+* [Computer Science in JavaScript - Nicholas C. Zakas](https://github.com/nzakas/computer-science-in-javascript)
+* [30 Seconds of Code - Angelos Chalaris](https://github.com/Chalarangelo/30-seconds-of-code)
+* [Algos Explained - YouTube Channel](https://www.youtube.com/channel/UCwsRKWt23kxOL1Fb73i0uUg/videos)
+* [Performing Code Katas - Micah Martin](https://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
 * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
-* [Angelos Chalaris - 30 Seconds of Code](https://github.com/Chalarangelo/30-seconds-of-code)
 * [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
 * [A collection of kata from Pragmatic Programmers](http://codekata.pragprog.co)
 * [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
-* [Algos Explained - YouTube Channel](https://www.youtube.com/channel/UCwsRKWt23kxOL1Fb73i0uUg/videos)
 
 ## Similar Plattforms
 
