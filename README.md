@@ -10,13 +10,13 @@ Doing lot of katas could help you to improve your algorithmic thinking. Also cou
 
 ## Pair Programming
 
-Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee
+Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee.
 
 ## Main Goal
 
-By the end of 2018 I hope to have it almost all katas completed 🤞
+By the end of 2018 I hope to have almost all katas completed 🤞
 
-## Repo structure
+## Repository Structure
 
 There's a folder for each kyu (rank) with a folder per kata (algorithm)
 
@@ -58,7 +58,7 @@ To generate a new `index.js` and `index.test.js` run
 
 `> ./new.sh [kata-name]`
 
-## Test your might
+## Test your Might
 
 If you want to test in watch mode all katas run
 
@@ -84,7 +84,7 @@ If you want to test only a particular kyu rank run
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that runs over the last Node.js version.
 If you are using Quokka Pro you have this helpful feature called [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133)
 
-## Learning resources
+## Learning Resources
 
 * Regular Expressions / Regex
   * [Awesome Regex](https://github.com/aloisdg/awesome-regex)
@@ -121,10 +121,11 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 * [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&xids=completed&beta=false&order_by=total_completed+desc)
 * [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&xids=completed&beta=false&order_by=total_completed+desc)
 
-## Miscellaneous
+## More Helpful Resources
 
 * [Computer Science in JavaScript - Nicholas C. Zakas](https://github.com/nzakas/computer-science-in-javascript)
 * [30 Seconds of Code - Angelos Chalaris](https://github.com/Chalarangelo/30-seconds-of-code)
+* [Gitter Chatroom - Codewars Official](https://gitter.im/Codewars/codewars.com)
 * [Algos Explained - YouTube Channel](https://www.youtube.com/channel/UCwsRKWt23kxOL1Fb73i0uUg/videos)
 * [Performing Code Katas - Micah Martin](https://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
 * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
