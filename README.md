@@ -10,7 +10,7 @@ Doing lot of katas could help you to improve your algorithmic thinking. Also cou
 
 ## Pair Programming
 
-Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee.
+Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue or send me an email and let's get together at some coffee.
 
 ## Main Goal
 
@@ -69,7 +69,7 @@ If you want to test in watch mode all katas run
 If you want to test only a particular kyu rank run
 
 ```bash
- yarn test-watch -- 6-kyu
+ yarn test-watch -- /6-kyu
 ```
 
 ## Development Dependencies
@@ -146,7 +146,7 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 
 ## Badge
 
-[![CodeWars](https://www.codewars.com/users/lndgalante/badges/small)](https://www.codewars.com/users/lndgalante "My Honor Badge")
+[![CodeWars](https://www.codewars.com/users/lndgalante/badges/small)](https://www.codewars.com/users/lndgalante 'My Honor Badge')
 
 ## License
 

@@ -31,7 +31,4 @@ String.prototype.fromBase64 = function() {
 }
 
 // Function Export
-module.exports = {
-  toBase64: String.prototype.toBase64,
-  fromBase64: String.prototype.fromBase64,
-}
+module.exports = String
