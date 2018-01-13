@@ -31,7 +31,7 @@
 */
 
 // Long Solution
-const morseDictionary = {
+const MORSE_CODE = {
   '.-': 'A',
   '-...': 'B',
   '-.-.': 'C',
@@ -58,18 +58,25 @@ const morseDictionary = {
   '-..-': 'X',
   '-.--': 'Y',
   '--..': 'Z',
-  '-.-.--': '!',
-  '.-.-.-': '.',
+  '-----': '0',
+  '.----': '1',
+  '..---': '2',
+  '...--': '3',
+  '....-': '4',
+  '.....': '5',
+  '-....': '6',
+  '--...': '7',
+  '---..': '8',
+  '----.': '9',
 }
 
-function decodeMorse(morseCode) {
-  return morseCode
-    .split('   ')
-    .map(word => word.split(' ').map(char => morseDictionary[char]))
-    .map(word => word.join(''))
-    .join(' ')
+const decodeMorse = morseCode =>
+  morseCode
     .trim()
-}
+    .split(' ')
+    .map(a => MORSE_CODE[a] || ' ')
+    .join('')
+    .replace(/\s+/g, ' ')
 
 // Function Export
 module.exports = decodeMorse

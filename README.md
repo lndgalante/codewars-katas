@@ -4,6 +4,19 @@
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
+## What is a kata?
+
+A kata basically is an algorithm you have to solve in any prgramming language you desire.
+
+## What's kyu?
+
+Kyu digit determines kata's difficulty level as well as user's rank on a website.
+
+* 1 kyu, 2 kyu - Proficient
+* 3 kyu, 4 kyu - Competent
+* 5 kyu, 6 kyu - Novice
+* 7 kyu, 8 kyu - Beginner
+
 ## Purpose
 
 Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
@@ -14,7 +27,7 @@ Doing pair-programming is a great exercise to learn from others as well as pract
 
 ## Main Goal
 
-By the end of 2018 I hope to have almost all katas completed 🤞
+By the end of 2018 I hope to have almost all katas from 8 to 5 kyu 🤞
 
 ## Repository Structure
 
