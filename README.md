@@ -27,7 +27,8 @@ Doing pair-programming is a great exercise to learn from others as well as pract
 
 ## Main Goal
 
-By the end of 2018 I hope to have almost all katas from 8 to 5 kyu 🤞
+By the end of 2018 I hope to have almost all katas from 8 to 5 kyu.
+You can check out my progress [here](https://codewars-progress.now.sh) were it shows `katas done / total katas`.
 
 ## Repository Structure
 
