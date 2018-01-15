@@ -134,6 +134,23 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 * [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&xids=completed&beta=false&order_by=total_completed+desc)
 * [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&xids=completed&beta=false&order_by=total_completed+desc)
 
+## Tips
+
+1. Katas has `tags` that could help you in advance to know what to use.
+   For example you could solve this kata using regular expressions.
+
+   ![Codewars tags](https://image.ibb.co/ekxm96/www_codewars_com_kata_search_my_languages_q_r_7_xids_completed_beta_false_order_by_total_completed_desc.png)
+
+2. Katas could have some issues that goes beyond your implementation. If you're stuck check the `Issues`.
+   Just click where it says `1 Issue Reported` above the `Instructions`.
+
+   ![Codewars issues](https://image.ibb.co/b65pU6/www_codewars_com_kata_sort_the_gift_code_train_javascript.png)
+
+3. Finally check the `discussions` in case the Instructions aren't really clear.
+   Click on the `Discuss` button under the `Sample Tests`.
+
+   ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
+
 ## More Helpful Resources
 
 * [Computer Science in JavaScript - Nicholas C. Zakas](https://github.com/nzakas/computer-science-in-javascript)

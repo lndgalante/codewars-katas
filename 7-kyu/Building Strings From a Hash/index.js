@@ -15,7 +15,6 @@
     solution({a: 1, b: '2'})
       // should return "a = 1,b = 2"
 
-
   Kata Link:
     https://www.codewars.com/kata/building-strings-from-a-hash
 
@@ -27,6 +26,7 @@
 */
 
 // Long Solution
+/*
 function solution(pairs) {
   const result = []
 
@@ -36,24 +36,29 @@ function solution(pairs) {
 
   return result.join()
 }
+*/
 
 // Short solution 1
-/*
-const solution = pairs =>
-  Object.keys(pairs)
+// The result variable is defined cause an issue with the kata
+let result = ''
+
+const solution = pairs => {
+  result = Object.keys(pairs)
     .map(key => `${key} = ${pairs[key]}`)
-    .join() *
-    /
+    .join()
+
+  return result
+}
 
 // Short Solution 2
+// It works but this kata has no support for Node 8.1.3
+
 /*
 const solution = pairs =>
 Object.entries(pairs)
 .map(entry => entry.join(' = '))
 .join(',')
 */
-
-// It works but this kata has no support for Node 8.1.3
 
 // Function Export
 module.exports = solution
