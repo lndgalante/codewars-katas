@@ -17,6 +17,13 @@ Kyu digit determines kata's difficulty level as well as user's rank on a website
 * 5 kyu, 6 kyu - Novice
 * 7 kyu, 8 kyu - Beginner
 
+## Node.js ES6+ Support
+
+The current Node versions [available](https://github.com/Codewars/codewars.com/wiki/Language-JavaScript) are the following:
+
+* [Node.js v6.11.0](https://kangax.github.io/compat-table/es6/#node6_5)
+* [Node.js v8.1.3](https://kangax.github.io/compat-table/es6/#node8_7)
+
 ## Purpose
 
 Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
