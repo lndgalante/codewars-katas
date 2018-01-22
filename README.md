@@ -158,6 +158,8 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 
    ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
 
+4. After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one.
+
 ## More Helpful Resources
 
 * [Computer Science in JavaScript - Nicholas C. Zakas](https://github.com/nzakas/computer-science-in-javascript)

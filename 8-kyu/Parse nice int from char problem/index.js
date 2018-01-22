@@ -20,9 +20,11 @@
 */
 
 // Long Solution
-/* function getAge(inputString) {
+/*
+function getAge(inputString) {
   return parseInt(inputString.match(/\d/).join(''))
-} */
+}
+*/
 
 // Short Solution
 const getAge = inputString => Number(inputString.match(/\d/)[0])
