@@ -41,11 +41,12 @@
 */
 
 // Long Solution
+/*
 function sumPairs(ints, s) {
   let limit = ints.length
   let result
 
-  for (let i = 0; i < limit; i++) {
+  for (let i = 1; i < limit; i++) {
     for (let j = i + 1; j < limit; j++) {
       if (ints[i] + ints[j] === s) {
         result = [ints[i], ints[j]]
@@ -55,6 +56,22 @@ function sumPairs(ints, s) {
   }
 
   return result
+}
+*/
+
+// Short Solution
+function sumPairs(ints, s) {
+  let lastNumber
+
+  for (let i = 0; i < ints.length; i++) {
+    if (lastNumber && lastNumber === ints[i]) continue
+    lastNumber = ints[i]
+
+    const sliced = ints.slice(0, i)
+    const sumIndex = sliced.indexOf(s - ints[i])
+
+    if (sumIndex !== -1) return [sliced[sumIndex], ints[i]]
+  }
 }
 
 // Function Export
