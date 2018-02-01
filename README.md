@@ -30,7 +30,7 @@ Doing lot of katas could help you to improve your algorithmic thinking. Also cou
 
 ## Pair Programming
 
-Doing pair-programming is a great exercise to learn from others as well as practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue or send me an email and let's get together at some coffee.
+Doing pair-programming is a great exercise to learn from others as well to practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee.
 
 ## Main Goal
 
@@ -48,33 +48,27 @@ There's a folder for each kyu (rank) with a folder per kata (algorithm)
 * 7-kyu
   * Binary Addition
   * ...
-* 6-kyu
-  * Bit Counting
-  * ...
-* 5-kyu
-  * Break camelCase
-  * ...
 
 Each kata folder has inside two files
 
 * `index.js`
-  * Title\*
-  * Description\*
+  * Title
+  * Description
   * Examples
   * Notes
-  * Kata Link\*
-  * Discuss Link\*
-  * Solutions Link\*
-  * Long Solution\*
+  * Kata Link
+  * Discuss Link
+  * Solutions Link
+  * Long Solution
   * Short Solution
-  * Function Exports\*
+  * Function Exports
 
 - `index.test.js`
   * With one or more test cases
 
 ## Create a new Kata
 
-To generate a new `index.js` and `index.test.js` run
+To generate a new folder with a `index.js` and `index.test.js` run
 
 `> ./new.sh [kata-name]`
 
@@ -127,14 +121,14 @@ If you are using Quokka Pro you have this helpful feature called [Live Comments]
 
 ## Personal Challenge
 
-Try to solve 5 katas a day from kyu 8 to 5, sorted by most completed and filtered by no completed
+Try to solve all katas from 8 kyu first then go to the next kyu until 5 kyu.
 
-* [8 kyu - 322 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
-* [7 kyu - 1298 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
-* [6 kyu - 1262 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-6&xids=completed&beta=false&order_by=total_completed+desc)
-* [5 kyu - 480 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-5&xids=completed&beta=false&order_by=total_completed+desc)
+* [8 kyu - 349 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
+* [7 kyu - 1461 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
+* [6 kyu - 1490 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-6&xids=completed&beta=false&order_by=total_completed+desc)
+* [5 kyu - 603 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-5&xids=completed&beta=false&order_by=total_completed+desc)
 
-I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas with kyu 8 to 5.
+I'll begin to do katas with kyu 4 to 1 when I finish all katas from above.
 
 * [4 kyu - 169 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-4&xids=completed&beta=false&order_by=total_completed+desc)
 * [3 kyu - 60 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-3&xids=completed&beta=false&order_by=total_completed+desc)
@@ -169,6 +163,7 @@ I'll begin to do katas with kyu 4 to 1 when having lots of experience with katas
 * [Performing Code Katas - Micah Martin](https://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
 * [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
 * [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
+* [Awesome Katas - A curated list of code katas](https://github.com/gamontal/awesome-katas)
 * [A collection of kata from Pragmatic Programmers](http://codekata.pragprog.co)
 * [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
 
