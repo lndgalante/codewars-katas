@@ -8,7 +8,7 @@
     "url": "https://leonardogalante.com"
   },
   "dependencies": {
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.5",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
