@@ -1,0 +1,6 @@
+const NameMe = require('./index.js')
+
+test('Test 1', () => {
+  const n = new NameMe('John', 'Doe')
+  expect(n.name).toBe('John Doe')
+})
