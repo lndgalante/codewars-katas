@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/jest": "^22.1.2",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-jest": "^21.9.0",
+    "eslint-plugin-jest": "^21.12.1",
     "husky": "^0.14.3",
     "jest": "^22.2.2",
     "prettier": "^1.10.2",
@@ -23,7 +23,7 @@
   "scripts": {
     "lint": "xo",
     "test": "jest",
-    "test-watch": "jest --watchAll",
+    "test:watch": "jest --watchAll",
     "precommit": "npm run lint && npm run test"
   },
   "xo": {
