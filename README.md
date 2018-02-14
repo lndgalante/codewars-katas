@@ -156,6 +156,7 @@ I'll begin to do katas with kyu 4 to 1 when I finish all katas from above.
 
 ## More Helpful Resources
 
+* [JavaScript CheatSheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/javascript.js)
 * [Computer Science in JavaScript - Nicholas C. Zakas](https://github.com/nzakas/computer-science-in-javascript)
 * [30 Seconds of Code - Angelos Chalaris](https://github.com/Chalarangelo/30-seconds-of-code)
 * [Gitter Chatroom - Codewars Official](https://gitter.im/Codewars/codewars.com)
