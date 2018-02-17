@@ -23,7 +23,7 @@
   "scripts": {
     "lint": "xo",
     "test": "jest",
-    "test:watch": "jest --watchAll",
+    "test-watch": "jest --watchAll",
     "precommit": "npm run lint && npm run test"
   },
   "xo": {
