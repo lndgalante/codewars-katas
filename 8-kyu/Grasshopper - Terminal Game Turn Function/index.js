@@ -31,6 +31,14 @@
     https://www.codewars.com/kata/grasshopper-terminal-game-turn-function/solutions
 */
 
+// These functions are already defined in CodeWars
+const rollDice = () => 'rollDice'
+const move = () => 'move'
+const combat = () => 'combat'
+const getCoins = () => 'getCoins'
+const buyHealth = () => 'buyHealth'
+const printStatus = () => 'printStatus'
+
 // Long Solution
 const doTurn = () => {
   rollDice()
@@ -40,14 +48,6 @@ const doTurn = () => {
   buyHealth()
   printStatus()
 }
-
-// These functions are already defined in CodeWars
-const rollDice = () => 'rollDice'
-const move = () => 'move'
-const combat = () => 'combat'
-const getCoins = () => 'getCoins'
-const buyHealth = () => 'buyHealth'
-const printStatus = () => 'printStatus'
 
 // Function Export
 module.exports = doTurn

@@ -1,5 +1,8 @@
+/* eslint no-undef: 0 */
+
 /*
   Title:
+    Classy Extensions
 
   Description:
     Classy Extensions, this kata is mainly aimed at the new JS ES6 Update introducing class extends You will be preloaded with the Animal class, so you should only edit the Cat class.
