@@ -25,12 +25,12 @@
 */
 
 // Long Solution
-let v1 = 50
-let v2 = 100
-let v3 = 150
-let v4 = 200
-let v5 = 2
-let v6 = 250
+const v1 = 50
+const v2 = 100
+const v3 = 150
+const v4 = 200
+const v5 = 2
+const v6 = 250
 
 const equal1 = () => v1 + v1
 const equal2 = () => v4 - v2

@@ -1,16 +1,4 @@
-const {
-  v1,
-  v2,
-  v3,
-  v4,
-  v5,
-  v6,
-  equal1,
-  equal2,
-  equal3,
-  equal4,
-  equal5,
-} = require('./index.js')
+const { equal1, equal2, equal3, equal4, equal5 } = require('./index.js')
 
 test('Test 1', () => {
   expect(equal1()).toBe(100)

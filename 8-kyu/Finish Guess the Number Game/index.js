@@ -28,14 +28,11 @@ class Guesser {
   }
 
   guess(n) {
-    if (!this.lives) throw Error('You have no more life')
+    if (!this.lives) throw new Error('You have no more life')
+    if (n === this.number) return true
 
-    if (n === this.number) {
-      return true
-    } else {
-      this.lives--
-      return false
-    }
+    this.lives--
+    return false
   }
 }
 
