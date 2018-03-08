@@ -137,25 +137,27 @@ I'll begin to do katas with kyu 4 to 1 when I finish all katas from above.
 
 ## Tips
 
-1. Katas has `tags` that could help you in advance to know what to use.
-   For example you could solve this kata using regular expressions.
+1.  Katas has `tags` that could help you in advance to know what to use.
+    For example you could solve this kata using regular expressions.
 
-   ![Codewars tags](https://image.ibb.co/ekxm96/www_codewars_com_kata_search_my_languages_q_r_7_xids_completed_beta_false_order_by_total_completed_desc.png)
+    ![Codewars tags](https://image.ibb.co/ekxm96/www_codewars_com_kata_search_my_languages_q_r_7_xids_completed_beta_false_order_by_total_completed_desc.png)
 
-2. Katas could have some issues that goes beyond your implementation. If you're stuck check the `Issues`.
-   Just click where it says `1 Issue Reported` above the `Instructions`.
+2.  Katas could have some issues that goes beyond your implementation. If you're stuck check the `Issues`.
+    Just click where it says `1 Issue Reported` above the `Instructions`.
 
-   ![Codewars issues](https://image.ibb.co/b65pU6/www_codewars_com_kata_sort_the_gift_code_train_javascript.png)
+    ![Codewars issues](https://image.ibb.co/b65pU6/www_codewars_com_kata_sort_the_gift_code_train_javascript.png)
 
-3. Finally check the `discussions` in case the Instructions aren't really clear.
-   Click on the `Discuss` button under the `Sample Tests`.
+3.  Finally check the `discussions` in case the Instructions aren't really clear.
+    Click on the `Discuss` button under the `Sample Tests`.
 
-   ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
+    ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
 
-4. After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a alternative solution of your own.
+4.  After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a alternative solution of your own.
 
 ## More Helpful Resources
 
+* [Jeffrey Shen - RegEx Snippets](https://github.com/jeffreyshen19/RegEx-Snippets)
+* [Zeeshan Ahmad - Learn RegEx](https://github.com/zeeshanu/learn-regex)
 * [DevHints Cheatsheets - JavaScript Arrays Cheatsheet](https://devhints.io/js-array)
 * [Awesome Cheatsheets - JavaScript Cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/javascript.js)
 * [Computer Science in JavaScript - Nicholas C. Zakas](https://github.com/nzakas/computer-science-in-javascript)
