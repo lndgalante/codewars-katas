@@ -31,7 +31,7 @@ const stringy = size =>
   Array.from(Array(size), (el, i) => (i % 2 === 0 ? 1 : 0)).join('')
   */
 
-// Alternative Solution
+// Short Solution
 const stringy = size =>
   [...Array(size)].map((el, i) => (i % 2 === 0 ? 1 : 0)).join('')
 

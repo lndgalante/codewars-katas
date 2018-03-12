@@ -30,7 +30,7 @@
 // Long Solution
 // const monkeyCount = n => Array.from({ length: n }, (_, i) => i + 1)
 
-// Alternative Solution
+// Short Solution
 const monkeyCount = n => [...Array(n)].map((_, i) => i + 1)
 
 // Function Export

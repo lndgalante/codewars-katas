@@ -42,7 +42,7 @@
   return Math.trunc(zeros)
 } */
 
-// Alternative Solution
+// Short Solution
 const zeros = n => {
   let zeros = 0
 

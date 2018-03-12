@@ -47,7 +47,7 @@ const calculator = (a, b, sign) => {
 }
 */
 
-// Alternative Solution
+// Short Solution
 const calculator = (a, b, sign) => {
   try {
     return eval(`${a} ${sign} ${b}`)

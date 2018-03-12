@@ -26,7 +26,7 @@
 // Long Solution
 // const shortenToDate = longDate => longDate.split(',')[0]
 
-// Alternative Solution
+// Short Solution
 const shortenToDate = longDate => longDate.replace(/,.+$/, '')
 
 // Function Export

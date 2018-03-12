@@ -33,7 +33,7 @@ const chromosomeCheck = sperm =>
   }.`
 */
 
-// Alternative Solution
+// Short Solution
 const chromosomeCheck = sperm =>
   `Congratulations! You're going to have a ${
     sperm === 'XY' ? 'son' : 'daughter'

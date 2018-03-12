@@ -53,7 +53,7 @@ const f = n =>
     : Array.from(Array(n + 1), (_, i) => i).reduce((total, num) => total + num)
 */
 
-// Alternative Solution
+// Short Solution
 const f = n => (Number.isInteger(n) && n > 0 ? n * (n + 1) / 2 : false)
 
 // Function Export

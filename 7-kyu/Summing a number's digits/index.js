@@ -35,7 +35,7 @@ const sumDigits = number =>
     .reduce((total, value) => total + Number(value), 0)
 */
 
-// Alternative Solution
+// Short Solution
 const sumDigits = n =>
   Math.abs(n)
     .toString()

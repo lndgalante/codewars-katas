@@ -20,7 +20,7 @@
 // Long Solution
 // const validateCode = code => /^[123]/g.test(code)
 
-// Alternative Solution
+// Short Solution
 const validateCode = code => /^[1-3]/g.test(code)
 
 // Function Export

@@ -152,7 +152,9 @@ I'll begin to do katas with kyu 4 to 1 when I finish all katas from above.
 
     ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
 
-4.  After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a alternative solution of your own.
+4.  After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a Short Solution of your own.
+
+5.  If you check my solutions the "Long Solution" maybe is longer than the "Short Solution" but is more readable.
 
 ## More Helpful Resources
 

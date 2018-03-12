@@ -32,7 +32,7 @@
 // Long Solution
 // const nthEven = n => n * 2 - 2
 
-// Alternative Solution
+// Short Solution
 const nthEven = n => (n - 1) * 2
 
 // Function Export
