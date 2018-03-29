@@ -20,7 +20,8 @@
 */
 
 // Long Solution
-const generateLink = user => encodeURI(`http://www.codewars.com/users/${user}`)
+const generateLink = user =>
+  `http://www.codewars.com/users/${encodeURIComponent(user)}`
 
 // Function Export
 module.exports = generateLink
