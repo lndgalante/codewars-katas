@@ -29,7 +29,7 @@
   "xo": {
     "esnext": true,
     "extends": ["prettier", "plugin:jest/recommended"],
-    "ignores": ["boilerplate.js", "boilerplate.test.js"]
+    "ignores": ["utils/boilerplate.js", "utils/boilerplate.test.js"]
   },
   "prettier": {
     "semi": false,

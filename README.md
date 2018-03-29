@@ -12,12 +12,20 @@ A kata basically is an algorithm you have to solve in any prgramming language yo
 
 Kyu digit determines kata's difficulty level as well as user's rank on a website.
 
-* 1 kyu, 2 kyu - Proficient
-* 3 kyu, 4 kyu - Competent
-* 5 kyu, 6 kyu - Novice
-* 7 kyu, 8 kyu - Beginner
+| Rank         |      Kyu      |
+| ------------ | :-----------: |
+| `Proficient` | 1 kyu - 2 kyu |
+| `Competent`  | 3 kyu - 4 kyu |
+| `Novice`     | 5 kyu - 6 kyu |
+| `Beginner`   | 7 kyu - 8 kyu |
 
-## Node.js ES6+ Support
+## Global Index
+
+This index will show you all katas ordered alphabetically with a link to the kata folder.
+
+* [8 Kyu](https://github.com/lndgalante/codewars-katas/tree/master/8-kyu/index.md)
+
+## Node.js versions & ES6+ support
 
 The current Node versions [available](https://github.com/Codewars/codewars.com/wiki/Language-JavaScript) are the following:
 
@@ -52,19 +60,7 @@ There's a folder for each kyu (rank) with a folder per kata (algorithm)
 Each kata folder has inside two files
 
 * `index.js`
-  * Title
-  * Description
-  * Examples
-  * Notes
-  * Kata Link
-  * Discuss Link
-  * Solutions Link
-  * Long Solution
-  * Short Solution
-  * Function Exports
-
-- `index.test.js`
-  * With one or more test cases
+* `index.test.js`
 
 ## Create a new Kata
 
@@ -83,7 +79,7 @@ If you want to test in watch mode all katas run
 If you want to test only a particular kyu rank run
 
 ```bash
- yarn test-watch -- /6-kyu
+ yarn test-watch -- 6-kyu
 ```
 
 ## Development Dependencies
@@ -123,17 +119,17 @@ If you are using Quokka Pro you have this helpful feature called [Live Comments]
 
 Try to solve all katas from 8 kyu first then go to the next kyu until 5 kyu.
 
-* [8 kyu - 349 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
-* [7 kyu - 1461 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
-* [6 kyu - 1490 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-6&xids=completed&beta=false&order_by=total_completed+desc)
-* [5 kyu - 603 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-5&xids=completed&beta=false&order_by=total_completed+desc)
+* [x] [8 kyu - 349 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [7 kyu - 1461 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [6 kyu - 1490 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-6&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [5 kyu - 603 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-5&xids=completed&beta=false&order_by=total_completed+desc)
 
-I'll begin to do katas with kyu 4 to 1 when I finish all katas from above.
+I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 
-* [4 kyu - 169 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-4&xids=completed&beta=false&order_by=total_completed+desc)
-* [3 kyu - 60 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-3&xids=completed&beta=false&order_by=total_completed+desc)
-* [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&xids=completed&beta=false&order_by=total_completed+desc)
-* [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [4 kyu - 169 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-4&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [3 kyu - 60 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-3&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [2 kyu - 29 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-2&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [1 kyu - 15 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-1&xids=completed&beta=false&order_by=total_completed+desc)
 
 ## Tips
 
