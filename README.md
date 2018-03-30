@@ -12,12 +12,12 @@ A kata basically is an algorithm you have to solve in any prgramming language yo
 
 Kyu digit determines kata's difficulty level as well as user's rank on a website.
 
-| Rank         |      Kyu      |
-| ------------ | :-----------: |
-| `Proficient` | 1 kyu - 2 kyu |
-| `Competent`  | 3 kyu - 4 kyu |
-| `Novice`     | 5 kyu - 6 kyu |
-| `Beginner`   | 7 kyu - 8 kyu |
+| Rank       |      Kyu      |
+| ---------- | :-----------: |
+| Proficient | 1 kyu - 2 kyu |
+| Competent  | 3 kyu - 4 kyu |
+| Novice     | 5 kyu - 6 kyu |
+| Beginner   | 7 kyu - 8 kyu |
 
 ## Global Index
 
@@ -168,6 +168,7 @@ I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 * [Awesome Katas - A curated list of code katas](https://github.com/gamontal/awesome-katas)
 * [A collection of kata from Pragmatic Programmers](http://codekata.pragprog.co)
 * [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
+* [Algorithms - Algorithms solved in many languages](https://github.com/marcosfede/algorithms)
 
 ## Similar Plattforms
 
