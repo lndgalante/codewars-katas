@@ -6,7 +6,7 @@
 
 ## What is a kata?
 
-A kata basically is an algorithm you have to solve in any prgramming language you desire.
+A kata basically is an algorithm you have to solve in any programming language you desire.
 
 ## What's kyu?
 
