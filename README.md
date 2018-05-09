@@ -119,8 +119,8 @@ If you are using Quokka Pro you have this helpful feature called [Live Comments]
 
 Try to solve all katas from 8 kyu first then go to the next kyu until 5 kyu.
 
-* [x] [8 kyu - 349 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
-* [ ] [7 kyu - 1461 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
+* [x] [8 kyu - 361 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
+* [ ] [7 kyu - 1463 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)
 * [ ] [6 kyu - 1490 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-6&xids=completed&beta=false&order_by=total_completed+desc)
 * [ ] [5 kyu - 603 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-5&xids=completed&beta=false&order_by=total_completed+desc)
 
