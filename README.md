@@ -36,10 +36,6 @@ The current Node versions [available](https://github.com/Codewars/codewars.com/w
 
 Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
 
-## Pair Programming
-
-Doing pair-programming is a great exercise to learn from others as well to practice communicational skills. So if you are around Buenos Aires and want to do some katas just hit me up with an issue and let's get together at some coffee.
-
 ## Main Goal
 
 By the end of 2018 I hope to have almost all katas from 8 to 5 kyu. Check out my [progress](https://codewars-progress.now.sh).
@@ -79,7 +75,7 @@ If you want to test in watch mode all katas run
 If you want to test only a particular kyu rank run
 
 ```bash
- yarn test-watch -- 6-kyu
+ yarn test-watch 6-kyu
 ```
 
 ## Development Dependencies
