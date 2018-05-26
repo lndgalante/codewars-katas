@@ -29,7 +29,7 @@ The current Node versions [available](https://github.com/Codewars/codewars.com/w
 ## Purpose
 
 Practicing katas could help you to improve your algorithmic thinking. It could also helps going to interviews more confident.
-I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
+I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which help you ace your next technical interview.
 
 ## Repository Structure
 
@@ -38,16 +38,13 @@ There's a folder for each kyu (rank) with a folder per kata (algorithm)
 * 8-kyu
 
   * Mr. Freeze
-  * ...
+    * index.js
+    * index.test.js
 
 * 7-kyu
   * Binary Addition
-  * ...
-
-Each kata folder has inside two files
-
-* `index.js`
-* `index.test.js`
+    * index.js
+    * index.test.js
 
 ## Create a new Kata
 
@@ -79,8 +76,8 @@ If you want to test only a particular kyu rank run
 
 ## Development Dependencies
 
-* Code Formatting and Linting: [Prettier](https://github.com/prettier/prettier) & [XO](https://github.com/sindresorhus/xo)
-* Utilities: [Lodash](https://github.com/lodash/lodash) & [Ramda](https://github.com/ramda/ramda)
+* Code Formatting and Linting: [Prettier](https://github.com/prettier/prettier) and [XO](https://github.com/sindresorhus/xo)
+* Utilities: [Lodash](https://github.com/lodash/lodash) and [Ramda](https://github.com/ramda/ramda)
 * Pre-commit hook: [Husky](https://github.com/typicode/husky)
 * Types definitions: [Types](https://www.npmjs.com/package/@types)
 * Testing: [Jest](https://github.com/facebook/jest)
