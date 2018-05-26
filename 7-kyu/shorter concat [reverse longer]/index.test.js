@@ -1,13 +1,13 @@
-const shorter_reverse_longer = require('.')
+const shorterReverseLonger = require('.')
 
 test('Test 1', () => {
-  expect(shorter_reverse_longer('first', 'abcde')).toBe('abcdetsrifabcde')
+  expect(shorterReverseLonger('first', 'abcde')).toBe('abcdetsrifabcde')
 })
 
 test('Test 2', () => {
-  expect(shorter_reverse_longer('hello', 'bau')).toBe('bauollehbau')
+  expect(shorterReverseLonger('hello', 'bau')).toBe('bauollehbau')
 })
 
 test('Test 3', () => {
-  expect(shorter_reverse_longer('abcde', 'fghi')).toBe('fghiedcbafghi')
+  expect(shorterReverseLonger('abcde', 'fghi')).toBe('fghiedcbafghi')
 })

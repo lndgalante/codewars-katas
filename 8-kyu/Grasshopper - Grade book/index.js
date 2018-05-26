@@ -31,9 +31,9 @@ function getGrade(...grades) {
     grades.reduce((total, grade) => total + grade, 0) / grades.length
 
   if (score <= 100 && score >= 90) return 'A'
-  else if (score < 90 && score >= 80) return 'B'
-  else if (score < 80 && score >= 70) return 'C'
-  else if (score < 70 && score >= 60) return 'D'
+  if (score < 90 && score >= 80) return 'B'
+  if (score < 80 && score >= 70) return 'C'
+  if (score < 70 && score >= 60) return 'D'
   return 'F'
 }
 

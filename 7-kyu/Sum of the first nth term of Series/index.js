@@ -43,7 +43,7 @@ function seriesSum(n) {
 
 // Short Solution
 const seriesSum = n =>
-  Array(n)
+  new Array(n)
     .fill(0)
     .map((_, i) => 3 * i + 1)
     .reduce((total, next) => total + 1 / next, 0)

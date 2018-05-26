@@ -1,3 +1,6 @@
+/* eslint no-prototype-builtins: 0 */
+/* eslint max-depth: 0 */
+
 /*
   Title:
     Pete, the baker
@@ -32,14 +35,20 @@ function cakes(recipe, available) {
   const quantity = []
 
   for (const keyRecipe in recipe) {
-    if (recipe[keyRecipe] === 0) {
-      quantity.push(0)
-      continue
-    }
+    if (recipe.hasOwnProperty(keyRecipe)) {
+      if (recipe[keyRecipe] === 0) {
+        quantity.push(0)
+        continue
+      }
 
-    for (const keyAvailable in available) {
-      if (keyRecipe === keyAvailable)
-        quantity.push(Math.floor(available[keyAvailable] / recipe[keyRecipe]))
+      for (const keyAvailable in available) {
+        if (available.hasOwnProperty(keyAvailable)) {
+          if (keyRecipe === keyAvailable)
+            quantity.push(
+              Math.floor(available[keyAvailable] / recipe[keyRecipe])
+            )
+        }
+      }
     }
   }
 

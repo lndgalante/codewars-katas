@@ -49,7 +49,7 @@ const multiTable = number => {
 
 // Short Solution
 const multiTable = number =>
-  [...Array(10)]
+  [...new Array(10)]
     .map((_, i) => `${i + 1} * ${number} = ${(i + 1) * number}`)
     .join('\n')
 

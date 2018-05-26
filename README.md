@@ -2,7 +2,7 @@
 
 > 🥋 Codewars katas repository with solutions, test integration, tips and tutorials
 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![dependencies](https://david-dm.org/lndgalante/codewars-katas.svg)](https://david-dm.org/lndgalante/codewars-katas.svg) [![code style: prettier](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)
 
 ## What is a kata?
 
@@ -35,10 +35,6 @@ The current Node versions [available](https://github.com/Codewars/codewars.com/w
 ## Purpose
 
 Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
-
-## Main Goal
-
-By the end of 2018 I hope to have almost all katas from 8 to 5 kyu. Check out my [progress](https://codewars-progress.now.sh).
 
 ## Repository Structure
 
@@ -113,7 +109,7 @@ If you are using Quokka Pro you have this helpful feature called [Live Comments]
 
 ## Personal Challenge
 
-Try to solve all katas from 8 kyu first then go to the next kyu until 5 kyu.
+Try to solve all katas from 8 kyu first then go to the next kyu until 5 kyu. Check out progress [here](https://codewars-progress.now.sh).
 
 * [x] [8 kyu - 361 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-8&xids=completed&beta=false&order_by=total_completed+desc)
 * [ ] [7 kyu - 1463 total](https://www.codewars.com/kata/search/my-languages?q=&r%5B%5D=-7&xids=completed&beta=false&order_by=total_completed+desc)

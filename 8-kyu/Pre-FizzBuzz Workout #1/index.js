@@ -26,7 +26,7 @@
 // const preFizz = n => Array.from(Array(n), (_, i) => i + 1)
 
 // Short Solution
-const preFizz = n => [...Array(n)].map((_, i) => i + 1)
+const preFizz = n => [...new Array(n)].map((_, i) => i + 1)
 
 // Function Export
 module.exports = preFizz

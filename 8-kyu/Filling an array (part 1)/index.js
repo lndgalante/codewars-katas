@@ -27,7 +27,7 @@ const arr = N => (N ? Array.from(Array(N), (_, index) => index) : [])
 */
 
 // Short Solution
-const arr = n => (n ? [...Array(n).keys()] : [])
+const arr = n => (n ? [...new Array(n).keys()] : [])
 
 // Function Export
 module.exports = arr

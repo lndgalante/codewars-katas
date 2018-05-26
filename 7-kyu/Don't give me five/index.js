@@ -26,7 +26,7 @@
 
 // Long Solution
 const dontGiveMeFive = (start, end) =>
-  Array(end - start + 1)
+  new Array(end - start + 1)
     .fill(start)
     .map((num, i) => (i === 0 ? num : num + i))
     .filter(num => !String(num).includes('5')).length

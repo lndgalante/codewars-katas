@@ -26,7 +26,7 @@ function zeroFill(number, size) {
   const numberPositive = Math.abs(number).toString()
   const difference = size - numberPositive.length
 
-  return [...Array(difference).fill(0), numberPositive].join('')
+  return [...new Array(difference).fill(0), numberPositive].join('')
 }
 
 // Function Export

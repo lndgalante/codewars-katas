@@ -81,11 +81,11 @@ function score(dice) {
 
   const totalPoints = result
     .map(die => {
-      if (die.repetitions > 3) {
+      if (die.repetitions > 3)
         return die.triplePoints + die.singlePoints * die.repetitions
-      } else if (die.repetitions === 3) {
-        return die.triplePoints
-      }
+
+      if (die.repetitions === 3) return die.triplePoints
+
       return die.singlePoints * die.repetitions
     })
     .reduce((total, value) => total + value, 0)

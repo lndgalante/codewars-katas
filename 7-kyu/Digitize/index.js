@@ -1,3 +1,5 @@
+/* eslint unicorn/prefer-spread: 0 */
+
 /*
   Title:
     Digitize

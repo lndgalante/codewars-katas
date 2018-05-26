@@ -1,3 +1,5 @@
+/* eslint unicorn/prefer-spread: 0 */
+
 /*
   Title:
     Unfinished Loop - Bug Fixing #1
@@ -30,7 +32,7 @@ function createArray(number) {
 */
 
 // Short Solution
-const createArray = n => Array(...Array(n)).map((_, i) => i + 1)
+const createArray = n => Array.from({ length: n }, (_, i) => i + 1)
 
 // Function Export
 module.exports = createArray

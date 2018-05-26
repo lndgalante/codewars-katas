@@ -1,3 +1,5 @@
+/* eslint unicorn/prefer-spread: 0 */
+
 /*
   Title:
     Sum of numbers from 0 to N
@@ -49,7 +51,7 @@ class SequenceSum {
     if (count === 0) return '0=0'
     if (count < 0) return `${count}<0`
 
-    const numberRange = Array.from(Array(count + 1), (_, index) => index)
+    const numberRange = Array.from({ length: count + 1 }, (_, index) => index)
 
     const summatoryString = numberRange.join('+')
     const total = numberRange.reduce((total, value) => total + value, 0)

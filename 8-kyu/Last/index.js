@@ -1,4 +1,5 @@
 /* eslint no-unused-vars: 0 */
+/* eslint prefer-rest-params: 0 */
 
 /*
   Title:

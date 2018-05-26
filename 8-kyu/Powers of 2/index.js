@@ -1,3 +1,5 @@
+/* eslint unicorn/prefer-spread: 0 */
+
 /*
   Title:
     Powers of 2
@@ -23,7 +25,7 @@
 */
 
 // Long Solution
-const powersOfTwo = n => Array.from(Array(n + 1), (_, i) => 2 ** i)
+const powersOfTwo = n => Array.from({ length: n + 1 }, (_, i) => 2 ** i)
 
 // Function Export
 module.exports = powersOfTwo

@@ -1,3 +1,5 @@
+/* eslint unicorn/prefer-spread: 0 */
+
 /*
   Title:
     Reversed sequence
@@ -19,7 +21,7 @@
 */
 
 // Long Solution
-const reverseSeq = n => Array.from(Array(n), (_, i) => n - i)
+const reverseSeq = n => Array.from({ length: n }, (_, i) => n - i)
 
 // Function Export
 module.exports = reverseSeq

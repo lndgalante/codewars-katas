@@ -8,6 +8,6 @@ test('Test 2', () => {
   expect(spam(6)).toBe('huehuehuehuehuehue')
 })
 
-test('Test 1', () => {
+test('Test 3', () => {
   expect(spam(14)).toBe('huehuehuehuehuehuehuehuehuehuehuehuehuehue')
 })

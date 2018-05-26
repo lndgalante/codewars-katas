@@ -27,8 +27,8 @@ const reverse = string =>
     .reverse()
     .join('')
 
-const shorter_reverse_longer = (a, b) =>
+const shorterReverseLonger = (a, b) =>
   a.length < b.length ? `${a}${reverse(b)}${a}` : `${b}${reverse(a)}${b}`
 
 // Function Export
-module.exports = shorter_reverse_longer
+module.exports = shorterReverseLonger

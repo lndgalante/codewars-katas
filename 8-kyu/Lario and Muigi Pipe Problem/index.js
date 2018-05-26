@@ -1,3 +1,5 @@
+/* eslint unicorn/prefer-spread: 0 */
+
 /*
   Title:
     Lario and Muigi Pipe Problem
@@ -28,7 +30,7 @@
 // Long Solution
 const pipeFix = numbers =>
   Array.from(
-    Array(numbers[numbers.length - 1] - numbers[0] + 1),
+    { length: numbers[numbers.length - 1] - numbers[0] + 1 },
     (_, i) => numbers[0] + i
   )
 

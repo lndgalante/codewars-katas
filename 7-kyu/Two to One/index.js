@@ -23,11 +23,7 @@ function longest(s1, s2) {
   const a = s1.split('')
   const b = s2.split('')
 
-  const result = Array.from(new Set([...a, ...b]))
-    .sort()
-    .join('')
-
-  return result
+  return [...new Set([...a, ...b])].sort().join('')
 }
 
 // Function Export

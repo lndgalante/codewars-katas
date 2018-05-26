@@ -1,3 +1,5 @@
+/* eslint unicorn/prefer-spread: 0 */
+
 /*
   Title:
     SequenceSum
@@ -57,7 +59,7 @@
 const sumOfN = n => {
   const sign = n < 0 ? -1 : 1
 
-  return Array.from(Array(Math.abs(n))).reduce(
+  return Array.from({ length: Math.abs(n) }).reduce(
     (result, value, index) => [...result, result[index] + (index + 1) * sign],
     [0]
   )
