@@ -158,6 +158,7 @@ I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 * [Awesome Katas - A curated list of code katas](https://github.com/gamontal/awesome-katas)
 * [Federico Marcos - Algorithms solved in many languages](https://github.com/marcosfede/algorithms)
 * [Oleksii Trekhleb - JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
+* [JS MythBusters - A JavaScript optimization handbook](https://mythbusters.js.org)
 
 ## Similar Plattforms
 
