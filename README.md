@@ -4,7 +4,7 @@
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![dependencies](https://david-dm.org/lndgalante/codewars-katas.svg)](https://david-dm.org/lndgalante/codewars-katas.svg) [![code style: prettier](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)
 
-## What is a kata?
+## What's a kata?
 
 A kata basically is an algorithm you have to solve in any programming language you desire.
 
