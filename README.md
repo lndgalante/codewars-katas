@@ -10,20 +10,14 @@ A kata basically is an algorithm you have to solve in any programming language y
 
 ## What's kyu?
 
-Kyu digit determines kata's difficulty level as well as user's rank on a website.
-
-| Rank       |      Kyu      |
-| ---------- | :-----------: |
-| Proficient | 1 kyu - 2 kyu |
-| Competent  | 3 kyu - 4 kyu |
-| Novice     | 5 kyu - 6 kyu |
-| Beginner   | 7 kyu - 8 kyu |
+Kyu digit determines kata difficulty level as well as the user rank on the platform.
 
 ## Global Index
 
-This index will show you all katas ordered alphabetically with a link to the kata folder.
+This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
 * [8 Kyu](https://github.com/lndgalante/codewars-katas/tree/master/8-kyu/index.md)
+* 7 Kyu will be generated when all are finished
 
 ## Node.js versions & ES6+ support
 
@@ -34,7 +28,8 @@ The current Node versions [available](https://github.com/Codewars/codewars.com/w
 
 ## Purpose
 
-Doing lot of katas could help you to improve your algorithmic thinking. Also could help you to go with more confidence to interviews. I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
+Practicing katas could help you to improve your algorithmic thinking. It could also helps going to interviews more confident.
+I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which is a carefully curated content to help you ace your next technical interview.
 
 ## Repository Structure
 
@@ -58,37 +53,44 @@ Each kata folder has inside two files
 
 To generate a new folder with a `index.js` and `index.test.js` run
 
-`> ./new.sh [kata-name]`
+```bash
+> ./new.sh "kata-name"
+```
+
+For example
+
+```bash
+> ./new.sh "Area of a Square"
+```
 
 ## Test your Might
 
 If you want to test in watch mode all katas run
 
 ```bash
- yarn test-watch
+>  yarn test-watch
 ```
 
 If you want to test only a particular kyu rank run
 
 ```bash
- yarn test-watch 6-kyu
+> yarn test-watch 6-kyu
 ```
 
 ## Development Dependencies
 
-* [Lodash](https://github.com/lodash/lodash) and [Ramda](https://github.com/ramda/ramda) for using some utility
-* [Prettier](https://github.com/prettier/prettier) for code-formatting
-* [Husky](https://github.com/typicode/husky) for pre-commit hook
-* [Types](https://www.npmjs.com/package/@types/jest) for types definitions
-* [XO](https://github.com/sindresorhus/xo) for code-linting
-* [Jest](https://github.com/facebook/jest) for testing
+* Code Formatting and Linting: [Prettier](https://github.com/prettier/prettier) & [XO](https://github.com/sindresorhus/xo)
+* Utilities: [Lodash](https://github.com/lodash/lodash) & [Ramda](https://github.com/ramda/ramda)
+* Pre-commit hook: [Husky](https://github.com/typicode/husky)
+* Types definitions: [Types](https://www.npmjs.com/package/@types)
+* Testing: [Jest](https://github.com/facebook/jest)
 
-I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping that runs over the last Node.js version.
-If you are using Quokka Pro you have this helpful feature called [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133)
+I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping.
+Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133).
 
 ## Learning Resources
 
-* Regular Expressions / Regex
+* Regular Expressions / RegEx
   * [Awesome Regex](https://github.com/aloisdg/awesome-regex)
   * [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html)
   * [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction)
@@ -100,7 +102,7 @@ If you are using Quokka Pro you have this helpful feature called [Live Comments]
   * [ES6 for Everyone - Wes Bos](https://es6.io)
   * [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
 
-* Array/Object Methods
+* Array & Objects
   * [Array Explorer - Sarah Drasner](https://sdras.github.io/array-explorer)
   * [Object Explorer - Sarah Drasner](https://sdras.github.io/object-explorer)
 
@@ -130,7 +132,7 @@ I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 
     ![Codewars tags](https://image.ibb.co/ekxm96/www_codewars_com_kata_search_my_languages_q_r_7_xids_completed_beta_false_order_by_total_completed_desc.png)
 
-2.  Katas could have some issues that goes beyond your implementation. If you're stuck check the `Issues`.
+2)  Katas could have some issues that goes beyond your implementation. If you're stuck check the `Issues`.
     Just click where it says `1 Issue Reported` above the `Instructions`.
 
     ![Codewars issues](https://image.ibb.co/b65pU6/www_codewars_com_kata_sort_the_gift_code_train_javascript.png)
@@ -140,7 +142,7 @@ I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 
     ![Codewars issues](https://image.ibb.co/j6okmm/www_codewars_com_kata_sort_the_gift_code_train_javascript_1.png)
 
-4.  After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a Short Solution of your own.
+4)  After you submit your final solution check the Solutions to learn from other alternatives. If you don't understand them you can leave a comment or check the discussions of each one. Try to learn from these solutions and improve your current one or create a Short Solution of your own.
 
 5.  If you check my solutions the "Long Solution" maybe is longer than the "Short Solution" but is more readable.
 
@@ -150,17 +152,12 @@ I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 * [Zeeshan Ahmad - Learn RegEx](https://github.com/zeeshanu/learn-regex)
 * [DevHints Cheatsheets - JavaScript Arrays Cheatsheet](https://devhints.io/js-array)
 * [Awesome Cheatsheets - JavaScript Cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/javascript.js)
-* [Computer Science in JavaScript - Nicholas C. Zakas](https://github.com/nzakas/computer-science-in-javascript)
-* [30 Seconds of Code - Angelos Chalaris](https://github.com/Chalarangelo/30-seconds-of-code)
+* [Angelos Chalaris - 30 Seconds of Code](https://github.com/Chalarangelo/30-seconds-of-code)
 * [Gitter Chatroom - Codewars Official](https://gitter.im/Codewars/codewars.com)
 * [Algos Explained - YouTube Channel](https://www.youtube.com/channel/UCwsRKWt23kxOL1Fb73i0uUg/videos)
-* [Performing Code Katas - Micah Martin](https://8thlight.com/blog/micah-martin/2013/05/28/performing-code-katas.html)
-* [Manifesto for Software Craftsmanship](http://manifesto.softwarecraftsmanship.org)
-* [Awesome Codewars - Codewars Best Practices](https://github.com/dwqs/awesome-codewars/blob/master/summary.md)
 * [Awesome Katas - A curated list of code katas](https://github.com/gamontal/awesome-katas)
-* [A collection of kata from Pragmatic Programmers](http://codekata.pragprog.co)
-* [Codewars CLI - A missing command line client for Codewars API](https://github.com/shime/codewars)
-* [Algorithms - Algorithms solved in many languages](https://github.com/marcosfede/algorithms)
+* [Federico Marcos - Algorithms solved in many languages](https://github.com/marcosfede/algorithms)
+* [Oleksii Trekhleb - JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 
 ## Similar Plattforms
 
