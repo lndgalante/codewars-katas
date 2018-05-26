@@ -1,4 +1,4 @@
-const sumPairs = require('./index.js')
+const sumPairs = require('.')
 
 test('Test 1', () => {
   expect(sumPairs([1, 4, 8, 7, 3, 15], 8)).toEqual([1, 7])

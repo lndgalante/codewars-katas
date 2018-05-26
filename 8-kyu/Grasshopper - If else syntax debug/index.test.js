@@ -1,4 +1,4 @@
-const checkAlive = require('./index.js')
+const checkAlive = require('.')
 
 test('Test 1', () => {
   expect(checkAlive(5)).toBeTruthy()

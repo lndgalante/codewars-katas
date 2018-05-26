@@ -1,4 +1,4 @@
-const always = require('./index.js')
+const always = require('.')
 
 test('Test 1', () => {
   expect(always(3)()).toBe(3)

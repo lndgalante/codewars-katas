@@ -1,4 +1,4 @@
-const main = require('./index.js')
+const main = require('.')
 
 test('Test 1', () => {
   expect(main('take ', 'item')).toBe('take item')

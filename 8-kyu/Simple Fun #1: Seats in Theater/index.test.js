@@ -1,4 +1,4 @@
-const seatsInTheater = require('./index.js')
+const seatsInTheater = require('.')
 
 test('Test 1', () => {
   expect(seatsInTheater(16, 11, 5, 3)).toBe(96)

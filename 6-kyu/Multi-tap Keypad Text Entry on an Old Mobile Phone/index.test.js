@@ -1,4 +1,4 @@
-const presses = require('./index.js')
+const presses = require('.')
 
 test('Test 1', () => {
   expect(presses('LOL')).toBe(9)

@@ -1,4 +1,4 @@
-const caffeineBuzz = require('./index.js')
+const caffeineBuzz = require('.')
 
 test('Test 1', () => {
   expect(caffeineBuzz(1)).toBe('mocha_missing!')

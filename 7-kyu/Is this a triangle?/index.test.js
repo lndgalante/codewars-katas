@@ -1,4 +1,4 @@
-const isTriangle = require('./index.js')
+const isTriangle = require('.')
 
 test('Test 1', () => {
   expect(isTriangle(1, 2, 2)).toBeTruthy()

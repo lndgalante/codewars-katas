@@ -1,4 +1,4 @@
-const removeSmallest = require('./index.js')
+const removeSmallest = require('.')
 
 test('Test 1', () => {
   expect(removeSmallest([1, 2, 3, 4, 5])).toEqual([2, 3, 4, 5])

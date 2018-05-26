@@ -1,4 +1,4 @@
-const cannonsReady = require('./index.js')
+const cannonsReady = require('.')
 
 test('Test 1', () => {
   expect(

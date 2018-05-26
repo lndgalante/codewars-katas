@@ -1,4 +1,4 @@
-const Ball = require('./index.js')
+const Ball = require('.')
 
 test('Test 1', () => {
   expect(new Ball().ballType).toBe('regular')

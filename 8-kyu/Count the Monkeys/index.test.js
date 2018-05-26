@@ -1,4 +1,4 @@
-const monkeyCount = require('./index.js')
+const monkeyCount = require('.')
 
 test('Test 1', () => {
   expect(monkeyCount(5)).toEqual([1, 2, 3, 4, 5])

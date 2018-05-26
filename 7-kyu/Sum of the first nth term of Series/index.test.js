@@ -1,4 +1,4 @@
-const seriesSum = require('./index.js')
+const seriesSum = require('.')
 
 test('Test 1', () => {
   expect(seriesSum(1)).toBe('1.00')

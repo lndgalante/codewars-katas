@@ -1,4 +1,4 @@
-const superSize = require('./index.js')
+const superSize = require('.')
 
 test('Test 1', () => {
   expect(superSize(69)).toBe(96)

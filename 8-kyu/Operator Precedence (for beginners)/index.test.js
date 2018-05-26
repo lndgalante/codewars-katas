@@ -1,4 +1,4 @@
-const fahrenheitToCelsius = require('./index.js')
+const fahrenheitToCelsius = require('.')
 
 test('Test 1', () => {
   expect(fahrenheitToCelsius(50)).toBe(10)

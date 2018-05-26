@@ -1,4 +1,4 @@
-const fiveLine = require('./index.js')
+const fiveLine = require('.')
 
 test('Test 1', () => {
   expect(fiveLine('  a')).toBe('a\naa\naaa\naaaa\naaaaa')

@@ -2,7 +2,7 @@
 /* eslint no-extend-native: 0 */
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 
-const toAlternatingCase = require('./index.js')
+const toAlternatingCase = require('.')
 
 test('Test 1', () => {
   expect('hello world'.toAlternatingCase()).toBe('HELLO WORLD')

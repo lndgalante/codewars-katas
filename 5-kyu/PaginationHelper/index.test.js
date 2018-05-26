@@ -1,4 +1,4 @@
-const PaginationHelper = require('./index.js')
+const PaginationHelper = require('.')
 
 const helper = new PaginationHelper(['a', 'b', 'c', 'd', 'e', 'f'], 4)
 

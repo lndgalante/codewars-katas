@@ -1,4 +1,4 @@
-const grabDoll = require('./index.js')
+const grabDoll = require('.')
 
 test('Test 1', () => {
   expect(grabDoll(['Mickey Mouse', 'Hello Kitty', 'Snow white'])).toEqual([

@@ -1,4 +1,4 @@
-const dnaToRna = require('./index.js')
+const dnaToRna = require('.')
 
 test('Test 1', () => {
   expect(dnaToRna('TTTT')).toBe('UUUU')

@@ -1,4 +1,4 @@
-const lowercaseCount = require('./index.js')
+const lowercaseCount = require('.')
 
 test('Test 1', () => {
   expect(lowercaseCount('abc')).toBe(3)

@@ -1,4 +1,4 @@
-const combat = require('./index.js')
+const combat = require('.')
 
 test('Test 1', () => {
   expect(combat(100, 5)).toBe(95)

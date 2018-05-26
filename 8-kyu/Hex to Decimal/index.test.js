@@ -1,4 +1,4 @@
-const hexToDec = require('./index.js')
+const hexToDec = require('.')
 
 test('Test 1', () => {
   expect(hexToDec('1')).toBe(1)

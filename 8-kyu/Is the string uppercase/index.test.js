@@ -2,7 +2,7 @@
 /* eslint no-extend-native: 0 */
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 
-const isUpperCase = require('./index.js')
+const isUpperCase = require('.')
 
 test('Test 1', () => {
   expect(''.isUpperCase()).toBeTruthy()

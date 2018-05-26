@@ -1,4 +1,4 @@
-const comp = require('./index.js')
+const comp = require('.')
 
 test('Test 1', () => {
   expect(

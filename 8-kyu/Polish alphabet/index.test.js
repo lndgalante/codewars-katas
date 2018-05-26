@@ -1,4 +1,4 @@
-const correctPolishLetters = require('./index.js')
+const correctPolishLetters = require('.')
 
 test('Test 1', () => {
   expect(correctPolishLetters('Jędrzej Błądziński')).toBe('Jedrzej Bladzinski')

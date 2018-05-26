@@ -1,4 +1,4 @@
-const divide = require('./index.js')
+const divide = require('.')
 
 test('Test 1', () => {
   expect(divide(2)).toBeFalsy()

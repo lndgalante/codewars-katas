@@ -1,4 +1,4 @@
-const sakuraFall = require('./index.js')
+const sakuraFall = require('.')
 
 test('Test 1', () => {
   expect(sakuraFall(5)).toBe(80)

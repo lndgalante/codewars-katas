@@ -1,4 +1,4 @@
-const pigIt = require('./index.js')
+const pigIt = require('.')
 
 test('Test 1', () => {
   expect(pigIt('Pig latin is cool')).toBe('igPay atinlay siay oolcay')

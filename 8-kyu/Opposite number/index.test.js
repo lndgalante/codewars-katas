@@ -1,4 +1,4 @@
-const opposite = require('./index.js')
+const opposite = require('.')
 
 test('Test 1', () => {
   expect(opposite(1)).toBe(-1)

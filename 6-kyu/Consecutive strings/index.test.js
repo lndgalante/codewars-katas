@@ -1,4 +1,4 @@
-const longestConsec = require('./index.js')
+const longestConsec = require('.')
 
 test('Test 1', () => {
   expect(

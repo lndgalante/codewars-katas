@@ -1,4 +1,4 @@
-const power = require('./index.js')
+const power = require('.')
 
 test('Test 1', () => {
   expect(power(1, 701270)).toBe(1)

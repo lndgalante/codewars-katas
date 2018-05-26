@@ -1,4 +1,4 @@
-const litres = require('./index.js')
+const litres = require('.')
 
 test('Test 1', () => {
   expect(litres(2)).toBe(1)

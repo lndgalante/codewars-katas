@@ -1,4 +1,4 @@
-const evenOrOdd = require('./index.js')
+const evenOrOdd = require('.')
 
 test('Test 1', () => {
   expect(evenOrOdd(2)).toBe('Even')

@@ -1,4 +1,4 @@
-const cookie = require('./index.js')
+const cookie = require('.')
 
 test('Test 1', () => {
   expect(cookie('Ryan')).toBe('Who ate the last cookie? It was Zach!')

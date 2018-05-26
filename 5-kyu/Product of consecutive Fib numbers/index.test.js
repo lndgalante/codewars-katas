@@ -1,4 +1,4 @@
-const productFib = require('./index.js')
+const productFib = require('.')
 
 test('Test 1', () => {
   expect(productFib(4895)).toEqual([55, 89, true])

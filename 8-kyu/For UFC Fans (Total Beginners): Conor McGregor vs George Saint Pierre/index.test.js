@@ -1,4 +1,4 @@
-const quote = require('./index.js')
+const quote = require('.')
 
 test('Test 1', () => {
   expect(quote('george saint pierre')).toBe(

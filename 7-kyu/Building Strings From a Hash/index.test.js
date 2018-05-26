@@ -1,4 +1,4 @@
-const solution = require('./index.js')
+const solution = require('.')
 
 test('Test 1', () => {
   expect(solution({ a: 1, b: '2' })).toBe('a = 1,b = 2')

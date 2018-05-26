@@ -1,4 +1,4 @@
-const sumTwoSmallestNumbers = require('./index.js')
+const sumTwoSmallestNumbers = require('.')
 
 test('Test  1', () => {
   expect(sumTwoSmallestNumbers([5, 8, 12, 19, 22])).toBe(13)

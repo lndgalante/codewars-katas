@@ -1,4 +1,4 @@
-const findMultiples = require('./index.js')
+const findMultiples = require('.')
 
 test('Test 1', () => {
   expect(findMultiples(5, 25)).toEqual([5, 10, 15, 20, 25])

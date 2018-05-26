@@ -1,4 +1,4 @@
-const splitAndMerge = require('./index.js')
+const splitAndMerge = require('.')
 
 test('Test 1', () => {
   expect(splitAndMerge('My name is John', ' ')).toBe('M y n a m e i s J o h n')

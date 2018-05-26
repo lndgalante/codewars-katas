@@ -1,4 +1,4 @@
-const reverseWords = require('./index.js')
+const reverseWords = require('.')
 
 test('Test 1', () => {
   expect(reverseWords('The quick brown fox jumps over the lazy dog.')).toBe(

@@ -1,4 +1,4 @@
-const validatePIN = require('./index.js')
+const validatePIN = require('.')
 
 test('Test 1', () => {
   expect(validatePIN('1')).toBeFalsy()

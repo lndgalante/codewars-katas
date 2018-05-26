@@ -1,4 +1,4 @@
-const getRealFloor = require('./index.js')
+const getRealFloor = require('.')
 
 test('Test 1', () => {
   expect(getRealFloor(1)).toBe(0)

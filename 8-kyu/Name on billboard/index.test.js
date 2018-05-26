@@ -1,4 +1,4 @@
-const billboard = require('./index.js')
+const billboard = require('.')
 
 test('Test 1', () => {
   expect(billboard('Jeong-Ho Aristotelis')).toBe(600)

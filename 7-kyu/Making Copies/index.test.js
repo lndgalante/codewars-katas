@@ -1,4 +1,4 @@
-const copyList = require('./index.js')
+const copyList = require('.')
 
 test('Test 1', () => {
   const t = [1, 2, 3, 4]

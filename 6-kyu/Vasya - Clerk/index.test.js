@@ -1,4 +1,4 @@
-const tickets = require('./index.js')
+const tickets = require('.')
 
 test('Test 1', () => {
   expect(tickets([25, 25, 50, 50])).toBe('YES')

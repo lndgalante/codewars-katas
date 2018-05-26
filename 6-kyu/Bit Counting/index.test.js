@@ -1,4 +1,4 @@
-const countBits = require('./index.js')
+const countBits = require('.')
 
 test('Test 1', () => {
   expect(countBits(0)).toBe(0)

@@ -1,4 +1,4 @@
-const getStatus = require('./index.js')
+const getStatus = require('.')
 
 test('Test 1', () => {
   expect(getStatus(true).status).toBe('busy')

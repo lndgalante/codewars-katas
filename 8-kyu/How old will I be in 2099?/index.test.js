@@ -1,4 +1,4 @@
-const calculateAge = require('./index.js')
+const calculateAge = require('.')
 
 test('Test 1', () => {
   expect(calculateAge(2012, 2016)).toBe('You are 4 years old.')

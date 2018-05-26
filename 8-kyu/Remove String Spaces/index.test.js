@@ -1,4 +1,4 @@
-const noSpace = require('./index.js')
+const noSpace = require('.')
 
 test('Test 1', () => {
   expect(noSpace('8 j 8   mBliB8g  imjB8B8  jl  B')).toBe(

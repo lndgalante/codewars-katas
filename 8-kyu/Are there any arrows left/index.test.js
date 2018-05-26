@@ -1,4 +1,4 @@
-const anyArrows = require('./index.js')
+const anyArrows = require('.')
 
 test('Test 1', () => {
   expect(anyArrows([])).toBeFalsy()

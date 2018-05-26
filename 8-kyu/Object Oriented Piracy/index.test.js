@@ -1,4 +1,4 @@
-const Ship = require('./index.js')
+const Ship = require('.')
 
 test('Test 1', () => {
   const emptyShip = new Ship(0, 0)

@@ -1,4 +1,4 @@
-const Math = require('./index.js')
+const Math = require('.')
 
 test('Test 1', () => {
   expect(Math.roundTo(3.1415926535, 4)).toBe(3.1416)

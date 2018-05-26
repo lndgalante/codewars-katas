@@ -1,4 +1,4 @@
-const uefaEuro2016 = require('./index.js')
+const uefaEuro2016 = require('.')
 
 test('Test 1', () => {
   expect(uefaEuro2016(['Germany', 'Ukraine'], [2, 0])).toBe(

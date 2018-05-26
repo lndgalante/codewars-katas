@@ -1,4 +1,4 @@
-const { God, Man, Woman } = require('./index.js')
+const { God, Man, Woman } = require('.')
 
 test('Test 1', () => {
   const humans = God.create()

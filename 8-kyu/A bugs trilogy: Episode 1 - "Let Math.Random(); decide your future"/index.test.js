@@ -1,4 +1,4 @@
-const yourFutureCareer = require('./index.js')
+const yourFutureCareer = require('.')
 
 test('Test 1', () => {
   expect(yourFutureCareer(0.3)).toBe('FrontEnd Developer')

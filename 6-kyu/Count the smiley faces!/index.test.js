@@ -1,4 +1,4 @@
-const countSmileys = require('./index.js')
+const countSmileys = require('.')
 
 test('Test 1', () => {
   expect(countSmileys([])).toBe(0)

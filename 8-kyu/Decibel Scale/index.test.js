@@ -1,4 +1,4 @@
-const dBScale = require('./index.js')
+const dBScale = require('.')
 
 test('Test 1', () => {
   const param = 10 ** -11

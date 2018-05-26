@@ -1,4 +1,4 @@
-const eqAll = require('./index.js')
+const eqAll = require('.')
 
 test('Test 1', () => {
   expect(eqAll('aaa')).toBeTruthy()

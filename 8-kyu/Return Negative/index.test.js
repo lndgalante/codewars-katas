@@ -1,4 +1,4 @@
-const makeNegative = require('./index.js')
+const makeNegative = require('.')
 
 test('Test 1', () => {
   expect(makeNegative(42)).toBe(-42)

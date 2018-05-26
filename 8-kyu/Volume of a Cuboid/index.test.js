@@ -1,4 +1,4 @@
-const Kata = require('./index.js')
+const Kata = require('.')
 
 test('Test 1', () => {
   expect(new Kata().getVolumeOfCuboid(1, 2, 2)).toBe(4)

@@ -1,4 +1,4 @@
-const preFizz = require('./index.js')
+const preFizz = require('.')
 
 test('Test 1', () => {
   expect(preFizz(1)).toEqual([1])

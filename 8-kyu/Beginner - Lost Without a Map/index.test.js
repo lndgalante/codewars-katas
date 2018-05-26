@@ -1,4 +1,4 @@
-const maps = require('./index.js')
+const maps = require('.')
 
 test('Test 1', () => {
   expect(maps([1, 2, 3])).toEqual([2, 4, 6])

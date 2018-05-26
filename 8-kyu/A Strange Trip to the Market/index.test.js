@@ -1,4 +1,4 @@
-const isLockNessMonster = require('./index.js')
+const isLockNessMonster = require('.')
 
 test('Test 1', () => {
   expect(

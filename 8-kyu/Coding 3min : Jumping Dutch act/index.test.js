@@ -1,4 +1,4 @@
-const sc = require('./index.js')
+const sc = require('.')
 
 test('Test 1', () => {
   expect(sc(2)).toBe('Aa~ Pa! Aa!')

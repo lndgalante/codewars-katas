@@ -1,4 +1,4 @@
-const sortByLength = require('./index.js')
+const sortByLength = require('.')
 
 test('Test 1', () => {
   expect(sortByLength(['Beg', 'Life', 'I', 'To'])).toEqual([

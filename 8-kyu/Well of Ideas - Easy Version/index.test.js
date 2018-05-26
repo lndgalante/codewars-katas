@@ -1,4 +1,4 @@
-const well = require('./index.js')
+const well = require('.')
 
 test('Test 1', () => {
   expect(well(['bad', 'bad', 'bad'])).toBe('Fail!')

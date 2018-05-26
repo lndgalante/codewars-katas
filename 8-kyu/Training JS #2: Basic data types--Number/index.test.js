@@ -1,4 +1,4 @@
-const { equal1, equal2, equal3, equal4, equal5 } = require('./index.js')
+const { equal1, equal2, equal3, equal4, equal5 } = require('.')
 
 test('Test 1', () => {
   expect(equal1()).toBe(100)

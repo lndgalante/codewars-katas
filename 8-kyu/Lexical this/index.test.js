@@ -1,6 +1,6 @@
 /* eslint new-cap: 0 */
 
-const Person = require('./index.js')
+const Person = require('.')
 
 const people = [
   ['bob', 'john'],

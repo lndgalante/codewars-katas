@@ -1,4 +1,4 @@
-const defineSuit = require('./index.js')
+const defineSuit = require('.')
 
 test('Test 1', () => {
   expect(defineSuit('3♣')).toBe('clubs')

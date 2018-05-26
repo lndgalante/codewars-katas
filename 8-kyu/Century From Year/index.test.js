@@ -1,4 +1,4 @@
-const century = require('./index.js')
+const century = require('.')
 
 test('Test 1', () => {
   expect(century(1705)).toBe(18)

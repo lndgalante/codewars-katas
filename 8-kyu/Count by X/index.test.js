@@ -1,4 +1,4 @@
-const countBy = require('./index.js')
+const countBy = require('.')
 
 test('Test 1', () => {
   expect(countBy(1, 5)).toEqual([1, 2, 3, 4, 5])

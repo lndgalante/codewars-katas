@@ -1,4 +1,4 @@
-const evil = require('./index.js')
+const evil = require('.')
 
 test('Test 1', () => {
   expect(evil(1)).toBe("It's Odious!")

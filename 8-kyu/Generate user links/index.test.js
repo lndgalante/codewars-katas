@@ -1,4 +1,4 @@
-const generateLink = require('./index.js')
+const generateLink = require('.')
 
 test('Test 1', () => {
   expect(generateLink('matt c')).toBe('http://www.codewars.com/users/matt%20c')

@@ -1,4 +1,4 @@
-const countSheeps = require('./index.js')
+const countSheeps = require('.')
 
 test('Test 1', () => {
   expect(

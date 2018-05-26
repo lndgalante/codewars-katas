@@ -1,4 +1,4 @@
-const validParentheses = require('./index.js')
+const validParentheses = require('.')
 
 test('Test 1', () => {
   expect(validParentheses('(')).toBeFalsy()

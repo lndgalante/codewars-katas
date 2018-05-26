@@ -1,4 +1,4 @@
-const findUniq = require('./index.js')
+const findUniq = require('.')
 
 test('Test 1', () => {
   expect(findUniq([1, 1, 1, 2, 1, 1])).toBe(2)

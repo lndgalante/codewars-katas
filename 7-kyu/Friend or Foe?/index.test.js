@@ -1,4 +1,4 @@
-const friend = require('./index.js')
+const friend = require('.')
 
 test('Test 1', () => {
   expect(friend(['Ryan', 'Kieran', 'Mark'])).toEqual(['Ryan', 'Mark'])

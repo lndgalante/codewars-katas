@@ -1,4 +1,4 @@
-const positiveSum = require('./index.js')
+const positiveSum = require('.')
 
 test('Test 1', () => {
   expect(positiveSum([1, 2, 3, 4, 5])).toBe(15)

@@ -1,4 +1,4 @@
-const createArray = require('./index.js')
+const createArray = require('.')
 
 test('Test 1', () => {
   expect(createArray(1)).toEqual([1])

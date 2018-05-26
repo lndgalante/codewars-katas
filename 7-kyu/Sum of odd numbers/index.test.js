@@ -1,4 +1,4 @@
-const rowSumOddNumbers = require('./index.js')
+const rowSumOddNumbers = require('.')
 
 test('Test 1', () => {
   expect(rowSumOddNumbers(1)).toBe(1)

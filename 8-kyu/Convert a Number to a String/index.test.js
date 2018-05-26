@@ -1,4 +1,4 @@
-const numberToString = require('./index.js')
+const numberToString = require('.')
 
 test('Test 1', () => {
   expect(numberToString(67)).toBe('67')

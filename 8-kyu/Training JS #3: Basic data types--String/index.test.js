@@ -1,4 +1,4 @@
-const { dad, bee, banana } = require('./index.js')
+const { dad, bee, banana } = require('.')
 
 test('Test 1', () => {
   expect(dad()).toBe('Dad')

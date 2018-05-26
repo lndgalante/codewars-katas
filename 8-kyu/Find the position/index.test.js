@@ -1,4 +1,4 @@
-const position = require('./index.js')
+const position = require('.')
 
 test('Test 1', () => {
   expect(position('a')).toBe('Position of alphabet: 1')

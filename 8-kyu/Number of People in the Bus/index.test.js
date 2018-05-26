@@ -1,4 +1,4 @@
-const number = require('./index.js')
+const number = require('.')
 
 test('Test 1', () => {
   expect(number([[10, 0], [3, 5], [5, 8]])).toBe(5)

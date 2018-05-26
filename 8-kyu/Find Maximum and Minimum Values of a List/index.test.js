@@ -1,4 +1,4 @@
-const { min, max } = require('./index.js')
+const { min, max } = require('.')
 
 test('Test 1', () => {
   expect(min([-52, 56, 30, 29, -54, 0, -110])).toBe(-110)

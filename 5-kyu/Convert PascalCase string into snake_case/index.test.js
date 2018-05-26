@@ -1,4 +1,4 @@
-const toUnderscore = require('./index.js')
+const toUnderscore = require('.')
 
 test('Test 1', () => {
   expect(toUnderscore('TestController')).toBe('test_controller')

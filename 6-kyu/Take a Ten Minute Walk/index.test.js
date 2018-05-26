@@ -1,4 +1,4 @@
-const isValidWalk = require('./index.js')
+const isValidWalk = require('.')
 
 test('Test 1', () => {
   expect(

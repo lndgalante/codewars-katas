@@ -1,4 +1,4 @@
-const countPositivesSumNegatives = require('./index.js')
+const countPositivesSumNegatives = require('.')
 
 test('Test 1', () => {
   expect(

@@ -1,4 +1,4 @@
-const exesAndOhs = require('./index.js')
+const exesAndOhs = require('.')
 
 test('Test 1', () => {
   expect(exesAndOhs('xo')).toBeTruthy()

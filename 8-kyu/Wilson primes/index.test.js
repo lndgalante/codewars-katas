@@ -1,4 +1,4 @@
-const amIWilson = require('./index.js')
+const amIWilson = require('.')
 
 test('Test 1', () => {
   expect(amIWilson(5)).toBeTruthy()

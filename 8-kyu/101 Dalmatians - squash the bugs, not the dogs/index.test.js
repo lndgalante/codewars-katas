@@ -1,4 +1,4 @@
-const howManyDalmatians = require('./index.js')
+const howManyDalmatians = require('.')
 
 test('Test 1', () => {
   expect(howManyDalmatians(26)).toBe('More than a handful!')

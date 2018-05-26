@@ -1,4 +1,4 @@
-const getAverage = require('./index.js')
+const getAverage = require('.')
 
 test('Test 1', () => {
   expect(getAverage([2, 2, 2, 2])).toBe(2)

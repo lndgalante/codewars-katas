@@ -1,4 +1,4 @@
-const { Fighter, declareWinner } = require('./index.js')
+const { Fighter, declareWinner } = require('.')
 
 test('Test 1', () => {
   expect(

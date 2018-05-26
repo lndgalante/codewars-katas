@@ -1,4 +1,4 @@
-const duplicateEncode = require('./index')
+const duplicateEncode = require('.')
 
 test('Test 1', () => {
   expect(duplicateEncode('din')).toBe('(((')

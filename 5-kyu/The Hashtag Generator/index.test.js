@@ -1,4 +1,4 @@
-const generateHashtag = require('./index.js')
+const generateHashtag = require('.')
 
 test('Test 1', () => {
   expect(generateHashtag(' Hello there thanks for trying my Kata')).toBe(

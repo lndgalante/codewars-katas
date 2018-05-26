@@ -1,4 +1,4 @@
-const Counter = require('./index.js')
+const Counter = require('.')
 
 test('Test 1', () => {
   const counter = new Counter()

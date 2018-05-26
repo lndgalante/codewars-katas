@@ -1,4 +1,4 @@
-const Sleigh = require('./index.js')
+const Sleigh = require('.')
 
 test('Test 1', () => {
   const sleigh = new Sleigh()

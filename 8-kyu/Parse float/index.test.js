@@ -1,4 +1,4 @@
-const parseF = require('./index.js')
+const parseF = require('.')
 
 test('Test 1', () => {
   expect(parseF('1')).toBe(1.0)

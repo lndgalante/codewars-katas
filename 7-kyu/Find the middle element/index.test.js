@@ -1,4 +1,4 @@
-const gimme = require('./index')
+const gimme = require('.')
 
 test('Test 1', () => {
   expect(gimme([2, 3, 1])).toBe(0)

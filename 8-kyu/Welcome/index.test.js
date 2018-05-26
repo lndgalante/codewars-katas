@@ -1,4 +1,4 @@
-const greet = require('./index.js')
+const greet = require('.')
 
 test('Test 1', () => {
   expect(greet('english')).toBe('Welcome')

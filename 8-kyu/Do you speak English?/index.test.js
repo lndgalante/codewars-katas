@@ -1,4 +1,4 @@
-const spEng = require('./index.js')
+const spEng = require('.')
 
 test('Test 1', () => {
   expect(spEng('english')).toBeTruthy()

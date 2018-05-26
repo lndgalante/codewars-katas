@@ -1,4 +1,4 @@
-const factorial = require('./index.js')
+const factorial = require('.')
 
 test('Test 1', () => {
   expect(factorial(0)).toBe(1)

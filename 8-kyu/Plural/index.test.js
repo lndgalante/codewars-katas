@@ -1,4 +1,4 @@
-const plural = require('./index.js')
+const plural = require('.')
 
 test('Test 1', () => {
   expect(plural(0)).toBeTruthy()

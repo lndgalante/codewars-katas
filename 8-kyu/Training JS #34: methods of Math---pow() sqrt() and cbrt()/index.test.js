@@ -1,4 +1,4 @@
-const cutCube = require('./index.js')
+const cutCube = require('.')
 
 test('Test 1', () => {
   expect(cutCube(27, 27)).toBeTruthy()

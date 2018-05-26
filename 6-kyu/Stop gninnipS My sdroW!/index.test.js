@@ -1,4 +1,4 @@
-const spinWords = require('./index.js')
+const spinWords = require('.')
 
 test('Test 1', () => {
   expect(spinWords('Hey fellow warriors')).toBe('Hey wollef sroirraw')

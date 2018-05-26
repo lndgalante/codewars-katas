@@ -1,4 +1,4 @@
-const distinct = require('./index.js')
+const distinct = require('.')
 
 test('Test 1', () => {
   expect(distinct([1])).toEqual([1])

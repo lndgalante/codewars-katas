@@ -1,4 +1,4 @@
-const getNumberFromString = require('./index.js')
+const getNumberFromString = require('.')
 
 test('Test 1', () => {
   expect(getNumberFromString('1')).toBe(1)

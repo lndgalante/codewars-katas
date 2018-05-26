@@ -1,4 +1,4 @@
-const basicOp = require('./index.js')
+const basicOp = require('.')
 
 test('Test 1', () => {
   expect(basicOp('+', 4, 7)).toBe(11)

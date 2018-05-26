@@ -1,4 +1,4 @@
-const sumDigPow = require('./index.js')
+const sumDigPow = require('.')
 
 test('Test 1', () => {
   expect(sumDigPow(1, 10)).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9])

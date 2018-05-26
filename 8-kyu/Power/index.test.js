@@ -1,4 +1,4 @@
-const numberToPower = require('./index.js')
+const numberToPower = require('.')
 
 test('Test 1', () => {
   expect(numberToPower(4, 2)).toBe(16)

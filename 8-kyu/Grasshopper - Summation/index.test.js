@@ -1,4 +1,4 @@
-const summation = require('./index.js')
+const summation = require('.')
 
 test('Test 1', () => {
   expect(summation(1)).toBe(1)

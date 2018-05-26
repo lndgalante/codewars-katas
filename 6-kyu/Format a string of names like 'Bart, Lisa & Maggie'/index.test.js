@@ -1,4 +1,4 @@
-const list = require('./index')
+const list = require('.')
 
 test('Test 1', () => {
   expect(

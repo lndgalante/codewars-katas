@@ -1,4 +1,4 @@
-const firstToLast = require('./index.js')
+const firstToLast = require('.')
 
 test('Test 1', () => {
   expect(firstToLast('ababc', 'a')).toBe(2)

@@ -1,4 +1,4 @@
-const sumOfN = require('./index.js')
+const sumOfN = require('.')
 
 test('Test 1', () => {
   expect(sumOfN(3)).toEqual([0, 1, 3, 6])

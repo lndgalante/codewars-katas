@@ -1,4 +1,4 @@
-const isToday = require('./index.js')
+const isToday = require('.')
 
 test('Test 1', () => {
   expect(isToday(new Date())).toBeTruthy()

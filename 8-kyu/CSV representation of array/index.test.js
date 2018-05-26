@@ -1,4 +1,4 @@
-const toCsvText = require('./index.js')
+const toCsvText = require('.')
 
 test('Test 1', () => {
   expect(

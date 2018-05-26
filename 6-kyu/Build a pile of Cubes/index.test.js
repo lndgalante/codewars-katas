@@ -1,4 +1,4 @@
-const findNb = require('./index.js')
+const findNb = require('.')
 
 test('Test 1', () => {
   expect(findNb(1071225)).toBe(45)

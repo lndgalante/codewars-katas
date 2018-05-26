@@ -1,4 +1,4 @@
-const cutIt = require('./index.js')
+const cutIt = require('.')
 
 test('Test 1', () => {
   expect(cutIt(['ab', 'cde', 'fgh'])).toEqual(['ab', 'cd', 'fg'])

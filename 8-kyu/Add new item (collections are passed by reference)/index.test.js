@@ -1,4 +1,4 @@
-const addExtra = require('./index.js')
+const addExtra = require('.')
 
 test('Test 1', () => {
   expect(addExtra([1, 2, 3])).toHaveLength(4)

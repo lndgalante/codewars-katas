@@ -1,4 +1,4 @@
-const doubleChar = require('./index.js')
+const doubleChar = require('.')
 
 test('Test 1', () => {
   expect(doubleChar('abcd')).toBe('aabbccdd')

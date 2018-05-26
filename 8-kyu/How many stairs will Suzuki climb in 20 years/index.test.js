@@ -1,4 +1,4 @@
-const stairsIn20 = require('./index.js')
+const stairsIn20 = require('.')
 
 test('Test 1', () => {
   const sunday = [

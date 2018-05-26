@@ -1,4 +1,4 @@
-const openOrSenior = require('./index.js')
+const openOrSenior = require('.')
 
 test('Test 1', () => {
   expect(openOrSenior([[45, 12], [55, 21], [19, -2], [104, 20]])).toEqual([

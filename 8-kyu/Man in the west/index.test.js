@@ -1,4 +1,4 @@
-const checkTheBucket = require('./index.js')
+const checkTheBucket = require('.')
 
 test('Test 1', () => {
   expect(

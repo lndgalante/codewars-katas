@@ -1,4 +1,4 @@
-const getGrade = require('./index.js')
+const getGrade = require('.')
 
 test('Test 1', () => {
   expect(getGrade(95, 90, 93)).toBe('A')

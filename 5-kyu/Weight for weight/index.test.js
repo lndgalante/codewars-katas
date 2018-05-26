@@ -1,4 +1,4 @@
-const orderWeight = require('./index.js')
+const orderWeight = require('.')
 
 test('Test 1', () => {
   expect(orderWeight('103 123 4444 99 2000')).toBe('2000 103 123 4444 99')

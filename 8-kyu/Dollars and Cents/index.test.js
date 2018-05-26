@@ -1,4 +1,4 @@
-const formatMoney = require('./index.js')
+const formatMoney = require('.')
 
 test('Test 1', () => {
   expect(formatMoney(3)).toBe('$3.00')

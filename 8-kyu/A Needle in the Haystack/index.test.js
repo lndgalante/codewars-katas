@@ -1,4 +1,4 @@
-const findNeedle = require('./index.js')
+const findNeedle = require('.')
 
 test('Test 1', () => {
   expect(

@@ -1,4 +1,4 @@
-const findOutlier = require('./index')
+const findOutlier = require('.')
 
 test('Test 1', () => {
   expect(findOutlier([0, 1, 2])).toBe(1)

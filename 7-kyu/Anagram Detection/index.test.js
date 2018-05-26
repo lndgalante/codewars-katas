@@ -1,4 +1,4 @@
-const isAnagram = require('./index.js')
+const isAnagram = require('.')
 
 test('Test 1', () => {
   expect(isAnagram('foefet', 'toffee')).toBeTruthy()

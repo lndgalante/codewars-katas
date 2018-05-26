@@ -1,4 +1,4 @@
-const typeValidation = require('./index.js')
+const typeValidation = require('.')
 
 test('Test 1', () => {
   expect(typeValidation(42, 'number')).toBeTruthy()

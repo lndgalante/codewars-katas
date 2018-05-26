@@ -1,4 +1,4 @@
-const getMiddle = require('./index.js')
+const getMiddle = require('.')
 
 test('Test 1', () => {
   expect(getMiddle('test')).toBe('es')

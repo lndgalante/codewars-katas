@@ -1,4 +1,4 @@
-const roundIt = require('./index.js')
+const roundIt = require('.')
 
 test('Test 1', () => {
   expect(roundIt(3.45)).toBe(4)

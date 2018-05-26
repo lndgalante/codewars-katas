@@ -1,4 +1,4 @@
-const calculator = require('./index.js')
+const calculator = require('.')
 
 test('Test 1', () => {
   expect(calculator(1, 2, '+')).toBe(3)

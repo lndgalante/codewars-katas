@@ -1,4 +1,4 @@
-const square = require('./index.js')
+const square = require('.')
 
 test('Test 1', () => {
   expect(square(4)).toBe(16)

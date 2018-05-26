@@ -1,4 +1,4 @@
-const capMe = require('./index.js')
+const capMe = require('.')
 
 test('Test 1', () => {
   expect(capMe(['jo', 'nelson', 'jurie'])).toEqual(['Jo', 'Nelson', 'Jurie'])

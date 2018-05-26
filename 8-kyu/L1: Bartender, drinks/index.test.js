@@ -1,4 +1,4 @@
-const getDrinkByProfession = require('./index.js')
+const getDrinkByProfession = require('.')
 
 test('Test 1', () => {
   expect(getDrinkByProfession('jabrOni')).toBe('Patron Tequila')

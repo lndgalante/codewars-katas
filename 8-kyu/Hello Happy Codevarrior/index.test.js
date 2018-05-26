@@ -1,4 +1,4 @@
-const Warrior = require('./index.js')
+const Warrior = require('.')
 
 const albert = new Warrior('Albert')
 const boris = new Warrior('Boris')

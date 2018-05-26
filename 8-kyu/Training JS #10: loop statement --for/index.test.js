@@ -1,4 +1,4 @@
-const pickIt = require('./index.js')
+const pickIt = require('.')
 
 test('Test 1', () => {
   expect(pickIt([1, 2])).toEqual([[1], [2]])

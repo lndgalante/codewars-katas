@@ -1,4 +1,4 @@
-const find = require('./index.js')
+const find = require('.')
 
 test('Test 1', () => {
   expect(find([2, 3, 5, 7, 11], 5)).toBe(2)

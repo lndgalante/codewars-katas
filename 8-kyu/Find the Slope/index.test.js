@@ -1,4 +1,4 @@
-const slope = require('./index.js')
+const slope = require('.')
 
 test('Test 1', () => {
   expect(slope([19, 3, 20, 3])).toBe('0')

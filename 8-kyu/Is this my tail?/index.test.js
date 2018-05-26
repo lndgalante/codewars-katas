@@ -1,4 +1,4 @@
-const correctTail = require('./index.js')
+const correctTail = require('.')
 
 test('Test 1', () => {
   expect(correctTail('Fox', 'x')).toBeTruthy()

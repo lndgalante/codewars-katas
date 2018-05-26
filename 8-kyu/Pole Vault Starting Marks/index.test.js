@@ -1,4 +1,4 @@
-const startingMark = require('./index.js')
+const startingMark = require('.')
 
 test('Test 1', () => {
   expect(startingMark(1.52)).toBe(9.45)

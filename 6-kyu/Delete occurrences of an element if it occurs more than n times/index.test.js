@@ -1,4 +1,4 @@
-const deleteNth = require('./index.js')
+const deleteNth = require('.')
 
 test('Test 1', () => {
   expect(deleteNth([1, 1, 1, 1], 2)).toEqual([1, 1])

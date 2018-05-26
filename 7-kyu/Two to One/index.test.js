@@ -1,4 +1,4 @@
-const longest = require('./index.js')
+const longest = require('.')
 
 test('Test 1', () => {
   expect(longest('aretheyhere', 'yestheyarehere')).toBe('aehrsty')

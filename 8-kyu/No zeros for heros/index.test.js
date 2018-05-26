@@ -1,4 +1,4 @@
-const noBoringZeros = require('./index.js')
+const noBoringZeros = require('.')
 
 test('Test 1', () => {
   expect(noBoringZeros(1450)).toBe(145)

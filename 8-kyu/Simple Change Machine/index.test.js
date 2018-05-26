@@ -1,4 +1,4 @@
-const changeMe = require('./index.js')
+const changeMe = require('.')
 
 test('Test 1', () => {
   expect(changeMe('£1')).toBe('20p 20p 20p 20p 20p')

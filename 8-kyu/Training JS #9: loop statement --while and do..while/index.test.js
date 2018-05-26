@@ -1,4 +1,4 @@
-const padIt = require('./index.js')
+const padIt = require('.')
 
 test('Test 1', () => {
   expect(padIt('a', 1)).toBe('*a')

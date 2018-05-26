@@ -1,4 +1,4 @@
-const persistence = require('./index')
+const persistence = require('.')
 
 test('Test 1', () => {
   expect(persistence(39)).toBe(3)

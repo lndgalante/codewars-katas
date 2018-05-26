@@ -1,4 +1,4 @@
-const calculateYears = require('./index.js')
+const calculateYears = require('.')
 
 test('Test 1', () => {
   expect(calculateYears(1000, 0.05, 0.18, 1100)).toBe(3)

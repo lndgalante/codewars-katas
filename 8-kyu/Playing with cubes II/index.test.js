@@ -1,4 +1,4 @@
-const Cube = require('./index.js')
+const Cube = require('.')
 
 test('Test 1', () => {
   const c = new Cube(10)

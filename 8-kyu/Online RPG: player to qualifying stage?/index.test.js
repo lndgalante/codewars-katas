@@ -1,4 +1,4 @@
-const playerRankUp = require('./index.js')
+const playerRankUp = require('.')
 
 test('Test 1', () => {
   expect(playerRankUp(64)).toBeFalsy()

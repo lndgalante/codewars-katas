@@ -1,4 +1,4 @@
-const whatday = require('./index.js')
+const whatday = require('.')
 
 test('Test 1', () => {
   expect(whatday(1)).toBe('Sunday')

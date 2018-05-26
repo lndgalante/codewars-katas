@@ -1,4 +1,4 @@
-const isOpposite = require('./index.js')
+const isOpposite = require('.')
 
 test('Test 1', () => {
   expect(isOpposite('ab', 'AB')).toBeTruthy()

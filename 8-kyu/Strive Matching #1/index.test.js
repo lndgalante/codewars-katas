@@ -1,4 +1,4 @@
-const match = require('./index.js')
+const match = require('.')
 
 test('Test 1', () => {
   const candidate1 = { minSalary: 120000 }

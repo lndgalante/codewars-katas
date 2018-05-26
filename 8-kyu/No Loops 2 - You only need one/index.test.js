@@ -1,4 +1,4 @@
-const check = require('./index.js')
+const check = require('.')
 
 test('Test 1', () => {
   expect(check([66, 101], 66)).toBeTruthy()

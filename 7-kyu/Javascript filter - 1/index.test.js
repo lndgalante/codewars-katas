@@ -1,4 +1,4 @@
-const searchNames = require('./index.js')
+const searchNames = require('.')
 
 test('Test 1', () => {
   const a = [['foo', 'foo@foo.com'], ['bar_', 'bar@bar.com']]

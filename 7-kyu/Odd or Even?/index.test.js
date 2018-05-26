@@ -1,4 +1,4 @@
-const oddOrEven = require('./index.js')
+const oddOrEven = require('.')
 
 test('Edge tests', () => {
   expect(oddOrEven([0])).toBe('even')

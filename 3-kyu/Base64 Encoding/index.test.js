@@ -1,7 +1,7 @@
 /* eslint no-unused-vars: 0 */
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 
-const String = require('./index.js')
+const String = require('.')
 
 test('Test 1', () => {
   expect('this is a string!!'.toBase64()).toBe('dGhpcyBpcyBhIHN0cmluZyEh')

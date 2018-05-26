@@ -1,4 +1,4 @@
-const { money, candy, chips, soda } = require('./index.js')
+const { money, candy, chips, soda } = require('.')
 
 test('Test 1', () => {
   expect(money).toBe(10)

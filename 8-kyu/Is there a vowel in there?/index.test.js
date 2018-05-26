@@ -1,4 +1,4 @@
-const isVow = require('./index.js')
+const isVow = require('.')
 
 test('Test 1', () => {
   expect(

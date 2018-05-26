@@ -1,4 +1,4 @@
-const websites = require('./index.js')
+const websites = require('.')
 
 test('Test 1', () => {
   expect(websites.every(el => el === 'codewars')).toBeTruthy()

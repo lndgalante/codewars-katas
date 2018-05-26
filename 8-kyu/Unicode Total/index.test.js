@@ -1,4 +1,4 @@
-const uniTotal = require('./index.js')
+const uniTotal = require('.')
 
 test('Test 1', () => {
   expect(uniTotal('')).toBe(0)

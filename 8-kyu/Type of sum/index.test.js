@@ -1,4 +1,4 @@
-const typeOfSum = require('./index.js')
+const typeOfSum = require('.')
 
 test('Test 1', () => {
   expect(typeOfSum(12, 1)).toBe('number')

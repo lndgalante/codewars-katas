@@ -1,4 +1,4 @@
-const goodVsEvil = require('./index.js')
+const goodVsEvil = require('.')
 
 test('Test 1', () => {
   expect(goodVsEvil('1 1 1 1 1 1', '1 1 1 1 1 1 1')).toBe(

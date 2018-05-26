@@ -1,4 +1,4 @@
-const sayHello = require('./index.js')
+const sayHello = require('.')
 
 test('Test 1', () => {
   expect(sayHello('Mr. Spock')).toBe('Hello, Mr. Spock')

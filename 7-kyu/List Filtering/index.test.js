@@ -1,4 +1,4 @@
-const filterList = require('./index')
+const filterList = require('.')
 
 test('Test 1', () => {
   expect(filterList([1, 2, 'a', 'b'])).toEqual([1, 2])

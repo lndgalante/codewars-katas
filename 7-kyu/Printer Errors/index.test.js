@@ -1,4 +1,4 @@
-const printerError = require('./index')
+const printerError = require('.')
 
 test('Test 1', () => {
   expect(

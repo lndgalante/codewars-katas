@@ -1,4 +1,4 @@
-const humanReadable = require('./index.js')
+const humanReadable = require('.')
 
 test('Test 1', () => {
   expect(humanReadable(0)).toBe('00:00:00')

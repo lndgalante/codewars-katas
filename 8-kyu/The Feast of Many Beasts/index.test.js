@@ -1,4 +1,4 @@
-const feast = require('./index.js')
+const feast = require('.')
 
 test('Test 1', () => {
   expect(feast('great blue heron', 'garlic naan')).toBeTruthy()

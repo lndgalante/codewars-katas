@@ -1,4 +1,4 @@
-const digitize = require('./index.js')
+const digitize = require('.')
 
 test('Test 1', () => {
   expect(digitize(123)).toEqual([1, 2, 3])

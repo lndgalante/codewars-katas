@@ -1,4 +1,4 @@
-const isReallyNaN = require('./index.js')
+const isReallyNaN = require('.')
 
 test('Test 1', () => {
   expect(isReallyNaN(37)).toBeFalsy()

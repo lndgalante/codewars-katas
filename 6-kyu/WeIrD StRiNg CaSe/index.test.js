@@ -1,4 +1,4 @@
-const toWeirdCase = require('./index.js')
+const toWeirdCase = require('.')
 
 test('Test 1', () => {
   expect(toWeirdCase('This')).toBe('ThIs')

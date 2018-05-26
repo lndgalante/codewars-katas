@@ -1,4 +1,4 @@
-const whatNumberIsIt = require('./index.js')
+const whatNumberIsIt = require('.')
 
 test('Test 1', () => {
   expect(whatNumberIsIt(1 / 0)).toBe('Input number is Number.POSITIVE_INFINITY')

@@ -1,4 +1,4 @@
-const triangular = require('./index.js')
+const triangular = require('.')
 
 test('Test 1', () => {
   expect(triangular(0)).toBe(0)

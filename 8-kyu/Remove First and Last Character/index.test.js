@@ -1,4 +1,4 @@
-const removeChar = require('./index.js')
+const removeChar = require('.')
 
 test('Test 1', () => {
   expect(removeChar('eloquent')).toBe('loquen')

@@ -1,4 +1,4 @@
-const dirReduc = require('./index.js')
+const dirReduc = require('.')
 
 test('Test 1', () => {
   expect(

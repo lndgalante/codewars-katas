@@ -1,4 +1,4 @@
-const selReverse = require('./index.js')
+const selReverse = require('.')
 
 test('Test 1', () => {
   expect(selReverse([2, 4, 6, 8, 10, 12, 14, 16], 3)).toEqual([

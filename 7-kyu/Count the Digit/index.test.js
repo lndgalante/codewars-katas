@@ -1,4 +1,4 @@
-const nbDig = require('./index.js')
+const nbDig = require('.')
 
 test('Test 1', () => {
   expect(nbDig(5750, 0)).toBe(4700)

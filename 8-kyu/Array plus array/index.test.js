@@ -1,4 +1,4 @@
-const arrayPlusArray = require('./index.js')
+const arrayPlusArray = require('.')
 
 test('Test 1', () => {
   expect(arrayPlusArray([1, 2, 3], [4, 5, 6])).toBe(21)

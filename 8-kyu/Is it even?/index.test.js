@@ -1,4 +1,4 @@
-const testEven = require('./index.js')
+const testEven = require('.')
 
 test('Test 1', () => {
   expect(testEven(0)).toBeTruthy()

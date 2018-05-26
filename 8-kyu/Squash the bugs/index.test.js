@@ -1,4 +1,4 @@
-const findLongest = require('./index.js')
+const findLongest = require('.')
 
 test('Test 1', () => {
   expect(findLongest('The quick white fox jumped around the massive dog')).toBe(

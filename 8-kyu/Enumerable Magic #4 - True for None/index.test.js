@@ -1,4 +1,4 @@
-const none = require('./index.js')
+const none = require('.')
 
 test('Test 1', () => {
   expect(none([1, 2, 3, 4, 5], item => item > 5)).toBeTruthy()

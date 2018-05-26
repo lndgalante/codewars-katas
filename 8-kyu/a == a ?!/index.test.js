@@ -1,6 +1,6 @@
 /* eslint eqeqeq: 0 */
 
-const a = require('./index.js')
+const a = require('.')
 
 test('Test 1', () => {
   expect(a == false).toBeTruthy()

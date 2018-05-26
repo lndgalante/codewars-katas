@@ -1,4 +1,4 @@
-const Labrador = require('./index.js')
+const Labrador = require('.')
 
 test('Test 1', () => {
   const spitsy = new Labrador('Spitsy', 10, 'Male', 'Donald')

@@ -1,4 +1,4 @@
-const fuelPrice = require('./index.js')
+const fuelPrice = require('.')
 
 test('Test 1', () => {
   expect(fuelPrice(5, 1.23)).toBe(5.65)

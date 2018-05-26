@@ -1,4 +1,4 @@
-const move = require('./index.js')
+const move = require('.')
 
 test('Test 1', () => {
   expect(move(0, 4)).toBe(8)

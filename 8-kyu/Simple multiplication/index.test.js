@@ -1,4 +1,4 @@
-const singleMultiplication = require('./index.js')
+const singleMultiplication = require('.')
 
 test('Test 1', () => {
   expect(singleMultiplication(2)).toBe(16)

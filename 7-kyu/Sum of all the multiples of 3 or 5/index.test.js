@@ -1,4 +1,4 @@
-const findSum = require('./index.js')
+const findSum = require('.')
 
 test('Test 1', () => {
   expect(findSum(5)).toBe(8)

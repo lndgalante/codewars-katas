@@ -1,4 +1,4 @@
-const boolToWord = require('./index.js')
+const boolToWord = require('.')
 
 test('Test 1', () => {
   expect(boolToWord(true)).toBe('Yes')

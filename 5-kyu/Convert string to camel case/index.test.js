@@ -1,4 +1,4 @@
-const toCamelCase = require('./index.js')
+const toCamelCase = require('.')
 
 test('Test 1', () => {
   expect(toCamelCase('the-stealth-warrior')).toBe('theStealthWarrior')

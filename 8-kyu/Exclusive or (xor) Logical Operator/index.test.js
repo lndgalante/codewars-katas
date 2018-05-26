@@ -1,4 +1,4 @@
-const xor = require('./index.js')
+const xor = require('.')
 
 test('Test 1', () => {
   expect(xor(false, false)).toBeFalsy()

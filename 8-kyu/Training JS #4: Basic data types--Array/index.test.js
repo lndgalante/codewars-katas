@@ -1,4 +1,4 @@
-const { getLength, getFirst, pushElement, popElement } = require('./index.js')
+const { getLength, getFirst, pushElement, popElement } = require('.')
 
 test('Test 1', () => {
   expect(getLength([1, 2, 3])).toBe(3)

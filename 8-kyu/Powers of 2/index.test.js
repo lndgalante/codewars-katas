@@ -1,4 +1,4 @@
-const powersOfTwo = require('./index.js')
+const powersOfTwo = require('.')
 
 test('Test 1', () => {
   expect(powersOfTwo(0)).toEqual([1])

@@ -1,4 +1,4 @@
-const past = require('./index.js')
+const past = require('.')
 
 test('Test 1', () => {
   expect(past(0, 1, 1)).toBe(61000)

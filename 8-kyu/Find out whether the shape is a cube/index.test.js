@@ -1,4 +1,4 @@
-const cubeChecker = require('./index.js')
+const cubeChecker = require('.')
 
 test('Test 1', () => {
   expect(cubeChecker(56.3, 1)).toBeFalsy()

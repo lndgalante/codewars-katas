@@ -1,4 +1,4 @@
-const twoSort = require('./index.js')
+const twoSort = require('.')
 
 test('Test 1', () => {
   expect(

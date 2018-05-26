@@ -1,4 +1,4 @@
-const logicalCalc = require('./index.js')
+const logicalCalc = require('.')
 
 test('Test 1', () => {
   expect(logicalCalc([true, true, true, false], 'AND')).toBeFalsy()

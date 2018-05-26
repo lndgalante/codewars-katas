@@ -1,4 +1,4 @@
-const multipleOfIndex = require('./index.js')
+const multipleOfIndex = require('.')
 
 test('Test 1', () => {
   expect(multipleOfIndex([22, -6, 32, 82, 9, 25])).toEqual([-6, 32, 25])

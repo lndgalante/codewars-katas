@@ -1,4 +1,4 @@
-const checkExam = require('./index.js')
+const checkExam = require('.')
 
 test('Test 1', () => {
   expect(checkExam(['a', 'a', 'b', 'b'], ['a', 'c', 'b', 'd'])).toBe(6)

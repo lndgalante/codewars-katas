@@ -1,4 +1,4 @@
-const mouthSize = require('./index.js')
+const mouthSize = require('.')
 
 test('Test 1', () => {
   expect(mouthSize('toucan')).toBe('wide')

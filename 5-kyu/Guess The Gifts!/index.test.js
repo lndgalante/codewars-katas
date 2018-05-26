@@ -1,4 +1,4 @@
-const guessGifts = require('./index.js')
+const guessGifts = require('.')
 
 test('Test 1', () => {
   const wishlist = [

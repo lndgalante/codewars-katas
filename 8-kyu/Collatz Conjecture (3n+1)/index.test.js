@@ -1,4 +1,4 @@
-const hotpo = require('./index.js')
+const hotpo = require('.')
 
 test('Test 1', () => {
   expect(hotpo(1)).toBe(0)

@@ -1,6 +1,6 @@
 /* eslint no-unused-vars: 0 */
 
-const toJadenCase = require('./index.js')
+const toJadenCase = require('.')
 
 test('Test 1', () => {
   const jadened = `How can mirrors be real if our eyes aren't real`.toJadenCase()

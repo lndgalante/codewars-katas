@@ -1,4 +1,4 @@
-const stringClean = require('./index.js')
+const stringClean = require('.')
 
 test('Test 1', () => {
   expect(stringClean('')).toBe('')

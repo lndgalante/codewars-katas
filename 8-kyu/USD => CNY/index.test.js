@@ -1,4 +1,4 @@
-const usdcny = require('./index.js')
+const usdcny = require('.')
 
 test('Test 1', () => {
   expect(usdcny(15)).toBe('101.25 Chinese Yuan')

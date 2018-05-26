@@ -1,4 +1,4 @@
-const divisors = require('./index')
+const divisors = require('.')
 
 test('Test 1', () => {
   expect(divisors(12)).toEqual([2, 3, 4, 6])

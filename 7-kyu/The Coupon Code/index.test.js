@@ -1,4 +1,4 @@
-const checkCoupon = require('./index.js')
+const checkCoupon = require('.')
 
 test('Test 1', () => {
   expect(

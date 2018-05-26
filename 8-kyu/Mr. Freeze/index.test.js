@@ -1,4 +1,4 @@
-const MrFreeze = require('./index.js')
+const MrFreeze = require('.')
 
 test('Test 1', () => {
   const clon = Object.freeze({})

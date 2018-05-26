@@ -1,4 +1,4 @@
-const shortendToDate = require('./index.js')
+const shortendToDate = require('.')
 
 test('Test 1', () => {
   expect(shortendToDate('Friday May 2, 9am')).toBe('Friday May 2')

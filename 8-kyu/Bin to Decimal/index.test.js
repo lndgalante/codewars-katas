@@ -1,4 +1,4 @@
-const binToDec = require('./index.js')
+const binToDec = require('.')
 
 test('Test 1', () => {
   expect(binToDec('1')).toBe(1)

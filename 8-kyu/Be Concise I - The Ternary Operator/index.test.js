@@ -1,4 +1,4 @@
-const describeAge = require('./index.js')
+const describeAge = require('.')
 
 test('Test 1', () => {
   expect(describeAge(9)).toBe("You're a(n) kid")

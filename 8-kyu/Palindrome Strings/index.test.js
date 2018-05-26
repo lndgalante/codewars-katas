@@ -1,4 +1,4 @@
-const isPalindrome = require('./index.js')
+const isPalindrome = require('.')
 
 test('Test 1', () => {
   expect(isPalindrome('anna')).toBeTruthy()

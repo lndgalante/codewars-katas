@@ -1,4 +1,4 @@
-const cockroachSpeed = require('./index.js')
+const cockroachSpeed = require('.')
 
 test('Test 1', () => {
   expect(cockroachSpeed(1.08)).toBe(30)

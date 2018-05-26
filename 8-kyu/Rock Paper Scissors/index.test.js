@@ -1,4 +1,4 @@
-const rps = require('./index.js')
+const rps = require('.')
 
 test('Test 1', () => {
   expect(rps('scissors', 'paper')).toBe('Player 1 won!')

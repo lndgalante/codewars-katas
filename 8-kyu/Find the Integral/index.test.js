@@ -1,4 +1,4 @@
-const integrate = require('./index.js')
+const integrate = require('.')
 
 test('Test 1', () => {
   expect(integrate(3, 2)).toBe('1x^3')

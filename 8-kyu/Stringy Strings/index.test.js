@@ -1,4 +1,4 @@
-const stringy = require('./index.js')
+const stringy = require('.')
 
 test('Test 1', () => {
   expect(typeof stringy(3)).toBe('string')

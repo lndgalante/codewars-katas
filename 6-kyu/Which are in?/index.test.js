@@ -1,4 +1,4 @@
-const inArray = require('./index.js')
+const inArray = require('.')
 
 test('Test 1', () => {
   expect(

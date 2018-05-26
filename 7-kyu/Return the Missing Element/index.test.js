@@ -1,4 +1,4 @@
-const getMissingElement = require('./index.js')
+const getMissingElement = require('.')
 
 test('Test 1', () => {
   expect(getMissingElement([0, 5, 1, 3, 2, 9, 7, 6, 4])).toBe(8)

@@ -1,4 +1,4 @@
-const maskify = require('./index.js')
+const maskify = require('.')
 
 test('Test 1', () => {
   expect(maskify('4556364607935616')).toBe('############5616')

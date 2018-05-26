@@ -1,4 +1,4 @@
-const nthEven = require('./index.js')
+const nthEven = require('.')
 
 test('Test 1', () => {
   expect(nthEven(1)).toBe(0)

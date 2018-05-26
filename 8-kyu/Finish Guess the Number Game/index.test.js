@@ -1,4 +1,4 @@
-const Guesser = require('./index.js')
+const Guesser = require('.')
 
 test('Test 1', () => {
   const guesser = new Guesser(10, 2)

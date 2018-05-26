@@ -1,4 +1,4 @@
-const aliasGen = require('./index.js')
+const aliasGen = require('.')
 
 test('Test 1', () => {
   expect(aliasGen('Mike', 'Millington')).toBe('Malware Mike')

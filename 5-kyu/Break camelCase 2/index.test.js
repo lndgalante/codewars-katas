@@ -2,7 +2,7 @@
 /* eslint no-extend-native: 0 */
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 
-const camelCase = require('./index.js')
+const camelCase = require('.')
 
 test('Test 1', () => {
   expect('test case'.camelCase()).toBe('TestCase')

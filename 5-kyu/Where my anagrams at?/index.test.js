@@ -1,4 +1,4 @@
-const anagrams = require('./index.js')
+const anagrams = require('.')
 
 test('Test 1', () => {
   expect(anagrams('abba', ['aabb', 'abcd', 'bbaa', 'dada'])).toEqual([

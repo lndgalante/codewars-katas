@@ -1,4 +1,4 @@
-const removeExclamationMarks = require('./index.js')
+const removeExclamationMarks = require('.')
 
 test('Test 1', () => {
   expect(removeExclamationMarks('Hello World!')).toBe('Hello World')

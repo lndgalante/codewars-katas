@@ -1,4 +1,4 @@
-const blackAndWhite = require('./index.js')
+const blackAndWhite = require('.')
 
 test('Test 1', () => {
   expect(blackAndWhite(5, 13)).toBe("It's a fake array")

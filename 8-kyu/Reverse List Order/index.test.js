@@ -1,4 +1,4 @@
-const reverseList = require('./index.js')
+const reverseList = require('.')
 
 test('Test 1', () => {
   expect(reverseList([1, 2, 3, 4])).toEqual([4, 3, 2, 1])

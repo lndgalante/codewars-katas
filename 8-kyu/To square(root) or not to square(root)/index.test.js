@@ -1,4 +1,4 @@
-const squareOrSquareRoot = require('./index.js')
+const squareOrSquareRoot = require('.')
 
 test('Test 1', () => {
   expect(squareOrSquareRoot([4, 3, 9, 7, 2, 1])).toEqual([2, 9, 3, 49, 4, 1])

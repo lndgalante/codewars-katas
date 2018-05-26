@@ -1,4 +1,4 @@
-const findDifference = require('./index.js')
+const findDifference = require('.')
 
 test('Test 1', () => {
   expect(findDifference([3, 2, 5], [1, 4, 4])).toBe(14)

@@ -1,4 +1,4 @@
-const tripleTrouble = require('./index.js')
+const tripleTrouble = require('.')
 
 test('Test 1', () => {
   expect(tripleTrouble('this', 'test', 'lock')).toBe('ttlheoiscstk')

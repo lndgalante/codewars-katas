@@ -1,4 +1,4 @@
-const hoopCount = require('./index.js')
+const hoopCount = require('.')
 
 test('Test 1', () => {
   expect(hoopCount(3)).toBe('Keep at it until you get it')

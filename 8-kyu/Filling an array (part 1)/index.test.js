@@ -1,4 +1,4 @@
-const arr = require('./index.js')
+const arr = require('.')
 
 test('Test 1', () => {
   expect(arr()).toBeInstanceOf(Array)

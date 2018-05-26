@@ -1,4 +1,4 @@
-const nextId = require('./index.js')
+const nextId = require('.')
 
 test('Test 1', () => {
   expect(nextId([0, 1, 2, 3, 5])).toBe(4)

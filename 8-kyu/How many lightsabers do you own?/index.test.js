@@ -1,4 +1,4 @@
-const howManyLightsabersDoYouOwn = require('./index.js')
+const howManyLightsabersDoYouOwn = require('.')
 
 test('Test 1', () => {
   expect(howManyLightsabersDoYouOwn('Zach')).toBe(18)

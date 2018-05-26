@@ -1,4 +1,4 @@
-const sumSquares = require('./index.js')
+const sumSquares = require('.')
 
 test('Test 1', () => {
   expect(sumSquares([1, 2, 3, 4, 5])).toBe(55)

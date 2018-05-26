@@ -1,4 +1,4 @@
-const orderOperations = require('./index.js')
+const orderOperations = require('.')
 
 test('Test 1', () => {
   expect(orderOperations()).toBe(32)

@@ -2,7 +2,7 @@
 /* eslint no-extend-native: 0 */
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 
-const Array = require('./index.js')
+const Array = require('.')
 
 test('Test 1', () => {
   expect([1, 2, 3, 4, 5].square()).toEqual([1, 4, 9, 16, 25])

@@ -1,4 +1,4 @@
-const { head, tail, init, last } = require('./index.js')
+const { head, tail, init, last } = require('.')
 
 test('Test 1', () => {
   expect(head([5, 1])).toBe(5)

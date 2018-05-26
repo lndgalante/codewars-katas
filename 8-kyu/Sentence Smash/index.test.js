@@ -1,4 +1,4 @@
-const smash = require('./index.js')
+const smash = require('.')
 
 test('Test 1', () => {
   expect(smash(['hello'])).toBe('hello')

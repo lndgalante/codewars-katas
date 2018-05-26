@@ -1,4 +1,4 @@
-const removeEveryOther = require('./index.js')
+const removeEveryOther = require('.')
 
 test('Test 1', () => {
   expect(removeEveryOther(['Hello', 'Goodbye', 'Hello Again'])).toEqual([

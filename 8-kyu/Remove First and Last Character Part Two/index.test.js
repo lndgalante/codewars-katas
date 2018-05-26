@@ -1,4 +1,4 @@
-const array = require('./index.js')
+const array = require('.')
 
 test('Test 1', () => {
   expect(array('')).toBeNull()

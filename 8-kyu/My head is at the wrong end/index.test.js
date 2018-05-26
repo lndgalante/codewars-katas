@@ -1,4 +1,4 @@
-const fixTheMeerkat = require('./index.js')
+const fixTheMeerkat = require('.')
 
 test('Test 1', () => {
   expect(fixTheMeerkat(['tail', 'body', 'head'])).toEqual([

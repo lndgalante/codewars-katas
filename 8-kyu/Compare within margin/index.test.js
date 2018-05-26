@@ -1,4 +1,4 @@
-const closeCompare = require('./index.js')
+const closeCompare = require('.')
 
 test('Test 1', () => {
   expect(closeCompare(4, 5)).toBe(-1)

@@ -1,4 +1,4 @@
-const arrowFunc = require('./index.js')
+const arrowFunc = require('.')
 
 test('Test 1', () => {
   expect(arrowFunc([84, 101, 115, 116])).toBe('Test')

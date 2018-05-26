@@ -1,4 +1,4 @@
-const isSquare = require('./index')
+const isSquare = require('.')
 
 test('Test 1', () => {
   expect(isSquare(-1)).toBeFalsy()

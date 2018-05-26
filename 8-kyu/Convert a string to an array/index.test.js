@@ -1,4 +1,4 @@
-const stringToArray = require('./index.js')
+const stringToArray = require('.')
 
 test('Test 1', () => {
   expect(stringToArray('Robin Singh')).toEqual(['Robin', 'Singh'])

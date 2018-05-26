@@ -1,4 +1,4 @@
-const greaterThanLessThan = require('./index.js')
+const greaterThanLessThan = require('.')
 
 test('Test 1', () => {
   expect(greaterThanLessThan(Number(null), 0, 1)).toBeTruthy()

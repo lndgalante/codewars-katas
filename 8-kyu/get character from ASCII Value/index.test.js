@@ -1,4 +1,4 @@
-const getChar = require('./index.js')
+const getChar = require('.')
 
 test('Test 1', () => {
   expect(getChar(55)).toBe('7')

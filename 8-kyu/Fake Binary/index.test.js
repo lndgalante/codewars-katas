@@ -1,4 +1,4 @@
-const fakeBin = require('./index.js')
+const fakeBin = require('.')
 
 test('Test 1', () => {
   expect(fakeBin('45385593107843568')).toBe('01011110001100111')

@@ -1,4 +1,4 @@
-const duckDuckGoose = require('./index.js')
+const duckDuckGoose = require('.')
 
 class Player {
   constructor(name) {

@@ -1,4 +1,4 @@
-const likes = require('./index.js')
+const likes = require('.')
 
 test('Test 1', () => {
   expect(likes([])).toBe('no one likes this')

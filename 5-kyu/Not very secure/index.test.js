@@ -1,4 +1,4 @@
-const alphanumeric = require('./index.js')
+const alphanumeric = require('.')
 
 test('Test 1', () => {
   expect(alphanumeric('Mazinkaiser')).toBeTruthy()

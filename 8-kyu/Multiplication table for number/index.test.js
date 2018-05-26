@@ -1,4 +1,4 @@
-const multiTable = require('./index.js')
+const multiTable = require('.')
 
 test('Test 1', () => {
   expect(multiTable(5)).toBe(

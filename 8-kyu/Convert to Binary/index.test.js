@@ -1,4 +1,4 @@
-const toBinary = require('./index.js')
+const toBinary = require('.')
 
 test('Test 1', () => {
   expect(toBinary(1)).toBe(1)

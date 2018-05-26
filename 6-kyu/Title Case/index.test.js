@@ -1,4 +1,4 @@
-const titleCase = require('./index.js')
+const titleCase = require('.')
 
 test('Test 1', () => {
   expect(titleCase('a clash of KINGS', 'a an the of')).toBe('A Clash of Kings')

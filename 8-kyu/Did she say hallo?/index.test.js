@@ -1,4 +1,4 @@
-const validateHello = require('./index.js')
+const validateHello = require('.')
 
 test('Test 1', () => {
   expect(validateHello('ahoj')).toBeTruthy()

@@ -1,4 +1,4 @@
-const toFreud = require('./index.js')
+const toFreud = require('.')
 
 test('Test 1', () => {
   expect(toFreud('')).toBe('')

@@ -1,4 +1,4 @@
-const myFirstKata = require('./index.js')
+const myFirstKata = require('.')
 
 test('Test 1', () => {
   const result = 3 % 5 + 5 % 3

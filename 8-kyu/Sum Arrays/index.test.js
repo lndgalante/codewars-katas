@@ -1,4 +1,4 @@
-const sum = require('./index.js')
+const sum = require('.')
 
 test('Test 1', () => {
   expect(sum([])).toBe(0)

@@ -1,4 +1,4 @@
-const bigToSmall = require('./index.js')
+const bigToSmall = require('.')
 
 test('Test 1', () => {
   expect(bigToSmall([[1, 2], [3, 4], [5, 6]])).toBe('6>5>4>3>2>1')

@@ -1,4 +1,4 @@
-const isDivideBy = require('./index.js')
+const isDivideBy = require('.')
 
 test('Test 1', () => {
   expect(isDivideBy(-12, 2, -6)).toBeTruthy()

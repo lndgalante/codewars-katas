@@ -1,4 +1,4 @@
-const bloodAlcoholContent = require('./index.js')
+const bloodAlcoholContent = require('.')
 
 test('Test 1', () => {
   expect(bloodAlcoholContent({ ounces: 12.5, abv: 0.4 }, 190, 'male', 1)).toBe(

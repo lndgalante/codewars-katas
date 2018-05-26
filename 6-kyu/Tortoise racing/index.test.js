@@ -1,4 +1,4 @@
-const race = require('./index.js')
+const race = require('.')
 
 test('Test 1', () => {
   expect(race(720, 850, 70)).toEqual([0, 32, 18])

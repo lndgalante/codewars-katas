@@ -1,4 +1,4 @@
-const trueOrFalse = require('./index.js')
+const trueOrFalse = require('.')
 
 const a = 1
 const b = 2

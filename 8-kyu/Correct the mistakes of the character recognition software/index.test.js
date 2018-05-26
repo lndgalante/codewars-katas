@@ -1,4 +1,4 @@
-const correct = require('./index.js')
+const correct = require('.')
 
 test('Test 1', () => {
   expect(correct('L0ND0N')).toBe('LONDON')

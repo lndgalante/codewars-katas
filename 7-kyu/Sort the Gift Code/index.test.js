@@ -1,4 +1,4 @@
-const sortGiftCode = require('./index.js')
+const sortGiftCode = require('.')
 
 test('Test 1', () => {
   expect(sortGiftCode('abcdef')).toBe('abcdef')

@@ -1,4 +1,4 @@
-const twoDecimalPlaces = require('./index.js')
+const twoDecimalPlaces = require('.')
 
 test('Test 1', () => {
   expect(twoDecimalPlaces(4.659725356)).toBe(4.66)

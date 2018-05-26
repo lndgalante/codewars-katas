@@ -1,4 +1,4 @@
-const findNextSquare = require('./index.js')
+const findNextSquare = require('.')
 
 test('Test 1', () => {
   expect(findNextSquare(121)).toBe(144)

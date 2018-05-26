@@ -1,4 +1,4 @@
-const mango = require('./index.js')
+const mango = require('.')
 
 test('Test 1', () => {
   expect(mango(3, 3)).toBe(6)

@@ -1,4 +1,4 @@
-const minMax = require('./index.js')
+const minMax = require('.')
 
 test('Test 1', () => {
   expect(minMax([1, 2, 3, 4, 5])).toEqual([1, 5])

@@ -1,4 +1,4 @@
-const maxSequence = require('./index.js')
+const maxSequence = require('.')
 
 test('Test 1', () => {
   expect(maxSequence([])).toBe(0)

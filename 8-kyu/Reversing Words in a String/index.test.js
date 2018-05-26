@@ -1,4 +1,4 @@
-const reverse = require('./index.js')
+const reverse = require('.')
 
 test('Test 1', () => {
   expect(reverse('I am an expert at this')).toBe('this at expert an am I')

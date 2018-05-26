@@ -1,4 +1,4 @@
-const iqTest = require('./index.js')
+const iqTest = require('.')
 
 test('Test 1', () => {
   expect(iqTest('2 4 7 8 10')).toBe(3)

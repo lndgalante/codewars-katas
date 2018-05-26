@@ -1,4 +1,4 @@
-const symmetricPoint = require('./index.js')
+const symmetricPoint = require('.')
 
 test('Test 1', () => {
   expect(symmetricPoint([0, 0], [1, 1])).toEqual([2, 2])

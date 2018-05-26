@@ -1,4 +1,4 @@
-const buildString = require('./index.js')
+const buildString = require('.')
 
 test('Test 1', () => {
   expect(buildString('Cheese', 'Milk', 'Chocolate')).toBe(

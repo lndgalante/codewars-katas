@@ -1,4 +1,4 @@
-const mergeArrays = require('./index.js')
+const mergeArrays = require('.')
 
 test('Test 1', () => {
   expect(mergeArrays([1, 2, 3, 4], [5, 6, 7, 8])).toEqual([

@@ -2,7 +2,7 @@
 /* eslint no-extend-native: 0 */
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 
-const digit = require('./index.js')
+const digit = require('.')
 
 test('Test 1', () => {
   expect(''.digit()).toBeFalsy()

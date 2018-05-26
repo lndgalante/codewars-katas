@@ -1,4 +1,4 @@
-const Person = require('./index.js')
+const Person = require('.')
 
 test('Test 1', () => {
   expect(Person.firstName).toBe('John')

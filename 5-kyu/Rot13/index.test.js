@@ -1,4 +1,4 @@
-const rot13 = require('./index.js')
+const rot13 = require('.')
 
 test('Test 1', () => {
   expect(rot13('test')).toBe('grfg')

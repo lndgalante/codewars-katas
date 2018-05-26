@@ -1,4 +1,4 @@
-const bonusTime = require('./index.js')
+const bonusTime = require('.')
 
 test('Test 1', () => {
   expect(bonusTime(10000, true)).toBe('£100000')

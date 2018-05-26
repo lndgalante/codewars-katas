@@ -1,4 +1,4 @@
-const multiply = require('./index.js')
+const multiply = require('.')
 
 test('Test 1', () => {
   expect(multiply(10)).toBe(250)

@@ -1,4 +1,4 @@
-const findEvenIndex = require('./index.js')
+const findEvenIndex = require('.')
 
 test('Test 1', () => {
   expect(findEvenIndex([1, 2, 3, 4, 3, 2, 1])).toBe(3)

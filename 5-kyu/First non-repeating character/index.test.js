@@ -1,4 +1,4 @@
-const firstNonRepeatingLetter = require('./index.js')
+const firstNonRepeatingLetter = require('.')
 
 test('Test 1', () => {
   expect(firstNonRepeatingLetter('a')).toBe('a')

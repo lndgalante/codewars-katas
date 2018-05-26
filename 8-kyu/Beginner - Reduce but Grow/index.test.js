@@ -1,4 +1,4 @@
-const grow = require('./index.js')
+const grow = require('.')
 
 test('Test 1', () => {
   expect(grow([1, 2, 3])).toBe(6)

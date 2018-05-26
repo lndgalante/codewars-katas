@@ -1,4 +1,4 @@
-const repeatStr = require('./index.js')
+const repeatStr = require('.')
 
 test('Test 1', () => {
   expect(repeatStr(6, 'I')).toBe('IIIIII')

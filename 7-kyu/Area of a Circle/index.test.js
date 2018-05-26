@@ -1,4 +1,4 @@
-const circleArea = require('./index.js')
+const circleArea = require('.')
 
 test('Test 1', () => {
   expect(circleArea(-1485.86)).toBeFalsy()

@@ -1,4 +1,4 @@
-const evalObject = require('./index.js')
+const evalObject = require('.')
 
 test('Test 1', () => {
   expect(evalObject({ a: 1, b: 1, operation: '+' })).toBe(2)

@@ -1,4 +1,4 @@
-const apple = require('./index.js')
+const apple = require('.')
 
 test('Test 1', () => {
   expect(apple('50')).toBe("It's hotter than the sun!!")

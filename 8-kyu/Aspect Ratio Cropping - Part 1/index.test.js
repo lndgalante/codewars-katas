@@ -1,4 +1,4 @@
-const aspectRatio = require('./index.js')
+const aspectRatio = require('.')
 
 test('Test 1', () => {
   expect(aspectRatio(640, 480)).toEqual([854, 480])

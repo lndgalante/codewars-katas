@@ -1,4 +1,4 @@
-const dutyFree = require('./index.js')
+const dutyFree = require('.')
 
 test('Test 1', () => {
   expect(dutyFree(12, 50, 1000)).toBe(166)

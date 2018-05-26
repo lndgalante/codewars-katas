@@ -1,4 +1,4 @@
-const collatz = require('./index.js')
+const collatz = require('.')
 
 test('Test 1', () => {
   expect(collatz(20)).toBe(8)

@@ -1,4 +1,4 @@
-const stringToNumber = require('./index.js')
+const stringToNumber = require('.')
 
 test('Test 1', () => {
   expect(stringToNumber('1234')).toBe(1234)

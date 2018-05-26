@@ -1,4 +1,4 @@
-const descendingOrder = require('./index.js')
+const descendingOrder = require('.')
 
 test('Test 1', () => {
   expect(descendingOrder(0)).toBe(0)

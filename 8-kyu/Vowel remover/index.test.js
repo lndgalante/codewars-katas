@@ -1,4 +1,4 @@
-const shorcut = require('./index.js')
+const shorcut = require('.')
 
 test('Test 1', () => {
   expect(shorcut('hello')).toBe('hll')

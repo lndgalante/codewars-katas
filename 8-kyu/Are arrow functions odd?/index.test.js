@@ -1,4 +1,4 @@
-const odds = require('./index.js')
+const odds = require('.')
 
 test('Test 1', () => {
   expect(odds([])).toEqual([])

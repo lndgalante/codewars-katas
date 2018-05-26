@@ -1,4 +1,4 @@
-const narcissistic = require('./index.js')
+const narcissistic = require('.')
 
 test('Test 1', () => {
   expect(narcissistic(7)).toBeTruthy()

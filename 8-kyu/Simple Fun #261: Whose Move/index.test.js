@@ -1,4 +1,4 @@
-const whoseMove = require('./index.js')
+const whoseMove = require('.')
 
 test('Test 1', () => {
   expect(whoseMove('black', false)).toBe('white')

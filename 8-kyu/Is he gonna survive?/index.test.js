@@ -1,4 +1,4 @@
-const hero = require('./index.js')
+const hero = require('.')
 
 test('Test 1', () => {
   expect(hero(10, 5)).toBeTruthy()

@@ -1,4 +1,4 @@
-const humanYearsCatYearsDogYears = require('./index.js')
+const humanYearsCatYearsDogYears = require('.')
 
 test('Test 1', () => {
   expect(humanYearsCatYearsDogYears(1)).toEqual([1, 15, 15])

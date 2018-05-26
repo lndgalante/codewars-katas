@@ -1,4 +1,4 @@
-const addFive = require('./index.js')
+const addFive = require('.')
 
 test('Test 1', () => {
   expect(addFive(5)).toBe(10)

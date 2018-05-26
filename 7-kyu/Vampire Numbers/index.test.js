@@ -1,4 +1,4 @@
-const vampireTest = require('./index.js')
+const vampireTest = require('.')
 
 test('Test 1', () => {
   expect(vampireTest(21, 6)).toBeTruthy()

@@ -1,4 +1,4 @@
-const sumMul = require('./index.js')
+const sumMul = require('.')
 
 test('Test 1', () => {
   expect(sumMul(0, 0)).toBe('INVALID')

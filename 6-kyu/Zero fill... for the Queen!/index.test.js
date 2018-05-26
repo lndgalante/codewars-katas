@@ -1,4 +1,4 @@
-const zeroFill = require('./index.js')
+const zeroFill = require('.')
 
 test('Test 1', () => {
   expect(zeroFill(11, 5)).toBe('00011')

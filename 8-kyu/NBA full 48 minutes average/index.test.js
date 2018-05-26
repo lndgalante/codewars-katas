@@ -1,4 +1,4 @@
-const pointsPer48 = require('./index.js')
+const pointsPer48 = require('.')
 
 test('Test 1', () => {
   expect(pointsPer48(12, 20)).toBe(28.8)

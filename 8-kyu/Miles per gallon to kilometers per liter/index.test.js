@@ -1,4 +1,4 @@
-const converter = require('./index.js')
+const converter = require('.')
 
 test('Test 1', () => {
   expect(converter(10)).toBe(3.54)

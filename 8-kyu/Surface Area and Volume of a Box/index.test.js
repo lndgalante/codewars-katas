@@ -1,4 +1,4 @@
-const getSize = require('./index.js')
+const getSize = require('.')
 
 test('Test 1', () => {
   expect(getSize(4, 2, 6)[1]).toBe(48)

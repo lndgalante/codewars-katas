@@ -1,4 +1,4 @@
-const noOdds = require('./index.js')
+const noOdds = require('.')
 
 test('Test 1', () => {
   expect(noOdds([0, 1])).toEqual([0])

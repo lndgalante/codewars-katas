@@ -1,4 +1,4 @@
-const dnaStrand = require('./index.js')
+const dnaStrand = require('.')
 
 test('Test 1', () => {
   expect(dnaStrand('AAAA')).toBe('TTTT')

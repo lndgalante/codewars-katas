@@ -1,4 +1,4 @@
-const score = require('./index.js')
+const score = require('.')
 
 test('Test 1', () => {
   expect(score([2, 3, 4, 6, 2])).toBe(0)

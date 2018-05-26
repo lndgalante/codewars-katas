@@ -1,4 +1,4 @@
-const giveMeFive = require('./index.js')
+const giveMeFive = require('.')
 
 test('Test 1', () => {
   expect(giveMeFive({ Our: 'earth', is: 'a', beautyful: 'world' })).toEqual([

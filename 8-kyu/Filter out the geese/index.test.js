@@ -1,4 +1,4 @@
-const gooseFilter = require('./index.js')
+const gooseFilter = require('.')
 
 test('Test 1', () => {
   expect(

@@ -1,4 +1,4 @@
-const scramble = require('./index.js')
+const scramble = require('.')
 
 test('Test 1', () => {
   expect(scramble('rkqodlw', 'world')).toBeTruthy()

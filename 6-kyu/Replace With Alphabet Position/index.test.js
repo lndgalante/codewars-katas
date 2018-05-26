@@ -1,4 +1,4 @@
-const alphabetPosition = require('./index.js')
+const alphabetPosition = require('.')
 
 test('Test 1', () => {
   expect(alphabetPosition("The sunset sets at twelve o' clock.")).toBe(

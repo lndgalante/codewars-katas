@@ -1,4 +1,4 @@
-const rooms = require('./index.js')
+const rooms = require('.')
 
 test('Test 1', () => {
   const solution = {

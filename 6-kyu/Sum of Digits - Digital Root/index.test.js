@@ -1,4 +1,4 @@
-const digitalRoot = require('./index')
+const digitalRoot = require('.')
 
 test('Test 1', () => {
   expect(digitalRoot(4)).toBe(4)

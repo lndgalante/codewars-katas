@@ -1,4 +1,4 @@
-const sif = require('./index.js')
+const sif = require('.')
 
 test('Test 1', () => {
   expect(sif.findSmallestInt([78, 56, 232, 12, 8])).toBe(8)

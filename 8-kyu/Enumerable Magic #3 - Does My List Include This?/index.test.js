@@ -1,4 +1,4 @@
-const include = require('./index.js')
+const include = require('.')
 
 test('Test 1', () => {
   expect(include([1, 2, 3, 4], 3)).toBeTruthy()

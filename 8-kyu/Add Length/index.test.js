@@ -1,4 +1,4 @@
-const addLength = require('./index.js')
+const addLength = require('.')
 
 test('Test 1', () => {
   expect(addLength('apple ban')).toEqual(['apple 5', 'ban 3'])

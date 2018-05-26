@@ -1,4 +1,4 @@
-const last = require('./index.js')
+const last = require('.')
 
 test('Test 1', () => {
   expect(last([1, 2, 3, 4])).toBe(4)

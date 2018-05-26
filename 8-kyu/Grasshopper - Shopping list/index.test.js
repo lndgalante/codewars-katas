@@ -4,7 +4,7 @@ const {
   wraps,
   frenchFries,
   totalPrice,
-} = require('./index.js')
+} = require('.')
 
 test('Test 1', () => {
   expect(sandwiches).toBe(4)

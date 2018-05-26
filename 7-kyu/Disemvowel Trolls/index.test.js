@@ -1,4 +1,4 @@
-const disemvowel = require('./index.js')
+const disemvowel = require('.')
 
 test('Test 1', () => {
   expect(disemvowel('This website is for losers LOL!')).toBe(

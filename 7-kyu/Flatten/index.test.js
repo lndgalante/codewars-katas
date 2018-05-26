@@ -1,4 +1,4 @@
-const flatten = require('./index.js')
+const flatten = require('.')
 
 test('Test 1', () => {
   expect(flatten([])).toEqual([])

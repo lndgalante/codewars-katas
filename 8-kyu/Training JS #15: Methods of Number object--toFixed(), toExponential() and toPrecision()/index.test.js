@@ -1,4 +1,4 @@
-const howManySmaller = require('./index.js')
+const howManySmaller = require('.')
 
 test('Test 1', () => {
   expect(howManySmaller([1.234, 1.235, 1.228], 1.24)).toBe(2)

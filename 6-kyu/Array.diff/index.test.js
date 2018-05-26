@@ -1,4 +1,4 @@
-const arrayDiff = require('./index.js')
+const arrayDiff = require('.')
 
 test('Test 1', () => {
   expect(arrayDiff([1, 2], [1])).toEqual([2])

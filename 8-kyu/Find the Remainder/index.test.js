@@ -1,4 +1,4 @@
-const remainder = require('./index.js')
+const remainder = require('.')
 
 test('Test 1', () => {
   expect(remainder(17, 5)).toBe(2)

@@ -1,4 +1,4 @@
-const validateUsr = require('./index.js')
+const validateUsr = require('.')
 
 test('Test 1', () => {
   expect(validateUsr('asddsa')).toBeTruthy()

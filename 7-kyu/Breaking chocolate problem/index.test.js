@@ -1,4 +1,4 @@
-const breakChocolate = require('./index.js')
+const breakChocolate = require('.')
 
 test('Test 1', () => {
   expect(breakChocolate(5, 5)).toBe(24)

@@ -1,4 +1,4 @@
-const uniqueInOrder = require('./index.js')
+const uniqueInOrder = require('.')
 
 test('Test 1', () => {
   expect(uniqueInOrder('AAAABBBCCDAABBB')).toEqual([

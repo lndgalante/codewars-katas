@@ -1,4 +1,4 @@
-const binaryArrayToNumber = require('./index.js')
+const binaryArrayToNumber = require('.')
 
 test('Test 1', () => {
   expect(binaryArrayToNumber([0, 0, 0, 1])).toBe(1)

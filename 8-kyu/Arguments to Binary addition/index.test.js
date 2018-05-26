@@ -1,4 +1,4 @@
-const arr2bin = require('./index.js')
+const arr2bin = require('.')
 
 test('Test 1', () => {
   expect(arr2bin([1, 2])).toBe('11')

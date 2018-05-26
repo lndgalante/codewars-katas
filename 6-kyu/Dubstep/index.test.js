@@ -1,4 +1,4 @@
-const songDecoder = require('./index')
+const songDecoder = require('.')
 
 test('Test 1', () => {
   expect(songDecoder('WUBWEWUBAREWUBWUBTHEWUBCHAMPIONSWUBMYWUBFRIENDWUB')).toBe(

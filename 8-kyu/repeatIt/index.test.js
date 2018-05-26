@@ -1,4 +1,4 @@
-const repeatIt = require('./index.js')
+const repeatIt = require('.')
 
 test('Test 1', () => {
   expect(repeatIt('*', 3)).toBe('***')

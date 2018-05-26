@@ -1,4 +1,4 @@
-const sumMix = require('./index.js')
+const sumMix = require('.')
 
 test('Test 1', () => {
   expect(sumMix([9, 3, '7', '3'])).toBe(22)

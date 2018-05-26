@@ -1,4 +1,4 @@
-const calculateTip = require('./index.js')
+const calculateTip = require('.')
 
 test('Test 1', () => {
   expect(calculateTip(20, 'Excellent')).toBe(4)

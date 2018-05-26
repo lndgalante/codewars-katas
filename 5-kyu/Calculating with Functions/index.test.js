@@ -13,7 +13,7 @@ const {
   minus,
   times,
   dividedBy,
-} = require('./index.js')
+} = require('.')
 
 test('Test 1', () => {
   expect(seven(times(five()))).toBe(35)

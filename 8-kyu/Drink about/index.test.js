@@ -1,4 +1,4 @@
-const peopleWithAgeDrink = require('./index.js')
+const peopleWithAgeDrink = require('.')
 
 test('Test 1', () => {
   expect(peopleWithAgeDrink(22)).toBe('drink whisky')

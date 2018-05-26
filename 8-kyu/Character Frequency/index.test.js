@@ -1,4 +1,4 @@
-const charFreq = require('./index.js')
+const charFreq = require('.')
 
 test('Test 1', () => {
   expect(charFreq('I like cats')).toEqual({

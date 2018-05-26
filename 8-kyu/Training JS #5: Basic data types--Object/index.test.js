@@ -1,4 +1,4 @@
-const animal = require('./index.js')
+const animal = require('.')
 
 test('Test 1', () => {
   expect(animal({ name: 'dog', legs: 4, color: 'white' })).toBe(

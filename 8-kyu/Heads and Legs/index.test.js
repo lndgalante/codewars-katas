@@ -1,4 +1,4 @@
-const animals = require('./index.js')
+const animals = require('.')
 
 test('Test 1', () => {
   expect(animals(72, 200)).toEqual([44, 28])

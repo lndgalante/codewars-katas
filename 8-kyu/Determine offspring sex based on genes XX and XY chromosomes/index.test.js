@@ -1,4 +1,4 @@
-const chromosomeCheck = require('./index.js')
+const chromosomeCheck = require('.')
 
 test('Test 1', () => {
   expect(chromosomeCheck('XY')).toBe(

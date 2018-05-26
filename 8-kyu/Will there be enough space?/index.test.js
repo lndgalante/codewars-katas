@@ -1,4 +1,4 @@
-const enough = require('./index.js')
+const enough = require('.')
 
 test('Test 1', () => {
   expect(enough(10, 5, 5)).toBe(0)

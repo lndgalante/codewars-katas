@@ -1,4 +1,4 @@
-const colorOf = require('./index.js')
+const colorOf = require('.')
 
 test('Test 1', () => {
   expect(colorOf(255, 0, 0)).toBe('#ff0000')

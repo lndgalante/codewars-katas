@@ -1,4 +1,4 @@
-const getAge = require('./index.js')
+const getAge = require('.')
 
 test('Test 1', () => {
   expect(getAge('1 year old')).toBe(1)

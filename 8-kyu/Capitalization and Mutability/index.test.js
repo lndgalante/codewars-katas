@@ -1,4 +1,4 @@
-const capitalizeWord = require('./index.js')
+const capitalizeWord = require('.')
 
 test('Test 1', () => {
   expect(capitalizeWord('word')).toBe('Word')

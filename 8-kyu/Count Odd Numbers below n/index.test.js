@@ -1,4 +1,4 @@
-const oddCount = require('./index.js')
+const oddCount = require('.')
 
 test('Test 1', () => {
   expect(oddCount(15)).toBe(7)

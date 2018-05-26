@@ -1,4 +1,4 @@
-const Hero = require('./index.js')
+const Hero = require('.')
 
 test('Test 1', () => {
   const hero = new Hero()

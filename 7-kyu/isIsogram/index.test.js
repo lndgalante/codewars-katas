@@ -1,4 +1,4 @@
-const isIsogram = require('./index.js')
+const isIsogram = require('.')
 
 test('Test 1', () => {
   expect(isIsogram('Dermatoglyphics')).toBeTruthy()

@@ -2,7 +2,7 @@
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 /* eslint no-extend-native: 0 */
 
-const Array = require('./index.js')
+const Array = require('.')
 
 test('Test 1', () => {
   const arr = [0, 1, 2, 2, 3]

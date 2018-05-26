@@ -1,4 +1,4 @@
-const getSum = require('./index')
+const getSum = require('.')
 
 test('Test 1', () => {
   expect(getSum(0, -1)).toBe(-1)

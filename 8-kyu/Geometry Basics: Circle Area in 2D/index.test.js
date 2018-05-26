@@ -1,4 +1,4 @@
-const circleArea = require('./index.js')
+const circleArea = require('.')
 
 class Circle {
   constructor(center, radius) {

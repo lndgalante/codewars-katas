@@ -1,4 +1,4 @@
-const validate = require('./index.js')
+const validate = require('.')
 
 test('Test 1', () => {
   expect(validate('Timmy', 'password"||""=="')).toBe(

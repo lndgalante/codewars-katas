@@ -1,4 +1,4 @@
-const weatherInfo = require('./index.js')
+const weatherInfo = require('.')
 
 test('Test 1', () => {
   expect(weatherInfo(50)).toBe('10 is above freezing temperature')

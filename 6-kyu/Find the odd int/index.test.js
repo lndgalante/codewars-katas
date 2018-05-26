@@ -1,4 +1,4 @@
-const findOdd = require('./index')
+const findOdd = require('.')
 
 test('Test 1', () => {
   expect(

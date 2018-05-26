@@ -1,4 +1,4 @@
-const rainAmount = require('./index.js')
+const rainAmount = require('.')
 
 test('Test 1', () => {
   expect(rainAmount(100)).toBe(

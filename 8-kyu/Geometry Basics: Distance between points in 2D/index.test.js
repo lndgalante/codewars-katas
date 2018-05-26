@@ -1,4 +1,4 @@
-const distanceBetweenPoints = require('./index.js')
+const distanceBetweenPoints = require('.')
 
 test('Test 1', () => {
   expect(distanceBetweenPoints({ x: 3, y: 3 }, { x: 3, y: 3 })).toBe(0)

@@ -1,4 +1,4 @@
-const squareArea = require('./index.js')
+const squareArea = require('.')
 
 test('Test 1', () => {
   expect(squareArea(2)).toBe(1.62)

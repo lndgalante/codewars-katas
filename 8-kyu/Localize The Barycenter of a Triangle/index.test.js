@@ -1,4 +1,4 @@
-const barTriang = require('./index.js')
+const barTriang = require('.')
 
 test('Test 1', () => {
   expect(barTriang([4, 6], [12, 4], [10, 10])).toEqual([8.6667, 6.6667])

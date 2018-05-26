@@ -1,4 +1,4 @@
-const sequenceSum = require('./index.js')
+const sequenceSum = require('.')
 
 test('Test 1', () => {
   expect(sequenceSum(2, 6, 2)).toBe(12)

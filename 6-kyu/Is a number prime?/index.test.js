@@ -1,4 +1,4 @@
-const isPrime = require('./index.js')
+const isPrime = require('.')
 
 test('Test 1', () => {
   expect(isPrime(0)).toBeFalsy()

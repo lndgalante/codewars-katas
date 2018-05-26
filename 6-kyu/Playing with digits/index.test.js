@@ -1,4 +1,4 @@
-const digPow = require('./index')
+const digPow = require('.')
 
 test('Test 1', () => {
   expect(digPow(89, 1)).toBe(1)

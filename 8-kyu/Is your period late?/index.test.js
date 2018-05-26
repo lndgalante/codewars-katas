@@ -1,4 +1,4 @@
-const periodIsLate = require('./index.js')
+const periodIsLate = require('.')
 
 test('Test 1', () => {
   expect(

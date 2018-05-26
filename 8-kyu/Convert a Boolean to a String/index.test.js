@@ -1,4 +1,4 @@
-const booleanToString = require('./index.js')
+const booleanToString = require('.')
 
 test('Test 1', () => {
   expect(booleanToString(true)).toBe('true')

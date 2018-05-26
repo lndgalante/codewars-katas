@@ -1,4 +1,4 @@
-const arithmetic = require('./index.js')
+const arithmetic = require('.')
 
 test('Test 1', () => {
   expect(arithmetic(1, 2, 'add')).toBe(3)

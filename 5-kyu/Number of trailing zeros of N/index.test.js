@@ -1,4 +1,4 @@
-const zeros = require('./index.js')
+const zeros = require('.')
 
 test('Test 1', () => {
   expect(zeros(6)).toBe(1)

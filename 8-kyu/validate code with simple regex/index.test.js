@@ -1,4 +1,4 @@
-const validateCode = require('./index.js')
+const validateCode = require('.')
 
 test('Test 1', () => {
   expect(validateCode(123)).toBeTruthy()

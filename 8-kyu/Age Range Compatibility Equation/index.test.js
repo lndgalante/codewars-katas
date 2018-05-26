@@ -1,4 +1,4 @@
-const datingRange = require('./index.js')
+const datingRange = require('.')
 
 test('Test 1', () => {
   expect(datingRange(17)).toBe('15-20')

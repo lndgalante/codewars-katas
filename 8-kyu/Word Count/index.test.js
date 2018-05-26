@@ -1,4 +1,4 @@
-const countWords = require('./index.js')
+const countWords = require('.')
 
 test('Test 1', () => {
   expect(countWords('Hello')).toBe(1)

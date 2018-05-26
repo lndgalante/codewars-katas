@@ -1,4 +1,4 @@
-const sumDigits = require('./index.js')
+const sumDigits = require('.')
 
 test('Test 1', () => {
   expect(sumDigits(10)).toBe(1)

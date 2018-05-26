@@ -1,4 +1,4 @@
-const Dog = require('./index.js')
+const Dog = require('.')
 
 test('Test 1', () => {
   const snoopy = new Dog('Beagle')

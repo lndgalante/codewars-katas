@@ -1,4 +1,4 @@
-const cakes = require('./index.js')
+const cakes = require('.')
 
 test('Test 1', () => {
   expect(

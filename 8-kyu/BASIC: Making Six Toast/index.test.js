@@ -1,4 +1,4 @@
-const sixToast = require('./index.js')
+const sixToast = require('.')
 
 test('Test 1', () => {
   expect(sixToast(6)).toBe(0)

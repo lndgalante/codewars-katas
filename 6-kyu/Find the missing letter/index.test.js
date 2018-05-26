@@ -1,4 +1,4 @@
-const findMissingLetter = require('./index')
+const findMissingLetter = require('.')
 
 test('Test 1', () => {
   expect(findMissingLetter(['a', 'b', 'c', 'd', 'f'])).toEqual('e')

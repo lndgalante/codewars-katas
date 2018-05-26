@@ -1,4 +1,4 @@
-const prefill = require('./index.js')
+const prefill = require('.')
 
 test('Test 1', () => {
   expect(prefill(0, 1)).toEqual([])

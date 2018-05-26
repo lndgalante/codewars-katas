@@ -1,4 +1,4 @@
-const rgb = require('./index.js')
+const rgb = require('.')
 
 test('Test 1', () => {
   expect(rgb(255, 255, 255)).toBe('FFFFFF')

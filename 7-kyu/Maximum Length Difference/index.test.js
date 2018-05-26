@@ -1,4 +1,4 @@
-const mxdiflg = require('./index.js')
+const mxdiflg = require('.')
 
 test('Test 1', () => {
   expect(

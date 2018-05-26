@@ -1,4 +1,4 @@
-const abbrevName = require('./index.js')
+const abbrevName = require('.')
 
 test('Test 1', () => {
   expect(abbrevName('Sam Harris')).toBe('S.H')

@@ -1,4 +1,4 @@
-const contamination = require('./index.js')
+const contamination = require('.')
 
 test('Test 1', () => {
   expect(contamination('abc', 'z')).toBe('zzz')

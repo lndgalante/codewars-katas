@@ -1,4 +1,4 @@
-const howMuchILoveYou = require('./index.js')
+const howMuchILoveYou = require('.')
 
 test('Test 1', () => {
   expect(howMuchILoveYou(7)).toBe('I love you')

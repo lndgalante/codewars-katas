@@ -1,4 +1,4 @@
-const zeroFuel = require('./index.js')
+const zeroFuel = require('.')
 
 test('Test 1', () => {
   expect(zeroFuel(50, 25, 2)).toBeTruthy()

@@ -1,4 +1,4 @@
-const NameMe = require('./index.js')
+const NameMe = require('.')
 
 test('Test 1', () => {
   const n = new NameMe('John', 'Doe')

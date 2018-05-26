@@ -1,4 +1,4 @@
-const switchItUp = require('./index.js')
+const switchItUp = require('.')
 
 test('Test 1', () => {
   expect(switchItUp(1)).toBe('One')

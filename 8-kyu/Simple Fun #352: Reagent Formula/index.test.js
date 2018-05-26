@@ -1,4 +1,4 @@
-const isValid = require('./index.js')
+const isValid = require('.')
 
 test('Test 1', () => {
   expect(isValid([1, 3, 7])).toBeTruthy()

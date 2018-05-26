@@ -1,4 +1,4 @@
-const greet = require('./index.js')
+const greet = require('.')
 
 test('Test 1', () => {
   expect(greet('maya')).toBe('Hello Maya!')

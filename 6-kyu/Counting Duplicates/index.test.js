@@ -1,4 +1,4 @@
-const duplicateCount = require('./index.js')
+const duplicateCount = require('.')
 
 test('Test 1', () => {
   expect(duplicateCount('abcde')).toBe(0)

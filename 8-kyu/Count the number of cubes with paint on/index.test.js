@@ -1,4 +1,4 @@
-const countSquares = require('./index.js')
+const countSquares = require('.')
 
 test('Test 1', () => {
   expect(countSquares(5)).toBe(152)

@@ -1,4 +1,4 @@
-const isDivisible = require('./index.js')
+const isDivisible = require('.')
 
 test('Test 1', () => {
   expect(isDivisible(3, 3, 4)).toBeFalsy()

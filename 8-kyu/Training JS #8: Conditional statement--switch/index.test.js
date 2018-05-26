@@ -1,4 +1,4 @@
-const howManydays = require('./index.js')
+const howManydays = require('.')
 
 test('Test 1', () => {
   expect(howManydays(1)).toBe(31)

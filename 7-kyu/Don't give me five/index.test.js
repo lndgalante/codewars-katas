@@ -1,4 +1,4 @@
-const dontGiveMeFive = require('./index.js')
+const dontGiveMeFive = require('.')
 
 test('Test 1', () => {
   expect(dontGiveMeFive(1, 9)).toBe(8)

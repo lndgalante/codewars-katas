@@ -1,4 +1,4 @@
-const otherAngle = require('./index.js')
+const otherAngle = require('.')
 
 test('Test 1', () => {
   expect(otherAngle(30, 60)).toBe(90)

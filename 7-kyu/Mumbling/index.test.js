@@ -1,4 +1,4 @@
-const accum = require('./index')
+const accum = require('.')
 
 test('Test 1', () => {
   expect(accum('abcd')).toBe('A-Bb-Ccc-Dddd')

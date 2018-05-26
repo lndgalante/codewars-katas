@@ -1,4 +1,4 @@
-const remove = require('./index.js')
+const remove = require('.')
 
 test('Test 1', () => {
   expect(remove('Hi!')).toBe('Hi!')

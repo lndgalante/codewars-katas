@@ -1,4 +1,4 @@
-const reverseWords = require('./index')
+const reverseWords = require('.')
 
 test('Test 1', () => {
   expect(reverseWords('hello world!')).toBe('world! hello')

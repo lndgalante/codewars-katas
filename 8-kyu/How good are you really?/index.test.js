@@ -1,4 +1,4 @@
-const betterThanAverage = require('./index.js')
+const betterThanAverage = require('.')
 
 test('Test 1', () => {
   expect(betterThanAverage([2, 3], 5)).toBeTruthy()

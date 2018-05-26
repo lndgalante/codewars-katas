@@ -1,4 +1,4 @@
-const howMuchWater = require('./index.js')
+const howMuchWater = require('.')
 
 test('Test 1', () => {
   expect(howMuchWater(10, 10, 21)).toBe('Too much clothes')

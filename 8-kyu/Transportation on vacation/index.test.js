@@ -1,4 +1,4 @@
-const rentalCarCost = require('./index.js')
+const rentalCarCost = require('.')
 
 test('Test 1', () => {
   expect(rentalCarCost(1)).toBe(40)

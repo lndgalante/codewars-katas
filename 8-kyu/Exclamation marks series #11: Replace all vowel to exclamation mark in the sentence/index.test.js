@@ -1,4 +1,4 @@
-const replace = require('./index.js')
+const replace = require('.')
 
 test('Test 1', () => {
   expect(replace('Hi!')).toBe('H!!')
