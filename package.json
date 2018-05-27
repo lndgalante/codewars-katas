@@ -14,10 +14,11 @@
   "devDependencies": {
     "@types/jest": "^22.2.3",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-jest": "^21.15.2",
+    "eslint-plugin-jest": "^21.16.0",
     "husky": "^0.14.3",
-    "jest": "^23.0.0",
-    "prettier": "^1.12.1",
+    "jest": "^23.0.1",
+    "jest-extended": "^0.7.2",
+    "prettier": "^1.13.0",
     "xo": "0.21.1"
   },
   "scripts": {
@@ -28,8 +29,14 @@
   },
   "xo": {
     "esnext": true,
-    "extends": ["prettier", "plugin:jest/recommended"],
-    "ignores": ["utils/boilerplate.js", "utils/boilerplate.test.js"]
+    "extends": [
+      "prettier",
+      "plugin:jest/recommended"
+    ],
+    "ignores": [
+      "utils/boilerplate.js",
+      "utils/boilerplate.test.js"
+    ]
   },
   "prettier": {
     "semi": false,
@@ -40,6 +47,12 @@
     "eslintIntegration": true
   },
   "jest": {
-    "testPathIgnorePatterns": ["./boilerplate.js", "./boilerplate.test.js"]
+    "testPathIgnorePatterns": [
+      "./boilerplate.js",
+      "./boilerplate.test.js"
+    ],
+    "setupTestFrameworkScriptFile": "jest-extended",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }

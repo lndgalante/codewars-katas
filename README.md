@@ -2,7 +2,7 @@
 
 > 🥋 Codewars katas repository with solutions, test integration, tips and tutorials
 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![dependencies](https://david-dm.org/lndgalante/codewars-katas.svg)](https://david-dm.org/lndgalante/codewars-katas.svg) [![code style: prettier](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![dependencies](https://david-dm.org/lndgalante/codewars-katas.svg)](https://david-dm.org/lndgalante/codewars-katas.svg) [![code style: prettier](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg) [![codecov](https://codecov.io/gh/lndgalante/codewars-katas/branch/master/graph/badge.svg)](https://codecov.io/gh/lndgalante/codewars-katas)
 
 ## What's a kata?
 
