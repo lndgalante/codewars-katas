@@ -1,3 +1,5 @@
+/* eslint prefer-rest-params: 0 */
+
 /*
   Title:
     Basic JS - Calculating averages
@@ -23,8 +25,8 @@
 */
 
 // Long Solution
-let Calculator = {
-  average: function() {
+const Calculator = {
+  average() {
     const numbers = [...arguments]
     const totalNumbers = numbers.length
 
