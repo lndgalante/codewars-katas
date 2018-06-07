@@ -4,8 +4,7 @@
   "description": "All my CodeWars katas",
   "author": {
     "name": "Leonardo Galante",
-    "email": "lndgalante@gmail.com",
-    "url": "https://leonardogalante.com"
+    "email": "lndgalante@gmail.com"
   },
   "dependencies": {
     "lodash": "^4.17.10",
@@ -29,8 +28,14 @@
   },
   "xo": {
     "esnext": true,
-    "extends": ["prettier", "plugin:jest/recommended"],
-    "ignores": ["utils/boilerplate.js", "utils/boilerplate.test.js"]
+    "extends": [
+      "prettier",
+      "plugin:jest/recommended"
+    ],
+    "ignores": [
+      "utils/boilerplate.js",
+      "utils/boilerplate.test.js"
+    ]
   },
   "prettier": {
     "semi": false,
@@ -41,7 +46,10 @@
     "eslintIntegration": true
   },
   "jest": {
-    "testPathIgnorePatterns": ["./boilerplate.js", "./boilerplate.test.js"],
+    "testPathIgnorePatterns": [
+      "./boilerplate.js",
+      "./boilerplate.test.js"
+    ],
     "setupTestFrameworkScriptFile": "jest-extended",
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
