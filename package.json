@@ -11,7 +11,7 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "@types/jest": "^23.0.2",
+    "@types/jest": "^23.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-jest": "^21.17.0",
     "husky": "^0.14.3",
