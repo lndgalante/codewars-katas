@@ -3,5 +3,6 @@
 const Array = require('.')
 
 test('Test 1', () => {
-  expect([1, 2, 3, 4].filter(num => num > 3)).toEqual([4])
+  const biggerThanFour = [1, 2, 3, 4].filter(num => num > 3)
+  expect(biggerThanFour).toEqual([4])
 })

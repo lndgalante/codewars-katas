@@ -6,15 +6,15 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(myFirstKata('hello', 3)).toBeFalsy()
+  expect(myFirstKata('hello', 3)).toBeFalse()
 })
 
 test('Test 3', () => {
-  expect(myFirstKata(67, 'bye')).toBeFalsy()
+  expect(myFirstKata(67, 'bye')).toBeFalse()
 })
 
 test('Test 4', () => {
-  expect(myFirstKata(true, true)).toBeFalsy()
+  expect(myFirstKata(true, true)).toBeFalse()
 })
 
 test('Test 5', () => {

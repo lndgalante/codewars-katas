@@ -81,6 +81,7 @@ If you want to test only a particular kyu rank run
 - Pre-commit hook: [Husky](https://github.com/typicode/husky)
 - Types definitions: [Types](https://www.npmjs.com/package/@types)
 - Testing: [Jest](https://github.com/facebook/jest)
+- Extra matchers: [Jest-extended](https://github.com/jest-community/jest-extended)
 
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping.
 Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133).

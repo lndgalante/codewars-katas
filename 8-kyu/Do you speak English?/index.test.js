@@ -1,9 +1,9 @@
 const spEng = require('.')
 
 test('Test 1', () => {
-  expect(spEng('english')).toBeTruthy()
+  expect(spEng('english')).toBeTrue()
 })
 
 test('Test 2', () => {
-  expect(spEng('egnlish')).toBeFalsy()
+  expect(spEng('egnlish')).toBeFalse()
 })

@@ -12,6 +12,7 @@ const people = [
 for (let i = 0; i < people.length; i++) {
   const person = Person()
   person.fillFriends(people[i])
+
   test(`Test ${i}`, () => {
     expect(person._friends).toEqual(people[i])
   })

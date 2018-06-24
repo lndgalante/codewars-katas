@@ -15,5 +15,5 @@ test('Test 1', () => {
         19 * 19,
       ]
     )
-  ).toBeTruthy()
+  ).toBeTrue()
 })

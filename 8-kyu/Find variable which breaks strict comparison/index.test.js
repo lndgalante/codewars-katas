@@ -7,5 +7,5 @@ test('Test 1', () => {
   const x = findStrangeValue()
   const testPassed = !(x === x)
 
-  expect(testPassed).toBeTruthy()
+  expect(testPassed).toBeTrue()
 })

@@ -1,9 +1,9 @@
 const validateHello = require('.')
 
 test('Test 1', () => {
-  expect(validateHello('ahoj')).toBeTruthy()
+  expect(validateHello('ahoj')).toBeTrue()
 })
 
 test('Test 2', () => {
-  expect(validateHello('meh')).toBeFalsy()
+  expect(validateHello('meh')).toBeFalse()
 })

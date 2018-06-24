@@ -5,7 +5,7 @@ test('Test 1', () => {
     isLockNessMonster(
       'Your girlscout cookies are ready to ship. Your total comes to tree fiddy'
     )
-  ).toBeTruthy()
+  ).toBeTrue()
 })
 
 test('Test 2', () => {
@@ -13,5 +13,5 @@ test('Test 2', () => {
     isLockNessMonster(
       'Yo, I heard you were on the lookout for Nessie. Let me know if you need assistance.'
     )
-  ).toBeFalsy()
+  ).toBeFalse()
 })

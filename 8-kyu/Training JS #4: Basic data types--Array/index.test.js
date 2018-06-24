@@ -9,9 +9,9 @@ test('Test 2', () => {
 })
 
 test('Test 3', () => {
-  expect(pushElement([1, 2, 3])).toHaveLength(4)
+  expect(pushElement([1, 2, 3])).toBeArrayOfSize(4)
 })
 
 test('Test 4', () => {
-  expect(popElement([1, 2, 3])).toHaveLength(2)
+  expect(popElement([1, 2, 3])).toBeArrayOfSize(2)
 })

@@ -5,109 +5,109 @@
 const isUpperCase = require('.')
 
 test('Test 1', () => {
-  expect(''.isUpperCase()).toBeTruthy()
+  expect(''.isUpperCase()).toBeTrue()
 })
 
 test('Test 2', () => {
-  expect('c'.isUpperCase()).toBeFalsy()
+  expect('c'.isUpperCase()).toBeFalse()
 })
 
 test('Test 3', () => {
-  expect('C'.isUpperCase()).toBeTruthy()
+  expect('C'.isUpperCase()).toBeTrue()
 })
 
 test('Test 4', () => {
-  expect('hello I AM DONALD'.isUpperCase()).toBeFalsy()
+  expect('hello I AM DONALD'.isUpperCase()).toBeFalse()
 })
 
 test('Test 5', () => {
-  expect('HELLO I AM DONALD'.isUpperCase()).toBeTruthy()
+  expect('HELLO I AM DONALD'.isUpperCase()).toBeTrue()
 })
 
 test('Test 6', () => {
-  expect('ACSKLDFJSgSKLDFJSKLDFJ'.isUpperCase()).toBeFalsy()
+  expect('ACSKLDFJSgSKLDFJSKLDFJ'.isUpperCase()).toBeFalse()
 })
 
 test('Test 7', () => {
-  expect('Hello World'.isUpperCase()).toBeFalsy()
+  expect('Hello World'.isUpperCase()).toBeFalse()
 })
 
 test('Test 8', () => {
-  expect('hello world'.isUpperCase()).toBeFalsy()
+  expect('hello world'.isUpperCase()).toBeFalse()
 })
 
 test('Test 9', () => {
-  expect('Hello world'.isUpperCase()).toBeFalsy()
+  expect('Hello world'.isUpperCase()).toBeFalse()
 })
 
 test('Test 10', () => {
-  expect('hello World'.isUpperCase()).toBeFalsy()
+  expect('hello World'.isUpperCase()).toBeFalse()
 })
 
 test('Test 11', () => {
-  expect('HELLO WORLD'.isUpperCase()).toBeTruthy()
+  expect('HELLO WORLD'.isUpperCase()).toBeTrue()
 })
 
 test('Test 12', () => {
-  expect('Bob walks his dog every day.'.isUpperCase()).toBeFalsy()
+  expect('Bob walks his dog every day.'.isUpperCase()).toBeFalse()
 })
 
 test('Test 13', () => {
-  expect('Bob walks his dog every day.'.isUpperCase()).toBeFalsy()
+  expect('Bob walks his dog every day.'.isUpperCase()).toBeFalse()
 })
 
 test('Test 14', () => {
-  expect('BOB walks his dog every day.'.isUpperCase()).toBeFalsy()
+  expect('BOB walks his dog every day.'.isUpperCase()).toBeFalse()
 })
 
 test('Test 15', () => {
-  expect('BOB WALKS HIS DOG EVERY DAY.'.isUpperCase()).toBeTruthy()
+  expect('BOB WALKS HIS DOG EVERY DAY.'.isUpperCase()).toBeTrue()
 })
 
 test('Test 16', () => {
-  expect('BOB WALKs HIS DOG EVERY DAY.'.isUpperCase()).toBeFalsy()
+  expect('BOB WALKs HIS DOG EVERY DAY.'.isUpperCase()).toBeFalse()
 })
 
 test('Test 17', () => {
-  expect('#lovewins'.isUpperCase()).toBeFalsy()
+  expect('#lovewins'.isUpperCase()).toBeFalse()
 })
 
 test('Test 18', () => {
-  expect('#Lovewins'.isUpperCase()).toBeFalsy()
+  expect('#Lovewins'.isUpperCase()).toBeFalse()
 })
 
 test('Test 19', () => {
-  expect('#loveWins'.isUpperCase()).toBeFalsy()
+  expect('#loveWins'.isUpperCase()).toBeFalse()
 })
 
 test('Test 20', () => {
-  expect('#LoveWins'.isUpperCase()).toBeFalsy()
+  expect('#LoveWins'.isUpperCase()).toBeFalse()
 })
 
 test('Test 21', () => {
-  expect('#LoveWins'.isUpperCase()).toBeFalsy()
+  expect('#LoveWins'.isUpperCase()).toBeFalse()
 })
 
 test('Test 22', () => {
-  expect('#LOVEWins'.isUpperCase()).toBeFalsy()
+  expect('#LOVEWins'.isUpperCase()).toBeFalse()
 })
 
 test('Test 23', () => {
-  expect('#LOVEWins'.isUpperCase()).toBeFalsy()
+  expect('#LOVEWins'.isUpperCase()).toBeFalse()
 })
 
 test('Test 24', () => {
-  expect('#LoveWINS'.isUpperCase()).toBeFalsy()
+  expect('#LoveWINS'.isUpperCase()).toBeFalse()
 })
 
 test('Test 25', () => {
-  expect('#LOVEWINs'.isUpperCase()).toBeFalsy()
+  expect('#LOVEWINs'.isUpperCase()).toBeFalse()
 })
 
 test('Test 26', () => {
-  expect('#lOVEWINS'.isUpperCase()).toBeFalsy()
+  expect('#lOVEWINS'.isUpperCase()).toBeFalse()
 })
 
 test('Test 27', () => {
-  expect('#LOVEWINS'.isUpperCase()).toBeTruthy()
+  expect('#LOVEWINS'.isUpperCase()).toBeTrue()
 })

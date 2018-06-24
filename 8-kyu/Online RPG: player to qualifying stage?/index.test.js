@@ -1,7 +1,7 @@
 const playerRankUp = require('.')
 
 test('Test 1', () => {
-  expect(playerRankUp(64)).toBeFalsy()
+  expect(playerRankUp(64)).toBeFalse()
 })
 
 test('Test 2', () => {

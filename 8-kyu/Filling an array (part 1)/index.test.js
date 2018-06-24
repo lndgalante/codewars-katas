@@ -1,7 +1,7 @@
 const arr = require('.')
 
 test('Test 1', () => {
-  expect(arr()).toBeInstanceOf(Array)
+  expect(arr()).toBeArray()
 })
 
 test('Test 2', () => {

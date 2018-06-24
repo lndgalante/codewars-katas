@@ -1,7 +1,7 @@
 const stringy = require('.')
 
 test('Test 1', () => {
-  expect(typeof stringy(3)).toBe('string')
+  expect(stringy(3)).toBeString()
 })
 
 test('Test 2', () => {

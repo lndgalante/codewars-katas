@@ -1,11 +1,11 @@
 const circleArea = require('.')
 
 test('Test 1', () => {
-  expect(circleArea(-1485.86)).toBeFalsy()
+  expect(circleArea(-1485.86)).toBeFalse()
 })
 
 test('Test 2', () => {
-  expect(circleArea(0)).toBeFalsy()
+  expect(circleArea(0)).toBeFalse()
 })
 
 test('Test 3', () => {
@@ -17,5 +17,5 @@ test('Test 4', () => {
 })
 
 test('Test 5', () => {
-  expect(circleArea('number')).toBeFalsy()
+  expect(circleArea('number')).toBeFalse()
 })

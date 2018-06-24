@@ -10,7 +10,7 @@ test('Test 1', () => {
   expect(spitsy.legs).toBe(4)
   expect(spitsy.size).toBe('Large')
   expect(spitsy.master).toBe('Donald')
-  expect(spitsy.loyal).toBeTruthy()
+  expect(spitsy.loyal).toBeTrue()
 })
 
 test('Test 2', () => {
@@ -23,5 +23,5 @@ test('Test 2', () => {
   expect(edward.legs).toBe(4)
   expect(edward.size).toBe('Large')
   expect(edward.master).toBe('Emma')
-  expect(edward.loyal).toBeTruthy()
+  expect(edward.loyal).toBeTrue()
 })

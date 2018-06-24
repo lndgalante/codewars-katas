@@ -5,25 +5,25 @@
 const digit = require('.')
 
 test('Test 1', () => {
-  expect(''.digit()).toBeFalsy()
+  expect(''.digit()).toBeFalse()
 })
 
 test('Test 2', () => {
-  expect('7'.digit()).toBeTruthy()
+  expect('7'.digit()).toBeTrue()
 })
 
 test('Test 3', () => {
-  expect(' '.digit()).toBeFalsy()
+  expect(' '.digit()).toBeFalse()
 })
 
 test('Test 4', () => {
-  expect('a'.digit()).toBeFalsy()
+  expect('a'.digit()).toBeFalse()
 })
 
 test('Test 5', () => {
-  expect('a5'.digit()).toBeFalsy()
+  expect('a5'.digit()).toBeFalse()
 })
 
 test('Test 6', () => {
-  expect('14'.digit()).toBeFalsy()
+  expect('14'.digit()).toBeFalse()
 })

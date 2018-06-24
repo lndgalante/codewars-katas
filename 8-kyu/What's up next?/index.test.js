@@ -20,5 +20,6 @@ test('Test 5', () => {
   function* countFrom(n) {
     for (let i = n; ; ++i) yield i
   }
+
   expect(nextItem(countFrom(1), 12)).toBe(13)
 })

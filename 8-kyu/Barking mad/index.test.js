@@ -6,6 +6,6 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  const scoobydoo = new Dog('Great Dane')
-  expect(scoobydoo.bark()).toBe('Woof')
+  const scoobyDoo = new Dog('Great Dane')
+  expect(scoobyDoo.bark()).toBe('Woof')
 })

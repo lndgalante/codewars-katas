@@ -5,7 +5,7 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(solution()).toBeTruthy()
+  expect(solution()).toBeTrue()
 })
 
 test('Test 3', () => {

@@ -5,5 +5,5 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(always(true)()).toBeTruthy()
+  expect(always(true)()).toBeTrue()
 })

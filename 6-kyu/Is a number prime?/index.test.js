@@ -1,13 +1,13 @@
 const isPrime = require('.')
 
 test('Test 1', () => {
-  expect(isPrime(0)).toBeFalsy()
+  expect(isPrime(0)).toBeFalse()
 })
 
 test('Test 2', () => {
-  expect(isPrime(1)).toBeFalsy()
+  expect(isPrime(1)).toBeFalse()
 })
 
 test('Test 3', () => {
-  expect(isPrime(2)).toBeTruthy()
+  expect(isPrime(2)).toBeTrue()
 })

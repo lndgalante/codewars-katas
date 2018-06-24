@@ -3,13 +3,13 @@
 const a = require('.')
 
 test('Test 1', () => {
-  expect(a == false).toBeTruthy()
+  expect(a == false).toBeTrue()
 })
 
 test('Test 2', () => {
-  expect(!a == false).toBeTruthy()
+  expect(!a == false).toBeTrue()
 })
 
 test('Test 3', () => {
-  expect(a == !a).toBeTruthy()
+  expect(a == !a).toBeTrue()
 })
