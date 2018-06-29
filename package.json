@@ -17,7 +17,7 @@
     "husky": "^0.14.3",
     "jest": "^23.2.0",
     "jest-extended": "^0.7.2",
-    "prettier": "^1.13.6",
+    "prettier": "^1.13.7",
     "xo": "0.21.1"
   },
   "scripts": {
