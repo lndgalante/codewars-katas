@@ -93,7 +93,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
   - [Awesome RegEx](https://github.com/aloisdg/awesome-regex)
   - [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html)
   - [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction)
-  - [Breaking the Ice With Regular Expressions - CodeSchool](https://www.codeschool.com/courses/breaking-the-ice-with-regular-expressions)
+  - [Breaking the Ice With Regular Expressions - CodeSchool](https://www.pluralsight.com/courses/code-school-breaking-the-ice-with-regular-expressions)
   - [RegExp The Ultra Basics in JavaScript](https://www.youtube.com/watch?v=VrT3TRDDE4M)
 
 * ES6 / ES2015
