@@ -26,7 +26,7 @@
 // Long Solution
 const sortDict = dict =>
   Object.entries(dict)
-    .map(([key, value]) => (isNaN(key) ? [key, value] : [Number(key), value]))
+    .map(([key, value]) => [Number(key) || key, value])
     .sort(([, valueA], [, valueB]) => valueB - valueA)
 
 // Function Export
