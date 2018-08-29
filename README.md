@@ -16,8 +16,9 @@ Kyu digit determines kata difficulty level as well as the user rank on the platf
 
 This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
-- [8 Kyu](https://github.com/lndgalante/codewars-katas/tree/master/8-kyu/index.md)
-- 7 Kyu will be generated when all are finished
+- 8 Kyu - [Index](https://github.com/lndgalante/codewars-katas/tree/master/index/8-kyu.md) - [Representation](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#8-kyu)
+
+- 7 Kyu - [Index](https://github.com/lndgalante/codewars-katas/tree/master/index/7-kyu.md) - [Representation](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#7-kyu)
 
 ## Node.js versions & ES6+ support
 
