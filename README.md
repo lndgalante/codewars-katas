@@ -77,12 +77,12 @@ If you want to test only a particular kyu rank run
 
 ## Development Dependencies
 
-- Code Formatting and Linting: [Prettier](https://github.com/prettier/prettier) and [XO](https://github.com/sindresorhus/xo)
-- Utilities: [Lodash](https://github.com/lodash/lodash) and [Ramda](https://github.com/ramda/ramda)
+- Code Linting: [XO](https://github.com/sindresorhus/xo)
+- Code Formatting: [Prettier](https://github.com/prettier/prettier)
+- Utilities: [Lodash](https://github.com/lodash/lodash) & [Ramda](https://github.com/ramda/ramda)
 - Pre-commit hook: [Husky](https://github.com/typicode/husky)
-- Types definitions: [Types](https://www.npmjs.com/package/@types)
-- Testing: [Jest](https://github.com/facebook/jest)
-- Extra matchers: [Jest-extended](https://github.com/jest-community/jest-extended)
+- Testing: [Jest](https://github.com/facebook/jest) & [Jest-extended](https://github.com/jest-community/jest-extended)
+- Types definitions for Jest: [Types/jest](https://www.npmjs.com/package/@types/jest)
 
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping.
 Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133).
