@@ -1,0 +1,1 @@
+* [Base64 Encoding](https://github.com/lndgalante/codewars-katas/tree/master/3-kyu/Base64%20Encoding)
