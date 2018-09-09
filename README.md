@@ -147,6 +147,8 @@ I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 
 5.  If you check my solutions the "Long Solution" maybe is longer than the "Short Solution" but is more readable.
 
+6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com)
+
 ## More Helpful Resources
 
 - [Jeffrey Shen - RegEx Snippets](https://github.com/jeffreyshen19/RegEx-Snippets)
@@ -171,10 +173,6 @@ I'll begin doing katas with kyu 4 to 1 when I finish all katas from above.
 - [CoderByte](https://coderbyte.com)
 - [CodeFights](https://codefights.com)
 - [HackerRank](https://www.hackerrank.com)
-
-## Badge
-
-[![CodeWars](https://www.codewars.com/users/lndgalante/badges/small)](https://www.codewars.com/users/lndgalante 'My Honor Badge')
 
 ## License
 
