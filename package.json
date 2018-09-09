@@ -11,7 +11,7 @@
     "ramda": "^0.25.0"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.1",
+    "@types/jest": "^23.3.2",
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-jest": "^21.22.0",
     "husky": "^0.14.3",
@@ -24,7 +24,8 @@
     "lint": "xo",
     "test": "jest",
     "test-watch": "jest --watchAll",
-    "precommit": "npm run lint && npm run test"
+    "precommit": "npm run lint && npm run test",
+    "generate-index": "node ./utils/index-generator.js"
   },
   "xo": {
     "esnext": true,

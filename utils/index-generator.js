@@ -12,11 +12,11 @@ const indexGenerator = kyu => {
       })
       .join('\n\n')
 
-  const kyuIndex = markdown(`../${kyu}`)
+  const kyuIndex = markdown(`./${kyu}`)
 
-  appendFile(`../index/${kyu}.md`, kyuIndex, err => {
+  appendFile(`./index/${kyu}.md`, kyuIndex, err => {
     if (err) throw err
-    console.log('Index generated')
+    console.log(`${kyu.split('-').join(' ')} index generated`)
   })
 }
 
