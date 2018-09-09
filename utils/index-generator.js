@@ -1,4 +1,4 @@
-const { appendFile, readdirSync } = require('fs')
+const { writeFile, readdirSync } = require('fs')
 
 const indexGenerator = kyu => {
   const url = `https://github.com/lndgalante/codewars-katas/tree/master/${kyu}/`
@@ -14,7 +14,7 @@ const indexGenerator = kyu => {
 
   const kyuIndex = markdown(`./${kyu}`)
 
-  appendFile(`./index/${kyu}.md`, kyuIndex, err => {
+  writeFile(`./index/${kyu}.md`, kyuIndex, err => {
     if (err) throw err
     console.log(`${kyu.split('-').join(' ')} index generated`)
   })
