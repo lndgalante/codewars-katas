@@ -52,13 +52,13 @@ There's a folder for each kyu (rank) with a folder per kata (algorithm)
 To generate a new folder with a `index.js` and `index.test.js` run
 
 ```bash
-> ./new.sh "kata-name"
+> yarn create-kata "kata name"
 ```
 
 For example
 
 ```bash
-> ./new.sh "Area of a Square"
+> yarn create-kata "Area of a Square"
 ```
 
 ## Test your Might
