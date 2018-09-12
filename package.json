@@ -23,8 +23,8 @@
   "scripts": {
     "lint": "xo",
     "test": "jest",
-    "create-kata": "./new.sh",
     "test-watch": "jest --watchAll",
+    "create-kata": "./utils/new.sh",
     "precommit": "npm run lint && npm run test",
     "generate-index": "node ./utils/index-generator.js"
   },
