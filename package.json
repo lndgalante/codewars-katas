@@ -7,7 +7,7 @@
     "email": "lndgalante@gmail.com"
   },
   "dependencies": {
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "ramda": "^0.25.0"
   },
   "devDependencies": {
