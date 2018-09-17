@@ -12,14 +12,6 @@ A kata basically is an algorithm you have to solve in any programming language y
 
 Kyu digit determines kata difficulty level as well as the user rank on the platform.
 
-## Global Index
-
-This index will help you find all katas ordered alphabetically with a link to the kata folder.
-
-- 8 Kyu - [Index](https://github.com/lndgalante/codewars-katas/tree/master/index/8-kyu.md) - [Representation](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#8-kyu)
-
-- 7 Kyu - [Index](https://github.com/lndgalante/codewars-katas/tree/master/index/7-kyu.md) - [Representation](https://github.com/Codewars/codewars.com/wiki/Kata-Ranking#7-kyu)
-
 ## Node.js versions & ES6+ support
 
 The current Node versions [available](https://github.com/Codewars/codewars.com/wiki/Language-JavaScript) are the following:
@@ -46,6 +38,20 @@ There's a folder for each kyu (rank) with a folder per kata (algorithm)
   - Binary Addition
     - index.js
     - index.test.js
+
+## Global Index
+
+This index will help you find all katas ordered alphabetically with a link to the kata folder.
+
+- [8 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/index/8-kyu.md)
+
+* [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/index/7-kyu.md)
+
+To update the indexes run
+
+```bash
+> yarn generate-index
+```
 
 ## Create a new Kata
 
