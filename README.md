@@ -30,7 +30,7 @@ The current Node versions [available](https://github.com/Codewars/codewars.com/w
 ## Purpose
 
 Practicing katas could help you to improve your algorithmic thinking. It could also helps going to interviews more confident.
-I highly recommend this [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which help you ace your next technical interview.
+I highly recommend the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which will help you ace your next technical interview.
 
 ## Repository Structure
 
@@ -66,7 +66,7 @@ For example
 If you want to test in watch mode all katas run
 
 ```bash
->  yarn test-watch
+> yarn test-watch
 ```
 
 If you want to test only a particular kyu rank run
