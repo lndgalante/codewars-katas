@@ -137,7 +137,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 
 5.  If you check my solutions the "Long Solution" maybe is longer than the "Short Solution" but is more readable.
 
-6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com)
+6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com) or [JSBench](https://jsbench.me)
 
 ## More Helpful Resources
 
