@@ -25,8 +25,12 @@
     "test": "jest",
     "test-watch": "jest --watchAll",
     "create-kata": "./utils/new.sh",
-    "precommit": "npm run lint && npm run test",
     "generate-index": "node ./utils/index-generator.js"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "npm run lint && npm run test"
+    }
   },
   "xo": {
     "esnext": true,
