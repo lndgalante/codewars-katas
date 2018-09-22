@@ -27,11 +27,6 @@
     "create-kata": "./utils/new.sh",
     "generate-index": "node ./utils/index-generator.js"
   },
-  "husky": {
-    "hooks": {
-      "precommit": "npm run lint && npm run test"
-    }
-  },
   "xo": {
     "esnext": true,
     "extends": [
@@ -60,5 +55,10 @@
     "coverageDirectory": "./coverage/",
     "collectCoverage": true,
     "testEnvironment": "node"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run test"
+    }
   }
 }
