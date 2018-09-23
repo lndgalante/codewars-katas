@@ -1,3 +1,5 @@
+/* eslint max-params: 0 */
+
 /*
   Title:
     Replace every nth
