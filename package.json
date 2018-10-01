@@ -14,7 +14,7 @@
     "@types/jest": "^23.3.2",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-jest": "^21.24.0",
-    "husky": "^1.0.1",
+    "husky": "^1.1.0",
     "jest": "^23.6.0",
     "jest-extended": "^0.10.0",
     "prettier": "^1.14.3",
