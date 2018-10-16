@@ -26,7 +26,7 @@ I highly recommend the [Tech Interview Handbook](https://github.com/yangshun/tec
 
 ## Repository Structure
 
-There's a folder for each kyu (rank) with a folder per kata (algorithm)
+There's a folder for each kata nested in its own kyu
 
 - 8-kyu
 
