@@ -1,36 +1,21 @@
-const fizzbuzz = require('.')
+const solution = require('.')
 
 test('Test 1', () => {
-  expect(fizzbuzz(30)).toEqual([
-    1,
-    2,
-    'Fizz',
-    4,
-    'Buzz',
-    'Fizz',
-    7,
-    8,
-    'Fizz',
-    'Buzz',
-    11,
-    'Fizz',
-    13,
-    14,
-    'FizzBuzz',
-    16,
-    17,
-    'Fizz',
-    19,
-    'Buzz',
-    'Fizz',
-    22,
-    23,
-    'Fizz',
-    'Buzz',
-    26,
-    'Fizz',
-    28,
-    29,
-    'FizzBuzz',
-  ])
+  expect(solution(20)).toEqual([5, 2, 1])
+})
+
+test('Test 2', () => {
+  expect(solution(2)).toEqual([0, 0, 0])
+})
+
+test('Test 3', () => {
+  expect(solution(14)).toEqual([4, 2, 0])
+})
+
+test('Test 4', () => {
+  expect(solution(30)).toEqual([8, 4, 1])
+})
+
+test('Test 5', () => {
+  expect(solution(141)).toEqual([37, 19, 9])
 })
