@@ -30,7 +30,7 @@
 
 // Long Solution
 function getSum(...range) {
-  const rangeSort = range.sort((a, b) => a > b)
+  const rangeSort = range.sort((a, b) => a - b)
   if (rangeSort[0] === rangeSort[1]) return rangeSort[0]
 
   let result = 0

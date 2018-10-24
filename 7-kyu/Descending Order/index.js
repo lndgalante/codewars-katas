@@ -36,7 +36,7 @@ const descendingOrder = n =>
   Number(
     String(n)
       .split('')
-      .sort((a, b) => a < b)
+      .sort((a, b) => b - a)
       .join('')
   )
 

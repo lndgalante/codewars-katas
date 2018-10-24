@@ -34,7 +34,7 @@ function order(words) {
   return words
     .split(' ')
     .map(word => word.match(/\d+/))
-    .sort((a, b) => a[0] > b[0])
+    .sort((a, b) => a[0] - b[0])
     .map(word => word.input)
     .join(' ')
 }

@@ -29,16 +29,8 @@
 */
 
 // Long Solution
-function sortme(courses) {
-  return courses
-    .map(course => {
-      const [name, yymm] = course.split('-')
-      return { name, yymm }
-    })
-    .sort((a, b) => a.name > b.name)
-    .sort((a, b) => a.yymm > b.yymm)
-    .map(({ name, yymm }) => `${name}-${yymm}`)
-}
+const sortme = courses =>
+  courses.sort((a, b) => a.slice(-4) - b.slice(-4) || a.localeCompare(b))
 
 // Function Export
 module.exports = sortme
