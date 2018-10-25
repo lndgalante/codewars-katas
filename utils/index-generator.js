@@ -21,7 +21,7 @@ const indexGenerator = kyu => {
 }
 
 const generateAllIndex = () => {
-  const katas = ['8-kyu', '7-kyu', '6-kyu', '5-kyu', '3-kyu']
+  const katas = ['8-kyu', '7-kyu', '6-kyu', '5-kyu']
   katas.forEach(kata => indexGenerator(kata))
 }
 
