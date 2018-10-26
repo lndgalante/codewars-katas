@@ -3,6 +3,7 @@
 > 🥋 Codewars katas repository with solutions, test integration, tips and tutorials
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![dependencies](https://david-dm.org/lndgalante/codewars-katas.svg)](https://david-dm.org/lndgalante/codewars-katas.svg) [![code style: prettier](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg) [![codecov](https://codecov.io/gh/lndgalante/codewars-katas/branch/master/graph/badge.svg)](https://codecov.io/gh/lndgalante/codewars-katas)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flndgalante%2Fcodewars-katas.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flndgalante%2Fcodewars-katas?ref=badge_shield)
 
 ## What's a kata?
 
@@ -167,3 +168,6 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 ## License
 
 MIT © **[`Leonardo Galante`](https://leonardogalante.com)**
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flndgalante%2Fcodewars-katas.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flndgalante%2Fcodewars-katas?ref=badge_large)
