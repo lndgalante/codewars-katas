@@ -69,16 +69,10 @@ For example
 
 ## Test your Might
 
-If you want to test in watch mode all katas run
+If you want to test in watch mode uncommitted files:
 
 ```bash
 > yarn test-watch
-```
-
-If you want to test only a particular kyu rank run
-
-```bash
-> yarn test-watch 6-kyu
 ```
 
 ## Development Dependencies

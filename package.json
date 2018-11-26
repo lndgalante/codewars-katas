@@ -23,7 +23,7 @@
   "scripts": {
     "lint": "xo",
     "test": "jest",
-    "test-watch": "jest --watchAll",
+    "test-watch": "jest -o --watch",
     "create-kata": "./utils/new.sh",
     "generate-index": "node ./utils/index-generator.js"
   },
@@ -47,14 +47,12 @@
     "eslintIntegration": true
   },
   "jest": {
+    "testEnvironment": "node",
     "testPathIgnorePatterns": [
       "./boilerplate.js",
       "./boilerplate.test.js"
     ],
-    "setupTestFrameworkScriptFile": "jest-extended",
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true,
-    "testEnvironment": "node"
+    "setupTestFrameworkScriptFile": "jest-extended"
   },
   "husky": {
     "hooks": {
