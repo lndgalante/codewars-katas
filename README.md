@@ -1,30 +1,25 @@
-# Codewars Katas
+# 🥋 Codewars Katas
 
-> 🥋 Codewars katas repository with solutions, test integration, tips and tutorials
+> This repository contains solutions, test integration, tips and tutorials
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![dependencies](https://david-dm.org/lndgalante/codewars-katas.svg)](https://david-dm.org/lndgalante/codewars-katas.svg) [![code style: prettier](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg) [![codecov](https://codecov.io/gh/lndgalante/codewars-katas/branch/master/graph/badge.svg)](https://codecov.io/gh/lndgalante/codewars-katas)
 
-## What's a kata?
+### Vocabulary
 
-A kata basically is an algorithm you have to solve in any programming language you desire.
+- Kata: a kata is an algorithm you have to solve in any programming language you desire.
 
-## What's kyu?
+- Kyu: it's a digit determines kata difficulty level as well as the user rank on the platform.
 
-Kyu digit determines kata difficulty level as well as the user rank on the platform.
+### Node.js & ES6+ Support
 
-## Node.js versions & ES6+ support
+The current Node versions [available](https://github.com/Codewars/codewars.com/wiki/Language-JavaScript) are the following [Node.js v6.11.0](https://kangax.github.io/compat-table/es6/#node6_5) and [Node.js v8.1.3](https://kangax.github.io/compat-table/es6/#node8_7)
 
-The current Node versions [available](https://github.com/Codewars/codewars.com/wiki/Language-JavaScript) are the following:
-
-- [Node.js v6.11.0](https://kangax.github.io/compat-table/es6/#node6_5)
-- [Node.js v8.1.3](https://kangax.github.io/compat-table/es6/#node8_7)
-
-## Purpose
+### Purpose
 
 Practicing katas could help you to improve your algorithmic thinking. It could also helps going to interviews more confident.
 I highly recommend the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which will help you ace your next technical interview.
 
-## Repository Structure
+### Repository Structure
 
 There's a folder for each kata nested in its own kyu
 
@@ -39,7 +34,7 @@ There's a folder for each kata nested in its own kyu
     - index.js
     - index.test.js
 
-## Global Index
+### Global Index
 
 This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
@@ -53,7 +48,7 @@ To update the indexes run
 > yarn generate-index
 ```
 
-## Create a new Kata
+### Create a new Kata
 
 To generate a new folder with a `index.js` and `index.test.js` run
 
@@ -67,7 +62,7 @@ For example
 > yarn create-kata "Area of a Square"
 ```
 
-## Test your Might
+### Test your Might
 
 If you want to test in watch mode uncommitted files:
 
@@ -75,7 +70,7 @@ If you want to test in watch mode uncommitted files:
 > yarn test-watch
 ```
 
-## Development Dependencies
+### Development Dependencies
 
 - Code Linting: [XO](https://github.com/sindresorhus/xo)
 - Code Formatting: [Prettier](https://github.com/prettier/prettier)
@@ -87,7 +82,7 @@ If you want to test in watch mode uncommitted files:
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping.
 Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133).
 
-## Learning Resources
+### Learning Resources
 
 - Regular Expressions / RegEx
 
@@ -110,7 +105,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 * Good Practices
   - [Clean Code JavaScript - Ryan McDermott](https://github.com/ryanmcdermott/clean-code-javascript)
 
-## Tips
+### Tips
 
 1.  Katas has `tags` that could help you in advance to know what to use.
     For example you could solve this kata using regular expressions.
@@ -133,7 +128,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 
 6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com) or [JSBench](https://jsbench.me)
 
-## More Helpful Resources
+### More Helpful Resources
 
 - [RegEx Snippets](https://github.com/jeffreyshen19/RegEx-Snippets)
 - [Learn RegEx](https://github.com/zeeshanu/learn-regex)
@@ -147,7 +142,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms)
 - [A JavaScript optimization handbook](https://mythbusters.js.org)
 
-## Similar Plattforms
+### Similar Plattforms
 
 - [Codility](https://codility.com)
 - [Exercism](http://exercism.io)
@@ -158,6 +153,6 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 - [CodeFights](https://codefights.com)
 - [HackerRank](https://www.hackerrank.com)
 
-## License
+### License
 
 MIT © **[`Leonardo Galante`](https://leonardogalante.com)**
