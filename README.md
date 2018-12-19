@@ -22,17 +22,20 @@ I highly recommend the [Tech Interview Handbook](https://github.com/yangshun/tec
 ### Repository Structure
 
 There's a folder for each kata nested in its own kyu
+```html
+├── 8-kyu/
+│   ├── Mr. Freeze/
+│   │   ├── index.js
+│   │   └── index.test.js
+│   └── ...
+│
+├── 7-kyu/
+│   ├── Binary Addition/
+│   │   ├── index.js
+│   │   └── index.test.js
+│   └── ...
+```
 
-- 8-kyu
-
-  - Mr. Freeze
-    - index.js
-    - index.test.js
-
-- 7-kyu
-  - Binary Addition
-    - index.js
-    - index.test.js
 
 ### Global Index
 
