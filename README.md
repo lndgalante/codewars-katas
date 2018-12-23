@@ -1,14 +1,29 @@
-# 🥋 Codewars Katas
+<h1 align="center">Codewars Katas</h1>
 
-> This repository contains solutions, test integration, tips and tutorials
+<h6 align="center">
+  Solutions with tests, tips and tutorials for <a href="https://www.codewars.com">Codewars</a> katas
+</h6>
 
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![dependencies](https://david-dm.org/lndgalante/codewars-katas.svg)](https://david-dm.org/lndgalante/codewars-katas.svg) [![code style: prettier](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg)](https://david-dm.org/lndgalante/codewars-katas/dev-status.svg) [![codecov](https://codecov.io/gh/lndgalante/codewars-katas/branch/master/graph/badge.svg)](https://codecov.io/gh/lndgalante/codewars-katas)
+<p align="center">
+  <a href="https://github.com/sindresorhus/xo">
+    <img src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square">
+  </a>
+  <a href="https://github.com/prettier/prettier">
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
+  </a>
+  <a href="https://david-dm.org/lndgalante/codewars-katas.svg">
+    <img src="https://david-dm.org/lndgalante/codewars-katas.svg?style=flat-square">
+  </a>
+  <a href="https://david-dm.org/lndgalante/codewars-katas/dev-status.svg">
+    <img src="https://david-dm.org/lndgalante/codewars-katas/dev-status.svg?style=flat-square">
+  </a>
+</p>
 
 ### Vocabulary
 
-- Kata: a kata is an algorithm you have to solve in any programming language you desire.
+- Kata: is an algorithm you have to solve in any programming language you desire
 
-- Kyu: it's a digit determines kata difficulty level as well as the user rank on the platform.
+- Kyu: is a digit that determines kata difficulty level as well as the user rank on the platform
 
 ### Node.js & ES6+ Support
 
@@ -22,7 +37,8 @@ I highly recommend the [Tech Interview Handbook](https://github.com/yangshun/tec
 ### Repository Structure
 
 There's a folder for each kata nested in its own kyu
-```html
+
+```ascii
 ├── 8-kyu/
 │   ├── Mr. Freeze/
 │   │   ├── index.js
@@ -35,7 +51,6 @@ There's a folder for each kata nested in its own kyu
 │   │   └── index.test.js
 │   └── ...
 ```
-
 
 ### Global Index
 
