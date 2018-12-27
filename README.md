@@ -171,6 +171,10 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 - [CodeFights](https://codefights.com)
 - [HackerRank](https://www.hackerrank.com)
 
+### Contribute
+
+Feel free to open issues or PRs!
+
 ### License
 
 MIT © **[`Leonardo Galante`](https://leonardogalante.com)**
