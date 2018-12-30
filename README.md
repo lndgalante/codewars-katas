@@ -56,28 +56,38 @@ There's a folder for each kata nested in its own kyu
 
 This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
-- [8 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/index/8-kyu.md)
+- [8 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/8-kyu.md)
 
-* [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/index/7-kyu.md)
+* [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/7-kyu.md)
+
+- [6 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/6-kyu.md)
+
+* [5 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/5-kyu.md)
 
 To update the indexes run
 
 ```bash
-> yarn generate-index
+> yarn update-index
 ```
 
 ### Create a new Kata
 
+Since the kata generator uses `puppeteer` you should install it first
+
+```bash
+> cd lib/katas && yarn
+```
+
 To generate a new folder with a `index.js` and `index.test.js` run
 
 ```bash
-> yarn create-kata "kata name"
+> yarn create-kata "kata link"
 ```
 
-For example
+In example
 
 ```bash
-> yarn create-kata "Area of a Square"
+> yarn create-kata https://www.codewars.com/kata/drying-potatoes/train/javascript
 ```
 
 ### Test your Might

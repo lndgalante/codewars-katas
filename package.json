@@ -24,8 +24,8 @@
     "lint": "xo",
     "test": "jest",
     "test-watch": "jest -o --watch",
-    "create-kata": "./utils/new.sh",
-    "generate-index": "node ./utils/index-generator.js"
+    "update-index": "node ./lib/index/index-generator.js",
+    "create-kata": "node --no-warnings ./lib/katas/kata-generator.js --link"
   },
   "xo": {
     "esnext": true,
@@ -34,8 +34,7 @@
       "plugin:jest/recommended"
     ],
     "ignores": [
-      "utils/boilerplate.js",
-      "utils/boilerplate.test.js"
+      "lib"
     ]
   },
   "prettier": {
