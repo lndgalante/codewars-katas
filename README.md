@@ -31,7 +31,7 @@ The current Node versions [available](https://github.com/Codewars/codewars.com/w
 
 ### Purpose
 
-Practicing katas could help you to improve your algorithmic thinking. It could also helps going to interviews more confident.
+Practicing katas could help you to improve your algorithmic thinking. It could also help going to interviews more confident and learning a few tricks of your prefered language.
 I highly recommend the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which will help you ace your next technical interview.
 
 ### Repository Structure
