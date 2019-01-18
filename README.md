@@ -56,15 +56,20 @@ There's a folder for each kata nested in its own kyu
 
 This index will help you find all katas ordered alphabetically with a link to the kata folder.
 
-- [8 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/8-kyu.md)
+- ✅ [8 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/8-kyu.md)
 
-* [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/7-kyu.md)
+* 🚧 [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/7-kyu.md)
 
-- [6 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/6-kyu.md)
+- 🚧 [6 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/6-kyu.md)
 
-* [5 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/5-kyu.md)
+* 🚧 [5 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/5-kyu.md)
 
-To update the indexes run
+Notes:
+
+- ✅ All completed
+- 🚧 Work in progress
+
+To update the global index run
 
 ```bash
 > yarn update-index
