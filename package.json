@@ -12,7 +12,7 @@
     "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.12",
+    "@types/jest": "^23.3.13",
     "@types/lodash": "^4.14.120",
     "@types/moment": "^2.13.0",
     "@types/ramda": "^0.25.47",
