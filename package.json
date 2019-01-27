@@ -51,11 +51,9 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "./boilerplate.js",
-      "./boilerplate.test.js"
-    ],
-    "setupTestFrameworkScriptFile": "jest-extended"
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
   },
   "husky": {
     "hooks": {
