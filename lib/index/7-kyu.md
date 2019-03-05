@@ -82,93 +82,97 @@
 
 - [Basic JS - Calculating averages](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Basic%20JS%20-%20Calculating%20averages)
 
-* [Batman Quotes](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Batman%20Quotes)
+* [Basic Math (Add or Subtract)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Basic%20Math%20(Add%20or%20Subtract))
 
-- [Battle of the characters (Easy)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Battle%20of%20the%20characters%20(Easy))
+- [Batman Quotes](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Batman%20Quotes)
 
-* [Beginner Series #3 Sum of Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Beginner%20Series%20%233%20Sum%20of%20Numbers)
+* [Battle of the characters (Easy)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Battle%20of%20the%20characters%20(Easy))
 
-- [Between Extremes](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Between%20Extremes)
+- [Beginner Series #3 Sum of Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Beginner%20Series%20%233%20Sum%20of%20Numbers)
 
-* [Binary Addition](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Binary%20Addition)
+* [Between Extremes](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Between%20Extremes)
 
-- [Bingo ( Or Not )](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Bingo%20(%20Or%20Not%20))
+- [Binary Addition](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Binary%20Addition)
 
-* [Bob's Short Forms](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Bob's%20Short%20Forms)
+* [Bingo ( Or Not )](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Bingo%20(%20Or%20Not%20))
 
-- [Boiled Eggs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Boiled%20Eggs)
+- [Bob's Short Forms](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Bob's%20Short%20Forms)
 
-* [Borrower Speak](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Borrower%20Speak)
+* [Boiled Eggs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Boiled%20Eggs)
 
-- [Breaking chocolate problem](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Breaking%20chocolate%20problem)
+- [Borrower Speak](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Borrower%20Speak)
 
-* [Broken sequence](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Broken%20sequence)
+* [Breaking chocolate problem](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Breaking%20chocolate%20problem)
 
-- [Building blocks](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Building%20blocks)
+- [Broken sequence](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Broken%20sequence)
 
-* [Building Strings From a Hash](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Building%20Strings%20From%20a%20Hash)
+* [Building blocks](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Building%20blocks)
 
-- [Bumps in the Road](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Bumps%20in%20the%20Road)
+- [Building Strings From a Hash](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Building%20Strings%20From%20a%20Hash)
 
-* [By 3, or not by 3? That is the question . . .](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/By%203%2C%20or%20not%20by%203%3F%20That%20is%20the%20question%20.%20.%20.)
+* [Bumps in the Road](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Bumps%20in%20the%20Road)
 
-- [C.Wars](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/C.Wars)
+- [By 3, or not by 3? That is the question . . .](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/By%203%2C%20or%20not%20by%203%3F%20That%20is%20the%20question%20.%20.%20.)
 
-* [Caffeine Script](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Caffeine%20Script)
+* [C.Wars](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/C.Wars)
 
-- [Calculate Meal Total](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Calculate%20Meal%20Total)
+- [Caffeine Script](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Caffeine%20Script)
 
-* [Calculate mean and concatenate string](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Calculate%20mean%20and%20concatenate%20string)
+* [Calculate Meal Total](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Calculate%20Meal%20Total)
 
-- [Candy problem](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Candy%20problem)
+- [Calculate mean and concatenate string](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Calculate%20mean%20and%20concatenate%20string)
 
-* [Capitals first!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Capitals%20first!)
+* [Candy problem](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Candy%20problem)
 
-- [Case swapping](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Case%20swapping)
+- [Capitals first!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Capitals%20first!)
 
-* [Cat and Mouse - Easy Version](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Cat%20and%20Mouse%20-%20Easy%20Version)
+* [Case swapping](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Case%20swapping)
 
-- [Categorize New Member](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Categorize%20New%20Member)
+- [Cat and Mouse - Easy Version](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Cat%20and%20Mouse%20-%20Easy%20Version)
 
-* [Ch4113ng3](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Ch4113ng3)
+* [Categorize New Member](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Categorize%20New%20Member)
 
-- [Chain me](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Chain%20me)
+- [Ch4113ng3](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Ch4113ng3)
 
-* [Char Code Calculation](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Char%20Code%20Calculation)
+* [Chain me](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Chain%20me)
 
-- [char_to_ascii](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/char_to_ascii)
+- [Char Code Calculation](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Char%20Code%20Calculation)
 
-* [Character Concatenation](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Character%20Concatenation)
+* [char_to_ascii](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/char_to_ascii)
 
-- [Character Counter](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Character%20Counter)
+- [Character Concatenation](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Character%20Concatenation)
 
-* [Check if a triangle is an equable triangle!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Check%20if%20a%20triangle%20is%20an%20equable%20triangle!)
+* [Character Counter](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Character%20Counter)
 
-- [Check three and two](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Check%20three%20and%20two)
+- [Check if a triangle is an equable triangle!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Check%20if%20a%20triangle%20is%20an%20equable%20triangle!)
 
-* [Class conundrum - Bug Fixing #7](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Class%20conundrum%20-%20Bug%20Fixing%20%237)
+* [Check three and two](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Check%20three%20and%20two)
 
-- [Clean up after your dog](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Clean%20up%20after%20your%20dog)
+- [Class conundrum - Bug Fixing #7](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Class%20conundrum%20-%20Bug%20Fixing%20%237)
 
-* [Coding 3min: Bug in Apple](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%203min%3A%20Bug%20in%20Apple)
+* [Clean up after your dog](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Clean%20up%20after%20your%20dog)
 
-- [Coding Meetup #1 - Higher-Order Functions Series - Count the number of JavaScript developers coming from Europe](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%231%20-%20Higher-Order%20Functions%20Series%20-%20Count%20the%20number%20of%20JavaScript%20developers%20coming%20from%20Europe)
+- [Coding 3min: Bug in Apple](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%203min%3A%20Bug%20in%20Apple)
 
-* [Coding Meetup #12 - Higher-Order Functions Series - Find GitHub admins](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%2312%20-%20Higher-Order%20Functions%20Series%20-%20Find%20GitHub%20admins)
+* [Coding Meetup #1 - Higher-Order Functions Series - Count the number of JavaScript developers coming from Europe](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%231%20-%20Higher-Order%20Functions%20Series%20-%20Count%20the%20number%20of%20JavaScript%20developers%20coming%20from%20Europe)
 
-- [Coding Meetup #14 - Higher-Order Functions Series - Order the food](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%2314%20-%20Higher-Order%20Functions%20Series%20-%20Order%20the%20food)
+- [Coding Meetup #12 - Higher-Order Functions Series - Find GitHub admins](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%2312%20-%20Higher-Order%20Functions%20Series%20-%20Find%20GitHub%20admins)
 
-* [Coding Meetup #2 - Higher-Order Functions Series - Greet developers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%232%20-%20Higher-Order%20Functions%20Series%20-%20Greet%20developers)
+* [Coding Meetup #14 - Higher-Order Functions Series - Order the food](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%2314%20-%20Higher-Order%20Functions%20Series%20-%20Order%20the%20food)
 
-- [Coding Meetup #3 - Higher-Order Functions Series - Is Ruby coming?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%233%20-%20Higher-Order%20Functions%20Series%20-%20Is%20Ruby%20coming%3F)
+- [Coding Meetup #2 - Higher-Order Functions Series - Greet developers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%232%20-%20Higher-Order%20Functions%20Series%20-%20Greet%20developers)
 
-* [Coding Meetup #4 - Higher-Order Functions Series - Find the first Python developer](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%234%20-%20Higher-Order%20Functions%20Series%20-%20Find%20the%20first%20Python%20developer)
+* [Coding Meetup #3 - Higher-Order Functions Series - Is Ruby coming?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%233%20-%20Higher-Order%20Functions%20Series%20-%20Is%20Ruby%20coming%3F)
 
-- [Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%235%20-%20Higher-Order%20Functions%20Series%20-%20Prepare%20the%20count%20of%20languages)
+- [Coding Meetup #4 - Higher-Order Functions Series - Find the first Python developer](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%234%20-%20Higher-Order%20Functions%20Series%20-%20Find%20the%20first%20Python%20developer)
 
-* [Coding Meetup #6 - Higher-Order Functions Series - Can they code in the same language?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%236%20-%20Higher-Order%20Functions%20Series%20-%20Can%20they%20code%20in%20the%20same%20language%3F)
+* [Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%235%20-%20Higher-Order%20Functions%20Series%20-%20Prepare%20the%20count%20of%20languages)
 
-- [Collatz Conjecture Length](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Collatz%20Conjecture%20Length)
+- [Coding Meetup #6 - Higher-Order Functions Series - Can they code in the same language?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Coding%20Meetup%20%236%20-%20Higher-Order%20Functions%20Series%20-%20Can%20they%20code%20in%20the%20same%20language%3F)
+
+* [Collatz Conjecture Length](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Collatz%20Conjecture%20Length)
+
+- [Colour Association](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Colour%20Association)
 
 * [Combine objects](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Combine%20objects)
 
@@ -378,45 +382,49 @@
 
 - [Functional Addition](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Functional%20Addition)
 
-* [Gauß needs help! (Sums of a lot of numbers).](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Gau%C3%9F%20needs%20help!%20(Sums%20of%20a%20lot%20of%20numbers).)
+* [GA-DE-RY-PO-LU-KI cypher](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/GA-DE-RY-PO-LU-KI%20cypher)
 
-- [Get initials from person name](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Get%20initials%20from%20person%20name)
+- [Gauß needs help! (Sums of a lot of numbers).](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Gau%C3%9F%20needs%20help!%20(Sums%20of%20a%20lot%20of%20numbers).)
 
-* [Get key-value pairs as arrays](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Get%20key-value%20pairs%20as%20arrays)
+* [Get initials from person name](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Get%20initials%20from%20person%20name)
 
-- [Get the Middle Character](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Get%20the%20Middle%20Character)
+- [Get key-value pairs as arrays](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Get%20key-value%20pairs%20as%20arrays)
 
-* [getNames()](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/getNames())
+* [Get the Middle Character](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Get%20the%20Middle%20Character)
 
-- [Ghostbusters (whitespace removal)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Ghostbusters%20(whitespace%20removal))
+- [getNames()](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/getNames())
 
-* [Going to the cinema](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Going%20to%20the%20cinema)
+* [Ghostbusters (whitespace removal)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Ghostbusters%20(whitespace%20removal))
 
-- [Gradually Adding Parameters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Gradually%20Adding%20Parameters)
+- [Going to the cinema](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Going%20to%20the%20cinema)
 
-* [Greet Me](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Greet%20Me)
+* [Gradually Adding Parameters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Gradually%20Adding%20Parameters)
 
-- [Grid blast](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Grid%20blast)
+- [Greet Me](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Greet%20Me)
 
-* [Growth of a Population](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Growth%20of%20a%20Population)
+* [Grid blast](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Grid%20blast)
 
-- [Guess the Word: Count Matching Letters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Guess%20the%20Word%3A%20Count%20Matching%20Letters)
+- [Growth of a Population](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Growth%20of%20a%20Population)
 
-* [Head, Tail, Init and Last](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Head%2C%20Tail%2C%20Init%20and%20Last)
+* [Guess the Word: Count Matching Letters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Guess%20the%20Word%3A%20Count%20Matching%20Letters)
 
-- [Help Suzuki rake his garden](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Help%20Suzuki%20rake%20his%20garden)
+- [Head, Tail, Init and Last](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Head%2C%20Tail%2C%20Init%20and%20Last)
 
-* [Help the Fruit Guy](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Help%20the%20Fruit%20Guy)
+* [Help Suzuki rake his garden](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Help%20Suzuki%20rake%20his%20garden)
 
-- [Heron's formula](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Heron's%20formula)
+- [Help the Fruit Guy](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Help%20the%20Fruit%20Guy)
 
-* [Highest and Lowest](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Highest%20and%20Lowest)
+* [Heron's formula](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Heron's%20formula)
 
-- [Histogram - H1](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Histogram%20-%20H1)
+- [Highest and Lowest](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Highest%20and%20Lowest)
 
-* [Hit Count](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Hit%20Count)
+* [Histogram - H1](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Histogram%20-%20H1)
 
-- [Honey to the Bee](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Honey%20to%20the%20Bee)
+- [Hit Count](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Hit%20Count)
+
+* [Honey to the Bee](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Honey%20to%20the%20Bee)
+
+- [How many animals are there?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/How%20many%20animals%20are%20there%3F)
 
 * [How many are smaller than me?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/How%20many%20are%20smaller%20than%20me%3F)
 
@@ -484,81 +492,85 @@
 
 * [Keypad horror](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Keypad%20horror)
 
-- [Largest Elements](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Largest%20Elements)
+- [KISS - Keep It Simple Stupid](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/KISS%20-%20Keep%20It%20Simple%20Stupid)
 
-* [Largest pair sum in array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Largest%20pair%20sum%20in%20array)
+* [Largest Elements](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Largest%20Elements)
 
-- [Lazily executing a function](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lazily%20executing%20a%20function)
+- [Largest pair sum in array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Largest%20pair%20sum%20in%20array)
 
-* [Leap Years](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Leap%20Years)
+* [Lazily executing a function](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lazily%20executing%20a%20function)
 
-- [Length of the line segment](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Length%20of%20the%20line%20segment)
+- [Leap Years](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Leap%20Years)
 
-* [Limit string length - 1](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Limit%20string%20length%20-%201)
+* [Length of the line segment](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Length%20of%20the%20line%20segment)
 
-- [Linked Lists - Get Nth Node](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Linked%20Lists%20-%20Get%20Nth%20Node)
+- [Limit string length - 1](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Limit%20string%20length%20-%201)
 
-* [Linked Lists - Push & BuildOneTwoThree](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Linked%20Lists%20-%20Push%20%26%20BuildOneTwoThree)
+* [Linked Lists - Get Nth Node](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Linked%20Lists%20-%20Get%20Nth%20Node)
 
-- [List Filtering](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/List%20Filtering)
+- [Linked Lists - Push & BuildOneTwoThree](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Linked%20Lists%20-%20Push%20%26%20BuildOneTwoThree)
 
-* [List to Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/List%20to%20Array)
+* [List Filtering](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/List%20Filtering)
 
-- [Longest vowel chain](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Longest%20vowel%20chain)
+- [List to Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/List%20to%20Array)
 
-* [Looking for a benefactor](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Looking%20for%20a%20benefactor)
+* [Longest vowel chain](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Longest%20vowel%20chain)
 
-- [Lost number in number sequence](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lost%20number%20in%20number%20sequence)
+- [Looking for a benefactor](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Looking%20for%20a%20benefactor)
 
-* [Love vs friendship](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Love%20vs%20friendship)
+* [Lost number in number sequence](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lost%20number%20in%20number%20sequence)
 
-- [Lowercase strings in array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lowercase%20strings%20in%20array)
+- [Love vs friendship](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Love%20vs%20friendship)
 
-* [Lucky Bus Ticket](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lucky%20Bus%20Ticket)
+* [Lowercase strings in array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lowercase%20strings%20in%20array)
 
-- [lucky number](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/lucky%20number)
+- [Lucky Bus Ticket](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Lucky%20Bus%20Ticket)
 
-* [Magic Sum of 3s](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Magic%20Sum%20of%203s)
+* [lucky number](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/lucky%20number)
 
-- [Make a function that does arithmetic](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Make%20a%20function%20that%20does%20arithmetic)
+- [Magic Sum of 3s](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Magic%20Sum%20of%203s)
 
-* [Make them bark](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Make%20them%20bark)
+* [Make a function that does arithmetic](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Make%20a%20function%20that%20does%20arithmetic)
 
-- [makeAcronym](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/makeAcronym)
+- [Make them bark](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Make%20them%20bark)
 
-* [makeBackronym](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/makeBackronym)
+* [makeAcronym](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/makeAcronym)
 
-- [Making Copies](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Making%20Copies)
+- [makeBackronym](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/makeBackronym)
 
-* [max diff - easy](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/max%20diff%20-%20easy)
+* [Making Copies](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Making%20Copies)
 
-- [Max-min arrays](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Max-min%20arrays)
+- [max diff - easy](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/max%20diff%20-%20easy)
 
-* [Maximum Gap (Array Series #4)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Gap%20(Array%20Series%20%234))
+* [Max-min arrays](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Max-min%20arrays)
 
-- [Maximum Length Difference](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Length%20Difference)
+- [Maximum Gap (Array Series #4)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Gap%20(Array%20Series%20%234))
 
-* [Maximum Multiple](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Multiple)
+* [Maximum Length Difference](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Length%20Difference)
 
-- [Maximum Triplet Sum (Array Series #7) ](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Triplet%20Sum%20(Array%20Series%20%237)%20)
+- [Maximum Multiple](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Multiple)
 
-* [Mean vs. Median](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Mean%20vs.%20Median)
+* [Maximum Triplet Sum (Array Series #7) ](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Maximum%20Triplet%20Sum%20(Array%20Series%20%237)%20)
 
-- [Milk and Cookies for Santa](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Milk%20and%20Cookies%20for%20Santa)
+- [Mean vs. Median](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Mean%20vs.%20Median)
 
-* [Minimize Sum Of Array (Array Series #1)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Minimize%20Sum%20Of%20Array%20(Array%20Series%20%231))
+* [Milk and Cookies for Santa](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Milk%20and%20Cookies%20for%20Santa)
 
-- [Minimum Steps (Array Series #6)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Minimum%20Steps%20(Array%20Series%20%236))
+- [Minimize Sum Of Array (Array Series #1)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Minimize%20Sum%20Of%20Array%20(Array%20Series%20%231))
 
-* [MinMinMax](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/MinMinMax)
+* [Minimum Steps (Array Series #6)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Minimum%20Steps%20(Array%20Series%20%236))
 
-- [Money, Money, Money](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Money%2C%20Money%2C%20Money)
+- [MinMinMax](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/MinMinMax)
 
-* [Monotone travel](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Monotone%20travel)
+* [Money, Money, Money](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Money%2C%20Money%2C%20Money)
 
-- [More than one way to call a function, or skin a cat](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/More%20than%20one%20way%20to%20call%20a%20function%2C%20or%20skin%20a%20cat)
+- [Monotone travel](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Monotone%20travel)
 
-* [Most digits](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Most%20digits)
+* [More than one way to call a function, or skin a cat](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/More%20than%20one%20way%20to%20call%20a%20function%2C%20or%20skin%20a%20cat)
+
+- [Most digits](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Most%20digits)
+
+* [Move 10](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Move%2010)
 
 - [Move all vowels](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Move%20all%20vowels)
 
@@ -582,15 +594,19 @@
 
 - [Naughty or Nice? II](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Naughty%20or%20Nice%3F%20II)
 
-* [Nice Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Nice%20Array)
+* [Next birth-day of the week finder](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Next%20birth-day%20of%20the%20week%20finder)
 
-- [Nickname Generator](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Nickname%20Generator)
+- [Nice Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Nice%20Array)
 
-* [Ninja vs Samurai: Strike](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Ninja%20vs%20Samurai%3A%20Strike)
+* [Nickname Generator](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Nickname%20Generator)
 
-- [No oddities here](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/No%20oddities%20here)
+- [Ninja vs Samurai: Strike](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Ninja%20vs%20Samurai%3A%20Strike)
 
-* [Not all but sometimes all](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Not%20all%20but%20sometimes%20all)
+* [No oddities here](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/No%20oddities%20here)
+
+- [Not all but sometimes all](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Not%20all%20but%20sometimes%20all)
+
+* [Nothing special](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Nothing%20special)
 
 - [Nth Smallest Element (Array Series #4) ](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Nth%20Smallest%20Element%20(Array%20Series%20%234)%20)
 
@@ -690,9 +706,13 @@
 
 - [regex validation of 24 hours time.](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/regex%20validation%20of%2024%20hours%20time.)
 
-* [Regexp Basics - is it a letter?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Regexp%20Basics%20-%20is%20it%20a%20letter%3F)
+* [Regexp Basics - is it a hexadecimal number?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Regexp%20Basics%20-%20is%20it%20a%20hexadecimal%20number%3F)
 
-- [Regexp Basics - is it a vowel?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Regexp%20Basics%20-%20is%20it%20a%20vowel%3F)
+- [Regexp Basics - is it a letter?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Regexp%20Basics%20-%20is%20it%20a%20letter%3F)
+
+* [Regexp Basics - is it a vowel?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Regexp%20Basics%20-%20is%20it%20a%20vowel%3F)
+
+- [Regexp Basics - is it all whitespace?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Regexp%20Basics%20-%20is%20it%20all%20whitespace%3F)
 
 * [Regexp basics - parsing prices](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Regexp%20basics%20-%20parsing%20prices)
 
@@ -772,105 +792,109 @@
 
 * [Series of integers from 0 to n](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Series%20of%20integers%20from%200%20to%20n)
 
-- [SevenAte9](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/SevenAte9)
+- [Series of integers from m to n](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Series%20of%20integers%20from%20m%20to%20n)
 
-* [shorter concat [reverse longer]](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/shorter%20concat%20%5Breverse%20longer%5D)
+* [SevenAte9](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/SevenAte9)
 
-- [Shortest Word](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Shortest%20Word)
+- [shorter concat [reverse longer]](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/shorter%20concat%20%5Breverse%20longer%5D)
 
-* [Show multiples of 2 numbers within a range](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Show%20multiples%20of%202%20numbers%20within%20a%20range)
+* [Shortest Word](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Shortest%20Word)
 
-- [Sign in Sign out but sign it](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sign%20in%20Sign%20out%20but%20sign%20it)
+- [Show multiples of 2 numbers within a range](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Show%20multiples%20of%202%20numbers%20within%20a%20range)
 
-* [SillyCASE](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/SillyCASE)
+* [Sign in Sign out but sign it](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sign%20in%20Sign%20out%20but%20sign%20it)
 
-- [Simple beads count](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20beads%20count)
+- [SillyCASE](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/SillyCASE)
 
-* [Simple consecutive pairs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20consecutive%20pairs)
+* [Simple beads count](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20beads%20count)
 
-- [Simple elevator](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20elevator)
+- [Simple consecutive pairs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20consecutive%20pairs)
 
-* [Simple Fun #152: Invite More Women?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%23152%3A%20Invite%20More%20Women%3F)
+* [Simple elevator](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20elevator)
 
-- [Simple Fun #176: Reverse Letter](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%23176%3A%20Reverse%20Letter)
+- [Simple Fun #152: Invite More Women?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%23152%3A%20Invite%20More%20Women%3F)
 
-* [Simple Fun #20: First Reverse Try](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%2320%3A%20First%20Reverse%20Try)
+* [Simple Fun #176: Reverse Letter](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%23176%3A%20Reverse%20Letter)
 
-- [Simple Fun #37: House Numbers Sum](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%2337%3A%20House%20Numbers%20Sum)
+- [Simple Fun #20: First Reverse Try](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%2320%3A%20First%20Reverse%20Try)
 
-* [Simple Fun #40: Timed Reading](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%2340%3A%20Timed%20Reading)
+* [Simple Fun #37: House Numbers Sum](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%2337%3A%20House%20Numbers%20Sum)
 
-- [Simple Maths Test](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Maths%20Test)
+- [Simple Fun #40: Timed Reading](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Fun%20%2340%3A%20Timed%20Reading)
 
-* [Simple remove duplicates](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20remove%20duplicates)
+* [Simple Maths Test](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20Maths%20Test)
 
-- [Simple string characters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20string%20characters)
+- [Simple remove duplicates](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20remove%20duplicates)
 
-* [Simple string reversal II](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20string%20reversal%20II)
+* [Simple string characters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20string%20characters)
 
-- [Singleton Pattern](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Singleton%20Pattern)
+- [Simple string reversal II](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Simple%20string%20reversal%20II)
 
-* [Slaphead](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Slaphead)
+* [Singleton Pattern](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Singleton%20Pattern)
 
-- [Slope of a Line](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Slope%20of%20a%20Line)
+- [Slaphead](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Slaphead)
 
-* [Small enough? - Beginner](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Small%20enough%3F%20-%20Beginner)
+* [Slope of a Line](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Slope%20of%20a%20Line)
 
-- [Smallest value of an array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Smallest%20value%20of%20an%20array)
+- [Small enough? - Beginner](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Small%20enough%3F%20-%20Beginner)
 
-* [Some Circles](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Some%20Circles)
+* [Smallest value of an array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Smallest%20value%20of%20an%20array)
 
-- [Sort an array by value and index](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20an%20array%20by%20value%20and%20index)
+- [Some Circles](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Some%20Circles)
 
-* [Sort array by string length](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20array%20by%20string%20length)
+* [Sort an array by value and index](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20an%20array%20by%20value%20and%20index)
 
-- [Sort by Last Char](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20by%20Last%20Char)
+- [Sort array by string length](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20array%20by%20string%20length)
 
-* [Sort Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20Numbers)
+* [Sort by Last Char](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20by%20Last%20Char)
 
-- [Sort Out The Men From Boys](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20Out%20The%20Men%20From%20Boys)
+- [Sort Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20Numbers)
 
-* [Sort Santa's Reindeer](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20Santa's%20Reindeer)
+* [Sort Out The Men From Boys](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20Out%20The%20Men%20From%20Boys)
 
-- [Sort the Gift Code](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20the%20Gift%20Code)
+- [Sort Santa's Reindeer](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20Santa's%20Reindeer)
 
-* [Sort with Arrow Functions](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20with%20Arrow%20Functions)
+* [Sort the Gift Code](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20the%20Gift%20Code)
 
-- [Sorted Union](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sorted%20Union)
+- [Sort with Arrow Functions](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sort%20with%20Arrow%20Functions)
 
-* [Sorted? yes? no? how?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sorted%3F%20yes%3F%20no%3F%20how%3F)
+* [Sorted Union](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sorted%20Union)
 
-- [Sorting Dictionaries](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sorting%20Dictionaries)
+- [Sorted? yes? no? how?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sorted%3F%20yes%3F%20no%3F%20how%3F)
 
-* [Spacify](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Spacify)
+* [Sorting Dictionaries](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sorting%20Dictionaries)
 
-- [Special Number (Special Numbers Series #5)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Special%20Number%20(Special%20Numbers%20Series%20%235))
+- [Spacify](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Spacify)
 
-* [Speed Control](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Speed%20Control)
+* [Special Number (Special Numbers Series #5)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Special%20Number%20(Special%20Numbers%20Series%20%235))
 
-- [splicing](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/splicing)
+- [Speed Control](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Speed%20Control)
 
-* [Split In Parts](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Split%20In%20Parts)
+* [splicing](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/splicing)
 
-- [Split The Bill](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Split%20The%20Bill)
+- [Split In Parts](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Split%20In%20Parts)
 
-* [Spoonerize Me](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Spoonerize%20Me)
+* [Split The Bill](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Split%20The%20Bill)
 
-- [Square Every Digit](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Square%20Every%20Digit)
+- [Spoonerize Me](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Spoonerize%20Me)
 
-* [Stanton measure](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Stanton%20measure)
+* [Square Every Digit](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Square%20Every%20Digit)
 
-- [String chunks](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20chunks)
+- [Stanton measure](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Stanton%20measure)
 
-* [String ends with?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20ends%20with%3F)
+* [String chunks](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20chunks)
 
-- [String matchup](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20matchup)
+- [String ends with?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20ends%20with%3F)
 
-* [String Merge!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20Merge!)
+* [String matchup](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20matchup)
 
-- [String reverse slicing 101](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20reverse%20slicing%20101)
+- [String Merge!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20Merge!)
 
-* [String Reversing, Changing case, etc.](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20Reversing%2C%20Changing%20case%2C%20etc.)
+* [String reverse slicing 101](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20reverse%20slicing%20101)
+
+- [String Reversing, Changing case, etc.](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20Reversing%2C%20Changing%20case%2C%20etc.)
+
+* [String Scramble](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20Scramble)
 
 - [String to integer conversion](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/String%20to%20integer%20conversion)
 
@@ -880,55 +904,59 @@
 
 * [Sum ALL the arrays!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20ALL%20the%20arrays!)
 
-- [Sum of a nested list](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20a%20nested%20list)
+- [Sum even numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20even%20numbers)
 
-* [Sum of a sequence](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20a%20sequence)
+* [Sum of a nested list](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20a%20nested%20list)
 
-- [Sum of all arguments](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20all%20arguments)
+- [Sum of a sequence](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20a%20sequence)
 
-* [Sum of all the multiples of 3 or 5](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20all%20the%20multiples%20of%203%20or%205)
+* [Sum of all arguments](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20all%20arguments)
 
-- [Sum of angles](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20angles)
+- [Sum of all the multiples of 3 or 5](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20all%20the%20multiples%20of%203%20or%205)
 
-* [Sum of array singles](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20array%20singles)
+* [Sum of angles](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20angles)
 
-- [Sum of differences between products and LCMs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20differences%20between%20products%20and%20LCMs)
+- [Sum of array singles](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20array%20singles)
 
-* [Sum of integers in string](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20integers%20in%20string)
+* [Sum of differences between products and LCMs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20differences%20between%20products%20and%20LCMs)
 
-- [Sum of numbers from 0 to N](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20numbers%20from%200%20to%20N)
+- [Sum of integers in string](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20integers%20in%20string)
 
-* [Sum of numerous arguments](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20numerous%20arguments)
+* [Sum of numbers from 0 to N](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20numbers%20from%200%20to%20N)
 
-- [Sum of Odd Cubed Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20Odd%20Cubed%20Numbers)
+- [Sum of numerous arguments](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20numerous%20arguments)
 
-* [Sum of odd numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20odd%20numbers)
+* [Sum of Odd Cubed Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20Odd%20Cubed%20Numbers)
 
-- [Sum of the first nth term of Series](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20the%20first%20nth%20term%20of%20Series)
+- [Sum of odd numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20odd%20numbers)
 
-* [Sum of Triangular Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20Triangular%20Numbers)
+* [Sum of the first nth term of Series](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20the%20first%20nth%20term%20of%20Series)
 
-- [Sum of two lowest positive integers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20two%20lowest%20positive%20integers)
+- [Sum of Triangular Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20Triangular%20Numbers)
 
-* [Sum The Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20The%20Array)
+* [Sum of two lowest positive integers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20of%20two%20lowest%20positive%20integers)
 
-- [Sum up the random string](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20up%20the%20random%20string)
+- [Sum The Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20The%20Array)
 
-* [Summing a number's digits](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Summing%20a%20number's%20digits)
+* [Sum up the random string](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Sum%20up%20the%20random%20string)
 
-- [Summy](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Summy)
+- [Summing a number's digits](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Summing%20a%20number's%20digits)
 
-* [Super Secret Password Generator](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Super%20Secret%20Password%20Generator)
+* [Summy](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Summy)
 
-- [Supernatural](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Supernatural)
+- [Super Secret Password Generator](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Super%20Secret%20Password%20Generator)
 
-* [Suzuki needs help lining up his students](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Suzuki%20needs%20help%20lining%20up%20his%20students)
+* [Supernatural](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Supernatural)
 
-- [Switcheroo](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Switcheroo)
+- [Suzuki needs help lining up his students](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Suzuki%20needs%20help%20lining%20up%20his%20students)
 
-* [Tea for two](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Tea%20for%20two)
+* [Switcheroo](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Switcheroo)
 
-- [Temperature analysis I](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Temperature%20analysis%20I)
+- [Tea for two](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Tea%20for%20two)
+
+* [Temperature analysis I](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Temperature%20analysis%20I)
+
+- [Test Your Knowledge Of Function Scope](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Test%20Your%20Knowledge%20Of%20Function%20Scope)
 
 * [The Coupon Code](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Coupon%20Code)
 
@@ -938,96 +966,98 @@
 
 - [The highest profit wins](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20highest%20profit%20wins)
 
-* [The Office II - Boredom Score](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Office%20II%20-%20Boredom%20Score)
+* [The Office I - Outed](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Office%20I%20-%20Outed)
 
-- [The Office III - Broken Photocopier](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Office%20III%20-%20Broken%20Photocopier)
+- [The Office II - Boredom Score](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Office%20II%20-%20Boredom%20Score)
 
-* [The Office IV - Find a Meeting Room](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Office%20IV%20-%20Find%20a%20Meeting%20Room)
+* [The Office III - Broken Photocopier](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Office%20III%20-%20Broken%20Photocopier)
 
-- [The old switcheroo](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20old%20switcheroo)
+- [The Office IV - Find a Meeting Room](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Office%20IV%20-%20Find%20a%20Meeting%20Room)
 
-* [The old switcheroo 2](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20old%20switcheroo%202)
+* [The old switcheroo](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20old%20switcheroo)
 
-- [The Owls Are Not What They Seem](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Owls%20Are%20Not%20What%20They%20Seem)
+- [The old switcheroo 2](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20old%20switcheroo%202)
 
-* [The Pony Express](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Pony%20Express)
+* [The Owls Are Not What They Seem](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Owls%20Are%20Not%20What%20They%20Seem)
 
-- [The reject() function](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20reject()%20function)
+- [The Pony Express](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Pony%20Express)
 
-* [The Span Function](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Span%20Function)
+* [The reject() function](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20reject()%20function)
 
-- [Thinkful - List and Loop Drills: Inverse Slicer](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20List%20and%20Loop%20Drills%3A%20Inverse%20Slicer)
+- [The Span Function](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/The%20Span%20Function)
 
-* [Thinkful - List Drills: Longest word](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20List%20Drills%3A%20Longest%20word)
+* [Thinkful - List and Loop Drills: Inverse Slicer](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20List%20and%20Loop%20Drills%3A%20Inverse%20Slicer)
 
-- [Thinkful - String Drills: Areacode extractor](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Areacode%20extractor)
+- [Thinkful - List Drills: Longest word](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20List%20Drills%3A%20Longest%20word)
 
-* [Thinkful - String Drills: Poem formatter](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Poem%20formatter)
+* [Thinkful - String Drills: Areacode extractor](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Areacode%20extractor)
 
-- [Thinkful - String Drills: Repeater](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Repeater)
+- [Thinkful - String Drills: Poem formatter](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Poem%20formatter)
 
-* [Thinkful - String Drills: Repeater level 2](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Repeater%20level%202)
+* [Thinkful - String Drills: Repeater](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Repeater)
 
-- [Thinking & Testing : Uniq or not Uniq](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinking%20%26%20Testing%20%3A%20Uniq%20or%20not%20Uniq)
+- [Thinkful - String Drills: Repeater level 2](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinkful%20-%20String%20Drills%3A%20Repeater%20level%202)
 
-* [Tidy Number (Special Numbers Series #9)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Tidy%20Number%20(Special%20Numbers%20Series%20%239))
+* [Thinking & Testing : Uniq or not Uniq](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Thinking%20%26%20Testing%20%3A%20Uniq%20or%20not%20Uniq)
 
-- [ToLeetSpeak](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/ToLeetSpeak)
+- [Tidy Number (Special Numbers Series #9)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Tidy%20Number%20(Special%20Numbers%20Series%20%239))
 
-* [Triangular Treasure](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Triangular%20Treasure)
+* [ToLeetSpeak](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/ToLeetSpeak)
 
-- [True Min](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/True%20Min)
+- [Triangular Treasure](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Triangular%20Treasure)
 
-* [Turn any word into a beef taco](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Turn%20any%20word%20into%20a%20beef%20taco)
+* [True Min](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/True%20Min)
 
-- [Two fighters, one winner](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Two%20fighters%2C%20one%20winner)
+- [Turn any word into a beef taco](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Turn%20any%20word%20into%20a%20beef%20taco)
 
-* [Two Oldest Ages](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Two%20Oldest%20Ages)
+* [Two fighters, one winner](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Two%20fighters%2C%20one%20winner)
 
-- [Two to One](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Two%20to%20One)
+- [Two Oldest Ages](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Two%20Oldest%20Ages)
 
-* [Unique Pairs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unique%20Pairs)
+* [Two to One](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Two%20to%20One)
 
-- [Unique string characters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unique%20string%20characters)
+- [Unique Pairs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unique%20Pairs)
 
-* [Unique Sum](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unique%20Sum)
+* [Unique string characters](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unique%20string%20characters)
 
-- [uniquePush - No Dupes](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/uniquePush%20-%20No%20Dupes)
+- [Unique Sum](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unique%20Sum)
 
-* [Unlimited Sum](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unlimited%20Sum)
+* [uniquePush - No Dupes](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/uniquePush%20-%20No%20Dupes)
 
-- [Unlucky Days](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unlucky%20Days)
+- [Unlimited Sum](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unlimited%20Sum)
 
-* [Unpacking Arguments](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unpacking%20Arguments)
+* [Unlucky Days](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unlucky%20Days)
 
-- [Unscrambled eggs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unscrambled%20eggs)
+- [Unpacking Arguments](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unpacking%20Arguments)
 
-* [Use map() to double the values in an array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Use%20map()%20to%20double%20the%20values%20in%20an%20array)
+* [Unscrambled eggs](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Unscrambled%20eggs)
 
-- [Use reduce() to calculate the sum of the values in an array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Use%20reduce()%20to%20calculate%20the%20sum%20of%20the%20values%20in%20an%20array)
+- [Use map() to double the values in an array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Use%20map()%20to%20double%20the%20values%20in%20an%20array)
 
-* [Vampire Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Vampire%20Numbers)
+* [Use reduce() to calculate the sum of the values in an array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Use%20reduce()%20to%20calculate%20the%20sum%20of%20the%20values%20in%20an%20array)
 
-- [Vowel Count](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Vowel%20Count)
+- [Vampire Numbers](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Vampire%20Numbers)
 
-* [We Have Liftoff](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/We%20Have%20Liftoff)
+* [Vowel Count](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Vowel%20Count)
 
-- [Well of Ideas - Harder Version](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Well%20of%20Ideas%20-%20Harder%20Version)
+- [We Have Liftoff](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/We%20Have%20Liftoff)
 
-* [Who let the dogs out?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Who%20let%20the%20dogs%20out%3F)
+* [Well of Ideas - Harder Version](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Well%20of%20Ideas%20-%20Harder%20Version)
 
-- [Without the letter 'E'](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Without%20the%20letter%20'E')
+- [Who let the dogs out?](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Who%20let%20the%20dogs%20out%3F)
 
-* [Word values](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Word%20values)
+* [Without the letter 'E'](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Without%20the%20letter%20'E')
 
-- [Wordsearch](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Wordsearch)
+- [Word values](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Word%20values)
 
-* [Working with arrays I (and why your code fails in some katas)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Working%20with%20arrays%20I%20(and%20why%20your%20code%20fails%20in%20some%20katas))
+* [Wordsearch](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Wordsearch)
 
-- [You Can't Code Under Pressure #2](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/You%20Can't%20Code%20Under%20Pressure%20%232)
+- [Working with arrays I (and why your code fails in some katas)](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Working%20with%20arrays%20I%20(and%20why%20your%20code%20fails%20in%20some%20katas))
 
-* [You're a square!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/You're%20a%20square!)
+* [You Can't Code Under Pressure #2](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/You%20Can't%20Code%20Under%20Pressure%20%232)
 
-- [Zebulan's Nightmare](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Zebulan's%20Nightmare)
+- [You're a square!](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/You're%20a%20square!)
 
-* [zero-balanced Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/zero-balanced%20Array)
+* [Zebulan's Nightmare](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/Zebulan's%20Nightmare)
+
+- [zero-balanced Array](https://github.com/lndgalante/codewars-katas/tree/master/7-kyu/zero-balanced%20Array)
