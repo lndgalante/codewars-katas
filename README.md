@@ -60,47 +60,50 @@ This index will help you find all katas ordered alphabetically with a link to th
 
 * 🚧 [7 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/7-kyu.md)
 
-- 🚧 [6 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/6-kyu.md)
+- ⏸️ [6 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/6-kyu.md)
 
-* 🚧 [5 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/5-kyu.md)
+* ⏸️ [5 Kyu - Index](https://github.com/lndgalante/codewars-katas/tree/master/lib/index/5-kyu.md)
 
 Notes:
 
 - ✅ All completed
 - 🚧 Work in progress
+- ⏸️ Paused meanwhile
 
 To update the global index run
 
 ```bash
-> yarn update-index
+> npm run update-index
 ```
 
 ### Create a new Kata
 
-Since the kata generator uses `puppeteer` you should install it first
+Since the kata generator uses some dependencies so you should install those first
 
 ```bash
-> cd lib/katas && yarn
+> npm run install-generator-deps
 ```
 
 To generate a new folder with a `index.js` and `index.test.js` run
 
 ```bash
-> yarn create-kata "kata link"
+> npm run create-kata "kata link"
 ```
 
 In example
 
 ```bash
-> yarn create-kata https://www.codewars.com/kata/drying-potatoes/train/javascript
+> npm run create-kata https://www.codewars.com/kata/drying-potatoes/train/javascript
 ```
+
+Since this is a 7-kyu kata it will appear under this folder as a folder with it's own title "Drying Potatoes".
 
 ### Test your Might
 
-If you want to test in watch mode uncommitted files:
+If you want to test in watch mode uncommitted files
 
 ```bash
-> yarn test-watch
+> npm run test-watch
 ```
 
 ### Development Dependencies

@@ -29,6 +29,7 @@
     "test": "jest",
     "test-watch": "jest -o --watch",
     "update-index": "node ./lib/index/index-generator.js",
+    "install-generator-deps": "cd ./lib/katas && npm install",
     "create-kata": "node --no-warnings ./lib/katas/kata-generator.js --link"
   },
   "xo": {
