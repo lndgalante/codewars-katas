@@ -68,7 +68,7 @@ Notes:
 
 - ✅ All completed
 - 🚧 Work in progress
-- ⏸️ Paused meanwhile
+- ⏸️ Paused until last WIP is completed
 
 To update the global index run
 
@@ -87,7 +87,7 @@ Since the kata generator uses some dependencies so you should install those firs
 To generate a new folder with a `index.js` and `index.test.js` run
 
 ```bash
-> npm run create-kata "kata link"
+> npm run create-kata [kata link]
 ```
 
 In example
