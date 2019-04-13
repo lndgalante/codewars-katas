@@ -16,20 +16,26 @@
 */
 
 // Long solution
+/*
 function spinWords(str) {
   return str
     .split(' ')
-    .map(
-      word =>
-        word.length > 4
-          ? word
-              .split('')
-              .reverse()
-              .join('')
-          : word
+    .map(word =>
+      word.length > 4
+        ? word
+            .split('')
+            .reverse()
+            .join('')
+        : word
     )
     .join(' ')
 }
+*/
+
+// Short solution
+const reverseWord = word => [...word].reverse().join('')
+
+const spinWords = str => str.replace(/\w{5,}/g, reverseWord)
 
 // Function Export
 module.exports = spinWords
