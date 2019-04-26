@@ -26,7 +26,8 @@ const solve = arr => arr.find(number => !arr.includes(-number))
 
 // Lodash Solution
 /*
-const _ = require('lodash'), solve = _.flow(_.uniq, _.sum);
+const _ = require('lodash')
+const solve = _.flow(_.uniq, _.sum)
 */
 
 // Function Export
