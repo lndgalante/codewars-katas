@@ -18,8 +18,8 @@
     "@types/ramda": "^0.26.8",
     "eslint-config-prettier": "^4.2.0",
     "eslint-plugin-jest": "^22.5.1",
-    "husky": "^2.1.0",
-    "jest": "^24.7.1",
+    "husky": "^2.2.0",
+    "jest": "^24.8.0",
     "jest-extended": "^0.11.1",
     "prettier": "^1.17.0",
     "xo": "0.21.1"
