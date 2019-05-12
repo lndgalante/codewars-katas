@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.12",
-    "@types/lodash": "^4.14.124",
+    "@types/lodash": "^4.14.126",
     "@types/moment": "^2.13.0",
     "@types/ramda": "^0.26.8",
     "eslint-config-prettier": "^4.2.0",
