@@ -12,7 +12,7 @@
     "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.12",
+    "@types/jest": "^24.0.13",
     "@types/lodash": "^4.14.126",
     "@types/moment": "^2.13.0",
     "@types/ramda": "^0.26.8",
@@ -21,7 +21,7 @@
     "husky": "^2.2.0",
     "jest": "^24.8.0",
     "jest-extended": "^0.11.1",
-    "prettier": "^1.17.0",
+    "prettier": "^1.17.1",
     "xo": "0.21.1"
   },
   "scripts": {
