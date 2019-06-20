@@ -27,7 +27,7 @@
 
 ### Node.js & ES6+ Support
 
-The current Node versions [available](https://github.com/Codewars/codewars.com/wiki/Language-JavaScript) are the following [Node.js v6.11.0](https://kangax.github.io/compat-table/es6/#node6_5) and [Node.js v8.1.3](https://kangax.github.io/compat-table/es6/#node8_7)
+The current Node versions [available](https://github.com/Codewars/codewars.com/wiki/Language-JavaScript) are the following [Node.js v6.x](https://kangax.github.io/compat-table/es6/#node6_5), [Node.js v8.x](https://kangax.github.io/compat-table/es6/#node8_7) and [Node.js v10.x](https://kangax.github.io/compat-table/es6/#node10_9)
 
 ### Purpose
 
