@@ -1,3 +1,5 @@
+/* eslint no-unused-vars: 0 */
+
 const Array = require('.')
 
 describe('Tests for Zip function', () => {

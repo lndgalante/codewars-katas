@@ -1,3 +1,6 @@
+/* eslint no-extend-native: 0 */
+/* eslint no-use-extend-native/no-use-extend-native: 0 */
+
 /*
   Title:
     Zip it!
