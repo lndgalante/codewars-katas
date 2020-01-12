@@ -24,12 +24,11 @@
 */
 
 // Long Solution
-/*
 const toCurrency = price => String(price).replace(/(\d)(?=(\d{3})+$)/g, '$1,')
-*/
 
 // Short Solution
-const toCurrency = price => price.toLocaleString()
+// This will need intl dependency in order to work
+// const toCurrency = price => price.toLocaleString()
 
 // Function Export
 module.exports = toCurrency
