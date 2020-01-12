@@ -1,3 +1,5 @@
+/* eslint max-params: 0 */
+
 /*
   Title:
     I guess this is a 7kyu kata #4: Find 0 and 1
