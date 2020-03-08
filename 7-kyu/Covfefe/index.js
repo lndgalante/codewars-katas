@@ -21,10 +21,11 @@
 */
 
 // Long Solution
-const covfefe = str =>
-  str.includes('coverage')
-    ? str.replace(new RegExp('coverage', 'g'), 'covfefe')
+const covfefe = str => {
+  return str.includes('coverage')
+    ? str.replace(/coverage/g, 'covfefe')
     : `${str} covfefe`
+}
 
 // Function Export
 module.exports = covfefe

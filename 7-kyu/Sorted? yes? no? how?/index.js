@@ -41,9 +41,9 @@ const isSortedAndHow = array => {
 const isSortedAndHow = array =>
   array.every((number, i) => i === 0 || number >= array[i - 1])
     ? 'yes, ascending'
-    : array.every((number, i) => i === 0 || number <= array[i - 1])
+    : (array.every((number, i) => i === 0 || number <= array[i - 1])
       ? 'yes, descending'
-      : 'no'
+      : 'no')
 
 // Function Export
 module.exports = isSortedAndHow

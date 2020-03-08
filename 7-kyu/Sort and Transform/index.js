@@ -45,7 +45,7 @@ function sortTransform(numbers) {
 
 // Short Solution
 const createWordFromNumbers = numbers => {
-  return [...numbers.slice(0, 2), ...numbers.slice(numbers.length - 2)]
+  return [...numbers.slice(0, 2), ...numbers.slice(- 2)]
     .map(number => String.fromCharCode(number))
     .join('')
 }

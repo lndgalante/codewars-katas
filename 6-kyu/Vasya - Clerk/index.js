@@ -37,8 +37,7 @@ function tickets(peopleInLine) {
     amount100: 0,
   }
 
-  for (let i = 0; i < peopleInLine.length; i++) {
-    const money = peopleInLine[i]
+  for (const money of peopleInLine) {
 
     switch (money) {
       case 100:
@@ -52,6 +51,7 @@ function tickets(peopleInLine) {
         } else {
           return 'NO'
         }
+
         break
 
       case 50:
@@ -61,6 +61,7 @@ function tickets(peopleInLine) {
         } else {
           return 'NO'
         }
+
         break
 
       case 25:

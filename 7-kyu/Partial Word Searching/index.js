@@ -39,7 +39,7 @@ const wordSearch = (query, seq) => {
   const expression = new RegExp(query, 'i')
   const wordsFound = seq.filter(str => expression.test(str))
 
-  return wordsFound.length ? wordsFound : ['Empty']
+  return wordsFound.length > 0 ? wordsFound : ['Empty']
 }
 
 // Function Export

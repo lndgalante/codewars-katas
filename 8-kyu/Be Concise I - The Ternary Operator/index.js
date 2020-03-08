@@ -28,10 +28,15 @@
 */
 
 // Long Solution
-const describeAge = age =>
-  `You're a(n) ${
-    age <= 12 ? 'kid' : age <= 17 ? 'teenager' : age <= 64 ? 'adult' : 'elderly'
-  }`
+const describeAge = age =>{
+  let lifeStage = 'elderly'
+
+  if (age <= 64) lifeStage =  'adult'
+  if (age <= 17) lifeStage = 'teenager'
+  if (age <= 12) lifeStage = 'kid'
+
+  return `You're a(n) ${lifeStage}`
+}
 
 // Function Export
 module.exports = describeAge

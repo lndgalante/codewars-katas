@@ -44,8 +44,8 @@ const isPP = n => {
   while (current <= max) {
     power = 2
 
-    while (Math.pow(current, power) <= n) {
-      if (n === Math.pow(current, power)) {
+    while (current**power <= n) {
+      if (n === current**power) {
         return [current, power]
       }
 

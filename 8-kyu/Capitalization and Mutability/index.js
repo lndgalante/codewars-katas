@@ -21,7 +21,7 @@
 
 // Long Solution
 const capitalizeWord = word =>
-  `${word.substr(0, 1).toUpperCase()}${word.substr(1)}`
+  `${word.slice(0, 1).toUpperCase()}${word.slice(1)}`
 
 // Function Export
 module.exports = capitalizeWord

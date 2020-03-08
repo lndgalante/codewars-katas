@@ -1,3 +1,6 @@
+/* Xo no-extend-native: 0 */
+/* xo no-use-extend-native/no-use-extend-native: 0 */
+
 /*
   Title:
     Adding words - Part I

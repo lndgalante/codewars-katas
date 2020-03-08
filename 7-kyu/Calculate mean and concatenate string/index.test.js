@@ -51,7 +51,7 @@ test('Test 2', () => {
     '0',
   ]
 
-  expect(mean(list)).toEqual([3.0, 'cxwyvuhinu'])
+  expect(mean(list)).toEqual([3, 'cxwyvuhinu'])
 })
 
 test('Test 3', () => {
@@ -105,7 +105,7 @@ test('Test 4', () => {
     'k',
   ]
 
-  expect(mean(list)).toEqual([4.0, 'snlmizyzkk'])
+  expect(mean(list)).toEqual([4, 'snlmizyzkk'])
 })
 
 test('Test 5', () => {
@@ -186,5 +186,5 @@ test('Test 7', () => {
     'y',
   ]
 
-  expect(mean(list)).toEqual([1.0, 'aaddgquvyy'])
+  expect(mean(list)).toEqual([1, 'aaddgquvyy'])
 })

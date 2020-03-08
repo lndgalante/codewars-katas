@@ -53,5 +53,6 @@ const isValid = formula => {
 
   return firstRule && secondRule && thirdRule && fourthRule
 }
+
 // Function Export
 module.exports = isValid

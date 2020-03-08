@@ -36,6 +36,7 @@ class Warrior {
     if (newName) {
       this.wName = newName
     }
+
     return this.wName
   }
 }

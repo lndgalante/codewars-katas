@@ -43,7 +43,7 @@ const nicknameGenerator = name => {
 
 // Short Solution
 const nicknameGenerator = name =>
-  name.length <= 3 ? 'Error: Name too short' : /[aeiou]/i.test(name[2]) ? name.substring(0, 4) : name.substring(0, 3)
+  name.length <= 3 ? 'Error: Name too short' : (/[aeiou]/i.test(name[2]) ? name.slice(0, 4) : name.slice(0, 3))
 
 // Function Export
 module.exports = nicknameGenerator

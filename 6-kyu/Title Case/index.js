@@ -38,7 +38,7 @@
 
 // Long Solution
 const capitalizeFirstLetter = word =>
-  `${word.substr(0, 1).toUpperCase()}${word.substr(1).toLowerCase()}`
+  `${word.slice(0, 1).toUpperCase()}${word.slice(1).toLowerCase()}`
 
 function titleCase(title, minorWords = '') {
   const minorWordsArray = minorWords.toLowerCase().split(' ')

@@ -88,14 +88,15 @@
 */
 
 // Long Solution
-const blackAndWhite = arr =>
-  `It's a ${
-    !Array.isArray(arr)
-      ? 'fake'
-      : arr.includes(5) && arr.includes(13)
-        ? 'black'
-        : !(arr.includes(5) && arr.includes(13)) ? 'white' : ''
-  } array`
+const blackAndWhite = arr =>{
+  let arrayType = ''
+
+  if (!Array.isArray(arr)) arrayType = 'fake'
+  else if (arr.includes(5) && arr.includes(13)) arrayType = 'black'
+  else if (!(arr.includes(5) && arr.includes(13))) arrayType = 'white'
+
+  return `It's a ${arrayType} array`
+}
 
 // Function Export
 module.exports = blackAndWhite

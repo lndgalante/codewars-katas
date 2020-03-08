@@ -38,7 +38,7 @@ const yourFutureCareer = (career = Math.random()) => {
 // Short Solution
 const yourFutureCareer = (career = Math.random()) =>
   `${
-    career <= 0.32 ? 'FrontEnd' : career <= 0.65 ? 'BackEnd' : 'Full-Stack'
+    career <= 0.32 ? 'FrontEnd' : (career <= 0.65 ? 'BackEnd' : 'Full-Stack')
   } Developer`
 
 // Function Export

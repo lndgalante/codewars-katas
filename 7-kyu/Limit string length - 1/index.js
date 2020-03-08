@@ -22,7 +22,7 @@
 
 // Long Solution
 const solution = (string, limit) =>
-  limit >= string.length ? string : `${string.substr(0, limit)}...`
+  limit >= string.length ? string : `${string.slice(0, limit)}...`
 
 // Function Export
 module.exports = solution

@@ -5,7 +5,7 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(pointsPer48(10, 10)).toBe(48.0)
+  expect(pointsPer48(10, 10)).toBe(48)
 })
 
 test('Test 3', () => {

@@ -31,7 +31,7 @@
 */
 
 // Long Solution
-const isSquare = arr => (arr.length ? arr.every(number => Number.isInteger(Math.sqrt(number))) : undefined)
+const isSquare = arr => (arr.length > 0 ? arr.every(number => Number.isInteger(Math.sqrt(number))) : undefined)
 
 // Function Export
 module.exports = isSquare

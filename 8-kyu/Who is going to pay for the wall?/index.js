@@ -24,7 +24,7 @@
 
 // Long Solution
 const whoIsPaying = name =>
-  name.length <= 2 ? [name] : [name, name.substr(0, 2)]
+  name.length <= 2 ? [name] : [name, name.slice(0, 2)]
 
 // Function Export
 module.exports = whoIsPaying

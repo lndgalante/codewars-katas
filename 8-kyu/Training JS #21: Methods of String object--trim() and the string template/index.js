@@ -110,6 +110,7 @@ const fiveLine = s => {
       result += `${sWithoutWhitespace.repeat(i)}`
       break
     }
+
     result += `${sWithoutWhitespace.repeat(i)}\n`
   }
 

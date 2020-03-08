@@ -50,7 +50,7 @@ function createUnorderedList(list) {
 */
 
 // Short Solution
-const createElement = (content, Tag = 'div', props) => <Tag {...props}>{content}</Tag>
+const createElement = (content, props, Tag = 'div') => <Tag {...props}>{content}</Tag>
 
 const createUnorderedList = list => (
   <ul>

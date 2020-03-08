@@ -22,8 +22,8 @@ function findOdd(array) {
     const element = array[i]
     let counter = 0
 
-    for (let j = 0; j < array.length; j++) {
-      if (element === array[j]) counter++
+    for (const newElement of array) {
+      if (newElement === element) counter++
     }
 
     if (counter % 2 !== 0) return element

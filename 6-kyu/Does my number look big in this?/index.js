@@ -33,7 +33,7 @@ function narcissistic(value) {
   const numberDestructured = [...value.toString()].map(num => Number(num))
   const result = numberDestructured.reduce(
     (accumulator, currentValue) =>
-      accumulator + Math.pow(currentValue, numberDestructured.length),
+      accumulator + currentValue**numberDestructured.length,
     0
   )
 

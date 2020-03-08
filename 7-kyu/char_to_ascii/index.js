@@ -28,13 +28,14 @@
     : null
  */
 // Short Solution
-const charToAscii = string =>
-  string.length
+const charToAscii = string => {
+  return string.length > 0
     ? [...new Set([...string.replace(/\W/gi, '')])].reduce(
         (dictionary, char) => ({ ...dictionary, [char]: char.charCodeAt(0) }),
         {}
       )
     : null
+}
 
 // Function Export
 module.exports = charToAscii

@@ -41,10 +41,13 @@ function caffeineBuzz(n) {
 */
 
 // Short Solution
-const caffeineBuzz = n =>
-  n % 12 === 0
-    ? 'CoffeeScript'
-    : n % 6 === 0 ? 'JavaScript' : n % 3 === 0 ? 'Java' : 'mocha_missing!'
+const caffeineBuzz = n => {
+  if (n % 12 === 0) return 'CoffeeScript';
+  if (n % 6 === 0) return 'JavaScript';
+  if (n % 3 === 0) return 'Java';
+
+  return 'mocha_missing!'
+}
 
 // Function Export
 module.exports = caffeineBuzz

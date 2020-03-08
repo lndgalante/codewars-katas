@@ -87,7 +87,7 @@ Object.values =
 */
 
 const mostFrequentItemCount = collection =>
-  collection.length
+  collection.length > 0
     ? Math.max(
         ...Object.values(
           collection.reduce((repetitions, number) => {

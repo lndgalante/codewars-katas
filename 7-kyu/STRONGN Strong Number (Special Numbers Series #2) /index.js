@@ -51,7 +51,7 @@
 */
 
 // Helpers
-const factorial = n => (n < 0 ? null : n === 0 ? 1 : n * factorial(--n))
+const factorial = n => (n < 0 ? null : (n === 0 ? 1 : n * factorial(--n)))
 
 // Long Solution
 /*

@@ -9,7 +9,7 @@ test('Test 2', () => {
 })
 
 test('Test 3', () => {
-  expect(calculateTotal(0.0, 6, 18)).toBe(0.0)
+  expect(calculateTotal(0, 6, 18)).toBe(0)
 })
 
 test('Test 4', () => {

@@ -55,7 +55,7 @@ const battle = (x, y) => {
   const xPower = getCharactersPower(x)
   const yPower = getCharactersPower(y)
 
-  return xPower > yPower ? x : xPower < yPower ? y : 'Tie!'
+  return xPower > yPower ? x : (xPower < yPower ? y : 'Tie!')
 }
 
 // Function Export

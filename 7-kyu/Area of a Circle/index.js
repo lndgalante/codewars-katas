@@ -28,7 +28,7 @@
 const circleArea = radius =>
   radius <= 0 || typeof radius !== 'number'
     ? false
-    : Number((Math.PI * Math.pow(radius, 2)).toFixed(2))
+    : Number((Math.PI * radius**2).toFixed(2))
 
 // Function Export
 module.exports = circleArea

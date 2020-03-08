@@ -23,10 +23,11 @@
 */
 
 // Long Solution
-const magicSum = numbers =>
-  Array.isArray(numbers) && numbers.length
+const magicSum = numbers => {
+  return Array.isArray(numbers) && numbers.length > 0
     ? numbers.reduce((total, number) => (number % 2 !== 0 && String(number).includes('3') ? total + number : total), 0)
     : 0
+}
 
 // Function Export
 module.exports = magicSum

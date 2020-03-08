@@ -35,7 +35,7 @@ function isAllPossibilities(x) {
 */
 
 // Short Solution
-const isAllPossibilities = x => (x.length ? x.every((_, index) => x.includes(index)) : false)
+const isAllPossibilities = x => (x.length > 0 ? x.every((_, index) => x.includes(index)) : false)
 
 // Function Export
 module.exports = isAllPossibilities

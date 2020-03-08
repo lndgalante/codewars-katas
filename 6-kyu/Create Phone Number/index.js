@@ -22,9 +22,9 @@
 
 function createPhoneNumber(numbers) {
   const numbersStr = numbers.join('')
-  const firstPart = numbersStr.substring(0, 3)
-  const secondPart = numbersStr.substring(3, 6)
-  const thirdPart = numbersStr.substring(6, 10)
+  const firstPart = numbersStr.slice(0, 3)
+  const secondPart = numbersStr.slice(3, 6)
+  const thirdPart = numbersStr.slice(6, 10)
 
   return `(${firstPart}) ${secondPart}-${thirdPart}`
 }

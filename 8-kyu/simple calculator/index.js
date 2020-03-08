@@ -51,7 +51,7 @@ const calculator = (a, b, sign) => {
 const calculator = (a, b, sign) => {
   try {
     return eval(`${a} ${sign} ${b}`)
-  } catch (err) {
+  } catch {
     return 'unknown value'
   }
 }

@@ -19,7 +19,7 @@
 
 // Long Solution
 const product = values =>
-  Array.isArray(values) && values.length
+  Array.isArray(values) && values.length > 0
     ? values.reduce((total, value) => total * value, 1)
     : null
 

@@ -34,7 +34,7 @@ const maxDiff = list => {
 */
 
 // Short Solution
-const maxDiff = list => (list.length ? Math.max(...list) - Math.min(...list) : 0)
+const maxDiff = list => (list.length > 0 ? Math.max(...list) - Math.min(...list) : 0)
 
 // Function Export
 module.exports = maxDiff

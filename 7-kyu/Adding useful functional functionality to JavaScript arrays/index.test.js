@@ -1,5 +1,4 @@
 /* eslint no-extend-native: 0 */
-/* eslint no-identical-title: 0 */
 /* eslint no-use-extend-native/no-use-extend-native: 0 */
 
 const Array = require('.')

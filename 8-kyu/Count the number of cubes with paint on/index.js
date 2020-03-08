@@ -25,7 +25,7 @@
 */
 
 // Long Solution
-const countSquares = cuts => (cuts ? 6 * Math.pow(cuts, 2) + 2 : 1)
+const countSquares = cuts => (cuts ? 6 * cuts**2 + 2 : 1)
 
 // Function Export
 module.exports = countSquares

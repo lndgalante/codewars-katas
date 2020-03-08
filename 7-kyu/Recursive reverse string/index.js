@@ -39,7 +39,7 @@
 
 // Long Solution
 function reverse(str) {
-  return str.length === 1 ? str : reverse(str.substr(1)) + str[0]
+  return str.length === 1 ? str : reverse(str.slice(1)) + str[0]
 }
 
 // Alternative Solution

@@ -44,7 +44,7 @@ const collatz = n => {
 
 // Short Solution
 const collatz = n =>
-  n === 1 ? 1 : n % 2 === 0 ? 1 + collatz(n / 2) : 1 + collatz(3 * n + 1)
+  n === 1 ? 1 : (n % 2 === 0 ? 1 + collatz(n / 2) : 1 + collatz(3 * n + 1))
 
 // Function Export
 module.exports = collatz

@@ -9,11 +9,11 @@ const people = [
   ['bob', 'john', 'dave', 'matt', 'alex'],
 ]
 
-for (let i = 0; i < people.length; i++) {
+for (const [i, element] of people.entries()) {
   const person = Person()
-  person.fillFriends(people[i])
+  person.fillFriends(element)
 
   test(`Test ${i}`, () => {
-    expect(person._friends).toEqual(people[i])
+    expect(person._friends).toEqual(element)
   })
 }

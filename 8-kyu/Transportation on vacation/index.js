@@ -39,7 +39,7 @@ function rentalCarCost(d) {
 // Short Solution
 const baseCost = (days, rate) => days * rate
 
-const discountRate = days => (days >= 7 ? 50 : days >= 3 ? 20 : 0)
+const discountRate = days => (days >= 7 ? 50 : (days >= 3 ? 20 : 0))
 
 const rentalCarCost = days => baseCost(days, 40) - discountRate(days)
 

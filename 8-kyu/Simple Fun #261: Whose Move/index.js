@@ -47,7 +47,7 @@ const whoseMove = (lastPlayer, win) => {
 
 // Short Solution
 const whoseMove = (lastPlayer, win) =>
-  win ? lastPlayer : lastPlayer === 'black' ? 'white' : 'black'
+  win ? lastPlayer : (lastPlayer === 'black' ? 'white' : 'black')
 
 // Function Export
 module.exports = whoseMove

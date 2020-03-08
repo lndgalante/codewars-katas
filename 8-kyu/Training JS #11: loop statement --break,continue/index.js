@@ -58,9 +58,9 @@
 const grabDoll = dolls => {
   const bag = []
 
-  for (let i = 0; i < dolls.length; i++) {
-    if (dolls[i] === 'Hello Kitty' || dolls[i] === 'Barbie doll') {
-      bag.push(dolls[i])
+  for (const element of dolls) {
+    if (element === 'Hello Kitty' || element === 'Barbie doll') {
+      bag.push(element)
     } else continue
 
     if (bag.length >= 3) break

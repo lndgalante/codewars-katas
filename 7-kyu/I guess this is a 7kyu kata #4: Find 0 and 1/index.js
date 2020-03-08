@@ -58,6 +58,7 @@ const checkLeftCellEqualsNumber = (row, cellIndex, cellNumber, number) => {
   const leftCell = row[cellIndex - 1];
   return leftCell !== cellNumber && leftCell === number;
 };
+
 const checkRightCellEqualsNumber = (row, cellIndex, cellNumber, number) => {
   const rightCell = row[cellIndex + 1];
   return rightCell !== cellNumber && rightCell === number;
@@ -67,6 +68,7 @@ const checkTopCellEqualsNumber = (matrix, rowIndex, cellIndex, cellNumber, numbe
   const topCell = (matrix[rowIndex - 1] || [])[cellIndex];
   return topCell !== cellNumber && topCell === number;
 };
+
 const checkBottomCellEqualsNumber = (matrix, rowIndex, cellIndex, cellNumber, number) => {
   const bottomCell = (matrix[rowIndex + 1] || [])[cellIndex];
   return bottomCell !== cellNumber && bottomCell === number;

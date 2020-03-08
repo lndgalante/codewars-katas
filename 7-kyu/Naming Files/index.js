@@ -45,7 +45,7 @@ const nameFile = (fmt, nbr, start) => {
   if (nbr <= 0 || !Number.isInteger(start)) return []
   if (!fmt.includes('<index_no>')) return Array.from({ length: nbr }, () => fmt)
 
-  return Array.from({ length: nbr }, (_, index) => fmt.replace(new RegExp(`<index_no>`, 'g'), () => `${start + index}`))
+  return Array.from({ length: nbr }, (_, index) => fmt.replace(/<index_no>/g, () => `${start + index}`))
 }
 
 // Function Export

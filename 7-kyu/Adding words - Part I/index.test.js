@@ -1,15 +1,18 @@
+
 const Arith = require('.')
 
-const i = new Arith('three')
+describe('Arith with three value',() => {
+  const arith = new Arith('three')
 
-test('Test 1', () => {
-  expect(i.add('seven')).toBe('ten')
-})
+  test('Test 1', () => {
+    expect(arith.add('seven')).toBe('ten')
+  })
 
-test('Test 2', () => {
-  expect(i.add('eight')).toBe('eleven')
-})
+  test('Test 2', () => {
+    expect(arith.add('eight')).toBe('eleven')
+  })
 
-test('Test 3', () => {
-  expect(i.add('zero')).toBe('three')
+  test('Test 3', () => {
+    expect(arith.add('zero')).toBe('three')
+  })
 })
