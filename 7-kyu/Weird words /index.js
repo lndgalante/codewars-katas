@@ -26,8 +26,8 @@
 */
 
 // Long Solution
-const nextLetter = str => {
-  return str
+const nextLetter = string => {
+  return string
     .split(' ')
     .map(word => {
       const parsedWord = word

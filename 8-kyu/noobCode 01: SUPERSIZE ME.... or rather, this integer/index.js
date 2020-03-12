@@ -36,9 +36,9 @@ function superSize(num) {
 */
 
 // Short Solution
-const superSize = num =>
+const superSize = number =>
   Number(
-    String(num)
+    String(number)
       .split('')
       .sort((a, b) => b - a)
       .join('')

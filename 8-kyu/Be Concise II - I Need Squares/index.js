@@ -24,7 +24,7 @@
 
 // Long Solution
 const squaresOnly = array =>
-  array.filter(num => Number.isInteger(Math.sqrt(num)))
+  array.filter(number => Number.isInteger(Math.sqrt(number)))
 
 // Function Export
 module.exports = squaresOnly

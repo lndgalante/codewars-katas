@@ -22,7 +22,7 @@
 */
 
 // Long Solution
-const arrCheck = value => value.every(Array.isArray)
+const arrayCheck = value => value.every(Array.isArray)
 
 // Function Export
-module.exports = arrCheck
+module.exports = arrayCheck

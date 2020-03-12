@@ -31,14 +31,14 @@
 */
 
 // Long Solution
-const findDigit = (num, nth) => {
-  const numString = String(Math.abs(num))
+const findDigit = (number, nth) => {
+  const numberString = String(Math.abs(number))
 
   if (nth <= 0) return -1
-  if (nth > numString.length) return 0
+  if (nth > numberString.length) return 0
 
-  const arr = numString.split('').reverse()
-  return Number(arr[nth - 1])
+  const array = numberString.split('').reverse()
+  return Number(array[nth - 1])
 }
 
 // Function Export

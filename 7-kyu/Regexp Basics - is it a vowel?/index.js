@@ -20,7 +20,7 @@
 
 // Long Solution
 String.prototype.vowel = function() {
-  return /^[aeiou]{1}$/i.test(this)
+  return /^[aeiou]$/i.test(this)
 }
 
 // Function Export

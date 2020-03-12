@@ -1,4 +1,5 @@
 /* eslint no-unused-vars: 0 */
+/* eslint unicorn/prevent-abbreviations: 0 */
 
 /*
   Title:

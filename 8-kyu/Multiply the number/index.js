@@ -24,8 +24,8 @@
 
 // Long Solution
 const multiply = number => {
-  const num = String(Math.abs(number)).length
-  return number * 5 ** num
+  const number_ = String(Math.abs(number)).length
+  return number * 5 ** number_
 }
 
 // Function Export

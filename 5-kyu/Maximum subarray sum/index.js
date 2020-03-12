@@ -25,17 +25,17 @@
 */
 
 // Long Solution
-function maxSequence(arr) {
-  const allPositive = arr.every(num => Math.sign(num) === 1)
-  const allNegative = arr.every(num => Math.sign(num) === -1)
+function maxSequence(array) {
+  const allPositive = array.every(number => Math.sign(number) === 1)
+  const allNegative = array.every(number => Math.sign(number) === -1)
 
-  if (allPositive) return arr.reduce((a, b) => a + b, 0)
-  if (allNegative || arr.length === 0) return 0
+  if (allPositive) return array.reduce((a, b) => a + b, 0)
+  if (allNegative || array.length === 0) return 0
 
   const combinations = []
 
-  for (let i = 0; i < arr.length; i++) {
-    const sublist = arr.map((num, ind) => arr.slice(ind, ind + i))
+  for (let i = 0; i < array.length; i++) {
+    const sublist = array.map((number, ind) => array.slice(ind, ind + i))
     combinations.push(...sublist)
   }
 

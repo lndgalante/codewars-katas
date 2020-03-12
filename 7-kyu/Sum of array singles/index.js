@@ -20,9 +20,9 @@
 */
 
 // Long Solution
-const repeats = arr =>
-  arr
-    .filter(number => arr.indexOf(number) === arr.lastIndexOf(number))
+const repeats = array =>
+  array
+    .filter(number => array.indexOf(number) === array.lastIndexOf(number))
     .reduce((total, number) => total + number, 0)
 
 // Function Export

@@ -33,7 +33,7 @@ const stringy = size =>
 
 // Short Solution
 const stringy = size =>
-  [...new Array(size)].map((el, i) => (i % 2 === 0 ? 1 : 0)).join('')
+  [...new Array(size)].map((element, i) => (i % 2 === 0 ? 1 : 0)).join('')
 
 // Function Export
 module.exports = stringy

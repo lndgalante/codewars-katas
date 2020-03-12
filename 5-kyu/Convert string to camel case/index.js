@@ -43,8 +43,8 @@ function toCamelCase(string) {
 */
 
 // Short Solution. Regex here => https://regexr.com/3gtji
-const toCamelCase = str =>
-  str.replace(/[-_](.)/g, (_, char) => char.toUpperCase())
+const toCamelCase = string =>
+  string.replace(/[-_](.)/g, (_, char) => char.toUpperCase())
 
 // Function Export
 module.exports = toCamelCase

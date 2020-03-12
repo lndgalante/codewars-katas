@@ -72,8 +72,8 @@ const minSum = arr => {
 */
 
 // Short Solution
-const minSum = arr =>
-  [...arr]
+const minSum = array =>
+  [...array]
     .sort((a, b) => a - b)
     .reduce(
       (total, number, index, array) =>

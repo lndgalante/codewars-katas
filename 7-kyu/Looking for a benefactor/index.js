@@ -34,9 +34,9 @@
 */
 
 // Long Solution
-const newAvg = (arr, newavg) => {
-  const totalDonations = arr.reduce((total, value) => total + value, 0)
-  const result = newavg * (arr.length + 1) - totalDonations
+const newAvg = (array, newavg) => {
+  const totalDonations = array.reduce((total, value) => total + value, 0)
+  const result = newavg * (array.length + 1) - totalDonations
 
   if (result < 0) throw new RangeError('Error')
   return Math.ceil(result)

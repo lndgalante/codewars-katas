@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const arrayLowerCase = arr => arr.map(element => (typeof element === 'string' ? element.toLowerCase() : element))
+const arrayLowerCase = array => array.map(element => (typeof element === 'string' ? element.toLowerCase() : element))
 
 // Function Export
 module.exports = arrayLowerCase

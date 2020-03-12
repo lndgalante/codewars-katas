@@ -53,7 +53,7 @@ const maxTriSum = numbers =>
   [...new Set(numbers)]
     .sort((a, b) => b - a)
     .slice(0, 3)
-    .reduce((total, num) => total + num, 0)
+    .reduce((total, number) => total + number, 0)
 
 // Function Export
 module.exports = maxTriSum

@@ -31,7 +31,7 @@
 */
 
 // Long Solution
-const findArray = (arr1, arr2) => arr2.map(index => arr1[index]).filter(value => typeof value !== 'undefined')
+const findArray = (array1, array2) => array2.map(index => array1[index]).filter(value => typeof value !== 'undefined')
 
 // Function Export
 module.exports = findArray

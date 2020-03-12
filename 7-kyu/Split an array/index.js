@@ -24,8 +24,8 @@
 */
 
 // Long Solution - Better Performance
-const split = (arr, prop) =>
-  arr.reduce((acc, obj) => (obj[prop] ? [[...acc[0], obj], acc[1]] : [acc[0], [...acc[1], obj]]), [[], []])
+const split = (array, prop) =>
+  array.reduce((acc, object) => (object[prop] ? [[...acc[0], object], acc[1]] : [acc[0], [...acc[1], object]]), [[], []])
 
 // Short Solution - Bad performance
 /*

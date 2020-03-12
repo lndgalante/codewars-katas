@@ -21,7 +21,7 @@
 
 // Long Solution
 const divisibleBy = (numbers, divisor) =>
-  numbers.filter(num => num % divisor === 0)
+  numbers.filter(number => number % divisor === 0)
 
 // Function Export
 module.exports = divisibleBy

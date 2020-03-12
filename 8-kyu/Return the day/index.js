@@ -43,9 +43,9 @@ const days = {
   7: 'Saturday',
 }
 
-const whatday = num =>
-  days.hasOwnProperty(num)
-    ? days[num]
+const whatday = number =>
+  days.hasOwnProperty(number)
+    ? days[number]
     : 'Wrong, please enter a number between 1 and 7'
 
 // Function Export

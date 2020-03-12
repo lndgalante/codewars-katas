@@ -32,7 +32,7 @@ const refactoryString = str =>
 */
 
 // Short Solution
-const refactoryString = str => str.replace(/\d+/g, match => String.fromCharCode(`${97 + Number(match)}`))
+const refactoryString = string => string.replace(/\d+/g, match => String.fromCharCode(`${97 + Number(match)}`))
 
 // Function Export
 module.exports = refactoryString

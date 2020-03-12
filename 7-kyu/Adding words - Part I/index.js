@@ -105,12 +105,12 @@ class Arith {
     ]
   }
 
-  constructor(num) {
-    this.number = this.dictionary.indexOf(num)
+  constructor(number) {
+    this.number = this.dictionary.indexOf(number)
   }
 
-  add(num) {
-    return this.dictionary[this.number + this.dictionary.indexOf(num)]
+  add(number) {
+    return this.dictionary[this.number + this.dictionary.indexOf(number)]
   }
 }
 

@@ -38,7 +38,7 @@ const table = {
   rapper: 'Cristal',
 }
 
-const getDrinkByProfession = param => table[param.toLowerCase()] || 'Beer'
+const getDrinkByProfession = parameter => table[parameter.toLowerCase()] || 'Beer'
 
 // Function Export
 module.exports = getDrinkByProfession

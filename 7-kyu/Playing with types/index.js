@@ -32,8 +32,8 @@ const typing = param => {
 */
 
 // Short Solution
-const typing = param =>
-  typeof param === 'undefined' ? 'undefined' : `${typeof param}=${JSON.stringify(param) || param}`
+const typing = parameter =>
+  typeof parameter === 'undefined' ? 'undefined' : `${typeof parameter}=${JSON.stringify(parameter) || parameter}`
 
 // Function Export
 module.exports = typing

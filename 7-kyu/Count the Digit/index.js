@@ -38,7 +38,7 @@ const nbDig = (n, d) => {
       number
         .split('')
         .reduce(
-          (totalOnes, num) => (Number(num) === d ? totalOnes + 1 : totalOnes),
+          (totalOnes, number_) => (Number(number_) === d ? totalOnes + 1 : totalOnes),
           0
         ),
     0

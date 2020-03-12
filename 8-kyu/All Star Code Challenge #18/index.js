@@ -37,7 +37,7 @@ const strCount = (str, letter) =>
 */
 
 // Short Solution
-const strCount = (str, letter) => str.split(letter).length - 1
+const stringCount = (string, letter) => string.split(letter).length - 1
 
 // Function Export
-module.exports = strCount
+module.exports = stringCount

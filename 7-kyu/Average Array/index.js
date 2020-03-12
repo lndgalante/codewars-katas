@@ -41,14 +41,14 @@
 */
 
 // Long Solution
-const avgArray = arr => {
-  const initialArray = Array.from({ length: arr[0].length }, () => 0)
-  const totalValues = arr.reduce((result, array) => {
+const avgArray = array => {
+  const initialArray = Array.from({ length: array[0].length }, () => 0)
+  const totalValues = array.reduce((result, array) => {
     array.forEach((value, index) => (result[index] += value))
     return result
   }, initialArray)
 
-  const totalAverages = totalValues.map(value => value / arr.length)
+  const totalAverages = totalValues.map(value => value / array.length)
   return totalAverages
 }
 

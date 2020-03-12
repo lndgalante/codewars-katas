@@ -23,7 +23,7 @@
 */
 
 // Long Solution
-const removeEveryOther = arr => arr.filter((_, i) => i % 2 === 0)
+const removeEveryOther = array => array.filter((_, i) => i % 2 === 0)
 
 // Function Export
 module.exports = removeEveryOther

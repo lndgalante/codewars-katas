@@ -41,9 +41,9 @@
 */
 
 // Long Solution
-const isSantaClausable = obj =>
+const isSantaClausable = object =>
   ['sayHoHoHo', 'distributeGifts', 'goDownTheChimney'].every(
-    methodName => typeof obj[methodName] === 'function'
+    methodName => typeof object[methodName] === 'function'
   )
 
 // Function Export

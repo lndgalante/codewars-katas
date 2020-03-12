@@ -28,7 +28,7 @@ const freqSeq = (str, sep) => [...str].map(char => totalRepetitions(str, char)).
 */
 
 // Short Solution
-const freqSeq = (str, sep) => [...str].map(char => str.split(char).length - 1).join(sep)
+const freqSeq = (string, sep) => [...string].map(char => string.split(char).length - 1).join(sep)
 
 // Function Export
 module.exports = freqSeq

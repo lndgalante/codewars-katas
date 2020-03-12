@@ -49,7 +49,7 @@ const makeLazy = (...args) => {
 */
 
 // Short Solution
-const makeLazy = (func, ...params) => () => func(...params)
+const makeLazy = (func, ...parameters) => () => func(...parameters)
 
 // Function Export
 module.exports = makeLazy

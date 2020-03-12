@@ -45,7 +45,7 @@ const ghostBusters = building => {
 const ghostBusters = building =>
   /\s/g.test(building)
     ? building.replace(/\s/g, '')
-    : "You just wanted my autograph didn't you?"
+    : "You just wanted my autograph didn’t you?"
 
 // Function Export
 module.exports = ghostBusters

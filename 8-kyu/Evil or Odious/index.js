@@ -35,7 +35,7 @@ const evil = n => {
 
 // Short Solution
 const evil = n =>
-  n.toString(2).match(/1/g).length % 2 ? "It's Odious!" : "It's Evil!"
+  n.toString(2).match(/1/g).length % 2 ? "It’s Odious!" : "It’s Evil!"
 
 // Function Export
 module.exports = evil

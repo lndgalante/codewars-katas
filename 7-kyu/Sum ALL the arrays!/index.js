@@ -39,7 +39,7 @@ const arraySum = arr =>
 // Short Solution
 const _ = require('lodash')
 
-const arraySum = arr => _.flattenDeep(arr).reduce((total, el) => (typeof el === 'number' ? total + el : total), 0)
+const arraySum = array => _.flattenDeep(array).reduce((total, element) => (typeof element === 'number' ? total + element : total), 0)
 
 // Function Export
 module.exports = arraySum

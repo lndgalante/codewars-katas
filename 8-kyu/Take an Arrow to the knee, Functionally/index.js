@@ -27,7 +27,7 @@
 */
 
 // Long Solution
-const arrowFunc = arr => arr.map(char => String.fromCharCode(char)).join('')
+const arrowFunc = array => array.map(char => String.fromCharCode(char)).join('')
 
 // Function Export
 module.exports = arrowFunc

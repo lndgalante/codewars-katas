@@ -24,8 +24,8 @@
 */
 
 // Long Solution
-const repeatIt = (str, n) =>
-  typeof str === 'string' ? str.repeat(n) : 'Not a string'
+const repeatIt = (string, n) =>
+  typeof string === 'string' ? string.repeat(n) : 'Not a string'
 
 // Function Export
 module.exports = repeatIt

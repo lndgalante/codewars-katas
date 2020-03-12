@@ -13,11 +13,11 @@ test('Test 3', () => {
 })
 
 test('Test 4', () => {
-  expect(howManyDalmatians(80)).toBe("Woah that's a lot of dogs!")
+  expect(howManyDalmatians(80)).toBe("Woah that’s a lot of dogs!")
 })
 
 test('Test 5', () => {
-  expect(howManyDalmatians(100)).toBe("Woah that's a lot of dogs!")
+  expect(howManyDalmatians(100)).toBe("Woah that’s a lot of dogs!")
 })
 
 test('Test 6', () => {

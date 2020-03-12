@@ -29,7 +29,7 @@ const solution = str =>
 */
 
 // Short Solution
-const solution = str => [...str].reverse().join('')
+const solution = string => [...string].reverse().join('')
 
 // Function Export
 module.exports = solution

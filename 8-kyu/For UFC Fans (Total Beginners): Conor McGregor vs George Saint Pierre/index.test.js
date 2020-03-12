@@ -8,7 +8,7 @@ test('Test 1', () => {
 
 test('Test 2', () => {
   expect(quote('conor mcgregor')).toBe(
-    "I'd like to take this chance to apologize.. To absolutely NOBODY!"
+    "I’d like to take this chance to apologize.. To absolutely NOBODY!"
   )
 })
 
@@ -20,6 +20,6 @@ test('Test 3', () => {
 
 test('Test 4', () => {
   expect(quote('Conor McGregor')).toBe(
-    "I'd like to take this chance to apologize.. To absolutely NOBODY!"
+    "I’d like to take this chance to apologize.. To absolutely NOBODY!"
   )
 })

@@ -56,7 +56,7 @@ const hiddenWord = num => {
 */
 
 // Short Solution
-const hiddenWord = n => `${n}`.replace(/\d/g, num => 'oblietadnm'[num])
+const hiddenWord = n => `${n}`.replace(/\d/g, number => 'oblietadnm'[number])
 
 // Function Export
 module.exports = hiddenWord

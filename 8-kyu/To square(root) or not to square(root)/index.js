@@ -34,10 +34,10 @@
 */
 
 // Long Solution
-const isSquareRootInteger = num => Number.isInteger(Math.sqrt(num))
+const isSquareRootInteger = number => Number.isInteger(Math.sqrt(number))
 
 const squareOrSquareRoot = array =>
-  array.map(num => (isSquareRootInteger(num) ? Math.sqrt(num) : num ** 2))
+  array.map(number => (isSquareRootInteger(number) ? Math.sqrt(number) : number ** 2))
 
 // Function Export
 module.exports = squareOrSquareRoot

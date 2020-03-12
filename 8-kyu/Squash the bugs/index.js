@@ -33,7 +33,7 @@
 }
  */
 // Short Solution
-const findLongest = str => Math.max(...str.split(' ').map(word => word.length))
+const findLongest = string => Math.max(...string.split(' ').map(word => word.length))
 
 // Function Export
 module.exports = findLongest

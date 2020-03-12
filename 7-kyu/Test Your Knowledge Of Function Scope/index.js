@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const add = numA => numB => numA + numB
+const add = numberA => numberB => numberA + numberB
 
 // Function Export
 module.exports = add

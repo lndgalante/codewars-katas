@@ -118,11 +118,11 @@ const dictionary = {
   i: 'k',
 }
 
-const replaceChars = str => str.replace(/./g, char => dictionary[char] || char)
+const replaceChars = string => string.replace(/./g, char => dictionary[char] || char)
 
-const encode = str => replaceChars(str)
+const encode = string => replaceChars(string)
 
-const decode = str => replaceChars(str)
+const decode = string => replaceChars(string)
 
 // Function Export
 module.exports = { encode, decode }

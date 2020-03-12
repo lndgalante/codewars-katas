@@ -41,8 +41,8 @@ const mergeArrays = (arr1, arr2) => _.sortBy(_.union(arr1, arr2))
 */
 
 // Long Solution
-const mergeArrays = (arr1, arr2) =>
-  [...new Set([...arr1, ...arr2])].sort((a, b) => a - b)
+const mergeArrays = (array1, array2) =>
+  [...new Set([...array1, ...array2])].sort((a, b) => a - b)
 
 // Function Export
 module.exports = mergeArrays

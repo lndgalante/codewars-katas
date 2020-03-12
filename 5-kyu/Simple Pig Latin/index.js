@@ -19,8 +19,8 @@
 */
 
 // Long Solution
-function pigIt(str) {
-  return str
+function pigIt(string) {
+  return string
     .split(' ')
     .map(
       word =>

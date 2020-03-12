@@ -56,7 +56,7 @@ function helloWorld() {
 */
 
 // Short Solution
-const helloWorld = (str = 'Hello World!') => console.log(str)
+const helloWorld = (string = 'Hello World!') => console.log(string)
 
 // Function Export
 module.exports = helloWorld

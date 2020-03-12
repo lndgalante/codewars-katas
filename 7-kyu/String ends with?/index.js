@@ -22,7 +22,7 @@
 */
 
 // Short Solution
-const solution = (str, ending) => str.endsWith(ending)
+const solution = (string, ending) => string.endsWith(ending)
 
 // Function Export
 module.exports = solution

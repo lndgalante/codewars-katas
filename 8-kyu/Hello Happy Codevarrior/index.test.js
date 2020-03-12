@@ -4,7 +4,7 @@ const albert = new Warrior('Albert')
 const boris = new Warrior('Boris')
 
 test('Test 1', () => {
-  expect(albert.toString()).toBe("Hi! my name's Albert")
+  expect(albert.toString()).toBe("Hi! my name’s Albert")
 })
 
 test('Test 2', () => {

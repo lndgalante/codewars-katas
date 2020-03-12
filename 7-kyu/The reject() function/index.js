@@ -28,7 +28,7 @@ const reject = (array, iterator) => {
 */
 
 // Short Solution
-const reject = (array, iterator) => array.filter(el => !iterator(el))
+const reject = (array, iterator) => array.filter(element => !iterator(element))
 
 // Function Export
 module.exports = reject

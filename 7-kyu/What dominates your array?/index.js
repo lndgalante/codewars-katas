@@ -23,10 +23,10 @@
 */
 
 // Long Solution
-const dominator = arr => {
-  const halfLength = arr.length / 2
+const dominator = array => {
+  const halfLength = array.length / 2
 
-  const repetitions = Object.entries(arr.reduce((acc, value) => ({ ...acc, [value]: (acc[value] || 0) + 1 }), {}))
+  const repetitions = Object.entries(array.reduce((acc, value) => ({ ...acc, [value]: (acc[value] || 0) + 1 }), {}))
   const [dominator] = repetitions.find(([_, repetition]) => repetition > halfLength) || []
 
   return dominator ? Number(dominator) : -1

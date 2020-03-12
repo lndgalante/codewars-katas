@@ -31,8 +31,8 @@ const array = word => {
 */
 
 // Short Solution
-const array = arr =>
-  arr
+const array = array_ =>
+  array_
     .split(',')
     .slice(1, -1)
     .join(' ') || null

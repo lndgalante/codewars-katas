@@ -37,8 +37,8 @@ function firstNonConsecutive(arr) {
 */
 
 // Short Solution
-function firstNonConsecutive(arr) {
-  const result = arr.find((number, index) => number !== index + arr[0])
+function firstNonConsecutive(array) {
+  const result = array.find((number, index) => number !== index + array[0])
   return Number.isInteger(result) ? result : null
 }
 

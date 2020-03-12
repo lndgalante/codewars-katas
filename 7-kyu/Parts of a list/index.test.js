@@ -1,11 +1,11 @@
 const partlist = require('.')
 
 test('Test 1', () => {
-  expect(partlist(['I', 'wish', 'I', "hadn't", 'come'])).toEqual([
-    ['I', "wish I hadn't come"],
-    ['I wish', "I hadn't come"],
-    ['I wish I', "hadn't come"],
-    ["I wish I hadn't", 'come'],
+  expect(partlist(['I', 'wish', 'I', "hadn’t", 'come'])).toEqual([
+    ['I', "wish I hadn’t come"],
+    ['I wish', "I hadn’t come"],
+    ['I wish I', "hadn’t come"],
+    ["I wish I hadn’t", 'come'],
   ])
 })
 

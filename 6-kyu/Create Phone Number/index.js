@@ -21,10 +21,10 @@
 */
 
 function createPhoneNumber(numbers) {
-  const numbersStr = numbers.join('')
-  const firstPart = numbersStr.slice(0, 3)
-  const secondPart = numbersStr.slice(3, 6)
-  const thirdPart = numbersStr.slice(6, 10)
+  const numbersString = numbers.join('')
+  const firstPart = numbersString.slice(0, 3)
+  const secondPart = numbersString.slice(3, 6)
+  const thirdPart = numbersString.slice(6, 10)
 
   return `(${firstPart}) ${secondPart}-${thirdPart}`
 }

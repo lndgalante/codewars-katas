@@ -38,7 +38,7 @@
 */
 
 // Long Solution
-const appendArrays = (arr1, arr2) => [...arr1, ...arr2]
+const appendArrays = (array1, array2) => [...array1, ...array2]
 
 // Function Export
 module.exports = appendArrays

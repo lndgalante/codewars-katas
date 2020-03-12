@@ -48,7 +48,7 @@ const disariumNumber = n => {
 
 // Short Solution
 const disariumNumber = n =>
-  [...String(n)].reduce((total, num, index) => total + Number(num) ** (index + 1), 0) === n ? 'Disarium !!' : 'Not !!'
+  [...String(n)].reduce((total, number, index) => total + Number(number) ** (index + 1), 0) === n ? 'Disarium !!' : 'Not !!'
 
 // Function Export
 module.exports = disariumNumber

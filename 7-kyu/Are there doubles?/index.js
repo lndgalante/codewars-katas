@@ -144,7 +144,7 @@ const doubleCheck = str => [...str.toLowerCase()].some((char, index, array) => c
 */
 
 // Short Solution - https://regexr.com/45ljb
-const doubleCheck = str => /(.)\1/i.test(str)
+const doubleCheck = string => /(.)\1/i.test(string)
 
 // Function Export
 module.exports = doubleCheck

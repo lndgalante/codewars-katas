@@ -4,8 +4,8 @@
 
 const Array = require('.')
 
-const isGreaterThanZero = num => num > 0
-const isLessThanZero = num => num < 0
+const isGreaterThanZero = number => number > 0
+const isLessThanZero = number => number < 0
 
 test('Test 1', () => {
   expect([1, 2, 3].all(isGreaterThanZero)).toBeTrue()

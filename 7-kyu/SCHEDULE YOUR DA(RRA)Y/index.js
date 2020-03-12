@@ -37,7 +37,7 @@ const dayPlan = (hours, tasks, duration) => {
   const totalBreak = hoursToMinutes - timeOnTask
   const breakTime = Math.round(totalBreak / breaks)
 
-  if (hoursToMinutes < timeOnTask) return "You're not sleeping tonight!"
+  if (hoursToMinutes < timeOnTask) return "You’re not sleeping tonight!"
   return Array.from({ length: tasks + breaks }, (_, index) => (index % 2 === 0 ? duration : breakTime))
 }
 

@@ -37,7 +37,7 @@ const countConsonants = str =>
 */
 
 // Short Solution
-const countConsonants = str => new Set(str.toLowerCase().replace(/[^a-z]|[aeiou]/g, '')).size
+const countConsonants = string => new Set(string.toLowerCase().replace(/[^a-z]|[aeiou]/g, '')).size
 
 // Function Export
 module.exports = countConsonants

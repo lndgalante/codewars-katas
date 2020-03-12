@@ -42,9 +42,9 @@
 function orderWeight(strng) {
   return strng
     .split(' ')
-    .map(num => {
-      const weight = num.split('').reduce((a, b) => Number(a) + Number(b), 0)
-      return { num, weight }
+    .map(number => {
+      const weight = number.split('').reduce((a, b) => Number(a) + Number(b), 0)
+      return { num: number, weight }
     })
     .sort(
       (a, b) =>

@@ -23,9 +23,9 @@
 */
 
 // Long Solution
-const reverseSlice = str => {
-  const reversedString = [...str].reverse().join('')
-  return Array.from({ length: str.length }, (_, index) => reversedString.slice(index))
+const reverseSlice = string => {
+  const reversedString = [...string].reverse().join('')
+  return Array.from({ length: string.length }, (_, index) => reversedString.slice(index))
 }
 
 // Function Export

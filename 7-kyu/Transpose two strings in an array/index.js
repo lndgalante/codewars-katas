@@ -33,9 +33,9 @@
 */
 
 // Long Solution
-const transposeTwoStrings = arr => {
-  const [firstString, secondString] = arr
-  const longestLength = Math.max(...arr.map(({ length }) => length))
+const transposeTwoStrings = array => {
+  const [firstString, secondString] = array
+  const longestLength = Math.max(...array.map(({ length }) => length))
 
   return Array.from({ length: longestLength }, (_, index) => {
     const firstStringChar = firstString[index] ? firstString[index] : ' '

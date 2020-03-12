@@ -35,8 +35,8 @@ function XO(str) {
 */
 
 // Short Solution
-const exesAndOhs = str =>
-  (str.match(/x/gi) || []).length === (str.match(/o/gi) || []).length
+const exesAndOhs = string =>
+  (string.match(/x/gi) || []).length === (string.match(/o/gi) || []).length
 
 // Function Export
 module.exports = exesAndOhs

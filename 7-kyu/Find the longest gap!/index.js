@@ -45,7 +45,7 @@ const gap = num => {
 */
 
 // Short Solution
-const gap = num => Math.max(...(num.toString(2).match(/(?=1)*(0)+(?=1)/g) || ['']).map(({ length }) => length))
+const gap = number => Math.max(...(number.toString(2).match(/(?=1)*(0)+(?=1)/g) || ['']).map(({ length }) => length))
 
 // Function Export
 module.exports = gap

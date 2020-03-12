@@ -19,8 +19,8 @@
 */
 
 // Long Solution
-const countSheep = num =>
-  Array.from({ length: num }, (_, index) => `${++index} sheep...`).join('')
+const countSheep = number =>
+  Array.from({ length: number }, (_, index) => `${++index} sheep…`).join('')
 
 // Function Export
 module.exports = countSheep

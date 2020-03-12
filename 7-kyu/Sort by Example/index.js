@@ -27,7 +27,7 @@
 */
 
 // Long Solution
-const exampleSort = (arr, exampleArr) => [...arr].sort((a, b) => exampleArr.indexOf(a) - exampleArr.indexOf(b))
+const exampleSort = (array, exampleArray) => [...array].sort((a, b) => exampleArray.indexOf(a) - exampleArray.indexOf(b))
 
 // Function Export
 module.exports = exampleSort

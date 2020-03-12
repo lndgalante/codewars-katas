@@ -39,7 +39,7 @@ const insertDash = num =>
 */
 
 // Short Solution
-const insertDash = num => `${num}`.replace(/([13579])(?=[13579])/g, '$1-')
+const insertDash = number => `${number}`.replace(/([13579])(?=[13579])/g, '$1-')
 
 // Function Export
 module.exports = insertDash

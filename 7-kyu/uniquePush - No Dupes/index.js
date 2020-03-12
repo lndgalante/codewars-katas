@@ -29,8 +29,8 @@ const uniquePush = (arr, obj) =>
 */
 
 // Short Solution
-const uniquePush = (arr, obj) =>
-  obj.phoneNumber && !arr.some(({ phoneNumber }) => phoneNumber === obj.phoneNumber) && arr.push(obj)
+const uniquePush = (array, object) =>
+  object.phoneNumber && !array.some(({ phoneNumber }) => phoneNumber === object.phoneNumber) && array.push(object)
 
 // Function Export
 module.exports = uniquePush

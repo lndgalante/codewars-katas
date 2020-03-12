@@ -36,7 +36,7 @@ function binaryArrayToNumber(arr) {
 */
 
 // Short Solution
-const binaryArrayToNumber = arr => parseInt(arr.join(''), 2)
+const binaryArrayToNumber = array => parseInt(array.join(''), 2)
 
 // Function Export
 module.exports = binaryArrayToNumber

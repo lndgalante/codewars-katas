@@ -90,7 +90,7 @@ const surname = {
 }
 
 // Long Solution
-const firstLetter = str => str[0].toUpperCase()
+const firstLetter = string => string[0].toUpperCase()
 
 const isValidName = name => /[a-z]/gi.test(name)
 

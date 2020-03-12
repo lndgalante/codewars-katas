@@ -34,17 +34,17 @@
 */
 
 // Long Solution
-function getMiddle(str) {
-  const strArray = str.split('')
-  const isLengthEven = str.length % 2 === 0
+function getMiddle(string) {
+  const stringArray = string.split('')
+  const isLengthEven = string.length % 2 === 0
 
   if (isLengthEven) {
-    const half = strArray.length / 2
-    return `${strArray[half - 1]}${strArray[half]}`
+    const half = stringArray.length / 2
+    return `${stringArray[half - 1]}${stringArray[half]}`
   }
 
-  const half = Math.floor(strArray.length / 2)
-  return strArray[half]
+  const half = Math.floor(stringArray.length / 2)
+  return stringArray[half]
 }
 
 // Function Export

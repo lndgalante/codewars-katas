@@ -22,7 +22,7 @@
 */
 
 // Short Solution
-const lowestTemp = t => Math.min(...t.split(' ').map(Number)) || null
+const lowestTemporary = t => Math.min(...t.split(' ').map(Number)) || null
 
 // Function Export
-module.exports = lowestTemp
+module.exports = lowestTemporary

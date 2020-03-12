@@ -21,8 +21,8 @@
 
 // Long Solution
 const arrayMadness = (a, b) =>
-  a.reduce((total, num) => total + num ** 2, 0) >
-  b.reduce((total, num) => total + num ** 3, 0)
+  a.reduce((total, number) => total + number ** 2, 0) >
+  b.reduce((total, number) => total + number ** 3, 0)
 
 // Function Export
 module.exports = arrayMadness

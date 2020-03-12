@@ -35,7 +35,7 @@ const describeAge = age =>{
   if (age <= 17) lifeStage = 'teenager'
   if (age <= 12) lifeStage = 'kid'
 
-  return `You're a(n) ${lifeStage}`
+  return `You’re a(n) ${lifeStage}`
 }
 
 // Function Export

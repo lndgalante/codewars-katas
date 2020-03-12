@@ -24,11 +24,11 @@
 */
 
 // Long Solution
-const min = (arr, toReturn) => {
-  const minimum = Math.min(...arr)
+const min = (array, toReturn) => {
+  const minimum = Math.min(...array)
 
   if (toReturn === 'value') return minimum
-  if (toReturn === 'index') return arr.indexOf(minimum)
+  if (toReturn === 'index') return array.indexOf(minimum)
 }
 
 // Function Export

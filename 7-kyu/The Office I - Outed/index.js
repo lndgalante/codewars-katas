@@ -29,16 +29,16 @@
 
 // Long Solution
 const outed = (meet, boss) => {
-  const meetArr = Object.entries(meet)
+  const meetArray = Object.entries(meet)
 
-  const totalScore = meetArr
+  const totalScore = meetArray
     .map(employee => {
       const [name, score] = employee
       return name === boss ? [name, score * 2] : [name, score]
     })
     .reduce((total, [_, score]) => total + score, 0)
 
-  const averageScore = totalScore / meetArr.length
+  const averageScore = totalScore / meetArray.length
 
   return averageScore <= 5 ? 'Get Out Now!' : 'Nice Work Champ!'
 }

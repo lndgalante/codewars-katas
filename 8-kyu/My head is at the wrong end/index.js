@@ -24,7 +24,7 @@
 */
 
 // Long Solution
-const fixTheMeerkat = arr => arr.reverse()
+const fixTheMeerkat = array => array.reverse()
 
 // Function Export
 module.exports = fixTheMeerkat

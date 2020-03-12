@@ -30,8 +30,8 @@ function reverseWords(str) {
 */
 
 // Short Solution
-const reserveWords = str =>
-  str
+const reserveWords = string =>
+  string
     .split(' ')
     .reverse()
     .join(' ')

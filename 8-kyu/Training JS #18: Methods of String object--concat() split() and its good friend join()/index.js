@@ -93,8 +93,8 @@
 */
 
 // Long Solution
-const splitAndMerge = (str, sp) =>
-  str
+const splitAndMerge = (string, sp) =>
+  string
     .split(' ')
     .map(word => word.split('').join(sp))
     .join(' ')

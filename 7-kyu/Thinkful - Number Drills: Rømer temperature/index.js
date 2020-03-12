@@ -22,7 +22,7 @@
 */
 
 // Long Solution
-const celsiusToRomer = temp => temp * 0.525 + 7.5
+const celsiusToRomer = temporary => temporary * 0.525 + 7.5
 
 // Function Export
 module.exports = celsiusToRomer

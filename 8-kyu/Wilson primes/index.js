@@ -20,11 +20,11 @@
 */
 
 // Long Solution
-const factorial = num => {
-  if (num < 0) return -1
-  if (num === 0) return 1
+const factorial = number => {
+  if (number < 0) return -1
+  if (number === 0) return 1
 
-  return num * factorial(num - 1)
+  return number * factorial(number - 1)
 }
 
 const amIWilson = p => Number.isInteger((factorial(p - 1) + 1) / (p * p))

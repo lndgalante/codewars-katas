@@ -1,3 +1,5 @@
+/* eslint unicorn/string-content: 0 */
+
 const findSpaceship = require('.')
 
 test('Test 1', () => {

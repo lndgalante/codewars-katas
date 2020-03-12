@@ -40,8 +40,8 @@ const dbSort = a => _.sortBy(a, _.isString, _.identity)
 
 // Short Solution
 const dbSort = a => [
-  ...a.filter(el => typeof el === 'number').sort((a, b) => a - b),
-  ...a.filter(el => typeof el === 'string').sort((a, b) => a.localeCompare(b)),
+  ...a.filter(element => typeof element === 'number').sort((a, b) => a - b),
+  ...a.filter(element => typeof element === 'string').sort((a, b) => a.localeCompare(b)),
 ]
 
 // Function Export

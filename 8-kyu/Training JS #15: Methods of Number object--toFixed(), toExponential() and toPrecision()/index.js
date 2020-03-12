@@ -93,8 +93,8 @@ const howManySmaller = (arr, n) =>
 */
 
 // Short Solution
-const howManySmaller = (arr, n) =>
-  arr.filter(num => Number(num.toFixed(2)) < n).length
+const howManySmaller = (array, n) =>
+  array.filter(number => Number(number.toFixed(2)) < n).length
 
 // Function Export
 module.exports = howManySmaller

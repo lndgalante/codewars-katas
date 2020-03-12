@@ -39,7 +39,7 @@
 // Long Solution
 function removeSmallest(numbers) {
   const min = Math.min(...numbers)
-  const minIndex = numbers.findIndex(num => num === min)
+  const minIndex = numbers.findIndex(number => number === min)
   const smallest = [...numbers]
   smallest.splice(minIndex, 1)
 

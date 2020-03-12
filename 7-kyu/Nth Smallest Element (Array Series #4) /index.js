@@ -49,7 +49,7 @@
 */
 
 // Long Solution
-const nthSmallest = (arr, pos) => [...arr].sort((a, b) => a - b)[pos - 1]
+const nthSmallest = (array, pos) => [...array].sort((a, b) => a - b)[pos - 1]
 
 // Function Export
 module.exports = nthSmallest

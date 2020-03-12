@@ -27,7 +27,7 @@ const sumNested = arr => _.sum(_.flattenDeep(arr))
 
 // Short Solution
 
-const sumNested = arr => arr.flat(Infinity).reduce((total, num) => total + num, 0)
+const sumNested = array => array.flat(Infinity).reduce((total, number) => total + number, 0)
 
 // Function Export
 module.exports = sumNested

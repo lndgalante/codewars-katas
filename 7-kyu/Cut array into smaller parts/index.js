@@ -30,10 +30,10 @@
 */
 
 // Short Solution
-const makeParts = (arr, chunkSize) =>
-  chunkSize >= arr.length
-    ? [arr]
-    : arr.reduce(
+const makeParts = (array, chunkSize) =>
+  chunkSize >= array.length
+    ? [array]
+    : array.reduce(
         (result, _, index, array) =>
           index % chunkSize === 0 ? [...result, array.slice(index, index + chunkSize)] : result,
         []

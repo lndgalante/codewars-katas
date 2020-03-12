@@ -39,10 +39,10 @@
 */
 
 // Short Solution
-const bandNameGenerator = str =>
-  str.endsWith(str[0])
-    ? `${str[0].toUpperCase()}${str.slice(1)}${str.slice(1)}`
-    : `The ${str.slice(0, 1).toUpperCase()}${str.slice(1)}`
+const bandNameGenerator = string =>
+  string.endsWith(string[0])
+    ? `${string[0].toUpperCase()}${string.slice(1)}${string.slice(1)}`
+    : `The ${string.slice(0, 1).toUpperCase()}${string.slice(1)}`
 
 // Function Export
 module.exports = bandNameGenerator

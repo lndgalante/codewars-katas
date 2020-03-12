@@ -28,8 +28,8 @@
 */
 
 // Long Solution
-const missingWord = (nums, str) => {
-  const stringWithoutSpaces = str.replace(/\s/g, '').toLowerCase()
+const missingWord = (nums, string) => {
+  const stringWithoutSpaces = string.replace(/\s/g, '').toLowerCase()
   const result = [...stringWithoutSpaces].filter((_char, index) => nums.includes(index)).join('')
 
   return result.length === 3 ? result : 'No mission today'

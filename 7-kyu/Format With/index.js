@@ -37,7 +37,7 @@ String.prototype.formatWith = function(...strings) {
 
 // Short Solution
 String.prototype.formatWith = function(...strings) {
-  return this.replace(/\{(\d)\}/g, (match, index) => strings[index] || match)
+  return this.replace(/{(\d)}/g, (match, index) => strings[index] || match)
 }
 
 // Function Export

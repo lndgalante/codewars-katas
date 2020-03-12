@@ -27,7 +27,7 @@ function squareSum(numbers) {
 
 // Short Solution
 const squareSum = numbers =>
-  numbers.map(num => num**2).reduce((a, b) => a + b, 0)
+  numbers.map(number => number**2).reduce((a, b) => a + b, 0)
 
 // Function Export
 module.exports = squareSum

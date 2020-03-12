@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const none = (arr, fun) => !arr.some(fun)
+const none = (array, fun) => !array.some(fun)
 
 // Function Export
 module.exports = none

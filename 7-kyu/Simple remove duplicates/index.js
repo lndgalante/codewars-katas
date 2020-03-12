@@ -30,7 +30,7 @@ const solve = arr =>
 */
 
 // Short Solution
-const solve = arr => [...new Set([...arr].reverse())].reverse()
+const solve = array => [...new Set([...array].reverse())].reverse()
 
 // Function Export
 module.exports = solve

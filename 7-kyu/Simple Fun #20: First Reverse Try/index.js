@@ -43,7 +43,7 @@ const firstReverseTry = arr => {
 */
 
 // Short Solution
-const firstReverseTry = ([...arr]) => (arr.length > 1 ? [arr.pop(), ...arr.slice(1), arr.shift()] : arr)
+const firstReverseTry = ([...array]) => (array.length > 1 ? [array.pop(), ...array.slice(1), array.shift()] : array)
 
 // Function Export
 module.exports = firstReverseTry

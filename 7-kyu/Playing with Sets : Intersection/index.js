@@ -44,7 +44,7 @@ const inter = (s1, s2) => {
 */
 
 // Short Solution
-const inter = (s1, s2) => new Set([...s1].filter(num => s2.has(num)))
+const inter = (s1, s2) => new Set([...s1].filter(number => s2.has(number)))
 
 // Function Export
 module.exports = inter

@@ -44,7 +44,7 @@
 */
 
 // Long Solution
-const findNextPower = (val, pow) => (Math.floor(val ** (1 / pow)) + 1) ** pow
+const findNextPower = (value, pow) => (Math.floor(value ** (1 / pow)) + 1) ** pow
 
 // Function Export
 module.exports = findNextPower

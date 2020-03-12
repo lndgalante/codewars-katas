@@ -93,13 +93,13 @@
 */
 
 // Long Solution
-const giveMeFive = obj => {
+const giveMeFive = object => {
   const result = []
 
-  for (const key in obj) {
-    if (obj.hasOwnProperty(key)) {
+  for (const key in object) {
+    if (object.hasOwnProperty(key)) {
       if (key.length === 5) result.push(key)
-      if (obj[key].length === 5) result.push(obj[key])
+      if (object[key].length === 5) result.push(object[key])
     }
   }
 

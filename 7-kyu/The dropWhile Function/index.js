@@ -51,7 +51,7 @@ const dropWhile = (arr, pred) => {
 */
 
 // Shorter Solution
-const dropWhile = (arr, pred) => (arr.every(pred) ? [] : arr.slice(arr.findIndex(number => !pred(number))))
+const dropWhile = (array, pred) => (array.every(pred) ? [] : array.slice(array.findIndex(number => !pred(number))))
 
 // Function Export
 module.exports = dropWhile

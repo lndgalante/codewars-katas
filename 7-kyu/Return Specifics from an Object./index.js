@@ -26,10 +26,10 @@
 // Long Solution
 const { isEmpty } = require('lodash')
 
-const returnSpecifics = obj => {
-  if (isEmpty(obj)) return ['The Object is Empty']
+const returnSpecifics = object => {
+  if (isEmpty(object)) return ['The Object is Empty']
 
-  const [numbers, functions] = Object.entries(obj).reduce(
+  const [numbers, functions] = Object.entries(object).reduce(
     (acc, [key, value]) => {
       const [numbers, functions] = acc
 

@@ -37,7 +37,7 @@ class Dictionary {
   }
 
   look(key) {
-    return this.dictionary.has(key) ? this.dictionary.get(key) : `Can't find entry for ${key}`
+    return this.dictionary.has(key) ? this.dictionary.get(key) : `Can’t find entry for ${key}`
   }
 }
 

@@ -19,8 +19,8 @@
 */
 
 // Long Solution
-const nameShuffler = str =>
-  str
+const nameShuffler = string =>
+  string
     .split(' ')
     .reverse()
     .join(' ')

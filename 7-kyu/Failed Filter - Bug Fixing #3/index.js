@@ -17,7 +17,7 @@
 */
 
 // Long Solution
-const filterNumbers = str => str.replace(/\d/g, '')
+const filterNumbers = string => string.replace(/\d/g, '')
 
 // Function Export
 module.exports = filterNumbers

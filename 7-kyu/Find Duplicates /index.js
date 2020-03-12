@@ -24,7 +24,7 @@
 */
 
 // Long Solution
-const duplicates = arr => [...new Set(arr.filter(number => arr.indexOf(number) !== arr.lastIndexOf(number)))]
+const duplicates = array => [...new Set(array.filter(number => array.indexOf(number) !== array.lastIndexOf(number)))]
 
 // Function Export
 module.exports = duplicates

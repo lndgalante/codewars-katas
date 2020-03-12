@@ -59,7 +59,7 @@ const dayAndCondition = {
   Sunday: number => number === 666 || number === -666,
 }
 
-const amIAfraid = (day, num) => dayAndCondition[day](num)
+const amIAfraid = (day, number) => dayAndCondition[day](number)
 
 // Function Export
 module.exports = amIAfraid

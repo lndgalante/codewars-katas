@@ -33,9 +33,9 @@
 */
 
 // Short Solution
-const arr2bin = arr =>
-  arr.every(Number.isInteger) &&
-  arr.reduce((total, value) => total + value, 0).toString(2)
+const array2bin = array =>
+  array.every(Number.isInteger) &&
+  array.reduce((total, value) => total + value, 0).toString(2)
 
 // Function Export
-module.exports = arr2bin
+module.exports = array2bin

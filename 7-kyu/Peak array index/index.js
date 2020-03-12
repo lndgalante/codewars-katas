@@ -36,9 +36,9 @@ function peak(arr) {
 */
 
 // Short Solution
-const sum = arr => arr.reduce((sum, num) => sum + num, 0)
+const sum = array => array.reduce((sum, number) => sum + number, 0)
 
-const peak = arr => arr.findIndex((value, i, array) => sum(array.slice(0, i)) === sum(array.slice(i + 1)))
+const peak = array => array.findIndex((value, i, array) => sum(array.slice(0, i)) === sum(array.slice(i + 1)))
 
 // Function Export
 module.exports = peak

@@ -42,8 +42,8 @@ const solve = arr =>
   */
 
 // Short Solution
-const solve = arr =>
-  arr.map(word =>
+const solve = array =>
+  array.map(word =>
     word
       .toLowerCase()
       .split('')

@@ -47,13 +47,13 @@ const calculate = (num1, operation, num2) => {
 */
 
 // Short Solution
-const calculate = (num1, operation, num2) => {
+const calculate = (number1, operation, number2) => {
   const operations = ['+', '-', '*', '/']
 
   if (!operations.includes(operation)) return null
-  if (operation === '/' && num2 === 0) return null
+  if (operation === '/' && number2 === 0) return null
 
-  return eval(`${num1}${operation}${num2}`)
+  return eval(`${number1}${operation}${number2}`)
 }
 
 // Function Export

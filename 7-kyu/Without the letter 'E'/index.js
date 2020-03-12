@@ -34,7 +34,7 @@ const findE = str => {
 */
 
 // Short Solution
-const findE = str => (str ? String((str.match(/e/gi) || []).length || 'There is no "e".') : str)
+const findE = string => (string ? String((string.match(/e/gi) || []).length || 'There is no "e".') : string)
 
 // Function Export
 module.exports = findE

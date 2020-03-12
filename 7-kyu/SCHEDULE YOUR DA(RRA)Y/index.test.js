@@ -9,5 +9,5 @@ test('Test 2', () => {
 })
 
 test('Test 3', () => {
-  expect(dayPlan(3, 5, 60)).toBe("You're not sleeping tonight!")
+  expect(dayPlan(3, 5, 60)).toBe("You’re not sleeping tonight!")
 })

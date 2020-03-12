@@ -30,8 +30,8 @@ const uniTotal = str =>
 */
 
 // Short Solution
-const uniTotal = str =>
-  [...str].reduce((total, char) => total + char.charCodeAt(0), 0)
+const uniTotal = string =>
+  [...string].reduce((total, char) => total + char.charCodeAt(0), 0)
 
 // Function Export
 module.exports = uniTotal

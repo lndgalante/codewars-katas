@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const say = str1 => str2 => `${str1} ${str2}`
+const say = string1 => string2 => `${string1} ${string2}`
 
 // Function Export
 module.exports = say

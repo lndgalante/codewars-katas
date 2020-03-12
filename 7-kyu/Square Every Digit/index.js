@@ -34,9 +34,9 @@ function squareDigits(num) {
 */
 
 // Short Solution
-const squareDigits = num =>
+const squareDigits = number =>
   Number(
-    String(num)
+    String(number)
       .split('')
       .map(digit => digit ** 2)
       .join('')

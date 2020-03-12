@@ -108,7 +108,7 @@ function presses(phrase) {
     })
   })
 
-  const totalKeysPressed = totalKeys.reduce((acc, val) => acc + val, 0)
+  const totalKeysPressed = totalKeys.reduce((acc, value) => acc + value, 0)
 
   return totalKeysPressed
 }

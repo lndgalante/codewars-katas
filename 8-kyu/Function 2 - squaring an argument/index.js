@@ -16,7 +16,7 @@
 */
 
 // Short Solution
-const square = num => num ** 2
+const square = number => number ** 2
 
 // Function Export
 module.exports = square

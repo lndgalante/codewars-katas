@@ -39,7 +39,7 @@ const owlPic = text => {
 const owlPic = text =>
   [...text.toUpperCase()].reduceRight(
     (owl, char) => (/[8WTYUIOAHXVM]/.test(char) ? `${char}${owl}${char}` : owl),
-    `''0v0''`
+    `’’0v0’’`
   )
 
 // Function Export

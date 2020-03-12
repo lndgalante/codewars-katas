@@ -22,7 +22,7 @@
 */
 
 // Long Solution
-const solve = arr => arr.find(number => !arr.includes(-number))
+const solve = array => array.find(number => !array.includes(-number))
 
 // Lodash Solution
 /*

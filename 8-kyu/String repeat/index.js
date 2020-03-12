@@ -27,7 +27,7 @@ function repeatStr(n, s) {
 */
 
 // Short Solution
-const repeatStr = (n, s) => s.repeat(n)
+const repeatString = (n, s) => s.repeat(n)
 
 // Function Export
-module.exports = repeatStr
+module.exports = repeatString

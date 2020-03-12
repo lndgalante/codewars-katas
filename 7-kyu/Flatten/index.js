@@ -25,7 +25,7 @@
 */
 
 // Short Solution
-const flatten = arr => arr.reduce((a, v) => a.concat(v), [])
+const flatten = array => array.reduce((a, v) => a.concat(v), [])
 
 // Function Export
 module.exports = flatten

@@ -21,8 +21,8 @@
 */
 
 // Long Solution
-const elimination = arr =>
-  arr.find(number => arr.indexOf(number) !== arr.lastIndexOf(number)) || null
+const elimination = array =>
+  array.find(number => array.indexOf(number) !== array.lastIndexOf(number)) || null
 
 // Function Export
 module.exports = elimination

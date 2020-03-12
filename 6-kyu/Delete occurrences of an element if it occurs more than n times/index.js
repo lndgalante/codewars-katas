@@ -26,12 +26,12 @@
 */
 
 // Long Solution
-function deleteNth(arr, n) {
+function deleteNth(array, n) {
   const repeated = {}
 
-  return arr.filter(num => {
-    repeated[num] = (repeated[num] || 0) + 1
-    const repetitions = repeated[num]
+  return array.filter(number => {
+    repeated[number] = (repeated[number] || 0) + 1
+    const repetitions = repeated[number]
 
     return repetitions <= n
   })

@@ -32,7 +32,7 @@
 // }
 
 // Short Solution
-const stringToNumber = str => Number(str)
+const stringToNumber = string => Number(string)
 
 // Function Export
 module.exports = stringToNumber

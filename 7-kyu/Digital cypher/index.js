@@ -72,9 +72,9 @@ const encode = (str, n) => {
 */
 
 // Short Solution
-const encode = (str, n) => {
+const encode = (string, n) => {
   const key = String(n)
-  return [...str].map(
+  return [...string].map(
     (char, index) => char.charCodeAt(0) - 96 + Number(key[index % key.length])
   )
 }

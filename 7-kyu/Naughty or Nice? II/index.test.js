@@ -1,7 +1,7 @@
 const whatListAmIOn = require('.')
 
 test('Test 1', () => {
-  const badActions = ["broke someone's window", 'fought over a toaster', 'killed a bug']
+  const badActions = ["broke someone’s window", 'fought over a toaster', 'killed a bug']
   expect(whatListAmIOn(badActions)).toBe('naughty')
 })
 
@@ -11,6 +11,6 @@ test('Test 2', () => {
 })
 
 test('Test 3', () => {
-  const actions = ['broke a vending machine', 'never got into a fight', "tied someone's shoes"]
+  const actions = ['broke a vending machine', 'never got into a fight', "tied someone’s shoes"]
   expect(whatListAmIOn(actions)).toBe('naughty')
 })

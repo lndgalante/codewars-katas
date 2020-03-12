@@ -21,7 +21,7 @@
 */
 
 // Long Solution
-const take = (arr, n) => arr.slice(0, n)
+const take = (array, n) => array.slice(0, n)
 
 // Function Export
 module.exports = take

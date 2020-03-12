@@ -5,7 +5,7 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(smallWordHelper("I'm just a small word from a small word family")).toBe(
-    "I'M jst A smll wrd frm A smll wrd fmly",
+  expect(smallWordHelper("I’m just a small word from a small word family")).toBe(
+    "I’M jst A smll wrd frm A smll wrd fmly",
   )
 })

@@ -1,8 +1,8 @@
 const split = require('.')
 
 test('Test 1', () => {
-  const obj1 = { prop: true }
-  const obj2 = { prop: false }
+  const object1 = { prop: true }
+  const object2 = { prop: false }
 
-  expect(split([obj1, obj2], 'prop')).toEqual([[obj1], [obj2]])
+  expect(split([object1, object2], 'prop')).toEqual([[object1], [object2]])
 })

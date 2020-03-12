@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const include = (arr, item) => arr.includes(item)
+const include = (array, item) => array.includes(item)
 
 // Function Export
 module.exports = include

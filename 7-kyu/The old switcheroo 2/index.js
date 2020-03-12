@@ -37,7 +37,7 @@ const encode = str =>
 */
 
 // Short Solution
-const encode = str => str.replace(/[a-z]/gi, char => char.charCodeAt() - (char < 'a' ? 64 : 96))
+const encode = string => string.replace(/[a-z]/gi, char => char.charCodeAt() - (char < 'a' ? 64 : 96))
 
 // Function Export
 module.exports = encode

@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const spacify = str => [...str].join(' ')
+const spacify = string => [...string].join(' ')
 
 // Function Export
 module.exports = spacify

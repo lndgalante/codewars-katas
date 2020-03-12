@@ -3,7 +3,7 @@ const getQuote = require('.')
 const quotes = [
   'WHERE IS SHE?!',
   'Holy haberdashery, Batman!',
-  "Let's put a smile on that faaaceee!",
+  "Let’s put a smile on that faaaceee!",
 ]
 
 test('Test 1', () => {
@@ -12,7 +12,7 @@ test('Test 1', () => {
 
 test('Test 2', () => {
   expect(getQuote(quotes, 'Joke2')).toBe(
-    "Joker: Let's put a smile on that faaaceee!"
+    "Joker: Let’s put a smile on that faaaceee!"
   )
 })
 

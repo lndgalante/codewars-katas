@@ -31,7 +31,7 @@ const stantonMeasure = arr => {
 */
 
 // Short Solution
-const stantonMeasure = arr => arr.filter(num => num === arr.filter(num => num === 1).length).length
+const stantonMeasure = array => array.filter(number => number === array.filter(number => number === 1).length).length
 
 // Function Export
 module.exports = stantonMeasure

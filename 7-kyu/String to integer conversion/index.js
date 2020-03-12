@@ -38,7 +38,7 @@ const myParseInt = str => {
 */
 
 // Short Solution
-const myParseInt = str => (/^\s*\d+\s*$/.test(str) ? Number(str) : NaN)
+const myParseInt = string => (/^\s*\d+\s*$/.test(string) ? Number(string) : NaN)
 
 // Function Export
 module.exports = myParseInt

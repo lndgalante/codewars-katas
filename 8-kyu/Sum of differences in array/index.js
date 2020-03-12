@@ -38,8 +38,8 @@ const sumOfDifferences = arr =>
 */
 
 // Short Solution
-const sumOfDifferences = arr =>
-  arr.length <= 1 ? 0 : Math.max(...arr) - Math.min(...arr)
+const sumOfDifferences = array =>
+  array.length <= 1 ? 0 : Math.max(...array) - Math.min(...array)
 
 // Function Export
 module.exports = sumOfDifferences

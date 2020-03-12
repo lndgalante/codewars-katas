@@ -31,8 +31,8 @@
 */
 
 // Long Solution
-const sumFromString = str =>
-  (str.match(/\d+/g) || []).reduce((total, value) => total + Number(value), 0)
+const sumFromString = string =>
+  (string.match(/\d+/g) || []).reduce((total, value) => total + Number(value), 0)
 
 // Function Export
 module.exports = sumFromString

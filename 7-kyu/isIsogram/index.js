@@ -23,16 +23,16 @@
 */
 
 // Long Solution
-function isIsogram(str) {
-  if (str.length === 0) return true
+function isIsogram(string) {
+  if (string.length === 0) return true
 
-  const strLowerCase = str
+  const stringLowerCase = string
     .split('')
     .map(char => char.toLowerCase())
     .join('')
-  const set = new Set(strLowerCase)
+  const set = new Set(stringLowerCase)
 
-  return set.size === str.length
+  return set.size === string.length
 }
 
 // Function Export

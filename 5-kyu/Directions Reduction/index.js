@@ -45,24 +45,24 @@
 */
 
 // Long Solution
-function dirReduc(arr) {
+function dirReduc(array) {
   let i = 0
 
-  while (i < arr.length) {
+  while (i < array.length) {
     if (
-      ((arr[i] === 'NORTH') === arr[i + 1]) === 'SOUTH' ||
-      (arr[i] === 'SOUTH' && arr[i + 1] === 'NORTH') ||
-      (arr[i] === 'EAST' && arr[i + 1] === 'WEST') ||
-      (arr[i] === 'WEST' && arr[i + 1] === 'EAST')
+      ((array[i] === 'NORTH') === array[i + 1]) === 'SOUTH' ||
+      (array[i] === 'SOUTH' && array[i + 1] === 'NORTH') ||
+      (array[i] === 'EAST' && array[i + 1] === 'WEST') ||
+      (array[i] === 'WEST' && array[i + 1] === 'EAST')
     ) {
-      arr.splice(i, 2)
+      array.splice(i, 2)
       i--
     } else {
       i++
     }
   }
 
-  return arr
+  return array
 }
 
 // Function Export

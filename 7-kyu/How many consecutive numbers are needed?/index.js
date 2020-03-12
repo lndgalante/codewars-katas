@@ -35,7 +35,7 @@ const consecutive = arr => {
 */
 
 // Short Solution
-const consecutive = arr => (arr.length > 0 ? Math.max(...arr) - Math.min(...arr) - arr.length + 1 : 0)
+const consecutive = array => (array.length > 0 ? Math.max(...array) - Math.min(...array) - array.length + 1 : 0)
 
 // Function Export
 module.exports = consecutive

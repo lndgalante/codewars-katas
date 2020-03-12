@@ -47,7 +47,7 @@ const imageFilter = arr => {
 */
 
 // Short Solution
-const imageFilter = arr => arr.map(file => file.match(/(\w+)\.(jpg|gif|png|tiff|svg|bmp)$/i))
+const imageFilter = array => array.map(file => file.match(/(\w+)\.(jpg|gif|png|tiff|svg|bmp)$/i))
 
 // Function Export
 module.exports = imageFilter

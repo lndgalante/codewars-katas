@@ -24,7 +24,7 @@
 */
 
 // Short Solution
-const invert = array => array.map(num => (num ? -num : num))
+const invert = array => array.map(number => (number ? -number : number))
 
 // Function Export
 module.exports = invert

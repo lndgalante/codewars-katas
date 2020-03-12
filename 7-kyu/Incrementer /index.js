@@ -42,7 +42,7 @@ const incrementer = nums => {
 */
 
 // Short Solution
-const incrementer = nums => nums.map((num, index) => (num + index + 1) % 10)
+const incrementer = nums => nums.map((number, index) => (number + index + 1) % 10)
 
 // Function Export
 module.exports = incrementer

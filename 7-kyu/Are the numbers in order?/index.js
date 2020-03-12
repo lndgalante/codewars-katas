@@ -38,7 +38,7 @@ const inAscOrder = arr => {
 */
 
 // Short Solution
-const inAscOrder = arr => arr.every((_, i) => i === 0 || arr[i] > arr[i - 1])
+const inAscOrder = array => array.every((_, i) => i === 0 || array[i] > array[i - 1])
 
 // Function Export
 module.exports = inAscOrder

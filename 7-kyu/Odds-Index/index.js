@@ -27,7 +27,7 @@ const oddBall = arr => {
 */
 
 // Short Solution
-const oddBall = arr => arr.includes(arr.indexOf('odd'))
+const oddBall = array => array.includes(array.indexOf('odd'))
 
 // Function Export
 module.exports = oddBall

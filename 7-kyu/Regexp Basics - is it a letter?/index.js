@@ -20,7 +20,7 @@
 
 // Long Solution
 String.prototype.isLetter = function() {
-  return /^[a-z]{1}$/gi.test(this)
+  return /^[a-z]$/gi.test(this)
 }
 
 // Function Export

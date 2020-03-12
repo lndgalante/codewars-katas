@@ -35,10 +35,10 @@ const capitalsFirst = str => {
 */
 
 // Short Solution
-const capitalsFirst = str =>
+const capitalsFirst = string =>
   [
-    ...str.split(' ').filter(([firstLetter]) => /[A-Z]/.test(firstLetter)),
-    ...str.split(' ').filter(([firstLetter]) => /[a-z]/.test(firstLetter)),
+    ...string.split(' ').filter(([firstLetter]) => /[A-Z]/.test(firstLetter)),
+    ...string.split(' ').filter(([firstLetter]) => /[a-z]/.test(firstLetter)),
   ].join(' ')
 
 // Function Export

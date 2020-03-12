@@ -20,9 +20,9 @@
 */
 
 // Long Solution
-const maxRedigit = num => {
-  if (num < 1 || String(num).length !== 3) return null
-  return Number([...String(num)].sort((a, b) => Number(b) - Number(a)).join(''))
+const maxRedigit = number => {
+  if (number < 1 || String(number).length !== 3) return null
+  return Number([...String(number)].sort((a, b) => Number(b) - Number(a)).join(''))
 }
 
 // Function Export

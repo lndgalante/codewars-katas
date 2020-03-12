@@ -35,7 +35,7 @@ const vowel2index = str =>
 */
 
 // Short Solution
-const vowel2index = str => str.replace(/[aeiou]/gi, (_, index) => ++index)
+const vowel2index = string => string.replace(/[aeiou]/gi, (_, index) => ++index)
 
 // Function Export
 module.exports = vowel2index

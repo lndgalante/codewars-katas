@@ -25,7 +25,7 @@
 // Long Solution
 const findSum = n =>
   Array.from({ length: n }, (_, index) => index + 1)
-    .filter(num => num % 3 === 0 || num % 5 === 0)
+    .filter(number => number % 3 === 0 || number % 5 === 0)
     .reduce((total, value) => total + value, 0)
 
 // Function Export

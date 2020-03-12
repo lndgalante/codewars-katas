@@ -122,9 +122,9 @@ const cutIt = arr => {
 */
 
 // Short Solution
-const cutIt = arr => {
-  const minLength = Math.min(...arr.map(str => str.length))
-  return arr.map(str => str.slice(0, minLength))
+const cutIt = array => {
+  const minLength = Math.min(...array.map(string => string.length))
+  return array.map(string => string.slice(0, minLength))
 }
 
 // Function Export

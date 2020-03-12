@@ -71,8 +71,8 @@
 */
 
 // Long Solution
-const padIt = (str, n) => {
-  let result = str
+const padIt = (string, n) => {
+  let result = string
   let i = 0
 
   while (i < n) {

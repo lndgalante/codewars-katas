@@ -19,7 +19,7 @@
 */
 
 // Long Solution
-const swapValues = arr => arr.reverse()
+const swapValues = array => array.reverse()
 
 // Function Export
 module.exports = swapValues

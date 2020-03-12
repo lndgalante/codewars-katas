@@ -12,7 +12,7 @@ test('Test 2', () => {
 });
 
 test('Test 3', () => {
-  expect('today, I have a dream ... '.capitalize()).toBe('Today, I have a dream ... ');
+  expect('today, I have a dream … '.capitalize()).toBe('Today, I have a dream … ');
 });
 
 test('Test 4', () => {

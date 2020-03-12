@@ -19,7 +19,7 @@
 */
 
 // Long Solution
-const all = (arr, fun) => arr.every(fun)
+const all = (array, fun) => array.every(fun)
 
 // Function Export
 module.exports = all

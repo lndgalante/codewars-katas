@@ -34,7 +34,7 @@ const one = (arr, fun) => {
 */
 
 // Short Solution
-const one = (arr, fun) => arr.filter(fun).length === 1
+const one = (array, fun) => array.filter(fun).length === 1
 
 // Function Export
 module.exports = one

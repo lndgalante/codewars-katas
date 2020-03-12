@@ -31,7 +31,7 @@ function disemvowel(str) {
 */
 
 // Short Solution
-const disemvowel = str => str.replace(/[aeiou]/gi, '')
+const disemvowel = string => string.replace(/[aeiou]/gi, '')
 
 // Function Export
 module.exports = disemvowel

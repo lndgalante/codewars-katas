@@ -37,7 +37,7 @@
 */
 
 // Long Solution
-const processArray = (arr, callback) => arr.map(callback)
+const processArray = (array, callback) => array.map(callback)
 
 // Function Export
 module.exports = processArray

@@ -31,15 +31,15 @@ const calculate = str => String(eval(str.replace(/plus|minus/g, operation => ope
 */
 
 // Safer Solution
-const calculate = str =>
+const calculate = string =>
   String(
-    str
+    string
       .split('plus')
       .join(' ')
       .split('minus')
       .join(' -')
       .split(' ')
-      .reduce((total, num) => total + Number(num), 0)
+      .reduce((total, number) => total + Number(number), 0)
   )
 
 // Function Export

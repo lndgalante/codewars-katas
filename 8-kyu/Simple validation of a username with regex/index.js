@@ -23,7 +23,7 @@
 */
 
 // Long Solution
-const validateUsr = username => /^([a-z]|[\d]|[_]){4,16}$/.test(username)
+const validateUsr = username => /^([a-z]|\d|_){4,16}$/.test(username)
 
 // Function Export
 module.exports = validateUsr

@@ -29,7 +29,7 @@ function filter_list(l) {
 */
 
 // Short Solution
-const filterList = l => l.filter(el => Number.isInteger(el))
+const filterList = l => l.filter(element => Number.isInteger(element))
 
 // Function Export
 module.exports = filterList

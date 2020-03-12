@@ -35,10 +35,10 @@
 // Long Solution
 const crypto = require('crypto')
 
-const passHash = str =>
+const passHash = string =>
   crypto
     .createHash('md5')
-    .update(str)
+    .update(string)
     .digest('hex')
 
 // Function Export

@@ -27,7 +27,7 @@
 
 // Long Solution
 const isDivideBy = (number, ...otherNumbers) =>
-  otherNumbers.every(num => number % num === 0)
+  otherNumbers.every(number_ => number % number_ === 0)
 
 // Function Export
 module.exports = isDivideBy

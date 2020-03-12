@@ -52,8 +52,8 @@ const smaller = arr =>
 */
 
 // Shorter Solution
-const smaller = arr =>
-  arr.map((number, index) => arr.slice(index).filter(numberToCompare => number > numberToCompare).length)
+const smaller = array =>
+  array.map((number, index) => array.slice(index).filter(numberToCompare => number > numberToCompare).length)
 
 // Function Export
 module.exports = smaller

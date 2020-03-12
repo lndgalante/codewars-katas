@@ -27,7 +27,7 @@ const sevenAte9 = str => str.replace(/79(?=7)/g, '')
 */
 
 // Alternative Solution (With Positive Lookbehind)
-const sevenAte9 = str => str.replace(/(?<=7)9(?=7)/g, '')
+const sevenAte9 = string => string.replace(/(?<=7)9(?=7)/g, '')
 
 // Function Export
 module.exports = sevenAte9

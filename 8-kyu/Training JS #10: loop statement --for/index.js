@@ -63,9 +63,9 @@
 */
 
 // Long Solution
-const pickIt = arr => {
-  for (let i = 0; i < arr.length; i++) {}
-  return [arr.filter(num => num % 2 !== 0), arr.filter(num => num % 2 === 0)]
+const pickIt = array => {
+  for (let i = 0; i < array.length; i++) {}
+  return [array.filter(number => number % 2 !== 0), array.filter(number => number % 2 === 0)]
 }
 
 // Function Export

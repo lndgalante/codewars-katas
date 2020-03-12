@@ -62,11 +62,11 @@ function findMissingNumbers(arr) {
 */
 
 // Short Solution
-const findMissingNumbers = arr => {
-  const minNumber = Math.min(...arr)
-  const maxNumber = Math.max(...arr)
+const findMissingNumbers = array => {
+  const minNumber = Math.min(...array)
+  const maxNumber = Math.max(...array)
 
-  return Array.from({ length: maxNumber - minNumber }, (_, idx) => minNumber + idx).filter(num => !arr.includes(num))
+  return Array.from({ length: maxNumber - minNumber }, (_, idx) => minNumber + idx).filter(number => !array.includes(number))
 }
 
 // Function Export

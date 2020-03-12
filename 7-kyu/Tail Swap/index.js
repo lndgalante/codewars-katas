@@ -35,8 +35,8 @@ const tailSwap = arr => {
 */
 
 // Short Solution
-const tailSwap = arr =>
-  String(arr)
+const tailSwap = array =>
+  String(array)
     .replace(/(.+:)(.+),(.+:)(.+)/, '$1$4,$3$2')
     .split(',')
 

@@ -223,15 +223,15 @@
 */
 
 // Long Solution
-const shuffleIt = (arr, ...swaps) => {
-  const newArr = [...arr]
+const shuffleIt = (array, ...swaps) => {
+  const newArray = [...array]
 
   swaps.forEach(([firstIndex, secondIndex]) => {
-    const [firstNumber, secondNumber] = [newArr[firstIndex], newArr[secondIndex]]
-    ;[newArr[firstIndex], newArr[secondIndex]] = [secondNumber, firstNumber]
+    const [firstNumber, secondNumber] = [newArray[firstIndex], newArray[secondIndex]]
+    ;[newArray[firstIndex], newArray[secondIndex]] = [secondNumber, firstNumber]
   })
 
-  return newArr
+  return newArray
 }
 
 // Function Export

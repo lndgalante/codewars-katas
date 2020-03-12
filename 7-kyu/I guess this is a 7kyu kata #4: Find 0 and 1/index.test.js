@@ -1,7 +1,7 @@
 const find01 = require('.');
 
 test('Test 1', () => {
-  const arr = [
+  const array = [
     [0, 1, 1, 0, 1, 1, 0, 1, 0],
     [1, 0, 1, 0, 1, 1, 0, 1, 0],
     [0, 1, 1, 0, 0, 1, 0, 1, 0],
@@ -11,11 +11,11 @@ test('Test 1', () => {
     [0, 0, 1, 0, 0, 1, 0, 1, 0],
   ];
 
-  expect(find01(arr)).toBe(5);
+  expect(find01(array)).toBe(5);
 });
 
 test('Test 2', () => {
-  const arr = [
+  const array = [
     [1, 1, 1, 0, 1, 1, 0],
     [0, 1, 1, 0, 0, 1, 0],
     [1, 1, 1, 0, 1, 1, 0],
@@ -24,11 +24,11 @@ test('Test 2', () => {
     [1, 0, 1, 1, 0, 0, 0],
   ];
 
-  expect(find01(arr)).toBe(0);
+  expect(find01(array)).toBe(0);
 });
 
 test('Test 3', () => {
-  const arr = [
+  const array = [
     [1, 0, 1, 0, 1, 0, 1],
     [0, 1, 0, 1, 0, 1, 0],
     [1, 0, 1, 0, 1, 0, 1],
@@ -37,5 +37,5 @@ test('Test 3', () => {
     [0, 1, 0, 1, 0, 1, 0],
   ];
 
-  expect(find01(arr)).toBe(20);
+  expect(find01(array)).toBe(20);
 });

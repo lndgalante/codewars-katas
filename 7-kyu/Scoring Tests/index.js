@@ -54,7 +54,7 @@ const scoreTest = (str, right, omit, wrong) =>
 */
 
 // Short Solution
-const scoreTest = (arr, ...points) => arr.reduce((total, index) => total + points[index] * [1, 1, -1][index], 0)
+const scoreTest = (array, ...points) => array.reduce((total, index) => total + points[index] * [1, 1, -1][index], 0)
 
 // Function Export
 module.exports = scoreTest

@@ -33,7 +33,7 @@ function solution(str) {
 */
 
 // Short Solution
-const solution = str => `${str}_`.match(/../g)
+const solution = string => `${string}_`.match(/../g)
 
 // Function Export
 module.exports = solution

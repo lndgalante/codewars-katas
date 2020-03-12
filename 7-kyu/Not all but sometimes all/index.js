@@ -40,7 +40,7 @@ const remove = (str, what) => {
 */
 
 // Short Solution
-const remove = (str, what) => str.replace(/[a-z]/g, char => (what[char]-- > 0 ? '' : char))
+const remove = (string, what) => string.replace(/[a-z]/g, char => (what[char]-- > 0 ? '' : char))
 
 // Function Export
 module.exports = remove

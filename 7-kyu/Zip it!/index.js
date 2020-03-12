@@ -30,8 +30,8 @@
 */
 
 // Long Solution
-Array.prototype.zip = function(arr, fn) {
-  return arr.slice(0, this.length).map((element, index) => fn(this[index], element))
+Array.prototype.zip = function(array, fn) {
+  return array.slice(0, this.length).map((element, index) => fn(this[index], element))
 }
 
 // Function Export

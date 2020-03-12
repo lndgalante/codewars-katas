@@ -5,7 +5,7 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(alphabetWar('zdqmwpbs')).toBe("Let's fight again!")
+  expect(alphabetWar('zdqmwpbs')).toBe("Let’s fight again!")
 })
 
 test('Test 3', () => {

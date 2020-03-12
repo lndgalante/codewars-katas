@@ -25,7 +25,7 @@
 */
 
 // Long Solution
-const templeStrings = (obj, feature) => `${obj} are ${feature}`
+const templeStrings = (object, feature) => `${object} are ${feature}`
 
 // Function Export
 module.exports = templeStrings

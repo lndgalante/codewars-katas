@@ -32,8 +32,8 @@ const makeEveryLetterAfterXCaps = (str, letter) =>
 */
 
 // Short Solution
-const makeEveryLetterAfterXCaps = (str, letter) =>
-  str.replace(new RegExp(`${letter}.`, 'g'), ([firstChar, secondChar]) => `${firstChar}${secondChar.toUpperCase()}`)
+const makeEveryLetterAfterXCaps = (string, letter) =>
+  string.replace(new RegExp(`${letter}.`, 'g'), ([firstChar, secondChar]) => `${firstChar}${secondChar.toUpperCase()}`)
 
 // Function Export
 module.exports = makeEveryLetterAfterXCaps

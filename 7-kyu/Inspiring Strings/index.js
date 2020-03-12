@@ -41,7 +41,7 @@ const longestWord = stringOfWords => {
 const longestWord = stringOfWords =>
   stringOfWords
     .split(' ')
-    .reduceRight((prev, curr) => (curr.length > prev.length ? curr : prev))
+    .reduceRight((previous, curr) => (curr.length > previous.length ? curr : previous))
 
 // Function Export
 module.exports = longestWord

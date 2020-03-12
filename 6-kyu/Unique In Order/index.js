@@ -28,7 +28,7 @@ function uniqueInOrder(iterable) {
     iterable = iterable.split('')
   }
 
-  return iterable.filter((el, index, array) => el !== array[index + 1])
+  return iterable.filter((element, index, array) => element !== array[index + 1])
 }
 
 // Function Export

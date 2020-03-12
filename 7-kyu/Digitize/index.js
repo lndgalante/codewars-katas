@@ -33,7 +33,7 @@ const digitize = n =>
 */
 
 // Short solution
-const digitize = n => Array.from(String(n), num => Number(num))
+const digitize = n => Array.from(String(n), number => Number(number))
 
 // Function Export
 module.exports = digitize

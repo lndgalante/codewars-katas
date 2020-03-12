@@ -21,7 +21,7 @@
 */
 
 // Long Solution
-const replaceDots = str => str.replace(/\./g, '-')
+const replaceDots = string => string.replace(/\./g, '-')
 
 // Function Export
 module.exports = replaceDots

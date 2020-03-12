@@ -63,10 +63,10 @@ const menFromBoys = arr => {
 
 */
 // Short Solution
-const menFromBoys = arr => {
-  const arrWithoutDuplicates = [...new Set(arr)]
-  const evenNumbers = arrWithoutDuplicates.filter(number => number % 2 === 0).sort((a, b) => a - b)
-  const oddNumbers = arrWithoutDuplicates.filter(number => number % 2 !== 0).sort((a, b) => b - a)
+const menFromBoys = array => {
+  const arrayWithoutDuplicates = [...new Set(array)]
+  const evenNumbers = arrayWithoutDuplicates.filter(number => number % 2 === 0).sort((a, b) => a - b)
+  const oddNumbers = arrayWithoutDuplicates.filter(number => number % 2 !== 0).sort((a, b) => b - a)
 
   return [...evenNumbers, ...oddNumbers]
 }

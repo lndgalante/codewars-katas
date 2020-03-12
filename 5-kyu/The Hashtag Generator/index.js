@@ -26,10 +26,10 @@
     https://www.codewars.com/kata/the-hashtag-generator/solutions
 */
 
-function generateHashtag(str) {
-  if (str === '') return false
+function generateHashtag(string) {
+  if (string === '') return false
 
-  const stringWithCamelCase = str
+  const stringWithCamelCase = string
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join('')

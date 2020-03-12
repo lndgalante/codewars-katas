@@ -19,11 +19,11 @@
 */
 
 // Long Solution
-const multi = arr => arr.reduce((total, number) => total * number, 1)
+const multi = array => array.reduce((total, number) => total * number, 1)
 
-const add = arr => arr.reduce((total, number) => total + number, 0)
+const add = array => array.reduce((total, number) => total + number, 0)
 
-const reverse = str => [...str].reverse().join('')
+const reverse = string => [...string].reverse().join('')
 
 // Function Export
 module.exports = { multi, add, reverse }

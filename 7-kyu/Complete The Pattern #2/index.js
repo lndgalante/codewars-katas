@@ -57,9 +57,9 @@
 // Long Solution
 const pattern = n =>
   Array.from({ length: n }, (_, index) => {
-    let str = ''
-    for (let i = n; i > index; i--) str += i
-    return str
+    let string = ''
+    for (let i = n; i > index; i--) string += i
+    return string
   }).join('\n')
 
 // Function Export

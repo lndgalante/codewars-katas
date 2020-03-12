@@ -42,7 +42,7 @@ class Warrior {
 }
 
 Warrior.prototype.toString = function() {
-  return `Hi! my name's ${this.wName}`
+  return `Hi! my name’s ${this.wName}`
 }
 
 // Function Export

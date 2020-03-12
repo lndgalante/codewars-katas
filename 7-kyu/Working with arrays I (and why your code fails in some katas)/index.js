@@ -21,7 +21,7 @@
 */
 
 // Long Solution
-const withoutLast = arr => arr.slice(0, -1)
+const withoutLast = array => array.slice(0, -1)
 
 // Function Export
 module.exports = withoutLast

@@ -28,8 +28,8 @@
 // Long Solution
 const convertToCelsius = temperature => (temperature - 32) * (5 / 9)
 
-function weatherInfo(temp) {
-  const celsius = convertToCelsius(temp)
+function weatherInfo(temporary) {
+  const celsius = convertToCelsius(temporary)
 
   return celsius < 0
     ? `${celsius} is freezing temperature`

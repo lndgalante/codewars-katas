@@ -5,8 +5,8 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(reverseWords("yoda doesn't speak like this")).toBe(
-    "this like speak doesn't yoda"
+  expect(reverseWords("yoda doesn’t speak like this")).toBe(
+    "this like speak doesn’t yoda"
   )
 })
 

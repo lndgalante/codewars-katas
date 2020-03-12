@@ -72,8 +72,8 @@ const oper = (fct, s) => fct(s)
 */
 
 // Short Solution
-const reverseString = (str, splitBy) =>
-  str
+const reverseString = (string, splitBy) =>
+  string
     .split(splitBy)
     .reverse()
     .join(splitBy)
@@ -81,7 +81,7 @@ const reverseString = (str, splitBy) =>
 const vertMirror = string =>
   string
     .split('\n')
-    .map(str => reverseString(str, ''))
+    .map(string_ => reverseString(string_, ''))
     .join('\n')
 
 const horMirror = string => reverseString(string, '\n')

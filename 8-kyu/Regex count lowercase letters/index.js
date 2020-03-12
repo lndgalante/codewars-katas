@@ -29,7 +29,7 @@
 */
 
 // Long Solution
-const lowercaseCount = str => (str.match(/[a-z]/g) || []).length
+const lowercaseCount = string => (string.match(/[a-z]/g) || []).length
 
 // Function Export
 module.exports = lowercaseCount

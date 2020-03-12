@@ -33,10 +33,10 @@ const swap = str =>
 */
 
 // Short Solution
-const swapCase = str =>
-  str === str.toUpperCase() ? str.toLowerCase() : str.toUpperCase()
+const swapCase = string =>
+  string === string.toUpperCase() ? string.toLowerCase() : string.toUpperCase()
 
-const swap = str => str.replace(/[a-z]/gi, char => swapCase(char))
+const swap = string => string.replace(/[a-z]/gi, char => swapCase(char))
 
 // Function Export
 module.exports = swap

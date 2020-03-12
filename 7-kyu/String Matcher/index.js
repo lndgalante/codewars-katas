@@ -23,13 +23,13 @@
 */
 
 // Long Solution
-const parseString = (str) =>
-  [...str.toLowerCase()]
+const parseString = (string) =>
+  [...string.toLowerCase()]
     .sort()
     .join('')
     .trim();
 
-const isMatching = (string, str1, str2) => parseString(string) === parseString(`${str1}${str2}`);
+const isMatching = (string, string1, string2) => parseString(string) === parseString(`${string1}${string2}`);
 
 // Function Export
 module.exports = isMatching;

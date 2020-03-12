@@ -36,7 +36,7 @@ const solve = arr => arr.filter((number, index, arr) => arr.slice(index + 1).eve
 */
 
 // Shortest Solution
-const solve = arr => arr.filter((number, index) => number > Math.max(...arr.slice(index + 1)))
+const solve = array => array.filter((number, index) => number > Math.max(...array.slice(index + 1)))
 
 // Function Export
 module.exports = solve

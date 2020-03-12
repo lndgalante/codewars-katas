@@ -13,7 +13,7 @@ test('Test 3', () => {
 })
 
 test('Test 4', () => {
-  expect(sentencify(["i'm", 'afraid', 'I', "can't", 'let', 'you', 'do', 'that'])).toBe(
-    "I'm afraid I can't let you do that."
+  expect(sentencify(["i’m", 'afraid', 'I', "can’t", 'let', 'you', 'do', 'that'])).toBe(
+    "I’m afraid I can’t let you do that."
   )
 })

@@ -16,12 +16,12 @@ test('Test 2', () => {
 
 test('Test 3', () => {
   const dictionary = new Dictionary()
-  expect(dictionary.look('Hi')).toBe("Can't find entry for Hi")
+  expect(dictionary.look('Hi')).toBe("Can’t find entry for Hi")
 })
 
 test('Test 4', () => {
   const dictionary = new Dictionary()
-  expect(dictionary.look('Ball')).toBe("Can't find entry for Ball")
+  expect(dictionary.look('Ball')).toBe("Can’t find entry for Ball")
 })
 
 test('Test 5', () => {

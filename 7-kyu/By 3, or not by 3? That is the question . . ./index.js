@@ -26,7 +26,7 @@
 */
 
 // Long Solution
-const divisibleByThree = str => [...str].reduce((total, num) => total + Number(num), 0) % 3 === 0
+const divisibleByThree = string => [...string].reduce((total, number) => total + Number(number), 0) % 3 === 0
 
 // Function Export
 module.exports = divisibleByThree

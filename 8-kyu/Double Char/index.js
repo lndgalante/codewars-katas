@@ -23,8 +23,8 @@
 */
 
 // Long Solution
-function doubleChar(str) {
-  return str
+function doubleChar(string) {
+  return string
     .split('')
     .map(char => `${char}${char}`)
     .join('')

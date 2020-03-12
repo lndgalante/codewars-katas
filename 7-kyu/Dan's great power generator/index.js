@@ -20,10 +20,10 @@
 */
 
 // Long Solution
-const roundToNearestTen = (num) => Math.round(num / 10) * 10;
+const roundToNearestTen = (number) => Math.round(number / 10) * 10;
 
-const danspower = (num, power) => {
-  const result = num ** power;
+const danspower = (number, power) => {
+  const result = number ** power;
   return result % 2 === 0 ? result : roundToNearestTen(result);
 };
 

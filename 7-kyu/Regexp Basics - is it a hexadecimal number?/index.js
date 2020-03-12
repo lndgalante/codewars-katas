@@ -23,7 +23,7 @@
 
 // Long Solution - https://regexr.com/49h41
 String.prototype.hexNumber = function() {
-  return /^(0x)?[0-9A-F]+$/i.test(this)
+  return /^(0x)?[\da-f]+$/i.test(this)
 }
 
 // Function Export

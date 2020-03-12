@@ -74,7 +74,7 @@ const alphabetWar = fight => {
   const charValues = { w: -4, p: -3, b: -2, s: -1, m: 4, q: 3, d: 2, z: 1 }
   const result = [...fight].reduce((total, char) => total + (charValues[char] || 0), 0)
 
-  if (!result) return "Let's fight again!"
+  if (!result) return "Let’s fight again!"
   return `${result < 0 ? 'Left' : 'Right'} side wins!`
 }
 

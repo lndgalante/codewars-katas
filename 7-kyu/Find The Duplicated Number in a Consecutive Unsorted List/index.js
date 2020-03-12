@@ -23,7 +23,7 @@
 */
 
 // Long Solution
-const findDup = arr => arr.find(num => arr.indexOf(num) !== arr.lastIndexOf(num))
+const findDup = array => array.find(number => array.indexOf(number) !== array.lastIndexOf(number))
 
 // Function Export
 module.exports = findDup

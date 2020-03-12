@@ -24,7 +24,7 @@
 */
 
 // Long Solution
-const sumStr = (a, b) => `${Number(a) + Number(b)}`
+const sumString = (a, b) => `${Number(a) + Number(b)}`
 
 // Function Export
-module.exports = sumStr
+module.exports = sumString

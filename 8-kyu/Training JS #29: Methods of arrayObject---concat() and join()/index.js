@@ -115,9 +115,9 @@ const bigToSmall = arr =>
 */
 
 // Short Solution
-const bigToSmall = arr =>
+const bigToSmall = array =>
   []
-    .concat(...arr)
+    .concat(...array)
     .sort((a, b) => b - a)
     .join('>')
 

@@ -32,7 +32,7 @@
 */
 
 // Long Solution
-const countWords = str => str.split(/\s/g).filter(Boolean).length
+const countWords = string => string.split(/\s/g).filter(Boolean).length
 
 // Function Export
 module.exports = countWords

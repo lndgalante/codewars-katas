@@ -28,7 +28,7 @@
 */
 
 // Long Solution
-const first = (arr, n = 1) => arr.slice(0, n)
+const first = (array, n = 1) => array.slice(0, n)
 
 // Function Export
 module.exports = first

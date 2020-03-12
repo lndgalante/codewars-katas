@@ -30,13 +30,13 @@
 */
 
 // Long Solution
-const lengthOfSequence = (arr, n) => {
-  const instances = arr.filter(number => number === n).length
+const lengthOfSequence = (array, n) => {
+  const instances = array.filter(number => number === n).length
   if (instances > 2) return 0
 
-  const firstIndex = arr.indexOf(n)
-  const lastIndex = arr.lastIndexOf(n)
-  const sequenceLength = arr.slice(firstIndex, lastIndex + 1).length
+  const firstIndex = array.indexOf(n)
+  const lastIndex = array.lastIndexOf(n)
+  const sequenceLength = array.slice(firstIndex, lastIndex + 1).length
 
   return sequenceLength === 1 ? 0 : sequenceLength
 }

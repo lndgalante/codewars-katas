@@ -83,7 +83,7 @@ const jumpingNumber = n => {
 
 // Short Solution
 const jumpingNumber = n =>
-  [...String(n)].every((num, index, array) => index === 0 || Math.abs(num - array[index - 1]) === 1)
+  [...String(n)].every((number, index, array) => index === 0 || Math.abs(number - array[index - 1]) === 1)
     ? 'Jumping!!'
     : 'Not!!'
 

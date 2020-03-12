@@ -9,7 +9,7 @@ test('Test 2', () => {
 })
 
 test('Test 3', () => {
-  expect(repeater('code, eat, code, sleep... ', 2)).toBe(
-    '"code, eat, code, sleep... " repeated 2 times is: "code, eat, code, sleep... code, eat, code, sleep... "'
+  expect(repeater('code, eat, code, sleep… ', 2)).toBe(
+    '"code, eat, code, sleep… " repeated 2 times is: "code, eat, code, sleep… code, eat, code, sleep… "'
   )
 })

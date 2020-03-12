@@ -29,8 +29,8 @@
 */
 
 // Long Solution
-const arr2bin = arr =>
-  arr
+const array2bin = array =>
+  array
     .reduce(
       (total, value) => (typeof value === 'number' ? total + value : total),
       0
@@ -38,4 +38,4 @@ const arr2bin = arr =>
     .toString(2)
 
 // Function Export
-module.exports = arr2bin
+module.exports = array2bin

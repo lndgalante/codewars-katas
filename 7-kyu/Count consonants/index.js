@@ -18,7 +18,7 @@
 */
 
 // Long Solution
-const consonantCount = str => (str.match(/(?=[a-z])(?![aeiou])/gi) || []).length
+const consonantCount = string => (string.match(/(?=[a-z])(?![aeiou])/gi) || []).length
 
 // Function Export
 module.exports = consonantCount

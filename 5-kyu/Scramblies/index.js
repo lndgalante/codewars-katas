@@ -26,9 +26,9 @@
 */
 
 // Long Solution
-function scramble(str1, str2) {
-  const array1 = str1.split('').sort()
-  const array2 = str2.split('').sort()
+function scramble(string1, string2) {
+  const array1 = string1.split('').sort()
+  const array2 = string2.split('').sort()
   let i = 0
   let x
 

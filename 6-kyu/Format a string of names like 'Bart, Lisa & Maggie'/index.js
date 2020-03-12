@@ -42,7 +42,7 @@ function list(names) {
   return names
     .map(({ name }) => name)
     .join(', ')
-    .replace(/[,](?!.*,)/g, ' &')
+    .replace(/,(?!.*,)/g, ' &')
 }
 
 // Regex about matching the last ocurrence. Example: https://regexr.com/3i3iu

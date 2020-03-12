@@ -34,7 +34,7 @@ const scramble = (str, arr) =>
 */
 
 // Short Solution
-const scramble = (str, arr) => str.replace(/./g, (_, index) => str[arr.indexOf(index)])
+const scramble = (string, array) => string.replace(/./g, (_, index) => string[array.indexOf(index)])
 
 // Function Export
 module.exports = scramble

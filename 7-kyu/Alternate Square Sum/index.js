@@ -33,8 +33,8 @@
 */
 
 // Long Solution
-const alternateSqSum = arr =>
-  arr.reduce(
+const alternateSqSum = array =>
+  array.reduce(
     (total, value, index) =>
       index % 2 === 0 ? total + value : total + value ** 2,
     0

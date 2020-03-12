@@ -25,8 +25,8 @@
 */
 
 // Short Solution
-const findUniq = arr =>
-  arr.find(num => arr.indexOf(num) === arr.lastIndexOf(num))
+const findUniq = array =>
+  array.find(number => array.indexOf(number) === array.lastIndexOf(number))
 
 // Function Export
 module.exports = findUniq

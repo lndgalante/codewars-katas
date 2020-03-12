@@ -31,10 +31,10 @@ function removeChar(str) {
 */
 
 // Short Solution
-const removeChar = str =>
-  str
+const removeChar = string =>
+  string
     .split('')
-    .slice(1, str.length - 1)
+    .slice(1, string.length - 1)
     .join('')
 
 // Function Export

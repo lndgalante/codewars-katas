@@ -16,7 +16,7 @@
 */
 
 // Long Solution
-const makeUpperCase = str => str.toUpperCase()
+const makeUpperCase = string => string.toUpperCase()
 
 // Function Export
 module.exports = makeUpperCase

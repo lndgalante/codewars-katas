@@ -32,22 +32,22 @@
 
 // Long Solution
 /*
- const calcType = (a, b, res) => {
-  if (a + b === res) return 'addition'
-  if (a - b === res) return 'subtraction'
-  if (a * b === res) return 'multiplication'
-  if (a / b === res) return 'division'
+ const calcType = (a, b, result) => {
+  if (a + b === result) return 'addition'
+  if (a - b === result) return 'subtraction'
+  if (a * b === result) return 'multiplication'
+  if (a / b === result) return 'division'
 }
 */
 
 // Short Solution
-const calcType = (a, b, res) =>
+const calcType = (a, b, result) =>
   ({
     [a + b]: 'addition',
     [a - b]: 'subtraction',
     [a * b]: 'multiplication',
     [a / b]: 'division',
-  }[res])
+  }[result])
 
 // Function Export
 module.exports = calcType

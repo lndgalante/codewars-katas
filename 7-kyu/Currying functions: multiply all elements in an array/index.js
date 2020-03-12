@@ -28,7 +28,7 @@
 */
 
 // Long Solution
-const multiplyAll = arr => int => arr.map(num => num * int)
+const multiplyAll = array => int => array.map(number => number * int)
 
 // Function Export
 module.exports = multiplyAll

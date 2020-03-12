@@ -5,5 +5,5 @@ test('Test 1', () => {
 })
 
 test('Test 2', () => {
-  expect(sortMyString("YCOLUE'VREER")).toBe("YOU'RE CLEVER")
+  expect(sortMyString("YCOLUE’VREER")).toBe("YOU’RE CLEVER")
 })

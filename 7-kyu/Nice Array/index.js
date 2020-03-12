@@ -33,8 +33,8 @@ const isNice = arr =>
 */
 
 // Short Solution
-const isNice = arr =>
-  Boolean(arr.length) && arr.every((number, _, array) => array.includes(number + 1) || array.includes(number - 1))
+const isNice = array =>
+  Boolean(array.length) && array.every((number, _, array) => array.includes(number + 1) || array.includes(number - 1))
 
 // Function Export
 module.exports = isNice

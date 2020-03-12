@@ -30,8 +30,8 @@ const reverseLetter = str =>
 */
 
 // Short Solution
-const reverseLetter = str =>
-  str
+const reverseLetter = string =>
+  string
     .match(/[a-z]/gi)
     .reverse()
     .join('')

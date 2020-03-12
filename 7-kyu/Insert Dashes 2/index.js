@@ -25,7 +25,7 @@
 const insertDashII = number =>
   String(number)
     .replace(/([13579])(?=[13579])/g, '$1-')
-    .replace(/([24668])(?=[24668])/g, '$1*')
+    .replace(/([2468])(?=[2468])/g, '$1*')
 
 // Function Export
 module.exports = insertDashII

@@ -81,7 +81,7 @@ class PaginationHelper {
   // This method should return -1 for itemIndex values that are out of range
   pageIndex(itemIndex) {
     return this.pages.findIndex(page =>
-      page.element.find(el => el.originalIndex === itemIndex)
+      page.element.find(element => element.originalIndex === itemIndex)
     )
   }
 }

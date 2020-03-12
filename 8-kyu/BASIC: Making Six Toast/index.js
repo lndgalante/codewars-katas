@@ -26,7 +26,7 @@
 */
 
 // Long Solution
-const sixToast = num => Math.abs(num - 6)
+const sixToast = number => Math.abs(number - 6)
 
 // Function Export
 module.exports = sixToast

@@ -36,9 +36,9 @@
 */
 
 // Short Solution
-const diffBig2 = arr => {
-  const firstBiggest = Math.max(...arr)
-  const secondBiggest = Math.max(...arr.filter((_, i) => i !== arr.indexOf(firstBiggest)))
+const diffBig2 = array => {
+  const firstBiggest = Math.max(...array)
+  const secondBiggest = Math.max(...array.filter((_, i) => i !== array.indexOf(firstBiggest)))
 
   return firstBiggest - secondBiggest
 }

@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const addFive = num => num + 5
+const addFive = number => number + 5
 
 // Function Export
 module.exports = addFive

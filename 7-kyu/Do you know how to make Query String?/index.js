@@ -49,18 +49,18 @@
 */
 
 // Long Solution
-const createRepeatedParam = (value, key) =>
+const createRepeatedParameter = (value, key) =>
   value
-    .reduce((repeatedParam, value) => {
+    .reduce((repeatedParameter, value) => {
       const result = `${key}=${value}`
-      return `${repeatedParam}${result}&`
+      return `${repeatedParameter}${result}&`
     }, '')
     .slice(0, -1)
 
-const toQueryString = obj =>
-  Object.entries(obj)
+const toQueryString = object =>
+  Object.entries(object)
     .reduce((queryString, [key, value]) => {
-      const parsedValue = Array.isArray(value) ? createRepeatedParam(value, key) : value
+      const parsedValue = Array.isArray(value) ? createRepeatedParameter(value, key) : value
       const parsedKey = Array.isArray(value) ? parsedValue : `${key}=${value}`
 
       return `${queryString}${parsedKey}&`

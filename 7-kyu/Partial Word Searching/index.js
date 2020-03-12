@@ -37,7 +37,7 @@ const wordSearch = (query, seq) => {
 // Short Solution
 const wordSearch = (query, seq) => {
   const expression = new RegExp(query, 'i')
-  const wordsFound = seq.filter(str => expression.test(str))
+  const wordsFound = seq.filter(string => expression.test(string))
 
   return wordsFound.length > 0 ? wordsFound : ['Empty']
 }

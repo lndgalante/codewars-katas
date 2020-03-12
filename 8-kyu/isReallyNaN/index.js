@@ -23,7 +23,7 @@
 */
 
 // Long Solution
-const isReallyNaN = val => Number.isNaN(val)
+const isReallyNaN = value => Number.isNaN(value)
 
 // Function Export
 module.exports = isReallyNaN

@@ -21,10 +21,10 @@
 */
 
 // Long Solution
-const covfefe = str => {
-  return str.includes('coverage')
-    ? str.replace(/coverage/g, 'covfefe')
-    : `${str} covfefe`
+const covfefe = string => {
+  return string.includes('coverage')
+    ? string.replace(/coverage/g, 'covfefe')
+    : `${string} covfefe`
 }
 
 // Function Export

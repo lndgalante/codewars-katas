@@ -24,13 +24,13 @@
 // Long Solution
 const switchCase = char => (char === char.toLowerCase() ? char.toUpperCase() : char.toLowerCase())
 
-const withReverseMirror = str =>
-  [...str]
+const withReverseMirror = string =>
+  [...string]
     .reverse()
     .map(switchCase)
     .join('')
 
-const withoutReverseMirror = str => [...str].map(switchCase).join('')
+const withoutReverseMirror = string => [...string].map(switchCase).join('')
 
 const reverseAndMirror = (s1, s2) => `${withReverseMirror(s2)}@@@${withReverseMirror(s1)}${withoutReverseMirror(s1)}`
 

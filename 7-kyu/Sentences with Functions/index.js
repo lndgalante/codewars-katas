@@ -25,16 +25,16 @@
 // Long Solution
 const addNext = (current, next) => (next ? `${current} ${next}` : `${current}.`)
 
-const Adam = str => addNext('Adam', str)
-const has = str => addNext('has', str)
-const a = str => addNext('a', str)
-const dog = str => addNext('dog', str)
-const The = str => addNext('The', str)
-const name = str => addNext('name', str)
-const of = str => addNext('of', str)
-const the = str => addNext('the', str)
-const is = str => addNext('is', str)
-const also = str => addNext('also', str)
+const Adam = string => addNext('Adam', string)
+const has = string => addNext('has', string)
+const a = string => addNext('a', string)
+const dog = string => addNext('dog', string)
+const The = string => addNext('The', string)
+const name = string => addNext('name', string)
+const of = string => addNext('of', string)
+const the = string => addNext('the', string)
+const is = string => addNext('is', string)
+const also = string => addNext('also', string)
 
 // Function Export
 module.exports = { Adam, has, a, dog, The, name, of, the, is, also }

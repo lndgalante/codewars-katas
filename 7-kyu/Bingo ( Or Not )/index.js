@@ -32,7 +32,7 @@ const bingo = arr => {
 */
 
 // Short Solution
-const bingo = arr => ([2, 7, 9, 14, 15].every(bingoValue => arr.includes(bingoValue)) ? 'WIN' : 'LOSE')
+const bingo = array => ([2, 7, 9, 14, 15].every(bingoValue => array.includes(bingoValue)) ? 'WIN' : 'LOSE')
 
 // Function Export
 module.exports = bingo

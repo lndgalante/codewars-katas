@@ -25,7 +25,7 @@
 */
 
 // Long Solution
-const clean = arr => arr.filter(() => true)
+const clean = array => array.filter(() => true)
 
 // Function Export
 module.exports = clean

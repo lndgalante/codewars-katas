@@ -63,10 +63,10 @@ const pairs = arr =>
 */
 
 // Short Solution
-const pairs = arr =>
-  arr.reduce((total, number, index) => {
-    if (index % 2 !== 0 || index === arr.length) return total
-    const nextNumber = arr[index + 1]
+const pairs = array =>
+  array.reduce((total, number, index) => {
+    if (index % 2 !== 0 || index === array.length) return total
+    const nextNumber = array[index + 1]
 
     return total + (Math.abs(number - nextNumber) === 1)
   }, 0)

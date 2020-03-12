@@ -33,7 +33,7 @@ function makeNegative(num) {
 */
 
 // Short Solution
-const makeNegative = num => (Math.sign(num) === 1 ? -num : num)
+const makeNegative = number => (Math.sign(number) === 1 ? -number : number)
 
 // Function Export
 module.exports = makeNegative

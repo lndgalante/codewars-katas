@@ -33,7 +33,7 @@ const findFunction = (func, arr) => {
 */
 
 // Short Solution
-const findFunction = (func, arr) => arr.filter(func.find(element => typeof element === 'function'))
+const findFunction = (func, array) => array.filter(func.find(element => typeof element === 'function'))
 
 // Function Export
 module.exports = findFunction

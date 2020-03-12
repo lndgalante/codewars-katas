@@ -49,9 +49,9 @@ function isPrime(num) {
 */
 
 // Short Solution
-const isPrime = num => {
-  for (let i = 2; i < num; i++) if (num % i === 0) return false
-  return num >= 2
+const isPrime = number => {
+  for (let i = 2; i < number; i++) if (number % i === 0) return false
+  return number >= 2
 }
 
 // Function Export

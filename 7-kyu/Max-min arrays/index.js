@@ -41,9 +41,9 @@ const solve = arr => {
 */
 
 // Short Solution
-const solve = arr => {
-  const sorted = [...arr].sort((a, b) => a - b)
-  return arr.map((_, index) => (index % 2 === 0 ? sorted.pop() : sorted.shift()))
+const solve = array => {
+  const sorted = [...array].sort((a, b) => a - b)
+  return array.map((_, index) => (index % 2 === 0 ? sorted.pop() : sorted.shift()))
 }
 
 // Function Export

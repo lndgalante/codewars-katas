@@ -18,12 +18,12 @@
 */
 
 // Long Solution
-const findDivisors = num =>
-  Array.from({ length: num - 1 }, (_, index) => (num % (index + 1) === 0 ? index + 1 : null)).filter(Boolean)
+const findDivisors = number =>
+  Array.from({ length: number - 1 }, (_, index) => (number % (index + 1) === 0 ? index + 1 : null)).filter(Boolean)
 
-const sumDivisors = num => findDivisors(num).reduce((total, divisor) => total + divisor, 0)
+const sumDivisors = number => findDivisors(number).reduce((total, divisor) => total + divisor, 0)
 
-const abundantNumber = num => sumDivisors(num) > num
+const abundantNumber = number => sumDivisors(number) > number
 
 // Function Export
 module.exports = abundantNumber

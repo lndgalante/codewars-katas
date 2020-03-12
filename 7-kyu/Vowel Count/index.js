@@ -25,7 +25,7 @@ function getCount(str) {
 */
 
 // Short Solution
-const getCount = str => (str.match(/[aeiou]/gi) || []).length
+const getCount = string => (string.match(/[aeiou]/gi) || []).length
 
 // Function Export
 module.exports = getCount

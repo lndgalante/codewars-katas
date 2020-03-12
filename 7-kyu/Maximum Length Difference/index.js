@@ -56,8 +56,8 @@ function mxdiflg(a1, a2) {
 function mxdiflg(a1, a2) {
   if (a1.length === 0 || a2.length === 0) return -1
 
-  const length1 = a1.map(str => str.length)
-  const length2 = a2.map(str => str.length)
+  const length1 = a1.map(string => string.length)
+  const length2 = a2.map(string => string.length)
 
   return Math.max(
     Math.max(...length1) - Math.min(...length2),

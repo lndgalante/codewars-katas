@@ -50,16 +50,16 @@
 */
 
 // Long Solution
-function fibonacci(num) {
+function fibonacci(number) {
   let a = 1
   let b = 0
-  let temp
+  let temporary
 
-  while (num >= 0) {
-    temp = a
+  while (number >= 0) {
+    temporary = a
     a += b
-    b = temp
-    num--
+    b = temporary
+    number--
   }
 
   return b

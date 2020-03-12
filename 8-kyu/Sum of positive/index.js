@@ -29,8 +29,8 @@ function positiveSum(arr) {
 */
 
 // Short Solution
-const positiveSum = arr =>
-  arr.reduce((a, b) => (Math.sign(b) === 1 ? a + b : a), 0)
+const positiveSum = array =>
+  array.reduce((a, b) => (Math.sign(b) === 1 ? a + b : a), 0)
 
 // Function Export
 module.exports = positiveSum

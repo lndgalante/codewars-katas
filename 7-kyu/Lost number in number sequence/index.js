@@ -27,8 +27,8 @@
 */
 
 // Long Solution
-const findDeletedNumber = (arr, mixArr) =>
-  arr.find(number => !mixArr.includes(number)) || 0
+const findDeletedNumber = (array, mixArray) =>
+  array.find(number => !mixArray.includes(number)) || 0
 
 // Function Export
 module.exports = findDeletedNumber

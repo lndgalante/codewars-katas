@@ -26,7 +26,7 @@
 */
 
 // Long Solution
-const removeNoise = str => str.replace(/[%$&/#·@|º\\ª]/g, '')
+const removeNoise = string => string.replace(/[%$&/#·@|º\\ª]/g, '')
 
 // Function Export
 module.exports = removeNoise

@@ -25,8 +25,8 @@
 */
 
 // Long Solution
-const sortString = str =>
-  String(str)
+const sortString = string =>
+  String(string)
     .split('')
     .sort()
     .join('')

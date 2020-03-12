@@ -94,7 +94,7 @@
 // const firstToLast = (str, c) => str.includes(c) ? str.lastIndexOf(c) - str.indexOf(c) : -1
 
 // Short Solution
-const firstToLast = (str, c) => str.lastIndexOf(c) - Math.max(0, str.indexOf(c))
+const firstToLast = (string, c) => string.lastIndexOf(c) - Math.max(0, string.indexOf(c))
 
 // Function Export
 module.exports = firstToLast

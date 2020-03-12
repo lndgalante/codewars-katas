@@ -34,7 +34,7 @@ const tripleX = (str) => {
 */
 
 // Short Solution - RegEx: https://regexr.com/4s2ab
-const tripleX = (str) => /^[^x]*x{3}/.test(str);
+const tripleX = (string) => /^[^x]*x{3}/.test(string);
 
 // Function Export
 module.exports = tripleX;

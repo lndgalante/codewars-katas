@@ -30,7 +30,7 @@ const validateTime = time => /^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/.test(time)
 */
 
 // Short Solution - https://regexr.com/476l3
-const validateTime = time => /^([0-1]?\d|2[0-3]):[0-5]\d$/.test(time)
+const validateTime = time => /^([01]?\d|2[0-3]):[0-5]\d$/.test(time)
 
 // Function Export
 module.exports = validateTime

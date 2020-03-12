@@ -29,7 +29,7 @@ function numberToString(num) {
 */
 
 // Short Solution
-const numberToString = num => `${num}`
+const numberToString = number => `${number}`
 
 // Function Export
 module.exports = numberToString

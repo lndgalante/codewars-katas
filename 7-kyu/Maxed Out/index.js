@@ -20,9 +20,9 @@
 */
 
 // Long Solution
-const maxedOut = arr => {
-  const result = arr.reduce((acc, number) => acc + number ** 3, 0)
-  return result > Number.MAX_SAFE_INTEGER ? `You've pushed me to the max!` : result
+const maxedOut = array => {
+  const result = array.reduce((acc, number) => acc + number ** 3, 0)
+  return result > Number.MAX_SAFE_INTEGER ? `You’ve pushed me to the max!` : result
 }
 
 // Function Export

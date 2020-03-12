@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const any = (arr, fun) => arr.some(fun)
+const any = (array, fun) => array.some(fun)
 
 // Function Export
 module.exports = any

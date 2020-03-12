@@ -88,14 +88,14 @@
 */
 
 // Long Solution
-const blackAndWhite = arr =>{
+const blackAndWhite = array =>{
   let arrayType = ''
 
-  if (!Array.isArray(arr)) arrayType = 'fake'
-  else if (arr.includes(5) && arr.includes(13)) arrayType = 'black'
-  else if (!(arr.includes(5) && arr.includes(13))) arrayType = 'white'
+  if (!Array.isArray(array)) arrayType = 'fake'
+  else if (array.includes(5) && array.includes(13)) arrayType = 'black'
+  else if (!(array.includes(5) && array.includes(13))) arrayType = 'white'
 
-  return `It's a ${arrayType} array`
+  return `It’s a ${arrayType} array`
 }
 
 // Function Export

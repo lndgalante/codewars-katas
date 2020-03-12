@@ -105,7 +105,7 @@ const scrabbleScore = str => {
 */
 
 // Short Solution
-const scrabbleScore = str => [...str.toUpperCase()].reduce((total, char) => total + ($dict[char] || 0), 0)
+const scrabbleScore = string => [...string.toUpperCase()].reduce((total, char) => total + ($dict[char] || 0), 0)
 
 // Function Export
 module.exports = scrabbleScore

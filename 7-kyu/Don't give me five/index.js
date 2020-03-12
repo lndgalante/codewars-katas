@@ -28,8 +28,8 @@
 const dontGiveMeFive = (start, end) =>
   new Array(end - start + 1)
     .fill(start)
-    .map((num, i) => (i === 0 ? num : num + i))
-    .filter(num => !String(num).includes('5')).length
+    .map((number, i) => (i === 0 ? number : number + i))
+    .filter(number => !String(number).includes('5')).length
 
 // Short Solution
 /*

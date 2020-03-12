@@ -30,7 +30,7 @@
 function narcissistic(value) {
   if (!Number.isInteger(value)) return `${value} is not an integer`
 
-  const numberDestructured = [...value.toString()].map(num => Number(num))
+  const numberDestructured = [...value.toString()].map(number => Number(number))
   const result = numberDestructured.reduce(
     (accumulator, currentValue) =>
       accumulator + currentValue**numberDestructured.length,

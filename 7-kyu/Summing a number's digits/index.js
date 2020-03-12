@@ -40,7 +40,7 @@ const sumDigits = n =>
   Math.abs(n)
     .toString()
     .split('')
-    .reduce((total, num) => total + Number(num), 0)
+    .reduce((total, number) => total + Number(number), 0)
 
 // Function Export
 module.exports = sumDigits

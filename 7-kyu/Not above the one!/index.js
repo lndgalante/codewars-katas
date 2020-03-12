@@ -31,10 +31,10 @@
 */
 
 // Long Solution
-const binaryCleaner = arr => {
+const binaryCleaner = array => {
   const binariesNumbers = [0, 1]
 
-  return arr.reduce(
+  return array.reduce(
     (acc, number, index) => {
       const [binaries, removedIndexes] = acc
       binariesNumbers.includes(number) ? binaries.push(number) : removedIndexes.push(index)

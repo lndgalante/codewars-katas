@@ -20,8 +20,8 @@
 */
 
 // Long Solution
-const arrayPlusArray = (arr1, arr2) =>
-  [...arr1, ...arr2].reduce((total, value) => total + value, 0)
+const arrayPlusArray = (array1, array2) =>
+  [...array1, ...array2].reduce((total, value) => total + value, 0)
 
 // Function Export
 module.exports = arrayPlusArray

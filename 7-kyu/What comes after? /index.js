@@ -40,7 +40,7 @@ const comesAfter = (str, l) => {
 */
 
 // Short Solution - https://regexr.com/4q4kk
-const comesAfter = (str, l) => (str.match(new RegExp(`(?<=${l})[a-z]`, 'gi')) || []).join('')
+const comesAfter = (string, l) => (string.match(new RegExp(`(?<=${l})[a-z]`, 'gi')) || []).join('')
 
 // Function Export
 module.exports = comesAfter

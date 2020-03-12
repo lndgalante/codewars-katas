@@ -43,8 +43,8 @@
 
 // Long Solution
 const oddOnesOut = nums => {
-  const repetitions = nums.reduce((acc, num) => ({ ...acc, [num]: (acc[num] || 0) + 1 }), {})
-  return nums.filter(num => repetitions[num] % 2 === 0)
+  const repetitions = nums.reduce((acc, number) => ({ ...acc, [number]: (acc[number] || 0) + 1 }), {})
+  return nums.filter(number => repetitions[number] % 2 === 0)
 }
 
 // Function Export

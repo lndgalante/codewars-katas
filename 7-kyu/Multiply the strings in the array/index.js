@@ -25,7 +25,7 @@ const arrMultiply = arr => `${arr.reduce((total, num) => total * Number(num), 1)
 */
 
 // Short Solution
-const arrMultiply = ([a, b]) => `${a * b}`
+const arrayMultiply = ([a, b]) => `${a * b}`
 
 // Function Export
-module.exports = arrMultiply
+module.exports = arrayMultiply

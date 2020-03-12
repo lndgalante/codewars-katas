@@ -24,14 +24,14 @@
 
 // Long Solution
 /*
-const sysNums = (n, sys) => {
-  const translation = n.toString(sys);
+const sysNums = (n, system) => {
+  const translation = n.toString(system);
   return isNaN(translation) ? translation : Number(translation);
 };
 */
 
 // Short Solution
-const sysNums = (n, sys) => ((res) => (isNaN(res) ? res : Number(res)))(n.toString(sys));
+const sysNums = (number, system) => ((numberInSystem) => (isNaN(numberInSystem) ? numberInSystem : Number(numberInSystem)))(number.toString(system));
 
 // Function Export
 module.exports = sysNums;

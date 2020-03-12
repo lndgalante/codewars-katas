@@ -35,7 +35,7 @@
 */
 
 // Long Solution
-const diff = (s1, s2) => new Set([...s1].filter((el) => !s2.has(el)))
+const diff = (s1, s2) => new Set([...s1].filter((element) => !s2.has(element)))
 
 // Function Export
 module.exports = diff

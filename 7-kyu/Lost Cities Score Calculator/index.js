@@ -32,9 +32,9 @@
 */
 
 // Long Solution
-const calculateScore = (cardsArr, wager) => {
-  if (cardsArr.length === 0 && wager === 0) return 0
-  return cardsArr.reduce((acc, num) => acc + num, -20) * (wager + 1)
+const calculateScore = (cardsArray, wager) => {
+  if (cardsArray.length === 0 && wager === 0) return 0
+  return cardsArray.reduce((acc, number) => acc + number, -20) * (wager + 1)
 }
 
 // Function Export

@@ -1,11 +1,11 @@
 const timedReading = require('.')
 
 test('Test 1', () => {
-  expect(timedReading(4, "The Fox asked the stork, 'How is the soup?'")).toBe(7)
+  expect(timedReading(4, "The Fox asked the stork, ’How is the soup?’")).toBe(7)
 })
 
 test('Test 2', () => {
-  expect(timedReading(1, '...')).toBe(0)
+  expect(timedReading(1, '…')).toBe(0)
 })
 
 test('Test 3', () => {

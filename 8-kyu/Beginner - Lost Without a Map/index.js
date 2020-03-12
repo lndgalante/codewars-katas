@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const maps = x => x.map(num => num * 2)
+const maps = x => x.map(number => number * 2)
 
 // Function Export
 module.exports = maps

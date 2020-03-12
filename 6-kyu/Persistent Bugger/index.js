@@ -26,20 +26,20 @@
 */
 
 // Long Solution
-function persistence(num) {
-  if (String(num).length === 1) return 0
+function persistence(number) {
+  if (String(number).length === 1) return 0
 
   let counter = 0
-  let result = num
-  let numberSplit = String(num)
+  let result = number
+  let numberSplit = String(number)
     .split('')
-    .map(e => Number(e))
+    .map(Number)
 
   while (String(result).length > 1) {
     result = numberSplit.reduce((a, b) => a * b, 1)
     numberSplit = String(result)
       .split('')
-      .map(e => Number(e))
+      .map(Number)
 
     counter += 1
   }

@@ -51,10 +51,10 @@ const containAllRots = (strng, arr) => {
 */
 
 // Short Solution
-const containAllRots = (strng, arr) =>
+const containAllRots = (strng, array) =>
   [...strng]
     .map((_, index) => `${strng.slice(index)}${strng.slice(0, index)}`)
-    .every(el => arr.includes(el))
+    .every(element => array.includes(element))
 
 // Function Export
 module.exports = containAllRots

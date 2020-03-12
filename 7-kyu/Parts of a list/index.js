@@ -24,10 +24,10 @@
 */
 
 // Long Solution
-const partlist = arr =>
-  arr.reduce((result, _, index) => {
+const partlist = array =>
+  array.reduce((result, _, index) => {
     if (index === 0) return result
-    const subarray = [arr.slice(0, index).join(' '), arr.slice(index).join(' ')]
+    const subarray = [array.slice(0, index).join(' '), array.slice(index).join(' ')]
     return result.concat([subarray])
   }, [])
 

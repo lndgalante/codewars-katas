@@ -31,7 +31,7 @@ const deleteValues = (array, pred) => {
 */
 
 // Short Solution
-const deleteValues = (arr, pred) => (arr.filter(pred).forEach(number => arr.splice(arr.indexOf(number), 1)), arr)
+const deleteValues = (array, pred) => (array.filter(pred).forEach(number => array.splice(array.indexOf(number), 1)), array)
 
 // Function Export
 module.exports = deleteValues

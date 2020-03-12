@@ -13,7 +13,7 @@ test('Test 3', () => {
 })
 
 test('Test 4', () => {
-  expect(solve("RYT'>s&gO-.CM9AKeH?,5317tWGpS<*x2ukXZD")).toEqual([15, 8, 6, 9])
+  expect(solve("RYT’>s&gO-.CM9AKeH?,5317tWGpS<*x2ukXZD")).toEqual([15, 8, 6, 9])
 })
 
 test('Test 5', () => {

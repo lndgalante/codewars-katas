@@ -43,7 +43,7 @@ const howManyDalmatians = number => {
   if (number <= 10) return 'Hardly any'
   if (number <= 50) return 'More than a handful!'
   if (number === 101) return '101 DALMATIANS!!!'
-  return "Woah that's a lot of dogs!"
+  return "Woah that’s a lot of dogs!"
 }
 
 // Function Export

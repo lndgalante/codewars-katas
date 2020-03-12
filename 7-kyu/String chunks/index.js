@@ -30,7 +30,7 @@ const stringChunk = (str, n) => (n > 0 && str.match(new RegExp(`.{1,${n}}`, 'gi'
 */
 
 // Short Solution
-const stringChunk = (str, n) => str.match(new RegExp(`.{1,${(n / n) * n}}`, 'gi')) || []
+const stringChunk = (string, n) => string.match(new RegExp(`.{1,${(n / n) * n}}`, 'gi')) || []
 
 // Function Export
 module.exports = stringChunk

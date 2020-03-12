@@ -34,9 +34,9 @@ const capitalize = (s, arr) => {
 */
 
 // Short Solution
-const capitalize = (s, arr) =>
+const capitalize = (s, array) =>
   [...s]
-    .map((char, index) => (arr.includes(index) ? char.toUpperCase() : char))
+    .map((char, index) => (array.includes(index) ? char.toUpperCase() : char))
     .join('')
 
 // Alternative Solution

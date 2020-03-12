@@ -32,8 +32,8 @@
 */
 
 // Long Solution
-const missingValues = (arr) => {
-  const repetitions = arr.reduce((acc, num) => ({ ...acc, [num]: (acc[num] || 0) + 1 }), {});
+const missingValues = (array) => {
+  const repetitions = array.reduce((acc, number) => ({ ...acc, [number]: (acc[number] || 0) + 1 }), {});
 
   const [x, y] = Object.entries(repetitions)
     .sort(([, repetitionA], [, repetitionB]) => repetitionA - repetitionB)

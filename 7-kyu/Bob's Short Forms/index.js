@@ -24,7 +24,7 @@
 */
 
 // Long Solution - https://regexr.com/48sjj
-const shortForm = str => str.replace(/\B[aeiou]\B/gi, '')
+const shortForm = string => string.replace(/\B[aeiou]\B/gi, '')
 
 // Function Export
 module.exports = shortForm

@@ -20,7 +20,7 @@
 */
 
 // Long Solution
-const nothingSpecial = str => (typeof str === 'string' ? str.replace(/[^0-9a-z\s]/gi, '') : 'Not a string!')
+const nothingSpecial = string => (typeof string === 'string' ? string.replace(/[^\da-z\s]/gi, '') : 'Not a string!')
 
 // Function Export
 module.exports = nothingSpecial

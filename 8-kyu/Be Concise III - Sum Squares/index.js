@@ -26,7 +26,7 @@
 */
 
 // Long Solution
-const sumSquares = array => array.reduce((total, num) => total + num ** 2, 0)
+const sumSquares = array => array.reduce((total, number) => total + number ** 2, 0)
 
 // Function Export
 module.exports = sumSquares

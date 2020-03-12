@@ -43,7 +43,7 @@
 // const trueOrFalse = val => (val ? 'true' : 'false')
 
 // Short Solution
-const trueOrFalse = val => String(Boolean(val))
+const trueOrFalse = value => String(Boolean(value))
 
 // Function Export
 module.exports = trueOrFalse

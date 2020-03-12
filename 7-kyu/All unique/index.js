@@ -18,7 +18,7 @@
 */
 
 // Long Solution
-const hasUniqueChars = str => new Set(str).size === str.length
+const hasUniqueChars = string => new Set(string).size === string.length
 
 // Function Export
 module.exports = hasUniqueChars

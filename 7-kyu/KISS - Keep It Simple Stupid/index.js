@@ -45,7 +45,7 @@ const isKiss = words => {
 
 // Short Solution
 const isKiss = words =>
-  words.split(' ').every((word, _, arr) => word.length <= arr.length) ? 'Good work Joe!' : 'Keep It Simple Stupid'
+  words.split(' ').every((word, _, array) => word.length <= array.length) ? 'Good work Joe!' : 'Keep It Simple Stupid'
 
 // Function Export
 module.exports = isKiss

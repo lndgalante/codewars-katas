@@ -16,7 +16,7 @@
 */
 
 // Long Solution
-const reverseList = arr => [...arr].reverse()
+const reverseList = array => [...array].reverse()
 
 // Function Export
 module.exports = reverseList

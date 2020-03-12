@@ -45,11 +45,11 @@ const reverseInvert = array => {
 */
 
 // Short Solution
-const reverseNumber = num => {
+const reverseNumber = number => {
   return (
-    -Math.sign(num) *
+    -Math.sign(number) *
     parseInt(
-      String(num)
+      String(number)
         .split('')
         .reverse()
         .join(''),

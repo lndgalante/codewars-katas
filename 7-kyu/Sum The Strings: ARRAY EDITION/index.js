@@ -31,7 +31,7 @@ const sumArr = (a, b) => a.reduce((acc, num, index) => [...acc, String(Number(nu
 */
 
 // Short Solution
-const sumArr = (a, b) => a.map((num, index) => String(Number(num) + Number(b[index])))
+const sumArray = (a, b) => a.map((number, index) => String(Number(number) + Number(b[index])))
 
 // Function Export
-module.exports = sumArr
+module.exports = sumArray

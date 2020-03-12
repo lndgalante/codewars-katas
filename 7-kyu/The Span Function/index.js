@@ -69,9 +69,9 @@ const span = (arr, predicate) => {
 // Ramda Solution
 const R = require('ramda')
 
-const span = (arr, predicate) => [
-  R.takeWhile(predicate, arr),
-  R.dropWhile(predicate, arr),
+const span = (array, predicate) => [
+  R.takeWhile(predicate, array),
+  R.dropWhile(predicate, array),
 ]
 
 // Function Export

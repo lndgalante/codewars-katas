@@ -23,8 +23,8 @@
 */
 
 // Long Solution
-function reverseWords(str) {
-  return str
+function reverseWords(string) {
+  return string
     .split(' ')
     .map(word =>
       word

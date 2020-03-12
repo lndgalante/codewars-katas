@@ -22,7 +22,7 @@
 */
 
 // Long Solution
-const pluck = (objs, name) => objs.map(obj => obj[name])
+const pluck = (objs, name) => objs.map(object => object[name])
 
 // Lodash Solution
 /*

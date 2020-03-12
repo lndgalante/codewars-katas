@@ -21,7 +21,7 @@
 
 // Long Solution
 const BARK = 'woof woof'
-const SLEEP = 'zzzzzzzzz....'
+const SLEEP = 'zzzzzzzzz….'
 
 const dogBarkByDefault = (bark = true) => (bark ? BARK : SLEEP)
 
