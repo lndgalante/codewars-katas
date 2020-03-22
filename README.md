@@ -1,7 +1,7 @@
 <h1 align="center">Codewars Katas</h1>
 
 <h6 align="center">
-  Solutions with tests, tips and tutorials for <a href="https://www.codewars.com">Codewars</a> katas
+  Solutions for Codewars katas
 </h6>
 
 <p align="center">
@@ -18,6 +18,28 @@
     <img src="https://david-dm.org/lndgalante/codewars-katas/dev-status.svg?style=flat-square">
   </a>
 </p>
+
+### Table of Contents
+
+- [Introduction](#introduction)
+- [Vocabulary](#vocabulary)
+- [Node.js & ES6+ Support](#node.js-&-es6+-support)
+- [Purpose](#purpose)
+- [Repository Structure](#repository-structure)
+- [Global Index](#global-index)
+- [Create a new Kata](#create-a-new-kata)
+- [Test your might](#test-your-might)
+- [Development Dependencies](#development-dependencies)
+- [Learning Resources](#learning-resources)
+- [Tips](#tips-&-tricks)
+- [More Learning Resources](#more-learning-resources)
+- [Similar Platforms](#similar-platforms)
+- [Contributors](#contributors)
+- [License](#license)
+
+### Introduction
+
+Solutions with tests, tips and tutorials for <a href="https://www.codewars.com">Codewars</a> katas.
 
 ### Vocabulary
 
@@ -141,7 +163,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 * Good Practices
   - [Clean Code JavaScript - Ryan McDermott](https://github.com/ryanmcdermott/clean-code-javascript)
 
-### Tips
+### Tips & Tricks
 
 1.  Katas has `tags` that could help you in advance to know what to use.
     For example you could solve this kata using regular expressions.
