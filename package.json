@@ -19,10 +19,10 @@
     "eslint-config-prettier": "^6.10.1",
     "eslint-plugin-jest": "^23.8.2",
     "husky": "^4.2.3",
-    "jest": "^25.2.7",
+    "jest": "^25.3.0",
     "jest-extended": "^0.11.5",
-    "prettier": "^2.0.2",
-    "xo": "0.28.2"
+    "prettier": "^2.0.4",
+    "xo": "0.29.0"
   },
   "scripts": {
     "lint": "xo",
@@ -40,7 +40,10 @@
     ],
     "ignores": [
       "lib"
-    ]
+    ],
+    "rules": {
+      "unicorn/prefer-number-properties": 0
+    }
   },
   "jest": {
     "testEnvironment": "node",

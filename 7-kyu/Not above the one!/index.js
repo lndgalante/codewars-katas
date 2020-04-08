@@ -31,17 +31,17 @@
 */
 
 // Long Solution
-const binaryCleaner = array => {
-  const binariesNumbers = [0, 1]
+const binaryCleaner = (array) => {
+  const binariesNumbers = new Set([0, 1])
 
   return array.reduce(
     (acc, number, index) => {
       const [binaries, removedIndexes] = acc
-      binariesNumbers.includes(number) ? binaries.push(number) : removedIndexes.push(index)
+      binariesNumbers.has(number) ? binaries.push(number) : removedIndexes.push(index)
 
       return [binaries, removedIndexes]
     },
-    [[], []]
+    [[], []],
   )
 }
 

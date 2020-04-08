@@ -48,9 +48,9 @@ const calculate = (num1, operation, num2) => {
 
 // Short Solution
 const calculate = (number1, operation, number2) => {
-  const operations = ['+', '-', '*', '/']
+  const operations = new Set(['+', '-', '*', '/'])
 
-  if (!operations.includes(operation)) return null
+  if (!operations.has(operation)) return null
   if (operation === '/' && number2 === 0) return null
 
   return eval(`${number1}${operation}${number2}`)
