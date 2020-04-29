@@ -39,10 +39,10 @@
 
 // Long Solution
 const goto = (level, button, maxLvl = 4) => {
-  const validLevels = Array.from({ length: maxLvl }, (_, index) => index)
-  const validButtons = Array.from({ length: maxLvl }, (_, index) => `${index}`)
+  const validLevels = new Set(Array.from({ length: maxLvl }, (_, index) => index))
+  const validButtons = new Set(Array.from({ length: maxLvl }, (_, index) => `${index}`))
 
-  if (!validLevels.includes(level) || !validButtons.includes(button)) return 0
+  if (!validLevels.has(level) || !validButtons.has(button)) return 0
   if (level === Number(button)) return 0
 
   return Number(button) - level

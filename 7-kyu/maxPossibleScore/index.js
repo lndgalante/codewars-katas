@@ -29,10 +29,10 @@
 
 // Long Solution
 const maxPossibleScore = (object, array) => {
-  const keysToInclude = array.map(String)
+  const keysToInclude = new Set(array.map(String))
   const entries = Object.entries(object)
 
-  return entries.reduce((acc, [key, value]) => acc + value * (keysToInclude.includes(key) ? 2 : 1), 0)
+  return entries.reduce((acc, [key, value]) => acc + value * (keysToInclude.has(key) ? 2 : 1), 0)
 }
 
 // Function Export
