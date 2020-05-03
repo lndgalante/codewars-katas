@@ -108,7 +108,7 @@ Since the kata generator uses some dependencies so you should install those firs
 > npm run install-generator-deps
 ```
 
-To generate a new folder with a `index.js` and `index.test.js` run
+To generate a new folder with an `index.js` and `index.test.js` run
 
 ```bash
 > npm run create-kata [kata link]
@@ -120,7 +120,7 @@ In example
 > npm run create-kata https://www.codewars.com/kata/drying-potatoes/train/javascript
 ```
 
-Since this is a 7-kyu kata it will appear under this folder as a folder with it's own title "Drying Potatoes".
+Since this is a 7-kyu kata it will appear under this folder as a folder with its own title "Drying Potatoes".
 
 ### Test your Might
 
