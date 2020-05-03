@@ -29,6 +29,7 @@
 - [Global Index](#global-index)
 - [Create a new Kata](#create-a-new-kata)
 - [Test your might](#test-your-might)
+- [Performance tests](#performance-tests)
 - [Development Dependencies](#development-dependencies)
 - [Learning Resources](#learning-resources)
 - [Tips](#tips-&-tricks)
@@ -40,6 +41,7 @@
 ### Introduction
 
 Solutions with tests, tips and tutorials for <a href="https://www.codewars.com">Codewars</a> katas.
+Almost every kata has a long solution and a shorter one, IMHO a long descriptive solution it's preferred over a cryptic one-liner, unless it's understandable for your entire team.
 
 ### Vocabulary
 
@@ -53,7 +55,7 @@ The current Node versions [available](https://github.com/Codewars/codewars.com/w
 
 ### Purpose
 
-Practicing katas could help you to improve your algorithmic thinking. It could also help going to interviews more confident and learning a few tricks of your prefered language.
+Practicing katas could help you to improve your algorithmic thinking. It could also help at interviews being more confident and learning a few tricks of your preferred language.
 I highly recommend the [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook) which will help you ace your next technical interview.
 
 ### Repository Structure
@@ -128,6 +130,10 @@ If you want to test in watch mode uncommitted files
 > npm run test-watch
 ```
 
+### Performance tests
+
+Check [Perflink](https://perf.link/) if you want to compare performance between long and short solutions.
+
 ### Development Dependencies
 
 - Code Linting: [XO](https://github.com/sindresorhus/xo)
@@ -139,29 +145,6 @@ If you want to test in watch mode uncommitted files
 
 I also use [Quokka](https://quokkajs.com) Pro Edition for rapid prototyping.
 Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@artem.govorov/using-live-code-comments-to-quickly-measure-code-performance-with-wallaby-js-and-quokka-js-7931a896133).
-
-### Learning Resources
-
-- Regular Expressions / RegEx
-
-  - [Awesome RegEx](https://github.com/aloisdg/awesome-regex)
-  - [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html)
-  - [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction)
-  - [Breaking the Ice With Regular Expressions - CodeSchool](https://www.pluralsight.com/courses/code-school-breaking-the-ice-with-regular-expressions)
-  - [RegExp The Ultra Basics in JavaScript](https://www.youtube.com/watch?v=VrT3TRDDE4M)
-
-* ES6 / ES2015
-
-  - [ES6 Katas - TDDbin](http://es6katas.org)
-  - [ES6 for Everyone - Wes Bos](https://es6.io)
-  - [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
-
-- Array & Objects
-  - [Array Explorer - Sarah Drasner](https://sdras.github.io/array-explorer)
-  - [Object Explorer - Sarah Drasner](https://sdras.github.io/object-explorer)
-
-* Good Practices
-  - [Clean Code JavaScript - Ryan McDermott](https://github.com/ryanmcdermott/clean-code-javascript)
 
 ### Tips & Tricks
 
@@ -185,6 +168,29 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 5.  If you check my solutions the "Long Solution" maybe is longer than the "Short Solution" but is more readable.
 
 6)  If you want to check what solution is faster use [jsPerf](https://jsperf.com) or [JSBench](https://jsbench.me)
+
+### Learning Resources
+
+- Regular Expressions / RegEx
+
+  - [Awesome RegEx](https://github.com/aloisdg/awesome-regex)
+  - [Regular Expressions - Eloquent JavaScript](https://eloquentjavascript.net/09_regexp.html)
+  - [Regular Expressions - The Modern JavaScript Tutorial](https://javascript.info/regexp-introduction)
+  - [Breaking the Ice With Regular Expressions - CodeSchool](https://www.pluralsight.com/courses/code-school-breaking-the-ice-with-regular-expressions)
+  - [RegExp The Ultra Basics in JavaScript](https://www.youtube.com/watch?v=VrT3TRDDE4M)
+
+* ES6 / ES2015
+
+  - [ES6 Katas - TDDbin](http://es6katas.org)
+  - [ES6 for Everyone - Wes Bos](https://es6.io)
+  - [Modern JavaScript Cheatsheet - Beaudru Manuel](https://github.com/mbeaudru/modern-js-cheatsheet)
+
+- Array & Objects
+  - [Array Explorer - Sarah Drasner](https://sdras.github.io/array-explorer)
+  - [Object Explorer - Sarah Drasner](https://sdras.github.io/object-explorer)
+
+* Good Practices
+  - [Clean Code JavaScript - Ryan McDermott](https://github.com/ryanmcdermott/clean-code-javascript)
 
 ### More Helpful Resources
 
