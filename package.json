@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
-    "moment": "^2.25.1",
+    "moment": "^2.25.3",
     "ramda": "^0.27.0"
   },
   "devDependencies": {
@@ -17,9 +17,9 @@
     "@types/moment": "^2.13.0",
     "@types/ramda": "^0.27.4",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.8.2",
+    "eslint-plugin-jest": "^23.9.0",
     "husky": "^4.2.5",
-    "jest": "^25.5.4",
+    "jest": "^26.0.1",
     "jest-extended": "^0.11.5",
     "prettier": "^2.0.5",
     "xo": "0.30.0"
