@@ -22,6 +22,7 @@
 ### Table of Contents
 
 - [Introduction](#introduction)
+- [Disclaimer](#disclaimer)
 - [Vocabulary](#vocabulary)
 - [Node.js & ES6+ Support](#node.js-&-es6+-support)
 - [Purpose](#purpose)
@@ -42,6 +43,16 @@
 
 Solutions with tests, tips and tutorials for <a href="https://www.codewars.com">Codewars</a> katas.
 Almost every kata has a long solution and a shorter one, IMHO a long descriptive solution it's preferred over a cryptic one-liner, unless it's understandable for your entire team.
+
+### Disclaimer
+
+- Codewarriors are strongly encouraged not to look at your solutions to Kata until they have completed it themselves or at least took the time to think about their own approaches
+
+* Codewarriors should not submit your solutions as their own
+
+- You will not be accepting contributions of any form to this repo
+
+* Creating a repository like this is discouraged by Codewars
 
 ### Vocabulary
 
