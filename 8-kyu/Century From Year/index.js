@@ -35,8 +35,7 @@ const century = year => {
 */
 
 // Short Solution
-const century = year =>
-  year % 100 === 0 ? parseInt(year / 100, 0) : parseInt(year / 100, 0) + 1
+const century = (year) => (year % 100 === 0 ? parseInt(year / 100, 10) : parseInt(year / 100, 10) + 1)
 
 // Function Export
 module.exports = century

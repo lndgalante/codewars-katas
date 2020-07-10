@@ -7,22 +7,22 @@
     "email": "lndgalante@gmail.com"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
-    "moment": "^2.25.3",
+    "lodash": "^4.17.19",
+    "moment": "^2.27.0",
     "ramda": "^0.27.0"
   },
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@types/lodash": "^4.14.150",
+    "@types/jest": "^26.0.4",
+    "@types/lodash": "^4.14.157",
     "@types/moment": "^2.13.0",
-    "@types/ramda": "^0.27.4",
+    "@types/ramda": "^0.27.10",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.11.0",
+    "eslint-plugin-jest": "^23.18.0",
     "husky": "^4.2.5",
-    "jest": "^26.0.1",
+    "jest": "^26.1.0",
     "jest-extended": "^0.11.5",
     "prettier": "^2.0.5",
-    "xo": "0.30.0"
+    "xo": "0.32.1"
   },
   "scripts": {
     "lint": "xo",
@@ -42,6 +42,7 @@
       "lib"
     ],
     "rules": {
+      "unicorn/no-reduce": 0,
       "padding-line-between-statements": 0,
       "unicorn/prefer-number-properties": 0,
       "unicorn/no-fn-reference-in-iterator": 0
