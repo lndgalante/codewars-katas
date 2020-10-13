@@ -19,15 +19,6 @@
   Examples:
     decodeMorse('.... . -.--   .--- ..- -.. .')
       // should return "HEY JUDE"
-
-  Kata Link:
-    https://www.codewars.com/kata/decode-the-morse-code
-
-  Discuss Link:
-    https://www.codewars.com/kata/decode-the-morse-code/discuss
-
-  Solutions Link:
-    https://www.codewars.com/kata/decode-the-morse-code/solutions
 */
 
 // Long Solution

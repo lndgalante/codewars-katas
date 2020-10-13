@@ -9,19 +9,9 @@
     For the beginner, try to use the reduce method - it comes in very handy quite a lot so is a good one to know.
 
     Array will not be empty.
-
-  Kata Link:
-    https://www.codewars.com/kata/beginner-reduce-but-grow
-
-  Discuss Link:
-    https://www.codewars.com/kata/beginner-reduce-but-grow/discuss
-
-  Solutions Link:
-    https://www.codewars.com/kata/beginner-reduce-but-grow/solutions
 */
 
-// Long Solution
-const grow = x => x.reduce((total, value) => total * value, 1)
+const grow = x => {}
 
 // Function Export
 module.exports = grow

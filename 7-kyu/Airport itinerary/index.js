@@ -25,36 +25,9 @@
       {in: "FCO", out: "JFK"},
       {in: "JFK", out: "FCO"}
     ]); // TRN-FCO-JFK-FCO
-
-  Kata Link:
-    https://www.codewars.com/kata/57a72cb872292dc43100000c
-
-  Discuss Link:
-    https://www.codewars.com/kata/57a72cb872292dc43100000c/discuss
-
-  Solutions Link:
-    https://www.codewars.com/kata/57a72cb872292dc43100000c/solutions
 */
 
-// Long Solution
-/*
-const itinerary = (travel) =>
-  travel
-    .map((airport, index) => {
-      const nextTravel = travel[index + 1]
-      const nextTravelIn = nextTravel && nextTravel.in
-
-      const combination = [airport.in, airport.out === nextTravelIn ? '' : airport.out].filter(Boolean)
-      return combination.join(combination.length === 1 ? '' : '-')
-    })
-    .join('-')
-*/
-
-// Short Solution
-const itinerary = (travel) =>
-  travel
-    .reduce((acc, airport) => [...acc, ...(acc.includes(airport.in) ? [] : [airport.in]), airport.out], [])
-    .join('-')
+const itinerary = (travel) => {}
 
 // Function Export
 module.exports = itinerary

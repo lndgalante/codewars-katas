@@ -24,12 +24,7 @@
     https://www.codewars.com/kata/abbreviate-a-two-word-name/solutions
 */
 
-// Long Solution
-const abbrevName = name =>
-  name
-    .split(' ')
-    .map(name => name[0].toUpperCase())
-    .join('.')
+const abbrevName = name => {}
 
 // Function Export
 module.exports = abbrevName

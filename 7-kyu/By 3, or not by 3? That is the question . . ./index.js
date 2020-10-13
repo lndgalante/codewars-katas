@@ -14,19 +14,9 @@
     divisibleByThree('100853') // false
     divisibleByThree('33333333') // true
     divisibleByThree('7') // false
-
-  Kata Link:
-    https://www.codewars.com/kata/by-3-or-not-by-3-that-is-the-question
-
-  Discuss Link:
-    https://www.codewars.com/kata/by-3-or-not-by-3-that-is-the-question/discuss
-
-  Solutions Link:
-    https://www.codewars.com/kata/by-3-or-not-by-3-that-is-the-question/solutions
 */
 
-// Long Solution
-const divisibleByThree = string => [...string].reduce((total, number) => total + Number(number), 0) % 3 === 0
+const divisibleByThree = string => {}
 
 // Function Export
 module.exports = divisibleByThree

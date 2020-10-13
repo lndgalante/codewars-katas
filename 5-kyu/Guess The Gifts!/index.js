@@ -22,29 +22,9 @@
     * Don't add any item more than once to the result
     * The order of names in the returned array doesn't matter
     * It's possible, that multiple items from your wish list have the same attribute values. If they match the attributes of one of the presents, add all of them.
-
-  Kata Link:
-    https://www.codewars.com/kata/guess-the-gifts
-
-  Discuss Link:
-    https://www.codewars.com/kata/guess-the-gifts/discuss
-
-  Solutions Link:
-    https://www.codewars.com/kata/guess-the-gifts/solutions
 */
 
-function guessGifts(wishlist, presents) {
-  return wishlist
-    .filter(whish =>
-      presents.some(
-        present =>
-          present.size === whish.size &&
-          present.clatters === whish.clatters &&
-          present.weight === whish.weight
-      )
-    )
-    .map(whish => whish.name)
-}
+function guessGifts(wishlist, presents) {}
 
 // Function Export
 module.exports = guessGifts
