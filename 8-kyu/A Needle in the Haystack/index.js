@@ -17,28 +17,13 @@
 
     findNeedle(new Object[] {"hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"})
     => 'found the needle at position 5'
-
-  Kata Link:
-    https://www.codewars.com/kata/a-needle-in-the-haystack
-
-  Discuss Link:
-    https://www.codewars.com/kata/a-needle-in-the-haystack/discuss
-
-  Solutions Link:
-    https://www.codewars.com/kata/a-needle-in-the-haystack/solutions
-*/
-
-// Long Solution
-/*
-function findNeedle(haystack) {
-  const index = haystack.findIndex(junk => junk === 'needle')
-  return `found the needle at position ${index}`
-}
 */
 
 // Short Solution
-const findNeedle = haystack =>
-  `found the needle at position ${haystack.indexOf('needle')}`
+const findNeedle = (haystack) => {
+  const position = haystack.indexOf('needle')
+  return `found the needle at position ${position}` 
+}
 
 // Function Export
 module.exports = findNeedle
