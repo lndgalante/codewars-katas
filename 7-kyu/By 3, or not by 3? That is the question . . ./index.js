@@ -16,7 +16,10 @@
     divisibleByThree('7') // false
 */
 
-const divisibleByThree = string => {}
+const divisibleByThree = string => {
+  const sum = string.split('').reduce((acc, digit) => acc + digit, 0);
+  return sum % 3 === 0
+}
 
 // Function Export
 module.exports = divisibleByThree

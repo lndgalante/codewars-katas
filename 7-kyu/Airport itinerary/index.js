@@ -27,7 +27,14 @@
     ]); // TRN-FCO-JFK-FCO
 */
 
-const itinerary = (travel) => {}
+const itinerary = (travel) => {
+  const airportList = travel.reduce((list, route, index, arr) => {
+    if(list.indexOf(route.in) == -1) list.push(route.in)
+    if(list.indexOf(route.out) == -1 || index == arr.length - 1 ) list.push(route.out)
+    return list;
+  },[])
+  return airportList.join("-");
+}
 
 // Function Export
 module.exports = itinerary

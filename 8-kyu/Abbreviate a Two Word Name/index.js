@@ -24,7 +24,9 @@
     https://www.codewars.com/kata/abbreviate-a-two-word-name/solutions
 */
 
-const abbrevName = name => {}
+const abbrevName = name => {
+  return name.split(' ').map((partial) => partial.charAt(0)).join(".");
+}
 
 // Function Export
 module.exports = abbrevName

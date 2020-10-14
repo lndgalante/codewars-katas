@@ -24,7 +24,23 @@
     * It's possible, that multiple items from your wish list have the same attribute values. If they match the attributes of one of the presents, add all of them.
 */
 
-function guessGifts(wishlist, presents) {}
+const { size } = require("lodash");
+
+function guessGifts(wishlist, presents) {
+  const possiblePresents = [];
+  presents.forEach( present => {
+    const filtered = filterWishlist(wishlist, present);
+    const unique = filtered.filter((currGuess) => !possiblePresents.includes(currGuess));
+    possiblePresents.unshift(...unique)
+  });
+  return possiblePresents;
+}
+
+const filterWishlist = (wishlist, present) => {
+  const { size, clatters, weight } = present;
+  const filtered = wishlist.filter((item) => item.size === size && item.clatters === clatters && item.weight === weight);
+  return filtered.map((item) => item.name);
+}
 
 // Function Export
 module.exports = guessGifts

@@ -11,7 +11,7 @@
     Array will not be empty.
 */
 
-const grow = x => {}
+const grow = x => x.reduce((acc, item) => acc * item, 1)
 
 // Function Export
 module.exports = grow
