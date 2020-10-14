@@ -24,7 +24,21 @@
     * It's possible, that multiple items from your wish list have the same attribute values. If they match the attributes of one of the presents, add all of them.
 */
 
-function guessGifts(wishlist, presents) {}
+function guessGifts(wishlist, presents) {
+  let array = []
+     wishlist.forEach( wish => {
+      let {name, ...char} = wish
+        presents.forEach((e)=>{
+          if (e.size == char.size &&
+              e.clatters == char.clatters &&
+              e.weight == char.weight
+           ){
+              array.push(name)
+          }
+        })
+    });
+    return array
+  }
 
 // Function Export
 module.exports = guessGifts

@@ -13,7 +13,12 @@
     The expected result is a boolean, indicating whether you have any good arrows left.
 */
 
-const anyArrows = arrows => {}
+const anyArrows = arrows => {
+  let y = arrows.map(e => {
+    return e.damaged !== true
+  }).includes(true)
+  return y
+}
 
 // Function Export
 module.exports = anyArrows

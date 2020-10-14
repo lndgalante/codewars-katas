@@ -10,8 +10,10 @@
 
     Array will not be empty.
 */
-
-const grow = x => {}
+const grow = x => {
+  let y = x.reduce((accumulator, item)=>{ return accumulator * item}, 1)
+  return y
+}
 
 // Function Export
 module.exports = grow

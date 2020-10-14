@@ -5,7 +5,7 @@
   Description:
     Travel itinerary
     When you travel around the world you pass though different airports.
-    TRN -> FCO -> JFKAnd then return back to home
+    TRN -> FCO -> JFK And then return back to home
     JFK - TRNIn order to propose the unique list of airports that your trip uses we have to create an itinerary feature that can compress the list of airports including only the list of unique in/out combination.
 
     For example, a trip with:
@@ -27,7 +27,16 @@
     ]); // TRN-FCO-JFK-FCO
 */
 
-const itinerary = (travel) => {}
+const itinerary = (travel) => {
+  let array = []
+  travel.forEach( e => {
+   if (array[array.length-1] !== e.in){
+     array.push(e.in)
+   }
+   array.push(e.out)
+  })
+return array.join('-')
+}
 
 // Function Export
 module.exports = itinerary

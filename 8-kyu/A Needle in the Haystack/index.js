@@ -19,7 +19,10 @@
     => 'found the needle at position 5'
 */
 
-const findNeedle = (haystack) => {}
+const findNeedle = (haystack) => {
+  let y = `found the needle at position ${haystack.indexOf('needle')}`
+  return y
+}
 
 // Function Export
 module.exports = findNeedle

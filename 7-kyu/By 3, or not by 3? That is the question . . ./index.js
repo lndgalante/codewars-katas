@@ -16,7 +16,11 @@
     divisibleByThree('7') // false
 */
 
-const divisibleByThree = string => {}
+const divisibleByThree = string => {
+  let x
+(parseInt(string) % 3 === 0 ) ? x = true : x = false
+ return x
+}
 
 // Function Export
 module.exports = divisibleByThree

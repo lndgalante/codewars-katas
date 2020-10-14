@@ -24,7 +24,10 @@
     https://www.codewars.com/kata/abbreviate-a-two-word-name/solutions
 */
 
-const abbrevName = name => {}
+const abbrevName = name => {
+  let x = name.split(' ').map(e => e[0]).join('.')
+  return x
+}
 
 // Function Export
 module.exports = abbrevName

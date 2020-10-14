@@ -16,6 +16,18 @@
 
 // Long Solution
 function bmi(weight, height) {
+  let bmi = weight / (height ^ 2)
+  let y;
+   if (bmi <= 18.5) {
+      y = "Underweight"
+    } else if(bmi <= 25.0) {
+      y =  "Overweight"
+    } else if(bmi <= 30.0) {
+      y = "Normal"
+    } else if (bmi > 30){
+      y = "Obese"
+    }
+  return y
 }
 
 // Function Export
