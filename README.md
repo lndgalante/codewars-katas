@@ -227,6 +227,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 - [CoderByte](https://coderbyte.com)
 - [CodeFights](https://codefights.com)
 - [HackerRank](https://www.hackerrank.com)
+- [KataLog](https://kata-log.rocks)
 
 ### Contributors
 
