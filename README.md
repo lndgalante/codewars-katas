@@ -205,6 +205,7 @@ Also I recommend you Quokka Pro that has [Live Comments](https://medium.com/@art
 
 ### More Helpful Resources
 
+- [1LoC Snippets](https://1loc.dev/)
 - [RegEx Snippets](https://github.com/jeffreyshen19/RegEx-Snippets)
 - [Learn RegEx](https://github.com/zeeshanu/learn-regex)
 - [JavaScript Arrays Cheatsheet](https://devhints.io/js-array)
