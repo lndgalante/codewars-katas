@@ -4,7 +4,7 @@
   "main": "katas-generator.js",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^5.2.1",
-    "yargs": "^15.4.1"
+    "puppeteer": "^9.1.1",
+    "yargs": "^17.0.1"
   }
 }
