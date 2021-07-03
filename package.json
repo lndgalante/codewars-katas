@@ -7,21 +7,21 @@
     "email": "lndgalante@gmail.com"
   },
   "dependencies": {
-    "lodash": "^4.17.19",
-    "moment": "^2.27.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
     "ramda": "^0.27.1"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.8",
-    "@types/lodash": "^4.14.158",
+    "@types/jest": "^26.0.23",
+    "@types/lodash": "^4.14.170",
     "@types/moment": "^2.13.0",
-    "@types/ramda": "^0.27.14",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-jest": "^23.20.0",
+    "@types/ramda": "^0.27.42",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^24.3.6",
     "husky": "^4.2.5",
-    "jest": "^26.2.2",
+    "jest": "^27.0.6",
     "jest-extended": "^0.11.5",
-    "prettier": "^2.0.5",
+    "prettier": "^2.3.2",
     "xo": "0.32.1"
   },
   "scripts": {
