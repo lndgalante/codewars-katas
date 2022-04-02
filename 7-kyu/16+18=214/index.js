@@ -45,7 +45,7 @@ function add(num1, num2) {
 
 // Short Solution - Solution by jistjoalal
 function add(a, b) {
-  return a * b ? +`${add((a / 10) | 0, (b / 10) | 0)}${(a % 10) + (b % 10)}` : a + b
+  return a * b ? Number(`${add((a / 10) | 0, (b / 10) | 0)}${(a % 10) + (b % 10)}`) : a + b
 }
 
 // Function Export

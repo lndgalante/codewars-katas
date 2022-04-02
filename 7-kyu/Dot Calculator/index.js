@@ -42,17 +42,17 @@
 
 // Long Solution
 const OPERATIONS = {
-  '+': '+',
-  '-': '-',
-  '*': '*',
-  '//': '/',
+  '+': (a, b) => a + b,
+  '-': (a, b) => a - b,
+  '*': (a, b) => a * b,
+  '//': (a, b) => a / b,
 }
 
 function dotCalculator(equation) {
   const [firstDots, dotOperation, secondDots] = equation.split(' ')
 
   const operation = OPERATIONS[dotOperation]
-  const dotOperationResult = eval(`${firstDots.length} ${operation} ${secondDots.length}`)
+  const dotOperationResult = operation(firstDots.length, secondDots.length)
 
   return '.'.repeat(dotOperationResult)
 }

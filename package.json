@@ -42,6 +42,7 @@
       "lib"
     ],
     "rules": {
+      "jest/valid-title": 0,
       "unicorn/no-reduce": 0,
       "padding-line-between-statements": 0,
       "unicorn/prefer-number-properties": 0,
