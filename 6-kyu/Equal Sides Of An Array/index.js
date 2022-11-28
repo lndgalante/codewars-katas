@@ -53,9 +53,9 @@
 // Long Solution
 /*
 function findEvenIndex(arr) {
-  for (let i = 1; i < arr.length - 1; i++) {
-    const leftSum = arr.slice(0, i).reduce((a, b) => a + b)
-    const rightSum = arr.slice(i + 1).reduce((a, b) => a + b)
+  for (let i = 0; i < arr.length; i++) {
+    const leftSum = arr.slice(0, i).reduce((a, b) => a + b, 0)
+    const rightSum = arr.slice(i + 1).reduce((a, b) => a + b, 0)
     if (leftSum === rightSum) return i
   }
 
