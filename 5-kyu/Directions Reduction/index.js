@@ -50,7 +50,7 @@ function dirReduc(array) {
 
   while (i < array.length) {
     if (
-      ((array[i] === 'NORTH') === array[i + 1]) === 'SOUTH' ||
+      (array[i] === 'NORTH' &&  array[i + 1] === 'SOUTH') ||
       (array[i] === 'SOUTH' && array[i + 1] === 'NORTH') ||
       (array[i] === 'EAST' && array[i + 1] === 'WEST') ||
       (array[i] === 'WEST' && array[i + 1] === 'EAST')
